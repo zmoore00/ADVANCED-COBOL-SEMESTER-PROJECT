@@ -82,3 +82,153 @@ Binding(SHIFT+DEL,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2015-03-09 18:46:13.109 -----------------------------------------------
+eclipse.buildId=M20130131-0800
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.rcp.product -feature com.microfocus.eclipse.core.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.rcp.product -feature com.microfocus.eclipse.core.product
+
+!ENTRY org.eclipse.jface 2 0 2015-03-09 18:46:19.955
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-09 18:46:19.955
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@16a685c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microfocus.eclipse.project 4 0 2015-03-09 18:46:20.930
+!MESSAGE Unexpected Exception
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY/BLDG-CHANGE.cbl' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:221)
+	at org.eclipse.core.internal.resources.Resource.getPersistentProperty(Resource.java:1204)
+	at com.microfocus.eclipse.project.internal.builder.IncrementalBuildInformationService.readLastBuiltTimestamp(IncrementalBuildInformationService.java:179)
+	at com.microfocus.eclipse.project.internal.builder.IncrementalBuildInformationService.needsCompiling(IncrementalBuildInformationService.java:80)
+	at com.microfocus.eclipse.project.builder.buildservice.CobolBuildHandler.doNeedsCompiling(CobolBuildHandler.java:310)
+	at com.microfocus.eclipse.project.builder.buildservice.CobolBuildHandler.needsCompiling(CobolBuildHandler.java:276)
+	at com.microfocus.ant.AbstractCobolCompileRunner.run(AbstractCobolCompileRunner.java:225)
+	at com.microfocus.ant.TaskCobol.execute(TaskCobol.java:631)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:288)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:357)
+	at org.apache.tools.ant.Target.performTasks(Target.java:385)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1337)
+	at org.apache.tools.ant.helper.SingleCheckExecutor.executeTargets(SingleCheckExecutor.java:38)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1189)
+	at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:416)
+	at org.apache.tools.ant.taskdefs.CallTarget.execute(CallTarget.java:105)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:288)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:357)
+	at org.apache.tools.ant.Target.performTasks(Target.java:385)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1337)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1306)
+	at com.microfocus.eclipse.ant.core.AntRunner.run(AntRunner.java:117)
+	at com.microfocus.eclipse.project.builder.CobolAntRunner.runBuild(CobolAntRunner.java:123)
+	at com.microfocus.eclipse.project.builder.LocalCobolBuilder.runBuild(LocalCobolBuilder.java:120)
+	at com.microfocus.eclipse.project.builder.LocalCobolBuilder.incrementalBuild(LocalCobolBuilder.java:77)
+	at com.microfocus.eclipse.project.builder.AbstractCobolBuilder.doBuild(AbstractCobolBuilder.java:407)
+	at com.microfocus.eclipse.project.builder.AbstractCobolBuilder.build(AbstractCobolBuilder.java:223)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-03-09 18:46:20.931
+!MESSAGE Resource '/ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY/BLDG-CHANGE.cbl' does not exist.
+
+!ENTRY com.microfocus.eclipse.project 4 0 2015-03-09 18:46:21.029
+!MESSAGE Unexpected Exception
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY/BLDG-CHANGE.cbl' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:221)
+	at org.eclipse.core.internal.resources.Resource.setPersistentProperty(Resource.java:1858)
+	at com.microfocus.eclipse.project.internal.builder.IncrementalBuildInformationService.storeLastBuiltTimestamp(IncrementalBuildInformationService.java:203)
+	at com.microfocus.eclipse.project.internal.builder.IncrementalBuildInformationService.resourceCompiledSuccessfully(IncrementalBuildInformationService.java:133)
+	at com.microfocus.eclipse.project.builder.buildservice.CobolBuildHandler.resourceBuildStateChanged(CobolBuildHandler.java:341)
+	at com.microfocus.ant.TaskCobol.execute(TaskCobol.java:656)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:288)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:357)
+	at org.apache.tools.ant.Target.performTasks(Target.java:385)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1337)
+	at org.apache.tools.ant.helper.SingleCheckExecutor.executeTargets(SingleCheckExecutor.java:38)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1189)
+	at org.apache.tools.ant.taskdefs.Ant.execute(Ant.java:416)
+	at org.apache.tools.ant.taskdefs.CallTarget.execute(CallTarget.java:105)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:288)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:357)
+	at org.apache.tools.ant.Target.performTasks(Target.java:385)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1337)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1306)
+	at com.microfocus.eclipse.ant.core.AntRunner.run(AntRunner.java:117)
+	at com.microfocus.eclipse.project.builder.CobolAntRunner.runBuild(CobolAntRunner.java:123)
+	at com.microfocus.eclipse.project.builder.LocalCobolBuilder.runBuild(LocalCobolBuilder.java:120)
+	at com.microfocus.eclipse.project.builder.LocalCobolBuilder.incrementalBuild(LocalCobolBuilder.java:77)
+	at com.microfocus.eclipse.project.builder.AbstractCobolBuilder.doBuild(AbstractCobolBuilder.java:407)
+	at com.microfocus.eclipse.project.builder.AbstractCobolBuilder.build(AbstractCobolBuilder.java:223)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-03-09 18:46:21.029
+!MESSAGE Resource '/ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY/BLDG-CHANGE.cbl' does not exist.
