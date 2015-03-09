@@ -1,11 +1,11 @@
       ******************************************************************
-      *PROGRAM : BLDG-UPDT.CBL                                         *
+      *PROGRAM : BLDG-CHANGE.CBL                                         *
       *AUTHOR  : Lee Hawthorne                                         *
       *DATE    : 2/17/2015                                             *
       *ABSTRACT: This program adds to the BUILDING-ISAM.DAT FILE       *
       ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. BLDG-UPDT AS "BLDG-UPDT" IS INITIAL PROGRAM.
+       PROGRAM-ID. BLDG-CHANGE AS "BLDG-CHANGE" IS INITIAL PROGRAM.
       *----------------------------------------------------------------- 
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.

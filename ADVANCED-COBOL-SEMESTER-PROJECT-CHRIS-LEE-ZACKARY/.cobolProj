@@ -103,7 +103,6 @@
          <file compile="true" path="BLDG-ADD.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="BLDG-BUILD.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="BLDG-INQ.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="BLDG-UPDT.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="INSTRUC-BUILD.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="MENU-BUILDING.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="MENU-COURSE.cbl" xsi:type="cobolFile"/>
@@ -112,6 +111,7 @@
          <file compile="true" path="MENU-REBUILD.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="MENU-STUDENT.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="test.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="BLDG-CHANGE.cbl" xsi:type="cobolFile"/>
       </filetype>
       <filetype type="cobol.copybook" xsi:type="cobolFileContainer"/>
    </files>

@@ -56,9 +56,9 @@
                DISPLAY SCR-SEL
                ACCEPT  SCR-SEL
                EVALUATE WS-SEL
-                   WHEN '1' CALL ' '
-                   WHEN '2' CALL ' '
-                   WHEN '3' CALL ' '
+                   WHEN '1' CALL 'BLDG-INQ'
+                   WHEN '2' CALL 'BLDG-ADD'
+                   WHEN '3' CALL 'BLDG-CHANGE'
                    WHEN '9' CALL 'BLDG-BUILD'
                END-EVALUATE
                IF WS-SEL EQUALS 'X' or 'x' THEN 
