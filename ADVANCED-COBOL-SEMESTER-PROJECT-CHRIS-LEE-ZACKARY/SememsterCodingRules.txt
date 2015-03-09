@@ -1,0 +1,21 @@
+FOR ALL
+-Press enter for all fields
+-On a mess up enter N to not save and regenerate a blank form
+-Title centered
+-Date top right
+-Name of program top left
+
+
+
+
+
+CHANGE
+-Numbers next to option
+-N results in a new blank form to load without a save Y results in a save of changes and a new blank form to load
+
+
+
+
+NAMING STANDARD
+-For program names: the name of the program that called it - the name of the program 
+					EX(Menu-course, Course-Add, Course-Inq, Course-Change)
