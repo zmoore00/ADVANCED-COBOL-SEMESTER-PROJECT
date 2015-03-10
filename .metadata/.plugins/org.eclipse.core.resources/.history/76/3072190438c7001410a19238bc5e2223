@@ -142,7 +142,7 @@
            CLOSE COURSE-05-MST-IN.
            CLOSE COURSE-MST-OUT.
            
-           EXIT PROGRAM.           
+           STOP RUN.           
        
        
        

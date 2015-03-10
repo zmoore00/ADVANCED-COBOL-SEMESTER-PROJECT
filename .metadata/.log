@@ -353,3 +353,8 @@ org.eclipse.ui.PartInitException: Could not create view: com.microfocus.eclipse.
 !MESSAGE Could not find view: com.microfocus.eclipse.edt.ui.serverview
 !SUBENTRY 1 unknown 0 0 2015-03-10 09:52:18.222
 !MESSAGE OK
+
+!ENTRY org.eclipse.core.resources 2 2 2015-03-10 10:03:32.716
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-03-10 10:03:32.716
+!MESSAGE The project description file (.project) for 'RemoteSystemsTempFiles' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
