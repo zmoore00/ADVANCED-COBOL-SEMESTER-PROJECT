@@ -4,7 +4,7 @@
       *DATE    : 2/17/2015                                             *
       *ABSTRACT: This program builds the BUILDING-ISAM.DAT FILE        *
       ******************************************************************
-       PROGRAM-ID. BLDG-BUILD AS "BLDG-BUILD" IS INITIAL PROGRAM.
+       PROGRAM-ID. BLDG-BUILD AS "BLDG-BUILD".
 
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
@@ -62,18 +62,6 @@
        
                
        WORKING-STORAGE SECTION.
-       
-       01  WS-DATE.
-           05  WS-CURRENT-YEAR     PIC 9999.
-           05  WS-CURRENT-MONTH    PIC 99.
-           05  WS-CURRENT-DAY      PIC 99.
-       01  DISPLAY-DATE.
-           03  MONTH-DISPLAY       PIC 99.
-           03  FILLER              PIC X           VALUE "/".
-           03  DAY-DISPLAY         PIC 99.
-           03  FILLER              PIC X           VALUE "/".
-           03  YEAR-DISPLAY        PIC 9999.
-       
        01  EOF-FLAG                PIC X       VALUE "N". 
            88  EOF                             VALUE "Y".
        01  WS-OUT-STATUS           PIC XX.
@@ -83,32 +71,10 @@
        01  WS-SEATS                PIC X(4)    VALUE SPACES.
        
        01  WS-IN-FILE              PIC X(25).
-       01  WS-EXIT                 PIC X           VALUE 'N'.
-      *----------------------------------------------------------------- 
-       SCREEN SECTION.
-       01  SCR-TITLE.
-           03  BLANK SCREEN.
-           03  LINE 1 COL 1  VALUE "REBUILD-INSTRUC".
-           03  LINE 1 COL 37 VALUE "UAFS".
-           03  LINE 1 COL 71 FROM DISPLAY-DATE.
-           
-       01  SCR-INFO.
-           03  LINE 10 COL 28 VALUE "BUILDING-MASTER CREATED".
        
-       01  EXIT-SCREEN.
-           03  LINE 20 COL 33 "PRESS ENTER TO RETURN".
-       01  BLANK-SCREEN.
-           03  BLANK SCREEN.
-           
        PROCEDURE DIVISION.
        000-MAIN.
-           MOVE FUNCTION CURRENT-DATE TO WS-DATE
-           MOVE WS-CURRENT-MONTH TO MONTH-DISPLAY
-           MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
-           MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
-           
-           DISPLAY BLANK-SCREEN.
-           DISPLAY SCR-TITLE.
+      
       *----Sort by keys, did descending on seats to get max seats first.
       *----The ISAM write only takes the first record that matches the
       *----key so it only took the max seats since it got it first.
@@ -118,9 +84,6 @@
                DESCENDING KEY SORT-SEATS
                INPUT  PROCEDURE  100-SORT-IN
                OUTPUT PROCEDURE  200-WRITE-TXT.
-               DISPLAY SCR-INFO
-               DISPLAY EXIT-SCREEN
-               ACCEPT WS-EXIT
            EXIT PROGRAM.
            
            

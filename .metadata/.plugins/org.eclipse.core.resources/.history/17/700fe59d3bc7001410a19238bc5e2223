@@ -107,7 +107,7 @@
            03  LINE 10 COL 28 VALUE "COURSE-MASTER CREATED".
        
        01  EXIT-SCREEN.
-           03  LINE 20 COL 33 "PRESS ENTER TO RETURN".
+           03  LINE 20 COL 33 "CONFIRM EXIT (Y/N)".
            03  LINE 20 COL 31 PIC X TO WS-EXIT AUTO.
        01  BLANK-SCREEN.
            03  BLANK SCREEN.
@@ -132,7 +132,7 @@
                 INPUT  PROCEDURE 100-FILE-IN
                 OUTPUT PROCEDURE 200-FILE-OUT
                 
-               DISPLAY SCR-INFO
+                
                DISPLAY EXIT-SCREEN
                ACCEPT EXIT-SCREEN                
       *     DISPLAY "PROGRAM TERMINATED".

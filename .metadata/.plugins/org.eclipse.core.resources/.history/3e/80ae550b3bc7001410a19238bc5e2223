@@ -96,7 +96,8 @@
            03  LINE 10 COL 28 VALUE "BUILDING-MASTER CREATED".
        
        01  EXIT-SCREEN.
-           03  LINE 20 COL 33 "PRESS ENTER TO RETURN".
+           03  LINE 20 COL 33 "CONFIRM EXIT (Y/N)".
+           03  LINE 20 COL 31 PIC X TO WS-EXIT AUTO.
        01  BLANK-SCREEN.
            03  BLANK SCREEN.
            
@@ -118,8 +119,6 @@
                DESCENDING KEY SORT-SEATS
                INPUT  PROCEDURE  100-SORT-IN
                OUTPUT PROCEDURE  200-WRITE-TXT.
-               DISPLAY SCR-INFO
-               DISPLAY EXIT-SCREEN
                ACCEPT WS-EXIT
            EXIT PROGRAM.
            

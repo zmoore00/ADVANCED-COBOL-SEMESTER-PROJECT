@@ -119,7 +119,6 @@
                INPUT  PROCEDURE  100-SORT-IN
                OUTPUT PROCEDURE  200-WRITE-TXT.
                DISPLAY SCR-INFO
-               DISPLAY EXIT-SCREEN
                ACCEPT WS-EXIT
            EXIT PROGRAM.
            

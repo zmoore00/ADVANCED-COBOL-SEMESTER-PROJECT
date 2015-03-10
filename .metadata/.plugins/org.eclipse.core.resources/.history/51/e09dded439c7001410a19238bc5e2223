@@ -84,7 +84,8 @@
            03  LINE 10 COL 28 VALUE "INSTRUCTOR-MASTER CREATED".
        
        01  EXIT-SCREEN.
-           03  LINE 20 COL 33 "PRESS ENTER TO RETURN".
+           03  LINE 20 COL 33 "CONFIRM EXIT (Y/N)".
+           03  LINE 20 COL 31 PIC X TO WS-EXIT AUTO.
        01  BLANK-SCREEN.
            03  BLANK SCREEN.
       *----------------------------------------------------------------- 
@@ -102,16 +103,17 @@
            DISPLAY BLANK-SCREEN.
            DISPLAY SCR-TITLE.
            
-          
+           PERFORM UNTIL WS-EXIT EQUALS 'Y' OR 'y'
                SORT SORT-WORK
                    ON ASCENDING KEY SORT-INSTRUC
                    INPUT PROCEDURE 200-FORMAT
                    OUTPUT PROCEDURE 300-SORT
            
 
-               DISPLAY SCR-INFO.
-               DISPLAY EXIT-SCREEN.
-               ACCEPT WS-EXIT.
+               DISPLAY SCR-INFO
+               DISPLAY EXIT-SCREEN
+               ACCEPT EXIT-SCREEN
+           END-PERFORM.
            
            CLOSE STU-FILE.
            CLOSE STU-FILE2.

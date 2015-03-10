@@ -4,7 +4,7 @@
       *DATE    : 2/17/2015                                             *
       *ABSTRACT: This program builds the BUILDING-ISAM.DAT FILE        *
       ******************************************************************
-       PROGRAM-ID. BLDG-BUILD AS "BLDG-BUILD" IS INITIAL PROGRAM.
+       PROGRAM-ID. BLDG-BUILD AS "BLDG-BUILD".
 
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
@@ -96,7 +96,8 @@
            03  LINE 10 COL 28 VALUE "BUILDING-MASTER CREATED".
        
        01  EXIT-SCREEN.
-           03  LINE 20 COL 33 "PRESS ENTER TO RETURN".
+           03  LINE 20 COL 33 "CONFIRM EXIT (Y/N)".
+           03  LINE 20 COL 31 PIC X TO WS-EXIT AUTO.
        01  BLANK-SCREEN.
            03  BLANK SCREEN.
            
@@ -106,9 +107,6 @@
            MOVE WS-CURRENT-MONTH TO MONTH-DISPLAY
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
-           
-           DISPLAY BLANK-SCREEN.
-           DISPLAY SCR-TITLE.
       *----Sort by keys, did descending on seats to get max seats first.
       *----The ISAM write only takes the first record that matches the
       *----key so it only took the max seats since it got it first.
@@ -118,8 +116,6 @@
                DESCENDING KEY SORT-SEATS
                INPUT  PROCEDURE  100-SORT-IN
                OUTPUT PROCEDURE  200-WRITE-TXT.
-               DISPLAY SCR-INFO
-               DISPLAY EXIT-SCREEN
                ACCEPT WS-EXIT
            EXIT PROGRAM.
            

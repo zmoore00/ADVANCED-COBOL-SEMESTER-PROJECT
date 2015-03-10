@@ -84,7 +84,8 @@
            03  LINE 10 COL 28 VALUE "INSTRUCTOR-MASTER CREATED".
        
        01  EXIT-SCREEN.
-           03  LINE 20 COL 33 "PRESS ENTER TO RETURN".
+           03  LINE 20 COL 33 "CONFIRM EXIT (Y/N)".
+           03  LINE 20 COL 31 PIC X TO WS-EXIT AUTO.
        01  BLANK-SCREEN.
            03  BLANK SCREEN.
       *----------------------------------------------------------------- 
@@ -109,9 +110,10 @@
                    OUTPUT PROCEDURE 300-SORT
            
 
-               DISPLAY SCR-INFO.
-               DISPLAY EXIT-SCREEN.
-               ACCEPT WS-EXIT.
+               DISPLAY SCR-INFO
+               DISPLAY EXIT-SCREEN
+               ACCEPT EXIT-SCREEN
+           ACCEPT WS-EXIT.
            
            CLOSE STU-FILE.
            CLOSE STU-FILE2.

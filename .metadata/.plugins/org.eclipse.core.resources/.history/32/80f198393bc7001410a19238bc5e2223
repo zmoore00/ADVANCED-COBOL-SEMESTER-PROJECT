@@ -85,6 +85,7 @@
        
        01  EXIT-SCREEN.
            03  LINE 20 COL 33 "PRESS ENTER TO RETURN".
+           03  LINE 20 COL 31 PIC X TO WS-EXIT AUTO.
        01  BLANK-SCREEN.
            03  BLANK SCREEN.
       *----------------------------------------------------------------- 
@@ -109,8 +110,7 @@
                    OUTPUT PROCEDURE 300-SORT
            
 
-               DISPLAY SCR-INFO.
-               DISPLAY EXIT-SCREEN.
+               DISPLAY SCR-INFO
                ACCEPT WS-EXIT.
            
            CLOSE STU-FILE.
