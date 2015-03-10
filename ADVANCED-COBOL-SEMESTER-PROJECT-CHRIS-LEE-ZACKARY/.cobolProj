@@ -35,11 +35,11 @@
       </configurations>
       <cobol_settings xsi:type="cobolSettings">
          <options>
-            <option name="SOURCEFORMAT" value="fixed"/>
-            <option name="CHARSET" value="ASCII"/>
             <option name="WARNING" value="1"/>
             <option name="DIALECT" value="MF"/>
+            <option name="CHARSET" value="ASCII"/>
             <option name="MAX-ERROR" value="100"/>
+            <option name="SOURCEFORMAT" value="fixed"/>
          </options>
          <debug value="true"/>
          <generate value="false"/>
@@ -77,18 +77,18 @@
       </psb_settings>
       <bms_settings xsi:type="bmsSettings">
          <options>
-            <option id="sdf" name="/IGNORE"/>
-            <option id="map" name="/SYSPARM" value="MAP"/>
-            <option id="decimalchar" name="/DP" value="."/>
-            <option id="dsectname" name="" value=""/>
-            <option id="dsect" name="/SYSPARM" value="DSECT"/>
-            <option id="longmacros" name=""/>
-            <option id="additional" name="" value=""/>
-            <option id="mapname" name="" value=""/>
-            <option id="align" name=""/>
-            <option id="currencychar" name="/CS" value="$"/>
-            <option id="sdfprefix" name="" value=""/>
             <option id="level" name="" value=""/>
+            <option id="mapname" name="" value=""/>
+            <option id="map" name="/SYSPARM" value="MAP"/>
+            <option id="align" name=""/>
+            <option id="dsect" name="/SYSPARM" value="DSECT"/>
+            <option id="sdf" name="/IGNORE"/>
+            <option id="sdfprefix" name="" value=""/>
+            <option id="additional" name="" value=""/>
+            <option id="currencychar" name="/CS" value="$"/>
+            <option id="dsectname" name="" value=""/>
+            <option id="longmacros" name=""/>
+            <option id="decimalchar" name="/DP" value="."/>
          </options>
          <asmdir name=""/>
          <coboldir name=""/>
@@ -99,7 +99,6 @@
       <dependent-projects xsi:type="dependentProjectsSettings"/>
    </settings>
    <files xsi:type="projectFileStore">
-      <filetype type="cobol.copybook" xsi:type="cobolFileContainer"/>
       <filetype type="cobol" xsi:type="cobolFileContainer">
          <file compile="true" path="BLDG-ADD.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="BLDG-BUILD.cbl" xsi:type="cobolFile"/>
@@ -113,6 +112,11 @@
          <file compile="true" path="MENU-STUDENT.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="test.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="BLDG-CHANGE.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="COURSE-ADD.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="COURSE-BUILD.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="COURSE-CHANGE.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="COURSE-INQ.cbl" xsi:type="cobolFile"/>
       </filetype>
+      <filetype type="cobol.copybook" xsi:type="cobolFileContainer"/>
    </files>
 </project>
