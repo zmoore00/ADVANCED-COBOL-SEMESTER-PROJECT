@@ -50,16 +50,16 @@
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
        
-           DISPLAY SCR-TITLE
-           DISPLAY SCR-MENU
+
            PERFORM UNTIL WS-CONFIRM-EXIT IS EQUAL TO 'Y' OR 'y'
+               DISPLAY SCR-TITLE
+               DISPLAY SCR-MENU
                DISPLAY SCR-SEL
                ACCEPT  SCR-SEL
                EVALUATE WS-SEL
                    WHEN '1' CALL 'BLDG-INQ'
                    WHEN '2' CALL 'BLDG-ADD'
                    WHEN '3' CALL 'BLDG-CHANGE'
-                   WHEN '9' CALL 'BLDG-BUILD'
                END-EVALUATE
                IF WS-SEL EQUALS 'X' or 'x' THEN 
                    DISPLAY SCR-CON

@@ -43,7 +43,7 @@
            
        01  INSTRUCTORMENU.
            03  MENU.
-               05  LINE 07 COL 32 VALUE "COURSE SERACH".
+               05  LINE 07 COL 32 VALUE "COURSE SEARCH".
                05  LINE 09 COL 36 VALUE "COURSE".
                05  LINE 10 COL 36 VALUE "NAME".
                05  LINE 11 COL 36 VALUE "NAME2".
