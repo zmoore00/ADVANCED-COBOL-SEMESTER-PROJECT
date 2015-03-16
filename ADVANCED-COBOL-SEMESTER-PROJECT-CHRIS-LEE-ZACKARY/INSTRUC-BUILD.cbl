@@ -12,11 +12,16 @@
        FILE-CONTROL.
            SELECT STU-FILE     ASSIGN TO "../201501SCHEDULE.TXT"
                                ORGANIZATION IS LINE SEQUENTIAL.
-           SELECT OUT-FILE     ASSIGN TO "../INSTRUCTOR-MASTER.TXT".
+           
            SELECT SORT-WORK    ASSIGN TO "SORT-WORK.TXT".
 
            SELECT STU-FILE2    ASSIGN TO "../201405SCHEDULE.TXT"
                                ORGANIZATION IS LINE SEQUENTIAL.
+           SELECT OUT-FILE     ASSIGN TO "../INSTRUCTOR-MASTER.DAT"
+                               ORGANIZATION  IS INDEXED
+                               ACCESS        IS SEQUENTIAL
+                               RECORD KEY    IS ISAM-OUT-KEY
+                               FILE STATUS   IS WS-OUT-STATUS.
       *----------------------------------------------------------------- 
        DATA DIVISION.
        FILE SECTION.
@@ -45,7 +50,8 @@
        
        FD  OUT-FILE.
        01  STU-OUT.
-           03  INSTRUC-ID          PIC 9999.
+           03  ISAM-OUT-KEY.
+               05  INSTRUC-ID      PIC 9999.
            03  FILLER              PIC X           VALUE SPACES.
            03  INSTRUC-NAME        PIC X(22).
            
@@ -72,6 +78,7 @@
        01  WS-TEMP1                PIC X(22).
        01  WS-TEMP2                PIC X(22).
        01  WS-EXIT                 PIC X           VALUE 'N'.
+       01  WS-OUT-STATUS           PIC XX.
       *----------------------------------------------------------------- 
        SCREEN SECTION.
        01  SCR-TITLE.

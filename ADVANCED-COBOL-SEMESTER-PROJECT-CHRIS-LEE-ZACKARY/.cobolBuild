@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY" default="cobolbuild" basedir="." xmlns:ac="antlib:net.sf.antcontrib">
+<project name="SemesterProject" default="cobolbuild" basedir="." xmlns:ac="antlib:net.sf.antcontrib">
 	<typedef name="mffilelist" classname="com.microfocus.ant.TypeFileList"/>
 	<typedef name="mfdirlist" classname="com.microfocus.ant.TypeDirectiveList"/>
 	<typedef name="mfdestfilelist" classname="com.microfocus.ant.TypeDestinationFileList"/>
@@ -18,7 +18,7 @@
 			<os family="unix"/>
 		</condition>
 		<property name="failOnError" value="false"/>
-		<property name="cobolFailOnError" value="true"/>
+		<property name="cobolFailOnError" value="${failOnError}"/>
 		<property name="cobollinkFailOnError" value="${failOnError}"/>
 	</target>
 	<target name="os.init.windows" if="windows">
@@ -63,7 +63,12 @@
 	<mffilelist type="srcfile" id="cobol_file_set_1" srcdir="${basedir}">
 		<file name="BLDG-ADD.cbl"/>
 		<file name="BLDG-BUILD.cbl"/>
+		<file name="BLDG-CHANGE.cbl"/>
 		<file name="BLDG-INQ.cbl"/>
+		<file name="COURSE-ADD.cbl"/>
+		<file name="COURSE-BUILD.cbl"/>
+		<file name="COURSE-CHANGE.cbl"/>
+		<file name="COURSE-INQ.cbl"/>
 		<file name="INSTRUC-BUILD.cbl"/>
 		<file name="MENU-BUILDING.cbl"/>
 		<file name="MENU-COURSE.cbl"/>
@@ -72,23 +77,21 @@
 		<file name="MENU-REBUILD.cbl"/>
 		<file name="MENU-STUDENT.cbl"/>
 		<file name="test.cbl"/>
-		<file name="BLDG-CHANGE.cbl"/>
-		<file name="COURSE-ADD.cbl"/>
-		<file name="COURSE-BUILD.cbl"/>
-		<file name="COURSE-CHANGE.cbl"/>
-		<file name="COURSE-INQ.cbl"/>
+		<file name="INSTRUC-ADD.cbl"/>
+		<file name="INSTRUC-INQ.cbl"/>
+		<file name="INSTRUC-CHANGE.cbl"/>
 	</mffilelist>
 	<!-- COBOL copybook locations -->
 	<mffilelist id="cobol.copybook.locations">
-		<path type="copybook" name="${ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY}"/>
+		<path type="copybook" name="${SemesterProject}"/>
 	</mffilelist>
 	<!--  ****************************************  -->
 	<!--  * COBOL Source Files and Directive Set *  -->
 	<!--  ****************************************  -->
 	<!-- dirset.New_Configuration -->
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\BLDG-ADD.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\BLDG-ADD.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\BLDG-ADD.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\BLDG-ADD.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -97,9 +100,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\BLDG-BUILD.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\BLDG-BUILD.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\BLDG-BUILD.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\BLDG-BUILD.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -108,9 +111,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\BLDG-INQ.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\BLDG-CHANGE.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\BLDG-INQ.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\BLDG-CHANGE.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -119,9 +122,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\INSTRUC-BUILD.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\BLDG-INQ.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\INSTRUC-BUILD.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\BLDG-INQ.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -130,9 +133,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-BUILDING.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\COURSE-ADD.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-BUILDING.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\COURSE-ADD.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -141,9 +144,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-COURSE.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\COURSE-BUILD.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-COURSE.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\COURSE-BUILD.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -152,9 +155,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-INSTRUCTOR.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\COURSE-CHANGE.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-INSTRUCTOR.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\COURSE-CHANGE.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -163,9 +166,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-MAIN.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\COURSE-INQ.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-MAIN.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\COURSE-INQ.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -174,9 +177,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-REBUILD.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\INSTRUC-BUILD.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-REBUILD.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\INSTRUC-BUILD.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -185,9 +188,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-STUDENT.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-BUILDING.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\MENU-STUDENT.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-BUILDING.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -196,9 +199,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\test.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-COURSE.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\test.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-COURSE.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -207,9 +210,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\BLDG-CHANGE.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-INSTRUCTOR.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\BLDG-CHANGE.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-INSTRUCTOR.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -218,9 +221,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\COURSE-ADD.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-MAIN.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\COURSE-ADD.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-MAIN.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -229,9 +232,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\COURSE-BUILD.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-REBUILD.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\COURSE-BUILD.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-REBUILD.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -240,9 +243,9 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\COURSE-CHANGE.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-STUDENT.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\COURSE-CHANGE.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\MENU-STUDENT.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -251,9 +254,42 @@
 			</mffilelist>
 		</cobol>
 	</target>
-	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\COURSE-INQ.cbl" refid="cobol_directive_set_1"/>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\test.cbl" refid="cobol_directive_set_1"/>
 	<mffilelist refid="cobol.copybook.locations"/>
-	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\ADVANCED-COBOL-SEMESTER-PROJECT\ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY\COURSE-INQ.cbl" depends="init">
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\test.cbl" depends="init">
+		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
+			<mffilelist refid="cobol.copybook.locations"/>
+			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
+			<mffilelist type="srcfile" srcdir="${basedir}">
+				<file name="${filename}"/>
+			</mffilelist>
+		</cobol>
+	</target>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\INSTRUC-ADD.cbl" refid="cobol_directive_set_1"/>
+	<mffilelist refid="cobol.copybook.locations"/>
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\INSTRUC-ADD.cbl" depends="init">
+		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
+			<mffilelist refid="cobol.copybook.locations"/>
+			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
+			<mffilelist type="srcfile" srcdir="${basedir}">
+				<file name="${filename}"/>
+			</mffilelist>
+		</cobol>
+	</target>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\INSTRUC-INQ.cbl" refid="cobol_directive_set_1"/>
+	<mffilelist refid="cobol.copybook.locations"/>
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\INSTRUC-INQ.cbl" depends="init">
+		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
+			<mffilelist refid="cobol.copybook.locations"/>
+			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
+			<mffilelist type="srcfile" srcdir="${basedir}">
+				<file name="${filename}"/>
+			</mffilelist>
+		</cobol>
+	</target>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\INSTRUC-CHANGE.cbl" refid="cobol_directive_set_1"/>
+	<mffilelist refid="cobol.copybook.locations"/>
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\TempCobol\SemesterProject\INSTRUC-CHANGE.cbl" depends="init">
 		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
 			<mffilelist refid="cobol.copybook.locations"/>
 			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
@@ -269,7 +305,12 @@
 	<mffilelist id="cobol.default.object.files" srcdir="${basedir}/${cfgtargetdir}" type="objfile">
 		<file name="BLDG-ADD${objext}"/>
 		<file name="BLDG-BUILD${objext}"/>
+		<file name="BLDG-CHANGE${objext}"/>
 		<file name="BLDG-INQ${objext}"/>
+		<file name="COURSE-ADD${objext}"/>
+		<file name="COURSE-BUILD${objext}"/>
+		<file name="COURSE-CHANGE${objext}"/>
+		<file name="COURSE-INQ${objext}"/>
 		<file name="INSTRUC-BUILD${objext}"/>
 		<file name="MENU-BUILDING${objext}"/>
 		<file name="MENU-COURSE${objext}"/>
@@ -278,11 +319,9 @@
 		<file name="MENU-REBUILD${objext}"/>
 		<file name="MENU-STUDENT${objext}"/>
 		<file name="test${objext}"/>
-		<file name="BLDG-CHANGE${objext}"/>
-		<file name="COURSE-ADD${objext}"/>
-		<file name="COURSE-BUILD${objext}"/>
-		<file name="COURSE-CHANGE${objext}"/>
-		<file name="COURSE-INQ${objext}"/>
+		<file name="INSTRUC-ADD${objext}"/>
+		<file name="INSTRUC-INQ${objext}"/>
+		<file name="INSTRUC-CHANGE${objext}"/>
 	</mffilelist>
 	<!--  *************************  -->
 	<!--  * Configuration targets *  -->
@@ -294,7 +333,7 @@
 			<mfdirlist refid="cobol_directive_set_1"/>
 			<mffilelist refid="cobol_file_set_1"/>
 		</cobol>
-		<cobollink destdir="${basedir}/New_Configuration.bin" sharedRts="true" is64bit="false" threadedRts="true" entrypoint="MENU-MAIN" failonerror="${cobollinkFailOnError}" debug="true" desttype="exe" destfile="ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY">
+		<cobollink destdir="${basedir}/New_Configuration.bin" sharedRts="true" is64bit="false" threadedRts="true" entrypoint="MENU-MAIN" failonerror="${cobollinkFailOnError}" debug="true" desttype="exe" destfile="SemesterProject">
 			<mffilelist refid="cobol.default.object.files"/>
 		</cobollink>
 	</target>
@@ -324,7 +363,7 @@
 		</cobolclean>
 		<cobolclean destdir="${basedir}/New_Configuration.bin" desttype="exe">
 			<mffilelist>
-				<file name="ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY"/>
+				<file name="SemesterProject"/>
 			</mffilelist>
 		</cobolclean>
 	</target>
@@ -336,7 +375,7 @@
 	</target>
 	<target name="init" depends="os.init,os.init.windows,os.init.unix">
 		<property environment="env"/>
-		<property name="ADVANCED-COBOL-SEMESTER-PROJECT-CHRIS-LEE-ZACKARY" value="${basedir}"/>
+		<property name="SemesterProject" value="${basedir}"/>
 		<property name="cfg" value="New_Configuration"/>
 		<property name="cfgtarget" value="cfg.${cfg}"/>
 		<property name="forceCompile" value="true"/>
@@ -353,17 +392,14 @@
 	<target name="clean" depends="init,init.all.configurations">
 		<antcall target="clean.${cfgtarget}" inheritAll="true"/>
 	</target>
-	<target name="compileSource" depends="init,init.all.configurations">
+	<target name="compileNoBms" depends="init,init.all.configurations">
 		<antcall target="${cfg}.FileCompile" inheritAll="true"/>
 	</target>
-	<target name="compile" depends="compileSource">
-	</target>
-	<target name="nature.specific.build">
-		<antcall target="cobol.${cfgtarget}" inheritAll="true"/>
+	<target name="compile" depends="compileNoBms">
 	</target>
 	<target name="cobolbuild" depends="init,init.all.configurations">
 		<antcall target="pre.build.${cfgtarget}" inheritAll="true"/>
-		<antcall target="nature.specific.build" inheritAll="true"/>
+		<antcall target="cobol.${cfgtarget}" inheritAll="true"/>
 		<antcall target="post.build.${cfgtarget}" inheritAll="true"/>
 	</target>
 </project>

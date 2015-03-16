@@ -1,4 +1,18 @@
 ACCT 2803 Prin of Financial Accounting   3.0
+ACCT 2803 Prin of Fin Acct FULL ONLINE   3.0
+ACCT 2813 Prin of Managerial Accounting  3.0
+ACCT 3003 Intermediate Accounting I      3.0
+ACCT 3013 Intermediate Accounting II     3.0
+ACCT 3023 Cost Accounting HYBRID         3.0
+ACCT 3053 Accounting Information Systems 3.0
+ACCT 4023 Advanced Accounting            3.0
+ACCT 4153 Forensic Accounting            3.0
+ACCT 447V Independent Study Accounting   3.0
+ACCT 467V Internship in Accounting       3.0
+ACCT 2803 Prin of Financial Accounting   3.0
+ACCT 2813 Prin of Managerial Acct HYBRID 3.0
+ACCT 4113 Tax Accounting II              3.0
+ACCT 2803 Prin of Financial Accounting   3.0
 ACCT 2803 Prin of Financial Acct HYBRID  3.0
 ACCT 2813 Prin of Managerial Accounting  3.0
 ACCT 2813 Prin Managerial Acct HYBRID    3.0
@@ -14,6 +28,13 @@ ACCT 4013 Tax Accounting I               3.0
 ACCT 4053 Auditing                       3.0
 AERO 1011 The Air Force Today I          1.0
 AERO 2011 Evolution USA Air/Space Pwr I  1.0
+ANTH 2303 Intro Biol Anthro FULL ONLINE  3.0
+ANTH 2803 Cultural Anthropology          3.0
+ANTH 2803 Cultr Anthropology FULL ONLINE 3.0
+ANTH 3303 Anthropological Theory         3.0
+ANTH 490V Sp Top Qual Method Ethnography 3.0
+ANTH 490V Sp Top Publ Health FULL ONLINE 3.0
+ANTH 2803 Cultural Anthropology MMSTR    3.0
 ANTH 2203 Introduction to Archaeology    3.0
 ANTH 2303 Intro Biological Anthropology  3.0
 ANTH 2803 Cultural Anthropology          3.0
@@ -22,6 +43,18 @@ ANTH 3213 World Prehistory FULL ONLINE   3.0
 ANTH 3823 Anth Perspectives FULL ONLINE  3.0
 ANTH 490V Special Topics Cons Culture    3.0
 ANTH 2803 Cultural Anthropology          3.0
+APRO 1103 Computer Input Technology      3.0
+APRO 1203 Administrative Office Procedrs 3.0
+APRO 1203 Admin Office Procedures HYBRID 3.0
+APRO 1303 Workplace Computations         3.0
+APRO 2803 Human Resource Mgmt HYBRID     3.0
+APRO 2853 Medical Insurance and Billing  3.0
+APRO 2853 Med Ins and Billing HYBRID     3.0
+APRO 286V Academic Internship            3.0
+APRO 290V Sp Tp Financial Responsibility 3.0
+APRO 2923 Intgr Ofc Prcd Prj FULL ONLINE 3.0
+APRO 2983 Emerging Ofc Tech FULL ONLINE  3.0
+APRO 1113 Career Management HYBRID       3.0
 APRO 1103 Computer Input Technology      3.0
 APRO 1113 Career Management              3.0
 APRO 1203 Administrative Office Procedrs 3.0
@@ -35,6 +68,30 @@ APRO 290V Spec Topics Personal Finance   3.0
 APRO 290V Spc Tpcs Personal Finance      3.0
 APRO 2662 Law Office Technology          2.0
 APRO 2843 Medical Insurance Coding       3.0
+ART  1103 2-D Design                     3.0
+ART  1113 Drawing                        3.0
+ART  1123 Digital Imaging                3.0
+ART  1133 Introduction to Typography     3.0
+ART  1143 3-D Design                     3.0
+ART  1551 Admissions Portfolio           1.0
+ART  2203 Figure Drawing                 3.0
+ART  2223 Introduction to Painting       3.0
+ART  2863 Survey Art Hist I FULL ONLINE  3.0
+ART  2873 Survey of Art History II       3.0
+ART  2873 Survey Art Hist II FULL ONLINE 3.0
+ART  3203 Art Outside Western Tradition  3.0
+ART  3303 Artistic Anatomy               3.0
+ART  3323 Advanced Painting              3.0
+ART  3763 Relief Printing                3.0
+ART  3863 History of Graphic Design      3.0
+ART  391V Spec Projects: Art Since 1945  3.0
+ART  391V Art Special Projects           3.0
+ART  4954 Studio Art Capstone            4.0
+ART  1103 2-D Design                     3.0
+ART  1113 Drawing                        3.0
+ART  1143 3-D Design                     3.0
+ART  2863 Survey Art History I           3.0
+ART  2873 Survey of Art History II       3.0
 ART  1103 2-D Design                     3.0
 ART  1113 Drawing                        3.0
 ART  1123 Digital Imaging                3.0
@@ -56,14 +113,64 @@ ART  1103 2-D Design                     3.0
 ART  1143 3-D Design                     3.0
 ART  2863 Survey Art History I           3.0
 ATDI 1234 Theory and Maintenance         4.0
+ATDI 1354 Suspension and Steering        4.0
+ATDI 1434 Electrical Systems I           4.0
+ATDI 1234 Theory and Maintenance         4.0
+ATDI 1334 Braking Systems                4.0
+ATDI 1234 Theory and Maintenance         4.0
 ATDI 1334 Braking Systems                4.0
 ATDI 2434 Electrical Systems II          4.0
 ATDI 1234 Theory and Maintenance         4.0
 ATDI 1354 Suspension and Steering        4.0
+AUTO 1384 Transmissions and Drivetrains  4.0
+AUTO 2484 Emission Control Systems II    4.0
+AUTO 290V Auto Special Topics Apprentice 4.0
+AUTO 1534 Automatic Transmissions        4.0
 AUTO 1284 Automotive Engines             4.0
 AUTO 1484 Emission Control Systems I     4.0
 AUTO 290V Auto Spc Tpcs Apprenticeship   4.0
 AUTO 295V Automotive Internship          4.0
+BIOL 1151 Biological Science Laboratory  1.0
+BIOL 1153 Biological Science             3.0
+BIOL 1153 Biological Science FULL ONLINE 3.0
+BIOL 1431 Basic Anatomy Physiology Lab   1.0
+BIOL 1433 Basic Anatomy and Physiology   3.0
+BIOL 1461 Microbiology Immunology Lab    1.0
+BIOL 1463 Microbiology and Immunology    3.0
+BIOL 2003 Intro to Cell Biology          3.0
+BIOL 2201 Human Anatomy Laboratory       1.0
+BIOL 2203 Human Anatomy                  3.0
+BIOL 2211 Human Physiology Laboratory    1.0
+BIOL 2213 Human Physiology               3.0
+BIOL 2301 General Botany Laboratory      1.0
+BIOL 2303 General Botany                 3.0
+BIOL 2501 General Microbiology Lab       1.0
+BIOL 2503 General Microbiology           3.0
+BIOL 2701 General Zoology Laboratory     1.0
+BIOL 2703 General Zoology                3.0
+BIOL 3401 Ecology Laboratory             1.0
+BIOL 3403 Ecology                        3.0
+BIOL 3801 Genetics Laboratory            1.0
+BIOL 3803 Genetics                       3.0
+BIOL 4001 Seminar in Biology             1.0
+BIOL 400V Undergraduate Research Biology 1.0
+BIOL 4103 Science Teaching Methods       3.0
+BIOL 420V Sp Tp Envirn Microbiology      3.0
+BIOL 4403 Evolutionary Biology           3.0
+BIOL 4604 General Physiology BACTERIAL   4.0
+BIOL 4604 General Physiology ANIMAL      4.0
+BIOL 467V Internship in Biology          1.0
+BIOL 4753 Mammalogy                      3.0
+BIOL 4801 Cell Molecular Biology Lab     1.0
+BIOL 4803 Cell and Molecular Biology     3.0
+BIOL 4913 Animal Behavior                3.0
+BIOL 1151 Biological Science Laboratory  1.0
+BIOL 1153 Biological Science             3.0
+BIOL 2201 Human Anatomy Laboratory       1.0
+BIOL 2203 Human Anatomy                  3.0
+BIOL 420V Gulf Coast Ecology             3.0
+BIOL 420V Coastal Caribbean Belize MMSTR 3.0
+BIOL 420V SpcTpcs Field Biology TRINIDAD 3.0
 BIOL 1151 Biological Science Laboratory  1.0
 BIOL 1153 Biological Science             3.0
 BIOL 1153 Biological Science FULL ONLINE 3.0
@@ -104,6 +211,12 @@ BIOL 2703 General Zoology                3.0
 BIOL 3401 Ecology Laboratory             1.0
 BIOL 3801 Genetics Laboratory            1.0
 BIOL 4001 Seminar in Biology             1.0
+BSAT 3893 Computer Color App FULL ONLINE 3.0
+BSAT 4003 Engineering Architecture Apps  3.0
+BSAT 4044 Senior Capstone Project        4.0
+BSAT 490V Advanced Special Projects      3.0
+BSAT 3023 Digital Production Tech HYBRID 3.0
+BSAT 3043 Lighting and Rendering HYBRID  3.0
 BSAT 3053 Recrdig Mthds Hist Strs HYBRID 3.0
 BSAT 3084 3D Advanced Concepts HYBRID    4.0
 BSAT 3774 Adv CAD Customization          4.0
@@ -111,6 +224,27 @@ BSAT 3993 Applying CAD Tech HYBRID       3.0
 BSAT 490V Adv Animation Project          3.0
 BSAT 3003 GIS Analysis HYBRID            3.0
 BSAT 3123 Geodatabase Design HYBRID      3.0
+CGT  1001 CAD Concepts and Applications  1.0
+CGT  1234 Engineering Graphics I         4.0
+CGT  1302 Graphics for Engineers         2.0
+CGT  1644 3D Visualization               4.0
+CGT  2303 Integrated 3D Applications     3.0
+CGT  2333 Fund of Tech Visual Communicat 3.0
+CGT  2624 Photoshop Applications         4.0
+CGT  2654 Architectural CAD Applications 4.0
+CGT  2684 Digital Design Level II        4.0
+CGT  2744 CAD Level I                    4.0
+CGT  2764 CAD Level II                   4.0
+CGT  2834 Machine Drawing and Design     4.0
+CGT  290V Sp Tpc Mud Box                 3.0
+CGT  295V Computer Graph Tech Internship 3.0
+CGT  2994 Capstone Project HYBRID        4.0
+CGT  1004 Intro Geographic Info Sys      4.0
+CGT  1204 Civil Drafting                 4.0
+CGT  1284 Engineering Graphics II HYBRID 4.0
+CGT  1302 Graphics for Engineers         2.0
+CGT  2204 Land Surveying & Inform System 4.0
+CGT  2694 Digital Layout Level II        4.0
 CGT  1001 CAD Concepts and Apps HYBRID   1.0
 CGT  1001 CAD Concepts and Applications  1.0
 CGT  1001 CAD Concepts and Apps HYBRID   1.0
@@ -132,6 +266,11 @@ CGT  1302 Graphics for Engineers         2.0
 CGT  1644 3D Visualization               4.0
 CGT  2674 Digital Layout Level I         4.0
 CGT  2894 Parametric Modeling HYBRID     4.0
+CHED 2013 Care Prevt Injuris FULL ONLINE 3.0
+CHED 2023 Motor Devlmnt Lrng FULL ONLINE 3.0
+CHED 3141 Practicum Coach Baseball/Softb 1.0
+CHED 3161 Practicum of Coaching Track    1.0
+CHED 3171 Practicum of Coaching Soccer   1.0
 CHED 2013 Care Prev Ath Inj FULL ONLINE  3.0
 CHED 2023 Motor Dev Learning FULL ONLINE 3.0
 CHED 3113 Theory of Coaching             3.0
@@ -139,6 +278,31 @@ CHED 3121 Practicum Coaching Football    1.0
 CHED 3123 Kinesiology FULL ONLINE        3.0
 CHED 3131 Practicum Coaching Basketball  1.0
 CHED 3151 Practicum Coaching Volleyball  1.0
+CHEM 1301 Chemical Principles Lab        1.0
+CHEM 1303 Chemical Principles            3.0
+CHEM 1401 College Chemistry I Lab        1.0
+CHEM 1403 College Chemistry I            3.0
+CHEM 1411 College Chemistry II Lab       1.0
+CHEM 1413 College Chemistry II           3.0
+CHEM 2701 Organic Chemistry I Lab        1.0
+CHEM 2703 Organic Chemistry I            3.0
+CHEM 2711 Organic Chemistry II Lab       1.0
+CHEM 2713 Organic Chemistry II           3.0
+CHEM 3202 Chemical Literature & Seminar  2.0
+CHEM 3303 Medicinal Chemistry            3.0
+CHEM 3403 Biochemistry I                 3.0
+CHEM 3421 Biochemistry II lab            1.0
+CHEM 3423 Biochemistry II                3.0
+CHEM 3991 Foundations Chem Research      1.0
+CHEM 400V Chemistry Research             1.0
+CHEM 4514 Physical Chemistry II          4.0
+CHEM 4903 Special Topics Organometallics 3.0
+CHEM 1301 Chemical Principles Lab        1.0
+CHEM 1303 Chemical Principles            3.0
+CHEM 1401 College Chemistry I Lab        1.0
+CHEM 1411 College Chemistry II Lab       1.0
+CHEM 1413 College Chemistry II           3.0
+CHEM 3401 Biochemistry I Laboratory      1.0
 CHEM 1301 Chemical Principles Lab        1.0
 CHEM 1303 Chemical Principles            3.0
 CHEM 1401 College Chemistry I Lab        1.0
@@ -160,6 +324,42 @@ CHEM 1301 Chemical Principles Lab        1.0
 CHEM 1303 Chemical Principles            3.0
 CHEM 1401 College Chemistry I Lab        1.0
 CHEM 1403 College Chemistry I            3.0
+CJ   1013 Intro Criminal Justice System  3.0
+CJ   1013 Intro CJ System FULL ONLINE    3.0
+CJ   1253 Criminology                    3.0
+CJ   2313 Correctional Systems Practices 3.0
+CJ   2313 Correct Sys Prac FULL ONLINE   3.0
+CJ   2373 Police Systems and Practices   3.0
+CJ   2373 Police System Prac FULL ONLINE 3.0
+CJ   2402 Crime Scene Documentation      2.0
+CJ   2403 Legal Aspects Law Enforcement  3.0
+CJ   2504 Criminalistics: Forensic Scien 4.0
+CJ   2504 Criminalistics: Forensic Sci   4.0
+CJ   2513 Juvenile Delinquency Justice   3.0
+CJ   2603 Courts and Criminal Procedure  3.0
+CJ   2603 Courts Crim Proc FULL ONLINE   3.0
+CJ   3003 White Col Crime INTERSESSION   3.0
+CJ   3013 Organized Crime FULL ONLINE    3.0
+CJ   3033 Hate Crimes                    3.0
+CJ   3213 Criminal Investigations        3.0
+CJ   3213 Crim Investigation FULL ONLINE 3.0
+CJ   390V Spec Topics Extremist Crimes   3.0
+CJ   390V Special Topics Serial Killers  3.0
+CJ   397V Academic Internship            3.0
+CJ   3983 Intro Res Methods FULL ONLINE  3.0
+CJ   4113 Profess Ethics CJ FULL ONLINE  3.0
+CJ   4113 Prof Ethics CJ INTERSESSION    3.0
+CJ   4883 Curr Police Policy FULL ONLINE 3.0
+CJ   1013 Intro Criminal Justice System  3.0
+CJ   1253 Criminology                    3.0
+CJ   2313 Correctional Systems Practices 3.0
+CJ   2504 Criminalistics: Frn Sci HYBRID 4.0
+CJ   2513 Juvenile Delinquency Justice   3.0
+CJ   2603 Courts and Criminal Procedure  3.0
+CJ   3023 Child Maltreatment             3.0
+CJ   3213 Criminal Investigations        3.0
+CJ   3413 Psychology and Crime           3.0
+CJ   4953 Crime and Film                 3.0
 CJ   1013 Intro Criminal Justice System  3.0
 CJ   1013 Int Crimnl Justice FULL ONLINE 3.0
 CJ   1253 Criminology                    3.0
@@ -191,7 +391,19 @@ CJ   3213 Criminal Investigations        3.0
 CJ   390V Sp Topics Wrongful Convictions 3.0
 CJ   4113 Professionalism Ethics in CJ   3.0
 CJ   4833 Admin Concepts Law Enfcmnt     3.0
+CNA  1006 Nurse Assisting                6.0
 COBI 467V Integrative Internship         3.0
+COMM 2213 Media Production               3.0
+COMM 2223 Foundations of Communication   3.0
+COMM 2223 Foundation of Comm FULL ONLINE 3.0
+COMM 2303 Survey of New Media            3.0
+COMM 3143 Sp Tp Scriptwriting Elec Media 3.0
+COMM 3801 Publications Staff CHRONICLE   1.0
+COMM 3903 Communication Research Methods 3.0
+COMM 4633 Hypertext Theories Practice    3.0
+COMM 4733 Media Ethics                   3.0
+COMM 493V Independent Project            3.0
+COMM 495V Communication Internship       3.0
 COMM 2203 Intro to Mass Comm             3.0
 COMM 2213 Media Production               3.0
 COMM 3801 Publications Staff             1.0
@@ -201,6 +413,23 @@ COMM 4801 Senior Seminar                 1.0
 COMM 493V Independent Project            3.0
 COMM 495V Communication Internship       3.0
 COMM 4743 Communication Law              3.0
+CS   1013 Foundations of Programming I   3.0
+CS   1023 Foundations of Programming II  3.0
+CS   1033 Foundtn Oper Sys FULL ONLINE   3.0
+CS   1043 Foundations of Networking      3.0
+CS   1053 Computer Hardware              3.0
+CS   3113 Artificial Intelligence        3.0
+CS   3213 Linux System Administration    3.0
+CS   1013 Foundations of Programming I   3.0
+CS   1023 Foundations of Programming II  3.0
+CS   1033 Foundtns of Operating Systems  3.0
+CS   1043 Foundations of Networking      3.0
+CS   1053 Computer Hardware              3.0
+CS   2033 Web Systems                    3.0
+CS   3213 Linux System Administration    3.0
+CS   1023 Foundations of Programming II  3.0
+CS   1033 Foundtns of Operating Systems  3.0
+CS   1043 Foundations of Networking      3.0
 CS   1013 Foundations of Programming I   3.0
 CS   1033 Foundtns of Operating Systems  3.0
 CS   1043 Foundations of Networking      3.0
@@ -217,6 +446,15 @@ CS   2033 Web Systems                    3.0
 CS   1013 Foundations of Programming I   3.0
 CS   1043 Foundations of Networking      3.0
 CS   4903 IT Spec Tp Secur Analy UNICTR  3.0
+DHYG 2132 Clinic III Theory              2.0
+DHYG 2234 Dental Hygiene Clinic III      4.0
+DHYG 2522 Ethics & Practice Management   2.0
+DHYG 2533 Comm Dentistry/Dental Health   3.0
+DHYG 3113 Clinic I Theory                3.0
+DHYG 3212 Periodontology I               2.0
+DHYG 3213 Dental Hygiene Clinic I        3.0
+DHYG 3443 Pharmacology                   3.0
+DHYG 3453 General & Oral Pathology       3.0
 DHYG 2111 Dental Anatomy and Occlusion   1.0
 DHYG 2122 Clinic II Theory               2.0
 DHYG 2224 Dental Hygiene Clinic II       4.0
@@ -232,8 +470,30 @@ DHYG 2512 Local Anesthesia LAB            .0
 DHYG 3102 Pre Clinical Dental Hygiene    2.0
 DHYG 3103 Pre Clinic Dental Hyg Theory   3.0
 DHYG 3412 Oral Embryology Histology      2.0
+DIES 2154 Intro to Diesel Systems HYBRID 4.0
 ECD  1003 Foundatns Early Childhood      3.0
 ECD  1103 Child Growth and Development   3.0
+ECED 2093 Hlth Safety Nutrition Yng Lrnr 3.0
+ECED 3023 Foundations Early Childhood    3.0
+ECED 3033 Child Development              3.0
+ECED 3043 Developmentally Appr Practice  3.0
+ECED 3053 Children Families Diverse Scty 3.0
+ECED 3063 Meths Tching Math in Classroom 3.0
+ECED 3113 Integrated Curriculum          3.0
+ECED 3122 Practicum I                    2.0
+ECED 3153 Creative Art Erly Childhood Ed 3.0
+ECED 3173 Guiding Children               3.0
+ECED 3183 Language and Literacy I        3.0
+ECED 3193 Children's Literature          3.0
+ECED 3213 Integrated Curriculum II       3.0
+ECED 3222 Practicum II                   2.0
+ECED 3222 Practicum II PDS               2.0
+ECED 3263 Early Childhood Assessment     3.0
+ECED 3283 Language Literacy II           3.0
+ECED 490C Early Childhood Educ Internshp 2.0
+ECED 3003 Science in the Classroom       3.0
+ECED 3213 Integrated Curriculum II PDS   3.0
+ECED 3283 Language Literacy II PDS       3.0
 ECED 1401 Early Childhood Field Exp I    1.0
 ECED 1411 Early Childhood Field Exp II   1.0
 ECED 3003 Science in the Classroom       3.0
@@ -258,14 +518,41 @@ ECED 3153 Creative Art Erly Childhood Ed 3.0
 ECED 3213 Integrated Curriculum II PDS   3.0
 ECED 3222 Practicum II PDS               2.0
 ECED 3283 Language Literacy II PDS       3.0
+ECON 2803 Prin of Macroeconomics         3.0
+ECON 2803 Prin of Macroecon FULL ONLINE  3.0
+ECON 2813 Prin of Microeconomics HYBRID  3.0
+ECON 4203 International Economics        3.0
+ECON 2813 Prin of Microeconomics         3.0
 ECON 2803 Prin of Macroeconomics HYBRID  3.0
 ECON 2803 Prin of Macroeconomics         3.0
 ECON 2803 Prin of Macroecon FULL ONLINE  3.0
 ECON 2813 Prin of Microeconomics HYBRID  3.0
 ECON 2813 Prin of Microeconomics         3.0
+ECTC 2303 Liter Lang Arts for Early Chld 3.0
+ECTC 2603 Practicum                      3.0
+ECTC 2803 Infant Toddler Curriculum      3.0
+ECTC 2903 Future Perspectives Erly Child 3.0
 ECTC 2403 Math & Science Early Childhood 3.0
 ECTC 2703 Preschool Curriculum (B-Pre-K) 3.0
 ECTC 2503 Child Guidance                 3.0
+EDUC 2752 Introduction to Education      2.0
+EDUC 3001 Elec Portfolio Dev FULL ONLINE 1.0
+EDUC 3002 Intro to Educational Tech      2.0
+EDUC 3002 Intro to Ed Tech HYBRID        2.0
+EDUC 3002 Intro to Ed Tech FULL ONLINE   2.0
+EDUC 3002 Intro to Ed Tech HYBRID        2.0
+EDUC 3013 Human Developmnt and Learning  3.0
+EDUC 3112 Literacy Dev in Content Areas  2.0
+EDUC 3221 Practicum I                    1.0
+EDUC 3612 Classroom and Behavioral Mgmt  2.0
+EDUC 4211 Practicum II                   1.0
+EDUC 4222 Assessment                     2.0
+EDUC 4802 Seminar in Education           2.0
+EDUC 480A Tching Elem and Secndry School 0.0
+EDUC 490A Teaching in Secondary School   0.0
+EDUC 2752 Introduction to Education      2.0
+EDUC 3001 Electronic Portfolio Develmnt  1.0
+EDUC 3002 Intro to Educational Tech      2.0
 EDUC 2752 Introduction to Education      2.0
 EDUC 3001 Elec Portfolio Develmnt HYBRID 1.0
 EDUC 3001 Electronic Portfolio Develmnt  1.0
@@ -285,6 +572,19 @@ EDUC 2752 Introduction to Education      2.0
 EDUC 3001 Electronic Portfolio Develmnt  1.0
 EDUC 3002 Intro to Educational Tech      2.0
 EDUC 3221 Practicum I                    1.0
+ELEC 1263 Industrial Electricity I       3.0
+ELEC 1353 Electrical Circuits and Comp   3.0
+ELEC 1393 Solid State                    3.0
+ELEC 1723 PC Systems Troubleshooting     3.0
+ELEC 1783 Industrial Electricity II      3.0
+ELEC 1863 Digital Fundamentals           3.0
+ELEC 2423 Robot Programming              3.0
+ELEC 290V Special Topics Energy Auditing 3.0
+ELEC 290V Sp Tp Generating Clean Electrc 3.0
+ELEC 290V Special Topics STEM Guitar     3.0
+ELEC 2933 Industrial Control Systems     3.0
+ELEC 2943 Electronics Capstone           3.0
+ELEC 3514 Adv PLC Control Systems        4.0
 ELEC 1233 Fundamentals of Electricity    3.0
 ELEC 1242 Intro Electronics Technology   2.0
 ELEC 1263 Industrial Electricity I       3.0
@@ -301,6 +601,17 @@ ELEC 1233 Fundamentals of Electricity    3.0
 ELEC 1242 Intro Electronics Technology   2.0
 ELEC 2253 Visual Basic Electronics Apps  3.0
 ELEC 2513 PLC Applications               3.0
+ELEG 2111 Electric Circuits II Lab       1.0
+ELEG 2113 Electric Circuits II           3.0
+ELEG 2913 Digital Systems II             3.0
+ELEG 3143 Probability Stochastic Process 3.0
+ELEG 3224 Electronics II                 4.0
+ELEG 3304 Energy Systems                 4.0
+ELEG 3933 Circuits and Electronics       3.0
+ELEG 4061 Elec Engineering Design I Lab  1.0
+ELEG 4073 EE Design II Lab               3.0
+ELEG 4463 Control Systems Lab            3.0
+ELEG 487V Spc Topics Electrical Engineer 3.0
 ELEG 2103 Electric Circuits I            3.0
 ELEG 2903 Digital Systems I              3.0
 ELEG 2101 Electric Circuits I Lab        1.0
@@ -314,8 +625,49 @@ ELEG 4073 EE Design II Lab               3.0
 ELEG 4203 Semiconductor Devices          3.0
 ELEG 4403 Control Systems                3.0
 ELEG 4503 Electric Pwr Distribution Sys  3.0
+EMR  1405 Emergency Medical Responder    5.0
+EMT  1408 Emergency Med Tech Basic       8.0
+EMT  1408 Emergency Med Tech Basic LAB    .0
 EMT  1408 Emergency Med Tech Basic       8.0
 EMT  1408 EMT Basic LAB                   .0
+ENGL 1201 College Writing Process        1.0
+ENGL 1203 Composition I                  3.0
+ENGL 1203 Composition I FULL ONLINE      3.0
+ENGL 1203 Composition I                  3.0
+ENGL 1213 Composition II                 3.0
+ENGL 1213 Composition II FULL ONLINE     3.0
+ENGL 1213 Composition II                 3.0
+ENGL 1233 Honors Composition             3.0
+ENGL 2013 Intro to Global Literature     3.0
+ENGL 2013 Intro Global Lit FULL ONLINE   3.0
+ENGL 2023 Intro to American Literature   3.0
+ENGL 2023 Intro to Amer Lit FULL ONLINE  3.0
+ENGL 2033 Cultural Studies               3.0
+ENGL 2853 Imaginative Writing            3.0
+ENGL 3003 Hist Devlmnt English Lang      3.0
+ENGL 3013 Seminar British Literature I   3.0
+ENGL 3033 Seminar American Literature I  3.0
+ENGL 3043 Seminar American Literature II 3.0
+ENGL 3233 The Novel                      3.0
+ENGL 3243 Drama                          3.0
+ENGL 3303 Writing and Tchng of Writing   3.0
+ENGL 3403 Grammar and Language Awareness 3.0
+ENGL 3443 Literature Diverse Cultures    3.0
+ENGL 3503 Languages of the World         3.0
+ENGL 3663 English Grammar                3.0
+ENGL 4123 Regional Geographic Tpc Lit    3.0
+ENGL 4203 Chaucer                        3.0
+ENGL 4773 18th Century British Lit       3.0
+ENGL 4903 Sp Tp Shakespeare for Teachers 3.0
+ENGL 4913 Popular Culture as Reality TV  3.0
+ENGL 493V English Independent Study      3.0
+ENGL 4993 Capstone                       3.0
+ENGL 1203 Composition I                  3.0
+ENGL 1213 Composition II                 3.0
+ENGL 2023 Intro to American Literature   3.0
+ENGL 4323 Second Language Acquisition    3.0
+ENGL 0163 Introduction to Writing        3.0
+ENGL 130V Lang Culture UK Lit Hrtg MMSTR 3.0
 ENGL 1201 College Writing Process        1.0
 ENGL 1203 Composition I                  3.0
 ENGL 1203 Composition I FULL ONLINE      3.0
@@ -353,7 +705,21 @@ ENGL 0163 Introduction to Writing        3.0
 ENGN 1022 Engineering Analysis           2.0
 ENGN 1111 Intro to Engineering I         1.0
 ENGN 1121 Intro to Engineering II        1.0
+ENGN 2763 Dynamics                       3.0
+ENGN 2803 Thermodynamics                 3.0
+ENGN 1121 Intro to Engineering II        1.0
+ENGN 1022 Engineering Analysis           2.0
+ENGN 1111 Intro to Engineering I         1.0
+ENGN 1121 Intro to Engineering II        1.0
 ENGN 2753 Engineering Statics            3.0
+FIN  1523 Prsnal Fin Thry Practce HYBRID 3.0
+FIN  3713 Business Finance HYBRID        3.0
+FIN  3713 Business Finance               3.0
+FIN  3733 Fin Statement Analysis HYBRID  3.0
+FIN  4743 Advanced Financial Mgmt        3.0
+FIN  3713 Business Finance               3.0
+FIN  3723 Investments HYBRID             3.0
+FIN  4323 Mngt Financial Inst HYBRID     3.0
 FIN  1523 Personal Finance HYBRID        3.0
 FIN  3713 Business Finance HYBRID        3.0
 FIN  3713 Business Finance               3.0
@@ -365,6 +731,8 @@ FIN  4773 Deriv Securities Mkts HYBRID   3.0
 FIN  1523 Personal Finance HYBRID        3.0
 FIN  3713 Business Finance HYBRID        3.0
 FIN  4743 Advanced Financial Mgmt        3.0
+FORL 3503 Languages of the World         3.0
+FORL 4323 Second Language Acquisition    3.0
 FORL 2503 Language and Society           3.0
 FORL 2552 Language Practice FRENCH       2.0
 FORL 2552 Language Practice Spanish      2.0
@@ -374,14 +742,38 @@ FORL 4343 Teaching People Other Cultures 3.0
 FREN 1304 Beginning French I             4.0
 FREN 1314 Beginning French II            4.0
 FREN 2303 Intermediate French I          3.0
+FREN 2313 Intermediate French II         3.0
+FREN 1304 Beginning French I             4.0
+FREN 1314 Beginning French II            4.0
+FREN 2303 Intermediate French I          3.0
+GEOG 2753 World Regional Geography       3.0
+GEOG 2753 World Reg Geog FULL ONLINE     3.0
+GEOG 2773 Human Geography                3.0
+GEOG 3113 Geog International Migration   3.0
+GEOG 4903 Sp Tpc Food Geog and the Envir 3.0
+GEOG 2773 Human Geography MMSTR          3.0
 GEOG 2753 World Regional Geography       3.0
 GEOG 2753 World Reg Geog FULL ONLINE     3.0
 GEOG 2773 Human Geography                3.0
 GEOG 3103 Geography of Globalization     3.0
 GEOG 2753 World Regional Geography       3.0
+GEOL 3261 Historical Geology Lab         1.0
+GEOL 3263 Historical Geology FULL ONLINE 3.0
+GEOL 3833 Environmental Geology          3.0
+GERM 2303 Intermediate German I          3.0
+GERM 1304 Beginning German I             4.0
 GERM 1314 Beginning German II HYBRID     4.0
 GERM 2303 Intermediate German I          3.0
 GERM 1304 Beginning German I             4.0
+GIPM 1283 Hydraulics and Pneumatics      3.0
+GRDS 2103 Advanced Typography            3.0
+GRDS 2253 Web Design I                   3.0
+GRDS 2343 Print & Publication Design     3.0
+GRDS 3313 Creative Process in Design     3.0
+GRDS 3323 Production Mgmt Prepress       3.0
+GRDS 3603 Packaging Design               3.0
+GRDS 372V Graphic Design Internship      6.0
+GRDS 4623 Graphic Design Bus Practices   3.0
 GRDS 2243 Digital Illustration           3.0
 GRDS 2303 Graphic Design                 3.0
 GRDS 3273 Motion Design                  3.0
@@ -390,6 +782,41 @@ GRDS 3623 Fine Printing and Bookmaking   3.0
 GRDS 372V Graphic Design Internship      3.0
 GRDS 4313 Identity Design                3.0
 GRDS 4933 Graphic Design Senior Thesis   3.0
+HIST 1123 Civilizations of World to 1500 3.0
+HIST 1123 Civ World to 1500 FULL ONLINE  3.0
+HIST 1133 Civilizations World Since 1500 3.0
+HIST 1133 Civ World Snc 1500 FULL ONLINE 3.0
+HIST 2753 United States History I        3.0
+HIST 2753 US History I FULL ONLINE       3.0
+HIST 2763 United States History II       3.0
+HIST 2763 US History II                  3.0
+HIST 2763 US History II FULL ONLINE      3.0
+HIST 3053 History of Modern Science      3.0
+HIST 3053 History of Mod Science HYBRID  3.0
+HIST 3063 Hist Tech Society FULL ONLINE  3.0
+HIST 3123 The Roman World                3.0
+HIST 3133 The Renaissance                3.0
+HIST 3413 American Revolution            3.0
+HIST 3433 Age of Jackson: US 1824-1848   3.0
+HIST 3443 Civil War Recnstrctn 1848-1876 3.0
+HIST 3453 Gilded Age US 1876-1900        3.0
+HIST 3473 United States 1945 to Present  3.0
+HIST 3503 Latin America Republican Perid 3.0
+HIST 3803 Methods of Historical Research 3.0
+HIST 4123 African American Hist to 1865  3.0
+HIST 4153 History of Arkansas            3.0
+HIST 4153 Hist of Arkansas FULL ONLINE   3.0
+HIST 4173 Surv American Military History 3.0
+HIST 4803 Seminar in U S History         3.0
+HIST 4823 Teaching Social Studies Sec Ed 3.0
+HIST 4903 Hist Sp Tpcs France Since 1815 3.0
+HIST 4903 Sp Tp Early American Women     3.0
+HIST 4903 Hist Spec Topics React to Past 3.0
+HIST 493V History Independent Study      3.0
+HIST 4953 History Internship             3.0
+HIST 2753 United States History I        3.0
+HIST 2763 United States History II       3.0
+HIST 4153 History of Arkansas            3.0
 HIST 1123 Civilizations of World to 1500 3.0
 HIST 1123 Civ World to 1500 FULL ONLINE  3.0
 HIST 1133 Civilizations World Since 1500 3.0
@@ -427,6 +854,19 @@ HIST 1133 Civilizations World Since 1500 3.0
 HIST 2753 United States History I        3.0
 HIST 2763 United States History II       3.0
 HIST 4153 History of Arkansas            3.0
+HLTH 1025 Pharmacy Technology II         5.0
+HLTH 1473 Medical Terminology            3.0
+HLTH 1473 Med Terminology FULL ONLINE    3.0
+HLTH 2953 First Aid                      3.0
+HLTH 3103 Pathophysiology BSN            3.0
+HLTH 3103 Pathophyslgy IS RN FULL ONLINE 3.0
+HLTH 4103 Research in HS BSN             3.0
+HLTH 4103 Rsrch HS RN BSN IS FULL ONLINE 3.0
+HLTH 4103 Research in HS BSN FULL ONLINE 3.0
+HLTH 1473 Medical Terminology            3.0
+HLTH 2953 First Aid                      3.0
+HLTH 1001 CPR Basic Life Sup Hlth Prof   1.0
+HLTH 2953 First Aid                      3.0
 HLTH 1004 Intro to Health Occupations    4.0
 HLTH 1024 Pharmacy Technology I          4.0
 HLTH 1473 Medical Terminology            3.0
@@ -446,16 +886,30 @@ HONR 1101 Intro Honors Intl Studies      1.0
 HUMN 2563 Humanities Through the Arts    3.0
 HUMN 2563 Humanities Arts FULL ONLINE    3.0
 HUMN 2563 Humanities Thru the Arts       3.0
+HUMN 2563 Humanities Through the Arts    3.0
+HUMN 2563 Humanities Arts FULL ONLINE    3.0
+HUMN 2563 Humanities Thru the Arts       3.0
 HUMN 2563 Humn thru Arts INTERSESSION    3.0
 HUMN 2663 Introduction to Film           3.0
 HUMN 2563 Humanities Through the Arts    3.0
 IDS  1403 Leadership Development Studies 3.0
+IS   3113 Patient Info Mgmt FULL ONLINE  3.0
 IS   3103 Legl Eth Cons Hlth FULL ONLINE 3.0
 IS   4103 Persp Human Div FULL ONLINE    3.0
+ISM  4423 Risk Management FULL ONLINE    3.0
+ISM  4503 Internshp Imag Sci FULL ONLINE 3.0
+ISM  4513 Applied Research FULL ONLINE   3.0
 ISM  4203 Lead Prin Theories FULL ONLINE 3.0
 ISM  4213 Leadership Prac FULL ONLINE    3.0
 ISM  4403 Indpt Stdy Img Sci FULL ONLINE 3.0
 ISM  4513 Applied Research FULL ONLINE   3.0
+ISS  3203 Abdominal Sonography I         3.0
+ISS  3212 Acoustical Phys Instrumn II    2.0
+ISS  3213 Clinical Practice I            3.0
+ISS  3223 Vascular Sonography I          3.0
+ISS  4501 Professional Seminar           1.0
+ISS  4513 Obstetrical Gyn Sonography II  3.0
+ISS  4544 Clinical Practice IV           4.0
 ISS  3102 Clinical Lab Practice          2.0
 ISS  3103 Acoustical Physics Instrmnt I  3.0
 ISS  3113 Cross Sectnl Anatomy Snogrphrs 3.0
@@ -463,6 +917,16 @@ ISS  4402 Spec Apps Pathological Cnsdrt  2.0
 ISS  4413 Abdominal Sonography II        3.0
 ISS  4433 Vascular Sonography II         3.0
 ISS  4434 Clinical Practice III          4.0
+ITA  1003 Computer Apps Knowledge Worker 3.0
+ITA  1051 Computer Word Processing       1.0
+ITA  1101 Computer Presentation Graphics 1.0
+ITA  1003 Computer Apps Knowledge Worker 3.0
+ITA  1201 Computer Database              1.0
+ITA  1003 Computer Apps Knowledge Worker 3.0
+ITA  1011 Quickbooks                     1.0
+ITA  1051 Computer Word Processing       1.0
+ITA  1101 Computer Presentation Graphics 1.0
+ITA  1251 Computer Spreadsheets          1.0
 ITA  1003 Computer Apps Knowledge Worker 3.0
 ITA  1003 Comp Aps Know Wkr INTERSESSION 3.0
 ITA  1003 Computer Apps Knowledge Worker 3.0
@@ -474,6 +938,14 @@ ITA  1051 Computer Word Processing       1.0
 ITA  1101 Computer Presentation Graphics 1.0
 ITA  1201 Computer Database              1.0
 ITA  1251 Computer Spreadsheets          1.0
+ITC  2324 Introductory Programming       4.0
+ITC  2334 Advanced Programming           4.0
+ITC  2524 Database and Queries           4.0
+ITC  2624 Network Client Support         4.0
+ITC  2334 Advanced Programming           4.0
+ITC  2524 Database and Queries           4.0
+ITC  2753 E-Commerce Tech HYBRID         3.0
+ITC  2334 Adv Programming UNICTR         4.0
 ITC  1143 Web Site Design                3.0
 ITC  1374 Programming for Engineers      4.0
 ITC  2324 Introductory Programming       4.0
@@ -488,6 +960,10 @@ ITC  2334 Advanced Programming           4.0
 ITC  2753 E-Comm Tech FULL ONLINE UNICTR 3.0
 ITC  2324 Introductry Programming UNICTR 4.0
 ITC  2524 Database Queries UNICTR        4.0
+ITD  3213 Database Administration I      3.0
+ITD  3113 Advanced SQL                   3.0
+ITD  3313 Database App Develpmnt         3.0
+ITD  4333 Database Performance Tuning    3.0
 ITD  3113 Advanced SQL                   3.0
 ITD  3123 Stored Procedures              3.0
 ITD  4223 Database Administration II     3.0
@@ -495,11 +971,34 @@ ITD  3113 Advanced SQL                   3.0
 ITD  3133 Data Warehousing               3.0
 ITD  3113 Advanced SQL                   3.0
 ITF  2114 Capstone Project               4.0
+ITF  3444 Cmptr Architecture Operations  4.0
+ITF  4104 Systems Analysis and Design    4.0
+ITF  4114 Capstone Project               4.0
+ITF  4123 Info Technology Security       3.0
+ITF  413V IT Indep Study Undergrad Resch 3.0
+ITF  413V IT Independent Study           3.0
+ITF  413V IT Indep Study Undergrad Resch 3.0
+ITF  414V IT Work-Based Learning         3.0
+ITF  4123 Info Technology Security       3.0
+ITF  3444 Cmptr Architecture Oper UNICTR 4.0
+ITF  4114 Capstone Project UNICTR        4.0
+ITF  4123 Tech Security FULLONLINE UNCTR 3.0
+ITF  3634 Enterprise Java Prog UNICTR    4.0
+ITF  2114 Capstone Project               4.0
 ITF  3634 Enterprise Java Programming    4.0
 ITF  4104 Systems Analysis and Design    4.0
 ITF  4114 Capstone Project               4.0
 ITF  414V IT Work-Based Learning         3.0
 ITF  4114 Capstone Project UNICTR        4.0
+ITN  3133 LINUX System Admin             3.0
+ITN  3224 Internetworking II             4.0
+ITN  3324 Network Directory Services     4.0
+ITN  4344 Network Security and Firewalls 4.0
+ITN  3133 LINUX System Admin             3.0
+ITN  3133 LINUX Sys FULL ONLINE UNICTR   3.0
+ITN  3224 Internet II FULL ONLINE UNICTR 4.0
+ITN  3324 Network Directory Serv UNICTR  4.0
+ITN  4344 Net Security Firewalls UNICTR  4.0
 ITN  3113 Windows System Admin           3.0
 ITN  3214 Internetworking I              4.0
 ITN  3234 Internetworking III            4.0
@@ -509,16 +1008,40 @@ ITN  3214 Intnetwrk I FULL ONLINE UNICTR 4.0
 ITN  3234 Intntwk III FULL ONLINE UNICTR 4.0
 ITN  4353 Network Analysis Design UNICTR 3.0
 ITN  3113 Windows System Adm UNICTR      3.0
+ITP  3133 Artificial Intelligence        3.0
+ITP  3253 Advanced COBOL                 3.0
+ITP  3413 Data Structures                3.0
+ITP  4213 Web Services HYBRID            3.0
 ITP  4113 .Net Application Programming   3.0
 ITP  3243 COBOL                          3.0
 ITP  3413 Data Structures                3.0
 ITP  4113 .Net Application Programming   3.0
+ITW  3253 Client Side Script Java Script 3.0
 ITW  3123 Web Graphics                   3.0
 ITW  4213 .Net Web Technologies          3.0
 ITW  4263 Server Side Web Applications   3.0
 ITW  4213 ,Net Web Technologies          3.0
 LAW  2003 Legal Environment of Business  3.0
+LAW  4043 Law of Business Organizations  3.0
+LAW  2003 Legal Environment of Business  3.0
 LAW  4033 Law of Commercial Transactions 3.0
+LEAD 3603 Found Org Leadership HYBRID    3.0
+LEAD 3603 Found Org Leadrshp FULL ONLINE 3.0
+LEAD 3623 Profess Communication HYBRID   3.0
+LEAD 3623 Professional Comm FULL ONLINE  3.0
+LEAD 3643 Group Dynamics                 3.0
+LEAD 4603 Leading Integrity FULL ONLINE  3.0
+LEAD 4603 Leading Integrity HYBRID       3.0
+LEAD 4603 Leading Integrity FULL ONLINE  3.0
+LEAD 4623 Trans Leadership FULL ONLINE   3.0
+LEAD 4693 Dimension Org Lead FULL ONLINE 3.0
+LEAD 495V Org Leadership Internship      3.0
+LEAD 4123 Organizational Theory          3.0
+LEAD 4403 Nonprofit Organizations        3.0
+LEAD 4603 Leading Integrity HYBRID       3.0
+LEAD 4623 Trans Leadership FULL ONLINE   3.0
+LEAD 4623 Trans Leadership HYBRID        3.0
+LEAD 4693 Dimension Org Leadrship HYBRID 3.0
 LEAD 3603 Found Org Leadrshp FULL ONLINE 3.0
 LEAD 3603 Foun Org Leadrship FULL ONLINE 3.0
 LEAD 3603 Found of Org Leadership HYBRID 3.0
@@ -540,18 +1063,84 @@ LEAD 4623 Trans Leadership HYBRID        3.0
 LEAD 4693 Dim Organiz Leadership HYBRID  3.0
 LEGL 1043 Intro to Law                   3.0
 LEGL 190V Paralegal Internship           3.0
+LEGL 2133 Torts                          3.0
+LEGL 1203 Legal Research and Writing II  3.0
+LEGL 2162 Employment Law                 2.0
+LEGL 2252 Family Law                     2.0
+LEGL 2553 Real Estate Law                3.0
+LEGL 2723 Criminal Law and Procedure     3.0
+LEGL 2753 Wills Trusts and Probate       3.0
+LEGL 2772 Business Organizations         2.0
+LEGL 2823 Trial Practice                 3.0
+LEGL 1043 Intro to Law                   3.0
+LEGL 190V Paralegal Internship           3.0
 LEGL 1043 Intro to Law                   3.0
 LEGL 1103 Legal Research and Writing I   3.0
 LEGL 2322 Civil Procedure                2.0
 LEGL 2382 Legal Ethics                   2.0
 LEGL 2643 Commercial Law                 3.0
 LEGL 2723 Criminal Law and Procedure     3.0
+LPN  1217 Medical/Surgical I CLINIC       .0
+LPN  1217 Medical Surgical I             7.0
+LPN  1217 Medical/Surgical I CLINIC       .0
+LPN  1217 Medical/Surgical I LAB          .0
+LPN  1227 Medical/Surgical II CLINIC      .0
+LPN  1227 Medical/Surgical II LAB         .0
+LPN  1227 Medical/Surgical II            7.0
 LPN  1187 Fundamentals I CLINIC           .0
 LPN  1187 Fundamentals I                 7.0
 LPN  1187 Fundamentals I LAB              .0
 LPN  1197 Fundamentals II CLINIC          .0
 LPN  1197 Fundamentals II                7.0
 LPN  1197 Fundamentals II LAB             .0
+MATH 0233 Beginning Algebra              3.0
+MATH 1203 Intermediate Algebra EXTENDED  3.0
+MATH 1303 College Mathematics            3.0
+MATH 1303 College Math FULL ONLINE       3.0
+MATH 1333 Number Sense Data Analysis I   3.0
+MATH 1343 Number Sense Data Analysis II  3.0
+MATH 1403 College Algebra EXTENDED       3.0
+MATH 1403 College Algebra                3.0
+MATH 1403 College Algebra EXTENDED       3.0
+MATH 1403 College Algebra                3.0
+MATH 1403 College Algebra EXTENDED       3.0
+MATH 1403 College Algebra                3.0
+MATH 1403 College Algebra FULL ONLINE    3.0
+MATH 1403 College Algebra                3.0
+MATH 1403 College Algebra EXTENDED       3.0
+MATH 1453 Plane Trigonometry             3.0
+MATH 1715 Pre Calculus Mathematics       5.0
+MATH 1903 Intro to Discrete Math         3.0
+MATH 1903 Intro to Discrete Math CS      3.0
+MATH 1903 Intro to Discrete Mathematics  3.0
+MATH 2233 Geometry and Measurement I     3.0
+MATH 2243 Geometry and Measurement II    3.0
+MATH 2333 Structures of Arithmetic       3.0
+MATH 2343 Informal Geometry              3.0
+MATH 2403 Survey of Calculus             3.0
+MATH 2403 Survey of Calculus FULL ONLINE 3.0
+MATH 2702 Mathematics Technology         2.0
+MATH 2804 Calculus I                     4.0
+MATH 2804 Calculus I FULL ONLINE         4.0
+MATH 2804 Calculus I                     4.0
+MATH 2854 Calculus II                    4.0
+MATH 2904 Calculus III                   4.0
+MATH 3103 Foundations of Mathematics     3.0
+MATH 3203 Applied Linear Algebra         3.0
+MATH 3214 Differential Equations         4.0
+MATH 3403 College Geometry               3.0
+MATH 3603 Mathematical Modeling I        3.0
+MATH 3803 Math Pedagogy Numerical Sys    3.0
+MATH 3833 Math Pedagogy Data Analysis    3.0
+MATH 3901 Mathematics Seminar            1.0
+MATH 4403 Abstract Algebra               3.0
+MATH 4803 Complex Analysis               3.0
+MATH 4933 Spec Topics Stat Computation   3.0
+MATH 4992 Senior Project                 2.0
+MATH 1403 College Algebra EXTENDED       3.0
+MATH 1903 Intro to Discrete Math CS      3.0
+MATH 2403 Survey of Calculus             3.0
+MATH 2854 Calculus II                    4.0
 MATH 0233 Beginning Algebra              3.0
 MATH 0234 Beg Algebra With Pre-Algebra   4.0
 MATH 0234 Beg Algebra with Pre-Algebra   4.0
@@ -600,6 +1189,15 @@ MATH 1403 College Algebra                3.0
 MATH 1715 Pre Calculus Mathematics       5.0
 MATH 2403 Survey of Calculus             3.0
 MATH 2804 Calculus I                     4.0
+MEEG 2103 Intro to Machine Analysis      3.0
+MEEG 2703 Numerical Methods I HYBRID     3.0
+MEEG 3210 Mechanical Engineering Lab II   .0
+MEEG 4023 Composite Materials Anal Desgn 3.0
+MEEG 4104 Machine Element Design         4.0
+MEEG 4133 Creative Project Design II     3.0
+MEEG 4143 Spc Tpcs Design for Safety     3.0
+MEEG 4413 Heat Transfer                  3.0
+MEEG 4433 Aerospace Propulsion           3.0
 MEEG 2303 Intro to Materials HYBRID      3.0
 MEEG 3010 Mechanics of Materials Drill    .0
 MEEG 3013 Mechanics of Materials         3.0
@@ -619,6 +1217,26 @@ MGMT 1201 Planning for Success           1.0
 MGMT 1203 Foundations of Business        3.0
 MGMT 2203 Intro International Business   3.0
 MGMT 2863 Business Communications        3.0
+MGMT 3133 Social Responsibility Ethics   3.0
+MGMT 3153 Organizational Behavior        3.0
+MGMT 3173 Human Resource Management      3.0
+MGMT 3203 Cross Cultural Relations       3.0
+MGMT 3523 Operations Management          3.0
+MGMT 3913 Decision Support Systems       3.0
+MGMT 4813 Strategic Management           3.0
+MGMT 1201 Planning for Success           1.0
+MGMT 1203 Foundations of Business        3.0
+MGMT 2203 Intro International Business   3.0
+MGMT 2863 Business Communications        3.0
+MGMT 3153 Organizational Behavior        3.0
+MGMT 3523 Operations Management          3.0
+MGMT 3913 Decision Support Systems       3.0
+MGMT 4613 Community Leadership           3.0
+MGMT 4813 Strategic Management           3.0
+MGMT 1201 Planning for Success           1.0
+MGMT 1203 Foundations of Business        3.0
+MGMT 2203 Intro International Business   3.0
+MGMT 2863 Business Communications        3.0
 MGMT 2963 Business Statistics            3.0
 MGMT 3133 Social Responsibility Ethics   3.0
 MGMT 3153 Organizational Behavior        3.0
@@ -634,10 +1252,25 @@ MGMT 3133 Social Responsibility Ethics   3.0
 MGMT 3153 Organizational Behavior        3.0
 MGMT 3913 Decision Support Systems       3.0
 MGMT 4813 Strategic Management           3.0
+MHCA 5003 Healthcare Systems FULL ONLINE 3.0
+MHCA 5013 Healthcare Pol Gov FULL ONLINE 3.0
+MILS 1001 Foundations of Officership     1.0
+MILS 2012 Leadership and Teamwork        2.0
+MILS 3014 Leadership and Ethics          4.0
+MILS 4014 Officership                    4.0
 MILS 1001 Foundations of Officership     1.0
 MILS 2002 Individual Leadership Studies  2.0
 MILS 3004 Leadership and Problem Solving 4.0
 MILS 4004 Leadership and Management      4.0
+MKTG 3003 Intro to Professional Selling  3.0
+MKTG 3013 Prin of Marketing Management   3.0
+MKTG 3033 Integrtd Mktg Comm FULL ONLINE 3.0
+MKTG 3043 E-Business Marketing HYBRID    3.0
+MKTG 3123 Consumer Behavior              3.0
+MKTG 3133 Marketing Research             3.0
+MKTG 3173 Sales Management               3.0
+MKTG 447V Indpt Study in Marketing       3.0
+MKTG 4203 International Marketing        3.0
 MKTG 3003 Intro to Professional Selling  3.0
 MKTG 3013 Prin of Marketing Management   3.0
 MKTG 3033 Integrated Mkt Com FULL ONLINE 3.0
@@ -645,10 +1278,24 @@ MKTG 3043 E-Business Marketing HYBRID    3.0
 MKTG 3123 Consumer Behavior              3.0
 MKTG 3133 Marketing Research             3.0
 MKTG 3013 Prin of Marketing Management   3.0
+MLED 4113 Middle Level Literacy and Lit  3.0
+MLED 490A Tching Middle Childhood School 0.0
+MLED 4143 Integrtng Mthds in Math Sci    3.0
+MLED 4113 Middle Level Lit and Lit PDS   3.0
 MLED 490A Tching Middle Childhood School 0.0
 MLED 3563 Middle School Concepts         3.0
 MLED 4123 Integrtng Mthds Soc Stds Arts  3.0
 MLED 3563 Middle School Concepts PDS     3.0
+MUSB 1251 Private Brass TRUMPET          1.0
+MUSB 1251 Private Brass TROMBONE         1.0
+MUSB 1251 Private Brass TUBA             1.0
+MUSB 1252 Private Brass TROMBONE         2.0
+MUSB 1252 Private Brass EUPHONIUM        2.0
+MUSB 1252 Private Brass HORN             2.0
+MUSB 1252 Private Brass TRUMPET          2.0
+MUSB 3252 Private Brass TUBA             2.0
+MUSB 3252 Private Brass TROMBONE         2.0
+MUSB 3252 Private Brass HORN             2.0
 MUSB 1251 Private Brass TROMBONE         1.0
 MUSB 1251 Private Brass TRUMPET          1.0
 MUSB 1251 Private Brass TUBA             1.0
@@ -661,10 +1308,35 @@ MUSB 3252 Private Brass TROMBONE         2.0
 MUSB 3252 Private Brass EUPHONIUM        2.0
 MUSB 3252 Private Brass TRUMPET          2.0
 MUSB 3252 Private Brass HORN             2.0
+MUSC 1171 Class Piano II                 1.0
+MUSC 1251 Class Guitar II                1.0
+MUSC 2171 Class Piano IV                 1.0
 MUSC 1151 Class Guitar I                 1.0
 MUSC 1161 Class Piano I                  1.0
 MUSC 2161 Class Piano III                1.0
-MUSD 1252 Private Percussion             2.0
+MUSD 1251 Private Percussion             1.0
+MUSI 1000 Recital Attendance              .0
+MUSI 1183 Fundamentals of Music          3.0
+MUSI 1211 Sight Singing Ear Trng II      1.0
+MUSI 1233 Music Theory II                3.0
+MUSI 1322 Music Technology               2.0
+MUSI 2191 Diction for Singers II         1.0
+MUSI 2763 Music Appreciation             3.0
+MUSI 2763 Music Appreciation FILM MUSIC  3.0
+MUSI 2763 Music Appreciation             3.0
+MUSI 2763 Music Appreciation FULL ONLINE 3.0
+MUSI 2791 Sight Singing Ear Trng IV      1.0
+MUSI 2813 Music Theory IV                3.0
+MUSI 2841 Instrmntl Concepts Vocalists   1.0
+MUSI 3000 Recital Attendance              .0
+MUSI 3513 Music History II               3.0
+MUSI 3833 Elementary Music Mthds Matrls  3.0
+MUSI 3842 Conducting II: Vocal           2.0
+MUSI 3852 Conducting II: Instrumental    2.0
+MUSI 3862 Vocal Literature               2.0
+MUSI 4030 Senior Recital                  .0
+MUSI 4532 Form and Analysis              2.0
+MUSI 4861 Brass Instruments              1.0
 MUSI 1000 Recital Attendance              .0
 MUSI 1000 Recital Attendance FRSHMN ONLY  .0
 MUSI 1201 Sight Singing Ear Training I   1.0
@@ -693,6 +1365,29 @@ MUSI 4853 Secndry Instrmntl Mthds Matrls 3.0
 MUSP 1251 Private Piano                  1.0
 MUSR 1010 Athletic Band                   .0
 MUSR 1201 Jazz Lab Ensemble              1.0
+MUSR 1351 Instrumental Ensembles FLUTE   1.0
+MUSR 1351 Instrumental Ensembles GUITAR  1.0
+MUSR 1361 Vocal Performance Workshop     1.0
+MUSR 1411 Jazz Band                      1.0
+MUSR 1421 Chorale                        1.0
+MUSR 1441 Symphonic Band                 1.0
+MUSR 1451 Vocal Jazz                     1.0
+MUSR 1461 Women's Chorus                 1.0
+MUSR 3361 Vocal Performance Workshop     1.0
+MUSR 3411 Jazz Band                      1.0
+MUSR 3421 Chorale                        1.0
+MUSR 3441 Symphonic Band                 1.0
+MUSR 3451 Vocal Jazz                     1.0
+MUSR 3461 Women's Chorus                 1.0
+MUSR 1351 Instrumental Ensembles BRASS   1.0
+MUSR 1351 Instrmntal Ensemble PERCUSSION 1.0
+MUSR 1351 Instrumental Ensembles SAX     1.0
+MUSR 3351 Instrumental Ensemble BRASS    1.0
+MUSR 3351 Instrmntal Ensemble PERCUSSION 1.0
+MUSR 3351 Instrumental Ensemble CLARINET 1.0
+MUSR 3351 Instrumental Ensemble SAX      1.0
+MUSR 1010 Athletic Band                   .0
+MUSR 1201 Jazz Lab Ensemble              1.0
 MUSR 1351 Instrumental Ensemble FLUTE    1.0
 MUSR 1351 Instrumental Ensembles GUITAR  1.0
 MUSR 1351 Instrumental Ensembles SAX     1.0
@@ -718,6 +1413,16 @@ MUSR 3351 Instrmtl Ensemble CLARINET     1.0
 MUSR 3351 Instrmtl Ensemble PERCUSSION   1.0
 MUSS 1251 Private Strings GUITAR         1.0
 MUSV 1251 Private Voice                  1.0
+MUSW 1251 Private Woodwinds SAXOPHONE    1.0
+MUSW 1251 Private Woodwinds FLUTE        1.0
+MUSW 1251 Private Woodwinds BASSOON      1.0
+MUSW 1252 Private Woodwinds CLARINET     2.0
+MUSW 1252 Private Woodwinds SAXOPHONE    2.0
+MUSW 1252 Private Woodwinds FLUTE        2.0
+MUSW 1252 Private Woodwinds OBOE         2.0
+MUSW 3252 Private Woodwinds CLARINET     2.0
+MUSW 3252 Private Woodwinds SAXOPHONE    2.0
+MUSW 3252 Private Woodwinds FLUTE        2.0
 MUSW 1251 Private Woodwinds AUX CLARINET 1.0
 MUSW 1251 Private Woodwinds SAXOPHONE    1.0
 MUSW 1251 Private Woodwinds FLUTE        1.0
@@ -728,6 +1433,37 @@ MUSW 1252 Private Woodwinds OBOE         2.0
 MUSW 3252 Private Woodwinds CLARINET     2.0
 MUSW 3252 Private Woodwinds FLUTE        2.0
 MUSW 3252 Private Woodwinds SAXOPHONE    2.0
+NURS 2103 Intro to Professional Nursing  3.0
+NURS 3113 Nursing Skills                 3.0
+NURS 3113 Nursing Skills LAB              .0
+NURS 3164 Health Assessment              4.0
+NURS 3164 Health Assessment LAB           .0
+NURS 3164 Hlth Assess RN BSN FULL ONLINE 4.0
+NURS 3227 Foundations Nursing Care LAB    .0
+NURS 3227 Foundations of Nursing Care    7.0
+NURS 3227 Foundations Nursing Care LAB    .0
+NURS 3236 Nursing Women Children PEDS    6.0
+NURS 3236 Nursing Women Children OB      6.0
+NURS 3236 Nurs Women Child PEDS LAB       .0
+NURS 3236 Nurs Women Child OB LAB         .0
+NURS 3236 Nurs Women Child PEDS LAB       .0
+NURS 3236 Nurs Women Child OB LAB         .0
+NURS 3337 Nursing Care of the Adult I    7.0
+NURS 3337 Nurs Care Adult I LAB           .0
+NURS 4305 Leadrshp Mgmt Prof FULL ONLINE 5.0
+NURS 434C Nursing Care Adult II LAB       .0
+NURS 434C Nursing Care of the Adult II   2.0
+NURS 434C Nursing Care Adult II LAB       .0
+NURS 4355 Nurse Care Criticaly III Adult 5.0
+NURS 4355 Nurs Critical Care LAB          .0
+NURS 4364 Leader Prof Nursng FULL ONLINE 4.0
+NURS 4364 Leader Prof Nursing LAB         .0
+NURS 4458 Psyc Community Health PSYC     8.0
+NURS 4458 Psyc Community Health COMM     8.0
+NURS 4458 Psyc Comm Health PSYC LAB       .0
+NURS 4458 Psyc Comm Health COMM LAB       .0
+NURS 4654 Community Client FULL ONLINE   4.0
+NURS 4805 Issues Trends Nurs FULL ONLINE 5.0
 NURS 2103 Intro to Professional Nursing  3.0
 NURS 3113 Nursing Skills LAB              .0
 NURS 3113 Nursing Skills                 3.0
@@ -768,6 +1504,19 @@ OSS  460V Overseas Study Special Topics  6.0
 PHAR 3203 General Pharmacology BSN       3.0
 PHIL 2753 Introduction to Philosophy     3.0
 PHIL 2753 Intro Philosophy FULL ONLINE   3.0
+PHIL 2753 Intro to Philosophy            3.0
+PHIL 3103 Reasoning Across Disciplines   3.0
+PHIL 3103 Reason Across Disc FULL ONLINE 3.0
+PHIL 3103 Reasn Discipln ENG FULL ONLINE 3.0
+PHIL 3103 Reason Across Disc FULL ONLINE 3.0
+PHIL 3203 Ethics Across the Disciplines  3.0
+PHIL 3303 Philosophy of the Human Person 3.0
+PHIL 4903 Phil Sp Topics Art FULL ONLINE 3.0
+PHIL 493V Philosophy Independent Study   3.0
+PHIL 2753 Introduction to Philosophy     3.0
+PHIL 3203 Ethics Across the Disciplines  3.0
+PHIL 2753 Introduction to Philosophy     3.0
+PHIL 2753 Intro Philosophy FULL ONLINE   3.0
 PHIL 2753 Intro to Philos INTERSESSION   3.0
 PHIL 3103 Reasoning Across Disciplines   3.0
 PHIL 3103 Reason Across Disc FULL ONLINE 3.0
@@ -781,12 +1530,34 @@ PHIL 2753 Introduction to Philosophy     3.0
 PHIL 3213 Business Ethics                3.0
 PHSC 2651 Earth Science Laboratory       1.0
 PHSC 2653 Earth Science                  3.0
+PHSC 2653 Earth Science FULL ONLINE      3.0
+PHSC 2711 Physical Science Laboratory    1.0
+PHSC 2713 Physical Science               3.0
+PHSC 2651 Earth Science Laboratory       1.0
+PHSC 2653 Earth Science                  3.0
+PHSC 2651 Earth Science Laboratory       1.0
+PHSC 2653 Earth Science                  3.0
 PHSC 2711 Physical Science Laboratory    1.0
 PHSC 3103 Paleoclimatology               3.0
 PHSC 2651 Earth Science Laboratory       1.0
 PHSC 2653 Earth Science                  3.0
 PHSC 2711 Physical Science Laboratory    1.0
 PHSC 2713 Physical Science               3.0
+PHYE 0990 Well Fit                        .0
+PHYE 1011 Beginning Aerobic Fitness      1.0
+PHYE 1021 Intermediate Aerobic Fitness   1.0
+PHYE 1261 Walking Beginning Jogging      1.0
+PHYE 1271 Tennis                         1.0
+PHYE 1551 Golf                           1.0
+PHYE 1621 Total Fitness                  1.0
+PHYE 1701 Introduction to Volleyball     1.0
+PHYE 2853 Health and Safety              3.0
+PHYE 2853 Health and Safety FULL ONLINE  3.0
+PHYE 1011 Beginning Aerobic Fitness      1.0
+PHYE 1021 Intermediate Aerobic Fitness   1.0
+PHYE 1561 Martial Arts I                 1.0
+PHYE 1571 Martial Arts II                1.0
+PHYE 2571 Martial Arts III               1.0
 PHYE 0990 Well Fit                        .0
 PHYE 1011 Beginning Aerobic Fitness      1.0
 PHYE 1021 Intermediate Aerobic Fitness   1.0
@@ -803,12 +1574,30 @@ PHYE 1021 Intermediate Aerobic Fitness   1.0
 PHYE 1561 Martial Arts I                 1.0
 PHYE 1571 Martial Arts II                1.0
 PHYE 2571 Martial Arts III               1.0
+PHYS 2823 College Physics II             3.0
+PHYS 2831 College Physics Laboratory II  1.0
+PHYS 2903 University Physics I           3.0
+PHYS 2911 University Physics I Lab       1.0
+PHYS 2923 University Physics II          3.0
+PHYS 2931 University Physics II Lab      1.0
 PHYS 2803 College Physics I              3.0
 PHYS 2811 College Physics Laboratory I   1.0
 PHYS 2903 University Physics I           3.0
 PHYS 2911 University Physics I Lab       1.0
 PHYS 2923 University Physics II          3.0
 PHYS 2931 University Physics II Lab      1.0
+POLS 2753 American National Government   3.0
+POLS 2753 American Natl Govt FULL ONLINE 3.0
+POLS 2853 State and Local Government     3.0
+POLS 2853 State Local Govt FULL ONLINE   3.0
+POLS 3103 Comparative Political Institut 3.0
+POLS 3113 Public Policy                  3.0
+POLS 3153 International Relations        3.0
+POLS 3403 Political Philosophy           3.0
+POLS 3603 Public Administration          3.0
+POLS 490V Pol Sci Sp Tpc Const Law II    3.0
+POLS 490V Pol Sci Sp Tpc Inter Rel II    3.0
+POLS 4953 Political Science Internship   3.0
 POLS 2753 American National Government   3.0
 POLS 2753 Am Natl Govt FULL ONLINE       3.0
 POLS 2753 American Natl Govt             3.0
@@ -823,6 +1612,32 @@ POLS 3603 Public Administration          3.0
 POLS 4103 American Campaigns Elections   3.0
 POLS 4953 Political Science Internship   3.0
 POLS 2753 American National Government   3.0
+PRFS 3133 Ethics in Wrkplace FULL ONLINE 3.0
+PRFS 3533 Workplace Safety FULL ONLINE   3.0
+PRFS 4033 Consensus Bldg FULL ONLINE     3.0
+PRFS 4433 Supervisory Mgmt FULL ONLINE   3.0
+PRFS 4633 Decision Making FULL ONLINE    3.0
+PRFS 490V Spc Tpc Robot Programming      3.0
+PRFS 490V Spc Tpc Energy Auditing        3.0
+PRFS 490V Sp Tp Generating Clean Electrc 3.0
+PRFS 490V Sp Topics STEM Guitar Building 3.0
+PRFS 490V Sp Topics PLC Troubleshooting  3.0
+PRFS 495V Professnl Studies Internship   3.0
+PRFS 495V Amerigreen Internship          3.0
+PRFS 3143 Economic Analysis              3.0
+PRFS 3143 Economic Analysis Workplace    3.0
+PRFS 3833 Diversity Workplace HYBRID     3.0
+PRFS 4133 Project Management HYBRID      3.0
+PRFS 4703 Production Planning Scheduling 3.0
+PRFS 3133 Ethics Wkpl FULL ONLINE UNICTR 3.0
+PRFS 3533 Work Safety FULL ONLINE UNICTR 3.0
+PRFS 3833 Diversity FULL ONLINE UNICTR   3.0
+PRFS 4033 Consen Bldg FULL ONLINE UNICTR 3.0
+PRFS 4133 Project Mgt FULL ONLINE UNICTR 3.0
+PRFS 4433 Super Mgmt FULL ONLINE UNICTR  3.0
+PRFS 4633 Decn Making FULL ONLINE UNICTR 3.0
+PRFS 3143 Economic Analysis UNICTR       3.0
+PRFS 4703 Prd Planning Scheduling UNICTR 3.0
 PRFS 3133 Ethics in Workplce FULL ONLINE 3.0
 PRFS 3133 Ethics Workplace FULL ONLINE   3.0
 PRFS 3533 Wrkplc Env Safety FULL ONLINE  3.0
@@ -853,6 +1668,35 @@ PRFS 4703 Prod Plan Scheduling UNICTR    3.0
 PSYC 1001 Psychology Orientation         1.0
 PSYC 1163 General Psychology             3.0
 PSYC 1163 General Psychology FULL ONLINE 3.0
+PSYC 1163 General Psychology HONORS      3.0
+PSYC 2513 Intro to Behavioral Statistics 3.0
+PSYC 2613 Research Methods in Psychology 3.0
+PSYC 2613 Research Methods Psyc HYBRID   3.0
+PSYC 2803 History Systems of Psychology  3.0
+PSYC 2803 Hist Syst of Psyc FULL ONLINE  3.0
+PSYC 2963 Dev Psy Life Span FULL ONLINE  3.0
+PSYC 2963 Devl Psy Life Span FULL ONLINE 3.0
+PSYC 3133 Social Psychology              3.0
+PSYC 3133 Social Psychology FULL ONLINE  3.0
+PSYC 3173 Ind Org Psyc FULL ONLINE       3.0
+PSYC 3173 Industral Org Psyc FULL ONLINE 3.0
+PSYC 3183 Cognitive Psychology           3.0
+PSYC 3183 Cognitive Psych FULL ONLINE    3.0
+PSYC 3653 Applied Research Psych HYBRID  3.0
+PSYC 3763 Abnormal Psych FULL ONLINE     3.0
+PSYC 4133 Physiological Psychology       3.0
+PSYC 4803 Sr Sem Psychology of Women     3.0
+PSYC 4803 Sr Sem Psyc & Law FULL ONLINE  3.0
+PSYC 4823 Psychology of Human Sexuality  3.0
+PSYC 4953 Psychology Capstone            3.0
+PSYC 1163 General Psychology             3.0
+PSYC 2963 Dev Psychology A Life Span     3.0
+PSYC 2963 Developmental Psy A Life Span  3.0
+PSYC 3183 Cognitive Psychology           3.0
+PSYC 3763 Abnormal Psychology            3.0
+PSYC 1001 Psychology Orientation         1.0
+PSYC 1163 General Psychology             3.0
+PSYC 1163 General Psychology FULL ONLINE 3.0
 PSYC 1163 Gen Psyc FULL ONLINE INTRSN    3.0
 PSYC 2513 Intro to Behavioral Stats      3.0
 PSYC 2613 Research Methods Psychology    3.0
@@ -880,6 +1724,14 @@ PSYC 2963 Developmental Psy A Life Span  3.0
 PSYC 3183 Cognitive Psychology           3.0
 PSYC 4223 Psychology of Personality      3.0
 PSYC 1163 General Psychology             3.0
+RADT 1202 Radiographic Exposures I       2.0
+RADT 1212 Radiography Procedures II      2.0
+RADT 1212 Radiography Procedures II LAB   .0
+RADT 1224 Clinical Education II          4.0
+RADT 1232 Radiation Physics              2.0
+RADT 2502 Imaging Equipment              2.0
+RADT 2512 Radiographic Procedures V      2.0
+RADT 2524 Clinical Education V           4.0
 RADT 1104 Intro to Radiography           4.0
 RADT 1112 Radiographic Procedures I      2.0
 RADT 1124 Clinical Education I           4.0
@@ -887,8 +1739,28 @@ RADT 2412 Radiographic Procedures IV     2.0
 RADT 2424 Clinical Education IV          4.0
 RADT 2432 Prin Radiation Biol Protct     2.0
 READ 0513 Critical Thinking and Reading  3.0
+RELI 2283 New Testament Survey           3.0
+RELI 2303 World Religions                3.0
+RELI 2303 World Religions FULL ONLINE    3.0
 RELI 2273 Old Testament Survey           3.0
 RELI 2303 World Religions FULL ONLINE    3.0
+RHET 2863 Advanced Composition           3.0
+RHET 3103 Editing Usage Style Clarity    3.0
+RHET 3203 Textual Research Methods       3.0
+RHET 3401 Publications Staff             1.0
+RHET 3503 Writing Arguments              3.0
+RHET 3603 Writing for the Workplace      3.0
+RHET 3603 Writing Workpl BAS FULL ONLINE 3.0
+RHET 3603 Writing Wrkpl BSOL FULL ONLINE 3.0
+RHET 3603 Writing Wrkplac FULL ONLINE    3.0
+RHET 3801 Publications Staff CHRONICLE   1.0
+RHET 4303 The Art of the Essay           3.0
+RHET 4603 Sci Tech Writing FULL ONLINE   3.0
+RHET 4633 Hypertext Theories Practice    3.0
+RHET 493V Writing Independent Project    3.0
+RHET 3203 Textual Research Methods       3.0
+RHET 4113 Fiction Workshop               3.0
+RHET 4153 Poetry Workshop: The Fantastic 3.0
 RHET 2863 Advanced Composition           3.0
 RHET 3103 Editing Usge Style Clarity     3.0
 RHET 3103 Editing Usage Style Clarity    3.0
@@ -911,6 +1783,11 @@ RHET 493V Writing Independent Project    3.0
 RHET 3703 Nonfiction Writing             3.0
 RHET 4113 Fiction Workshop               3.0
 RHET 4153 Poetry Workshop                3.0
+RINT 3503 Basic Skills in Interpretation 3.0
+RINT 3913 Mthds of Nat Resources Interp  3.0
+RINT 4573 Conserv of Heritage Resources  3.0
+RINT 3513 Interpretation Planning HYBRID 3.0
+RINT 4953 Resources Interpret Internship 3.0
 RINT 3523 Communicating Through Exhibits 3.0
 RINT 3903 Mthds of Hertg Site Int HYBRID 3.0
 RINT 4953 Resources Interpret Internship 3.0
@@ -918,6 +1795,23 @@ SAS  0201 Bridge to Success Seminar      1.0
 SAS  0203 On Course for Success          3.0
 SAS  0201 Bridge to Success Seminar      1.0
 SAS  0203 On Course for Success          3.0
+SAS  0201 Bridge to Success Seminar      1.0
+SAS  0203 On Course for Success          3.0
+SOCI 2753 Introduction to Sociology      3.0
+SOCI 2753 Intro to Sociology FULL ONLINE 3.0
+SOCI 2753 Intro to Sociology             3.0
+SOCI 2753 Intro to Sociology FULL ONLINE 3.0
+SOCI 2863 Intro Social Research Methods  3.0
+SOCI 3193 Social Stratification          3.0
+SOCI 3263 Sociology of the Family        3.0
+SOCI 3413 Sociological Theory            3.0
+SOCI 4123 African American Hist to 1865  3.0
+SOCI 4203 Special Topic: Human Sexuality 3.0
+SOCI 4203 Sp Top Publ Health FULL ONLINE 3.0
+SOCI 4803 Sr Sem Qual Method Ethnography 3.0
+SOCI 4803 Sr Sem Psychology of Women     3.0
+SOCI 4803 Sr Sem Psy and Law FULL ONLINE 3.0
+SOCI 4203 Special Topic: Social Deviance 3.0
 SOCI 2753 Introduction to Sociology      3.0
 SOCI 2753 Intro to Sociology FULL ONLINE 3.0
 SOCI 2753 Introduction to Sociology      3.0
@@ -929,6 +1823,22 @@ SOCI 4203 Soc Spec Topic Social Deviance 3.0
 SOCI 4203 Soc Spec Topics Con Culture    3.0
 SOCI 2753 Introduction to Sociology      3.0
 SOCI 3193 Social Stratification          3.0
+SPAN 1304 Beginning Spanish I HYBRID     4.0
+SPAN 1304 Beginning Spanish I            4.0
+SPAN 1314 Beginning Spanish II HYBRID    4.0
+SPAN 1314 Beginning Spanish II           4.0
+SPAN 2303 Intermediate Spanish I         3.0
+SPAN 2313 Intermediate Spanish II        3.0
+SPAN 2323 Inter Spanish II Heritage Spkr 3.0
+SPAN 3013 Spanish Grammar                3.0
+SPAN 3053 Cultural Readings              3.0
+SPAN 3063 Advanced Composition           3.0
+SPAN 3133 Civilizations of Spain         3.0
+SPAN 4043 Survey of Spanish Amer Lit II  3.0
+SPAN 4143 Surv of Spanish Literature II  3.0
+SPAN 464V Spanish Independent Study      3.0
+SPAN 4993 Capstone                       3.0
+SPAN 1304 Beginning Spanish I            4.0
 SPAN 1304 Beginning Spanish I HYBRID     4.0
 SPAN 1304 Beginning Spanish I            4.0
 SPAN 1304 Beg Spanish I FULL ONLINE      4.0
@@ -945,6 +1855,17 @@ SPAN 1314 Beginning Spanish II           4.0
 SPAN 2303 Intermediate Spanish I         3.0
 SPAN 2833 Spanish Professions MEDICAL    3.0
 SPAN 3013 Spanish Grammar                3.0
+SPCH 1203 Introduction to Speech Comm    3.0
+SPCH 1203 Intro to Speech Comm HYBRID    3.0
+SPCH 1203 Introduction to Speech Comm    3.0
+SPCH 1203 Intro to Speech Communication  3.0
+SPCH 1203 Intro Speech Comm FULL ONLINE  3.0
+SPCH 2203 Foundations of Communication   3.0
+SPCH 2203 Foundtions Comm FULL ONLINE    3.0
+SPCH 2223 Advanced Public Speaking       3.0
+SPCH 3143 Sp Tp Comm Public Policy       3.0
+SPCH 3203 Critical Listening             3.0
+SPCH 3213 Non-verbal Communication       3.0
 SPCH 1203 Introduction to Speech Comm    3.0
 SPCH 1203 Intro to Speech Comm           3.0
 SPCH 1203 Introduction to Speech Comm    3.0
@@ -963,11 +1884,23 @@ SPCH 3223 Argumentation and Debate       3.0
 SPCH 4203 Culture and Communication      3.0
 SPCH 1203 Introduction to Speech Comm    3.0
 SPED 3022 Survey of Diverse Populations  2.0
+SPED 4903 Directed Internship P-4        3.0
+SPED 4913 Directed Internship 4-12       3.0
+SPED 4343 Mthds and Mat P-4              3.0
+SPED 4353 Mthds Tch Stds Dis             3.0
+SPED 3022 Survey of Diverse Populations  2.0
 SPED 3413 Class Group Mgmt FULL ONLINE   3.0
 SPED 4213 Inst Planning P-4 FULL ONLINE  3.0
 SPED 4223 Inst Planning 4-12 FULL ONLINE 3.0
 SPED 4903 Directed Internship P-4        3.0
 SPED 4913 Directed Internship 4-12       3.0
+STAT 2503 Probability and Statistics I   3.0
+STAT 2503 Prob Statistics I FULL ONLINE  3.0
+STAT 2503 Prob Statistics I              3.0
+STAT 2503 Probability and Statistics I   3.0
+STAT 2603 Probability and Statistics II  3.0
+STAT 2503 Probability and Statistics I   3.0
+STAT 2503 Prob and Statistics I HYBRID   3.0
 STAT 2503 Probability and Statistics I   3.0
 STAT 2503 Prob and Stats I FULL ONLINE   3.0
 STAT 2503 Prob and Stats I INTERSESSION  3.0
@@ -975,8 +1908,23 @@ STAT 2503 Probability and Statistics I   3.0
 STAT 3503 Applied Math Statistics I      3.0
 STAT 2503 Probability and Statistics I   3.0
 STAT 2503 Prob and Stats I HYBRID        3.0
+SUR  1546 Surgical Tech Procedures II    6.0
+SUR  155A Surgical Tech Practicum II     0.0
 SUR  1526 Surgical Tech Procedures I     6.0
 SUR  153A Surgical Tech Practicum I      0.0
+TCHG 1182 Industrial Safety              2.0
+THEA 1303 Acting I                       3.0
+THEA 1431 Theatre Practicum Performance  1.0
+THEA 1451 Theatre Practicum Technical    1.0
+THEA 1503 Stagecraft                     3.0
+THEA 3603 Directing I                    3.0
+THEA 4223 Theatre History II             3.0
+THEA 446V Special Topics Senior Theatre  3.0
+THEA 446V Special Topics Sound Design    3.0
+THEA 446V Sp Tpcs Advanced Acting        3.0
+THEA 4613 Directing II                   3.0
+THEA 4623 Stage Management               3.0
+THEA 1721 Studio Dance II                1.0
 THEA 1203 Introduction to Theatre        3.0
 THEA 1431 Theatre Practicum Performance  1.0
 THEA 1451 Theatre Practicum Technical    1.0
@@ -986,6 +1934,24 @@ THEA 2513 Fundamentals of Design         3.0
 THEA 3323 Personal Performance           3.0
 THEA 3533 Scenic Design                  3.0
 THEA 4213 Theatre History I              3.0
+WELD 1234 Welding Blue Print Reading     4.0
+WELD 1284 ARC Welding Basic              4.0
+WELD 1384 TIG Welding Basic              4.0
+WELD 1404 MIG Welding Basic              4.0
+WELD 1454 Layout Fabrication Sht Metal   4.0
+WELD 2284 ARC Welding Advanced           4.0
+WELD 2384 TIG Welding Advanced           4.0
+WELD 2404 MIG Welding Advanced           4.0
+WELD 290V Sp Tpc Problem Solving         4.0
+WELD 1234 Welding Blue Print Reading     4.0
+WELD 1284 ARC Welding Basic              4.0
+WELD 1384 TIG Welding Basic              4.0
+WELD 1404 MIG Welding Basic              4.0
+WELD 1454 Layout Fabrication Sht Metal   4.0
+WELD 1474 Layout Fabrication Strctr Pipe 4.0
+WELD 2284 ARC Welding Advanced           4.0
+WELD 2384 TIG Welding Advanced           4.0
+WELD 2404 MIG Welding Advanced           4.0
 WELD 1234 Welding Blue Print Reading     4.0
 WELD 1284 ARC Welding Basic              4.0
 WELD 1404 MIG Welding Basic              4.0
@@ -1002,6 +1968,12 @@ WELD 1474 Layout Fabrication Strctr Pipe 4.0
 WELD 2284 ARC Welding Advanced           4.0
 WELD 2384 TIG Welding Advanced           4.0
 WELD 2404 MIG Welding Advanced           4.0
+WFL  1174 Total Quality Essentials       4.0
+WFL  2903 Workforce Leadership Capstone  3.0
+WFL  1174 Total Quality Essentials       4.0
+WFL  1611 Basic Busi Cal Microsoft Excel 1.0
+WFL  2501 Set Up Reduction               1.0
+WFL  2631 Bus Data Anlys Microsoft Excel 1.0
 WFL  1374 Human Relations Intrprsnl Devl 4.0
 WFL  2903 Workforce Leadership Capstone  3.0
 WFL  1374 Human Relations Intrprsnl Devl 4.0

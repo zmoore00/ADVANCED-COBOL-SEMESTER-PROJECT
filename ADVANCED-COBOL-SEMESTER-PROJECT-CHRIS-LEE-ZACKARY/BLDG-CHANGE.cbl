@@ -110,9 +110,4 @@
                    ACCEPT  SCRN-ADD-ANOTHER
                END-PERFORM
            END-PERFORM.
-           
-           
-           
-           CLOSE ISAM-BLDG-IO.
-           EXIT PROGRAM.
-           STOP RUN.
+

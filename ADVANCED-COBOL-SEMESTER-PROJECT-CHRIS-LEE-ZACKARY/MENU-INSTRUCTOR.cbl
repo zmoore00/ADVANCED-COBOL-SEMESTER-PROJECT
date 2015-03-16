@@ -66,12 +66,13 @@
                DISPLAY INSTRUCTORMENU
                ACCEPT INSTRUCTORMENU
                EVALUATE WS-SELECTION
-                   WHEN '1' CALL 'INSTRUCTOR-INQ'
-                   WHEN '2' CALL 'INSTRUCTOR-ADD'
-                   WHEN '3' CALL 'INSTRUCTOR-CHANGE'
+                   WHEN '1' CALL 'INSTRUC-INQ'
+                   WHEN '2' CALL 'INSTRUC-ADD'
+                   WHEN '3' CALL 'INSTRUC-CHANGE'
                END-EVALUATE
                IF WS-SELECTION = 'X' OR 'x'
                    DISPLAY EXIT-SCREEN
                    ACCEPT EXIT-SCREEN
                END-IF
            END-PERFORM
+       END PROGRAM MENU-INSTRUCTOR.
