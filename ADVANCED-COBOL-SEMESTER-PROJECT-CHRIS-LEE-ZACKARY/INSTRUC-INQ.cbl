@@ -87,7 +87,7 @@
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
-           OPEN INPUT ISAM-INSTRUC-IN.
+           OPEN I-O ISAM-INSTRUC-IN.
 
            PERFORM UNTIL (WS-INSTRUC-ID = 'X' OR 'x')
                DISPLAY SCR-TITLE

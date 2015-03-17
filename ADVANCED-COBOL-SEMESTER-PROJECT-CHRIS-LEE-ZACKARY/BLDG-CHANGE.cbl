@@ -32,6 +32,17 @@
            03  WS-RESP                 PIC X       VALUE SPACES.
            03  WS-STAT                 PIC XX      VALUE SPACES.
            03  WS-CONT                 PIC X       VALUE 'Y'.
+           
+       01  WS-DATE.
+           05  WS-CURRENT-YEAR     PIC 9999.
+           05  WS-CURRENT-MONTH    PIC 99.
+           05  WS-CURRENT-DAY      PIC 99.
+       01  DISPLAY-DATE.
+           03  MONTH-DISPLAY       PIC 99.
+           03  FILLER              PIC X           VALUE "/".
+           03  DAY-DISPLAY         PIC 99.
+           03  FILLER              PIC X           VALUE "/".
+           03  YEAR-DISPLAY        PIC 9999.
       
       *These are the input fields that the user enters.
        01  WS-REC.
@@ -43,35 +54,45 @@
        SCREEN SECTION.
        01  BLANK-SCREEN.
            03  BLANK SCREEN.
-           03  LINE 1 COL  1 VALUE 'BLDG-UPDT'.
-           03  LINE 1 COL 37 VALUE "U of H".
-           03  LINE 1 COL 71 VALUE "2/13/2015".
-           03  LINE 2 COL 37 VALUE "BUILDING".
+       
+       01  SCR-TITLE.
+           03  BLANK SCREEN.
+           03  LINE 07 COL 32 VALUE "BUILDING CHANGE".
+           03  LINE 1 COL 1  VALUE "BLDG-CHANGE".
+           03  LINE 1 COL 37 VALUE "UAFS".
+           03  LINE 1 COL 71 FROM DISPLAY-DATE.
+           
        01  SCRN-BLDG-REQ.
-           03  LINE 04 COL 35                       VALUE ' BUILDING:'.
-           03  LINE 04 COL 45 PIC X(7)  TO WS-BLDG  AUTO.
+           03  LINE 09 COL 35                       VALUE ' BUILDING:'.
+           03  LINE 09 COL 45 PIC X(7)  TO WS-BLDG  AUTO.
            
        01  SCRN-ROOM-REQ.
-           03  LINE 05 COL 35                       VALUE '     ROOM:'. 
-           03  LINE 05 COL 45 PIC X(5)  TO WS-ROOM  AUTO.
+           03  LINE 10 COL 35                       VALUE '     ROOM:'. 
+           03  LINE 10 COL 45 PIC X(5)  TO WS-ROOM  AUTO.
            
        01  SCRN-BLDG-DATA.
-           03  LINE 06 COL 35                       VALUE '    SEATS:'.
-           03  LINE 06 COL 45 PIC X(4)  TO WS-SEATS AUTO.
+           03  LINE 11 COL 35                       VALUE '    SEATS:'.
+           03  LINE 11 COL 45 PIC X(4)  TO WS-SEATS AUTO.
            
-       01  SCRN-MSG  LINE 09 COL 35 PIC X(40) FROM WS-MSG.
+       01  SCRN-MSG  LINE 13 COL 30 PIC X(40) FROM WS-MSG.
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 11 COL 30                VALUE 'UPDATE ANOTHER?:'.
-           03  LINE 12 COL 30                VALUE '(Y/N)'.
-           03  LINE 11 COL 45 PIC X  TO WS-CONT   AUTO.
+           03  LINE 15 COL 30                VALUE 'UPDATE ANOTHER?:'.
+           03  LINE 16 COL 30                VALUE '(Y/N)'.
+           03  LINE 16 COL 45 PIC X  TO WS-CONT   AUTO.
       *----------------------------------------------------------------- 
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
       *----Open file in I-O
+           MOVE FUNCTION CURRENT-DATE TO WS-DATE
+           MOVE WS-CURRENT-MONTH TO MONTH-DISPLAY
+           MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
+           MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
+           
            OPEN I-O ISAM-BLDG-IO.
            DISPLAY BLANK-SCREEN
            PERFORM UNTIL WS-CONT='n' OR 'N'
+               DISPLAY SCR-TITLE
                DISPLAY SCRN-BLDG-REQ
                DISPLAY SCRN-ROOM-REQ
                DISPLAY SCRN-BLDG-DATA
@@ -110,4 +131,7 @@
                    ACCEPT  SCRN-ADD-ANOTHER
                END-PERFORM
            END-PERFORM.
+           
+       CLOSE ISAM-BLDG-IO.
+         
 

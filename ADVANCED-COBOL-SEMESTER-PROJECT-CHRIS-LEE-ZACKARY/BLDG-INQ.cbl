@@ -57,7 +57,7 @@
        
        01  SCR-TITLE.
            03  BLANK SCREEN.
-           03  LINE 1 COL 1  VALUE "COURSE-INQ".
+           03  LINE 1 COL 1  VALUE "BLDG-INQ".
            03  LINE 1 COL 37 VALUE "UAFS".
            03  LINE 1 COL 71 FROM DISPLAY-DATE.
            
@@ -77,8 +77,8 @@
            03  LINE 10 COL 45 PIC X(5) FROM WS-ROOM  VALUE SPACES.
            03  LINE 11 COL 35                        VALUE 'MAX SEATS:'.
            03  LINE 11 COL 45 PIC XXXX FROM WS-SEATS VALUE SPACES.
-           03  LINE 12 COL 45                        VALUE'Y/N? '.
-           03  LINE 13 COL 45 PIC X TO WS-ANOTHER.
+           03  LINE 13 COL 45                        VALUE'Y/N? '.
+           03  LINE 14 COL 45 PIC X TO WS-ANOTHER.
       *----------------------------------------------------------------- 
        PROCEDURE DIVISION.
        000-MAIN-MODULE.

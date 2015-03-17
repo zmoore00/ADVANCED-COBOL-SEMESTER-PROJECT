@@ -15,7 +15,7 @@
            
            SELECT SORT-WORK    ASSIGN TO "SORT-WORK.TXT".
 
-           SELECT STU-FILE2    ASSIGN TO "../201405SCHEDULE.TXT"
+           SELECT STU-FILE2    ASSIGN TO "../2014SCHEDULE.TXT"
                                ORGANIZATION IS LINE SEQUENTIAL.
            SELECT OUT-FILE     ASSIGN TO "../INSTRUCTOR-MASTER.DAT"
                                ORGANIZATION  IS INDEXED

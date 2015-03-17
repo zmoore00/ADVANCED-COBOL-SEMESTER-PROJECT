@@ -32,6 +32,17 @@
            03  WS-RESP                 PIC X       VALUE SPACES.
            03  WS-STAT                 PIC XX      VALUE SPACES.
            03  WS-CONT                 PIC X       VALUE 'Y'.
+           
+       01  WS-DATE.
+           05  WS-CURRENT-YEAR     PIC 9999.
+           05  WS-CURRENT-MONTH    PIC 99.
+           05  WS-CURRENT-DAY      PIC 99.
+       01  DISPLAY-DATE.
+           03  MONTH-DISPLAY       PIC 99.
+           03  FILLER              PIC X           VALUE "/".
+           03  DAY-DISPLAY         PIC 99.
+           03  FILLER              PIC X           VALUE "/".
+           03  YEAR-DISPLAY        PIC 9999.
                
        01  WS-REC.
            03  WS-KEY.
@@ -42,33 +53,44 @@
        SCREEN SECTION.
        01  BLANK-SCREEN.
            03  BLANK SCREEN.
-           03  LINE 1 COL  1 VALUE 'BLDG-ADD'.
-           03  LINE 1 COL 37 VALUE "U of H".
-           03  LINE 1 COL 71 VALUE "2/13/2015".
-           03  LINE 2 COL 37 VALUE "BUILDING".
+       
+       01  SCR-TITLE.
+           03  BLANK SCREEN.
+           05  LINE 07 COL 32 VALUE "BUILDING ADD".
+           03  LINE 1  COL 1  VALUE "BLDG-ADD".
+           03  LINE 1  COL 37 VALUE "UAFS".
+           03  LINE 1  COL 71 FROM DISPLAY-DATE.
        01  SCRN-BLDG-REQ.
-           03  LINE 04 COL 35                       VALUE ' BUILDING:'.
-           03  LINE 04 COL 45 PIC X(7)  TO WS-BLDG  AUTO.
-           03  LINE 09 COL 35 PIC X(40) FROM WS-MSG.
+           03  LINE 09 COL 35                       VALUE ' BUILDING:'.
+           03  LINE 09 COL 45 PIC X(7)  TO WS-BLDG  AUTO.
+           03  LINE 16 COL 35 PIC X(40) FROM WS-MSG.
            
        01  SCRN-ROOM-REQ.
-           03  LINE 05 COL 35                       VALUE '     ROOM:'. 
-           03  LINE 05 COL 45 PIC X(5)  TO WS-ROOM  AUTO.
+           03  LINE 10 COL 35                       VALUE '     ROOM:'. 
+           03  LINE 10 COL 45 PIC X(5)  TO WS-ROOM  AUTO.
            
        01  SCRN-BLDG-DATA.
-           03  LINE 06 COL 35                       VALUE '    SEATS:'.
-           03  LINE 06 COL 45 PIC X(4)  TO WS-SEATS AUTO.
+           03  LINE 11 COL 35                       VALUE '    SEATS:'.
+           03  LINE 11 COL 45 PIC X(4)  TO WS-SEATS AUTO.
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 11 COL 33                     VALUE 'ADD ANOTHER?:'.
-           03  LINE 12 COL 33                     VALUE '(Y/N)'.
-           03  LINE 11 COL 45 PIC X  TO WS-CONT   AUTO.
+           03  LINE 12 COL 33                     VALUE 'ADD ANOTHER?:'.
+           03  LINE 13 COL 33                     VALUE '(Y/N)'.
+           03  LINE 13 COL 45 PIC X  TO WS-CONT   AUTO.
       *----------------------------------------------------------------- 
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
+           
+           MOVE FUNCTION CURRENT-DATE TO WS-DATE
+           MOVE WS-CURRENT-MONTH TO MONTH-DISPLAY
+           MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
+           MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
+           
            OPEN I-O ISAM-BLDG-IO.
            DISPLAY BLANK-SCREEN
            PERFORM UNTIL WS-CONT='n' OR 'N'
+               MOVE SPACES TO WS-CONT
+               DISPLAY SCR-TITLE
                DISPLAY SCRN-BLDG-REQ
                DISPLAY SCRN-ROOM-REQ
                DISPLAY SCRN-BLDG-DATA
@@ -85,11 +107,10 @@
                            NOT INVALID KEY
                                STRING ISAM-IO-KEY ' ADDED' INTO WS-MSG
                        END-WRITE
+                       DISPLAY SCRN-ADD-ANOTHER
+               ACCEPT  SCRN-ADD-ANOTHER
                    NOT INVALID KEY
                        MOVE   'ID ALREADY EXISTS' TO WS-MSG
-                       
-               DISPLAY SCRN-ADD-ANOTHER
-               ACCEPT  SCRN-ADD-ANOTHER
                PERFORM UNTIL WS-CONT='y' OR 'Y' OR 'n' OR 'N'
                    MOVE 'PLEASE ENTER Y OR N' TO WS-MSG
                    DISPLAY SCRN-BLDG-REQ

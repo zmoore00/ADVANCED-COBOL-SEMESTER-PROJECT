@@ -12,8 +12,6 @@
            SELECT BLDG-IN-FILE  ASSIGN TO WS-IN-FILE
                               ORGANIZATION IS LINE SEQUENTIAL.
 
-           SELECT TXT-BLDG-OUT-FILE ASSIGN TO "../BLDG.TXT"
-                              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT SORT-WORK    ASSIGN TO "SORTWORK.TXT".
                             
            SELECT ISAM-BLDG-OUT ASSIGN TO "../BUILDING-ISAM.DAT"
@@ -32,16 +30,6 @@
            03  IN-PERIOD   PIC X.
            03  FILLER      PIC X(20).
            03  IN-SEATS    PIC X(4).
-               
-       FD  TXT-BLDG-OUT-FILE.
-       01  TXT-REC-OUT.
-           03  FILLER           PIC X(81).
-           03  TXT-OUT-BLDG     PIC X(7).
-           03  TXT-OUT-ROOM     PIC X(5).
-           03  FILLER           PIC X(2).
-           03  TXT-OUT-PERIOD   PIC X      VALUE '.'.
-           03  FILLER           PIC X(20).
-           03  TXT-OUT-SEATS    PIC X(4).
            
        SD  SORT-WORK.
        01  SORT-REC.
