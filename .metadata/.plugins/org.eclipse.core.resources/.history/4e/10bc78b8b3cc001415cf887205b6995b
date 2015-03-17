@@ -85,7 +85,7 @@
                DISPLAY SCR-INSTRUC-NAME
                ACCEPT  SCR-INSTRUC-NAME
                
-               MOVE WS-KEY TO ISAM-REC-IO
+               MOVE WS-KEY TO ISAM-IO-KEY
                WRITE ISAM-REC-IO
 
                
