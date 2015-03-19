@@ -10,7 +10,7 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.                                                    
-           SELECT ISAM-COURSE-IN ASSIGN TO "../COURSE-MASTER.DAT"       
+           SELECT ISAM-COURSE-IN ASSIGN TO "../COURSE-MASTER.TXT"       
                                ORGANIZATION  IS INDEXED
                                ACCESS        IS RANDOM    
                                RECORD KEY    IS ISAM-IN-KEY
@@ -88,8 +88,8 @@
            03  LINE 12 COL 35                        VALUE 'CREDIT:'.   
            03  LINE 12 COL 45 PIC X(3) 
                                FROM WS-COURSE-CREDITS  VALUE SPACES.
-           03  LINE 13 COL 45 VALUE 'ENTER ANOTHER Y/N?'.
-           03  LINE 14 COL 45 PIC X TO WS-ANOTHER  AUTO.
+           03  LINE 14 COL 35 VALUE 'ENTER ANOTHER Y/N?'.
+           03  LINE 15 COL 35 PIC X TO WS-ANOTHER  AUTO.
 
       *-----------------------------------------------------------------
        PROCEDURE DIVISION.

@@ -18,7 +18,7 @@
                                                    
            SELECT COURSE-MST-OUT   ASSIGN TO "../COURSE-MASTER.TXT"
                                    ORGANIZATION  IS INDEXED
-                                   ACCESS        IS SEQUENTIAL
+                                   ACCESS        IS RANDOM
                                    RECORD KEY    IS ISAM-OUT-KEY
                                    FILE STATUS   IS WS-OUT-STATUS.                                   
       *-----------------------------------------------------------------
@@ -142,7 +142,6 @@
        
       *-----------------------------------------------------------------
        100-FILE-IN.
-       
            PERFORM UNTIL WS-EOF EQUALS 'Y'
                READ COURSE-01-MST-IN
                AT END
@@ -181,8 +180,6 @@
            END-PERFORM.               
       *-----------------------------------------------------------------
        200-FILE-OUT.
-      *****************WS-EOF3 needs to have the same name as***********
-      *****************the ones below                        ***********
            MOVE 'N' TO WS-EOF3
            PERFORM UNTIL WS-EOF3 = 'Y'
                RETURN SORT-WORK
@@ -190,15 +187,10 @@
                        MOVE 'Y' TO WS-EOF3
                    NOT AT END
                        MOVE SORT-REC TO COURSE-REC
-      *                 this breaks it somehow, it will skip duplicates anyway
-      *                 IF SORT-TITLE IS NOT EQUAL COURSE-TITLE-OUT
-                        DISPLAY WS-TEST
-                        DISPLAY COURSE-REC
+      *                  DISPLAY WS-TEST
+      *                  DISPLAY COURSE-REC
                         WRITE COURSE-REC
-                           
-      *                 END-IF
-                       MOVE SORT-TITLE TO COURSE-TITLE-OUT
-      *                 MOVE SORT-TITLE TO ISAM-OUT-KEY
+                        MOVE SORT-TITLE TO COURSE-TITLE-OUT
          
                END-RETURN
            END-PERFORM.    

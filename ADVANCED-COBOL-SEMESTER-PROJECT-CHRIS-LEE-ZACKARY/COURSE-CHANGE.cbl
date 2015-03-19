@@ -10,7 +10,7 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.                                                    
-           SELECT ISAM-COURSE-IN ASSIGN TO "../COURSE-MASTER.DAT"       
+           SELECT ISAM-COURSE-IN ASSIGN TO "../COURSE-MASTER.TXT"       
                                ORGANIZATION  IS INDEXED
                                ACCESS        IS RANDOM    
                                RECORD KEY    IS ISAM-IN-KEY
@@ -90,12 +90,12 @@
            05  LINE 13 COL 35 PIC X(40) FROM WS-MSG.           
 
        01  SCRN-INSTRUC-ANOTHER.
-           05  LINE 12 COL 30                        
+           05  LINE 15 COL 30                        
                                              VALUE'ENTER ANOTHER Y/N? '.
-           05  LINE 13 COL 45 PIC X TO WS-ANOTHER    AUTO.
+           05  LINE 16 COL 45 PIC X TO WS-ANOTHER    AUTO.
        
        01  SCRN-MSG.  
-           05  LINE 15 COL 35 PIC X(40) FROM WS-MSG.
+           05  LINE 18 COL 35 PIC X(40) FROM WS-MSG.
        
 
       *-----------------------------------------------------------------

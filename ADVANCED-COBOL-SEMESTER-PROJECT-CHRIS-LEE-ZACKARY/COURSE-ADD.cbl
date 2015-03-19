@@ -10,7 +10,7 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.                                                    
-           SELECT ISAM-COURSE-IN ASSIGN TO "../COURSE-MASTER.DAT"       
+           SELECT ISAM-COURSE-IN ASSIGN TO "../COURSE-MASTER.TXT"       
                                ORGANIZATION  IS INDEXED
                                ACCESS        IS RANDOM    
                                RECORD KEY    IS ISAM-IN-KEY

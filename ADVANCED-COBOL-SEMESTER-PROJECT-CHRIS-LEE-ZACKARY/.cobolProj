@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cobolProject" name="SemesterProject" version="2.5">
+<project xsi:schemaLocation="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cobolProject" name="SemesterProject" version="2.7">
    <settings xsi:type="projectSettingsContainer">
       <copybook-paths xsi:type="copybookPathsSettings">
          <path enabled="true" name="/SemesterProject" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/com.microfocus.eclipse.project" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.history" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.projects" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.root" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.safetable" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.runtime" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.runtime/.settings" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.jdt.core" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.jdt.ui" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core/initializerMarks" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core/profiles" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.bd14713_96" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.bd14713_96/FP.local.files_0" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.bd14713_96/H.local_16" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.ui" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.ui.ide" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.ui.intro" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/.metadata/.plugins/org.eclipse.ui.workbench" type="mfpath"/>
+         <path enabled="false" name="/SemesterProject/RemoteSystemsTempFiles" type="mfpath"/>
       </copybook-paths>
       <build-precedence-paths xsi:type="buildPrecedenceSettings">
          <path enabled="true" name="/SemesterProject" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/com.microfocus.eclipse.project" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.history" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.projects" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.root" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.resources/.safetable" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.runtime" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.core.runtime/.settings" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.jdt.core" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.jdt.ui" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core/initializerMarks" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core/profiles" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.bd14713_96" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.bd14713_96/FP.local.files_0" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.bd14713_96/H.local_16" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.rse.ui" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.ui.ide" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.ui.intro" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/.metadata/.plugins/org.eclipse.ui.workbench" type="mfpath"/>
+         <path enabled="true" name="/SemesterProject/RemoteSystemsTempFiles" type="mfpath"/>
       </build-precedence-paths>
       <configurations default="New Configuration" xsi:type="buildConfigurationsContainer">
          <configuration description="New Configuration" type="single_exe" is64bit="false" createlbr="false" platform="Windows" xsi:type="cobolBuildConfiguration">
@@ -97,6 +147,46 @@
          <verbose value="false"/>
       </bms_settings>
       <dependent-projects xsi:type="dependentProjectsSettings"/>
+      <asm_settings xsi:type="assemblerCompileSettings">
+         <options>
+            <option id="compile_create_debug_info" name="mf370chk" value="ANIM"/>
+            <option id="compile_pre_assm_macros" name="mf370chk" value="NOMPC"/>
+            <option id="compile_create_optimized_code" name="mf370chk" value="NOOPT"/>
+            <option id="compile_cross_ref_listing" name="mf370chk" value="NOXREF"/>
+            <option id="compile_aat_info" name="mf370chk" value="NOAAT"/>
+            <option id="compile_generate_listing" name="mf370chk" value="NOLIST"/>
+            <option id="compile_mark_reentrant" name="mf370chk" value="RENT"/>
+         </options>
+      </asm_settings>
+      <asm_link_settings xsi:type="assemblerLinkSettings">
+         <options>
+            <option id="link_addressing_mode" name="mf370lnk" value="AMODE(31)"/>
+            <option id="link_mark_reusable" name="mf370lnk" value="REUS"/>
+            <option id="link_create_debug_info" name="mf370lnk" value="ANIM"/>
+            <option id="link_linker_output" name="mf370lnk" value="OMF(390)"/>
+            <option id="link_resolve_external" name="mf370lnk" value="CALL"/>
+            <option id="link_residency_mode" name="mf370lnk" value="RMODE(31)"/>
+            <option id="link_generate_listing" name="mf370lnk" value="NOLIST"/>
+            <option id="link_mark_reentrant" name="mf370lnk" value="RENT"/>
+         </options>
+      </asm_link_settings>
+      <asm_cics_settings enabled="false" xsi:type="assemblerCicsSettings">
+         <options>
+            <option id="cics_unsupported_option" name="mf370chkCics" value="UOPT(E)"/>
+            <option id="cics_unsupported_function" name="mf370chkCics" value="UFUNC(E)"/>
+            <option id="cics_insert_prolog_macros" name="mf370chkCics" value="PROLOG"/>
+            <option id="cics_insert_epilog_macros" name="mf370chkCics" value="EPILOG"/>
+         </options>
+      </asm_cics_settings>
+      <asm_autolink_settings enabled="true" xsi:type="assemblerAutoLinkSettings">
+         <options>
+            <option id="autolink_residency_mode" name="mf370chkAutoLink" value="RMODE(31)"/>
+            <option id="autolink_linker_output" name="mf370chkAutoLink" value="OMF(390)"/>
+            <option id="autolink_mark_reusable" name="mf370chkAutoLink" value="REUS"/>
+            <option id="autolink_addressing_mode" name="mf370chkAutoLink" value="AMODE(31)"/>
+            <option id="autolink_resolve_external" name="mf370chkAutoLink" value="CALL"/>
+         </options>
+      </asm_autolink_settings>
    </settings>
    <files xsi:type="projectFileStore">
       <filetype type="cobol.copybook" xsi:type="cobolFileContainer"/>
