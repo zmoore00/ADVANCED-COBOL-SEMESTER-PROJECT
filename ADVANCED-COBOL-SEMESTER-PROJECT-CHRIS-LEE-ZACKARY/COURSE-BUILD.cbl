@@ -5,7 +5,7 @@
       *ABSTRACT: Builds course master file                *
       ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. COURSE-BUILD.
+       PROGRAM-ID. COURSE-BUILD IS INITIAL PROGRAM.
       *-----------------------------------------------------------------       
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
@@ -17,7 +17,10 @@
            SELECT SORT-WORK        ASSIGN TO "SORT-WORK.TXT".
                                                    
            SELECT COURSE-MST-OUT   ASSIGN TO "../COURSE-MASTER.TXT"
-                                   ORGANIZATION IS LINE SEQUENTIAL.
+                                   ORGANIZATION  IS INDEXED
+                                   ACCESS        IS SEQUENTIAL
+                                   RECORD KEY    IS ISAM-OUT-KEY
+                                   FILE STATUS   IS WS-OUT-STATUS.                                   
       *-----------------------------------------------------------------
        DATA DIVISION.
        FILE SECTION.
@@ -25,12 +28,8 @@
        01  COURSE-01-RECI.
            05  FILLER             PIC X(6)         VALUE SPACES.
            05  COURSE-01-SUBJ-IN   PIC X(4).
-      *         10  CSUBJ-01-PRE   PIC X(2).
-      *         10  CSUBJ-01-SUF   PIC X(2).
            05  FILLER             PIC X            VALUE SPACE.
            05  COURSE-01-CRSE-IN   PIC X(4).
-      *         10  CCRSE-01-PRE   PIC X(3).
-      *         10  CCRSE-01-SUF   PIC X(1).
            05  FILLER             PIC X(6)         VALUE SPACES.
            05  COURSE-01-TITLE-IN    PIC X(30).
            05  FILLER             PIC X(6)         VALUE SPACES.
@@ -39,13 +38,9 @@
        FD COURSE-05-MST-IN.
        01  COURSE-05-RECI.
            05  FILLER             PIC X(6)         VALUE SPACES.
-           05  COURSE-05-SUBJ-IN   PIC X(4).
-      *         10  CSUBJ-05-PRE   PIC X(2).
-      *         10  CSUBJ-05-SUF   PIC X(2).           
+           05  COURSE-05-SUBJ-IN   PIC X(4).         
            05  FILLER             PIC X            VALUE SPACE.
-           05  COURSE-05-CRSE-IN   PIC X(4).
-      *         10  CCRSE-01-PRE   PIC X(3).
-      *         10  CCRSE-01-SUF   PIC X(1).           
+           05  COURSE-05-CRSE-IN   PIC X(4).     
            05  FILLER             PIC X(6)         VALUE SPACES.
            05  COURSE-05-TITLE-IN    PIC X(30).
            05  FILLER             PIC X(6)         VALUE SPACES.
@@ -54,27 +49,23 @@
        SD SORT-WORK.
        01 SORT-REC.
            05  SORT-SUBJ           PIC X(4).
-           05  FILLER              PIC X            VALUE SPACE.
            05  SORT-CRSE           PIC X(4).
            05  FILLER              PIC X            VALUE SPACE.
            05  SORT-TITLE          PIC X(30).
            05  FILLER              PIC X            VALUE SPACE.
            05  SORT-CREDITS        PIC X(3).
-           05  FILLER              PIC X(36)        VALUE SPACE.
-        
-           
+      *     05  FILLER              PIC X(36)        VALUE SPACE.
            
        FD COURSE-MST-OUT.
        01  COURSE-REC.
-           05  COURSE-COURSE-COMBINE.
+           05  ISAM-OUT-KEY.
                10  COURSE-SUBJ-OUT PIC X(4).
-               10  FILLER              PIC X            VALUE SPACE.
                10  COURSE-CRSE-OUT PIC X(4).
-               10  FILLER              PIC X            VALUE SPACE.
+           05  FILLER              PIC X            VALUE SPACE.    
            05  COURSE-TITLE-OUT    PIC X(30).
            05  FILLER              PIC X                VALUE SPACE.
            05  COURSE-CREDITS-OUT  PIC X(3).
-           05  FILLER              PIC X(36)            VALUE SPACE.
+      *     05  FILLER              PIC X(36)            VALUE SPACE.
       *-----------------------------------------------------------------
        WORKING-STORAGE SECTION.
        01  WS-DATE.
@@ -89,12 +80,18 @@
            03  YEAR-DISPLAY        PIC 9999.       
        
        01  WS-EXIT                 PIC X           VALUE 'N'.
-       
-       01  WS-TITLE-COMP           PIC X(30).
-       
+       01  WS-TEMP1                PIC X(22).       
+
+       01  WS-TEST                 PIC X(4)    VALUE "TEST".
+
+       01  WS-OUT-STATUS           PIC XX.
        01  WS-VARS.
-           05  WS-EOF            PIC X           VALUE 'N'.
+           05  WS-EOF            PIC X           VALUE "N".
+           05  WS-EOF2            PIC X           VALUE "N".
+           05  WS-EOF3             PIC X           VALUE "N".
                88  EOF                         VALUE 'Y'.       
+
+
       *-----------------------------------------------------------------
        SCREEN SECTION.
        01  SCR-TITLE.
@@ -108,7 +105,6 @@
        
        01  EXIT-SCREEN.
            03  LINE 20 COL 33 "PRESS ENTER TO RETURN".
-           03  LINE 20 COL 31 PIC X TO WS-EXIT AUTO.
        01  BLANK-SCREEN.
            03  BLANK SCREEN.
               
@@ -128,15 +124,13 @@
            DISPLAY SCR-TITLE.
            
            SORT SORT-WORK
-                ON ASCENDING KEY SORT-SUBJ
-                INPUT  PROCEDURE 100-FILE-IN
-                OUTPUT PROCEDURE 200-FILE-OUT
+               ON ASCENDING KEY SORT-SUBJ
+               INPUT  PROCEDURE 100-FILE-IN
+               OUTPUT PROCEDURE 200-FILE-OUT
                 
                DISPLAY SCR-INFO
                DISPLAY EXIT-SCREEN
-               ACCEPT EXIT-SCREEN                
-      *     DISPLAY "PROGRAM TERMINATED".
-      *     DISPLAY "PRESS ENTER TO CLOSE".
+               ACCEPT WS-EXIT              
            
            CLOSE COURSE-01-MST-IN.
            CLOSE COURSE-05-MST-IN.
@@ -149,7 +143,7 @@
       *-----------------------------------------------------------------
        100-FILE-IN.
        
-           PERFORM UNTIL EOF
+           PERFORM UNTIL WS-EOF EQUALS 'Y'
                READ COURSE-01-MST-IN
                AT END
                    MOVE 'Y' TO WS-EOF
@@ -161,16 +155,16 @@
                            MOVE COURSE-01-CRSE-IN      TO SORT-CRSE
                            MOVE COURSE-01-TITLE-IN     TO SORT-TITLE
                            MOVE COURSE-01-CREDITS-IN   TO SORT-CREDITS
+      *                     DISPLAY SORT-REC
                            RELEASE SORT-REC   
                    END-IF        
                END-READ
            END-PERFORM.
            
-           MOVE 'N' TO WS-EOF
-           PERFORM UNTIL EOF
+           PERFORM UNTIL WS-EOF2 EQUALS 'Y'
                READ COURSE-05-MST-IN
                AT END
-                   MOVE 'Y' TO WS-EOF
+                   MOVE 'Y' TO WS-EOF2
                NOT AT END
                    IF COURSE-05-SUBJ-IN(1:2) IS ALPHABETIC
                        AND COURSE-05-CRSE-IN(1:3) IS NUMERIC
@@ -179,6 +173,7 @@
                            MOVE COURSE-05-CRSE-IN      TO SORT-CRSE
                            MOVE COURSE-05-TITLE-IN     TO SORT-TITLE
                            MOVE COURSE-05-CREDITS-IN   TO SORT-CREDITS
+      *                     DISPLAY SORT-REC
                            RELEASE SORT-REC
                    END-IF               
 
@@ -186,17 +181,24 @@
            END-PERFORM.               
       *-----------------------------------------------------------------
        200-FILE-OUT.
-           MOVE 'N' TO WS-EOF
-           PERFORM UNTIL EOF
+      *****************WS-EOF3 needs to have the same name as***********
+      *****************the ones below                        ***********
+           MOVE 'N' TO WS-EOF3
+           PERFORM UNTIL WS-EOF3 = 'Y'
                RETURN SORT-WORK
-               AT END
-                   MOVE 'Y' TO WS-EOF
-               NOT AT END
-                   MOVE SORT-REC TO COURSE-REC
-                   IF SORT-TITLE IS NOT EQUAL WS-TITLE-COMP
-                       WRITE COURSE-REC
-                   END-IF
-                   MOVE SORT-TITLE TO WS-TITLE-COMP
+                   AT END
+                       MOVE 'Y' TO WS-EOF3
+                   NOT AT END
+                       MOVE SORT-REC TO COURSE-REC
+      *                 this breaks it somehow, it will skip duplicates anyway
+      *                 IF SORT-TITLE IS NOT EQUAL COURSE-TITLE-OUT
+                        DISPLAY WS-TEST
+                        DISPLAY COURSE-REC
+                        WRITE COURSE-REC
+                           
+      *                 END-IF
+                       MOVE SORT-TITLE TO COURSE-TITLE-OUT
+      *                 MOVE SORT-TITLE TO ISAM-OUT-KEY
          
                END-RETURN
            END-PERFORM.    
