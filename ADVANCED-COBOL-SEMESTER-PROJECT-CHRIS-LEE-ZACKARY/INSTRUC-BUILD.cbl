@@ -15,7 +15,9 @@
            
            SELECT SORT-WORK    ASSIGN TO "SORT-WORK.TXT".
 
-           SELECT STU-FILE2    ASSIGN TO "../2014SCHEDULE.TXT"
+           SELECT STU-FILE2    ASSIGN TO "../201405SCHEDULE.TXT"
+                               ORGANIZATION IS LINE SEQUENTIAL.
+           SELECT INST-LAST-ID ASSIGN TO "../INSTRUC-LAST-ID.TXT"
                                ORGANIZATION IS LINE SEQUENTIAL.
            SELECT OUT-FILE     ASSIGN TO "../INSTRUCTOR-MASTER.DAT"
                                ORGANIZATION  IS INDEXED
@@ -55,7 +57,9 @@
            03  FILLER              PIC X           VALUE SPACES.
            03  INSTRUC-NAME        PIC X(22).
            
-           
+       FD  INST-LAST-ID.
+       01  OUT-REC                 PIC X(4).
+       
        WORKING-STORAGE SECTION.
        01  WS-DATE.
            05  WS-CURRENT-YEAR     PIC 9999.
@@ -99,6 +103,7 @@
        100-MAIN.
            OPEN INPUT STU-FILE.
            OPEN INPUT STU-FILE2.
+           OPEN OUTPUT INST-LAST-ID.
            OPEN OUTPUT OUT-FILE.
            
            MOVE FUNCTION CURRENT-DATE TO WS-DATE
@@ -161,6 +166,8 @@
                        END-IF
                END-READ
            END-PERFORM.
+           
+           
 
       *-----------------------------------------------------------------  
        300-SORT.
@@ -180,5 +187,7 @@
                        MOVE SORT-INSTRUC TO WS-TEMP1
                END-RETURN
            END-PERFORM.
+           
+           WRITE OUT-REC FROM WS-INSTRUC-ID.
 
                
