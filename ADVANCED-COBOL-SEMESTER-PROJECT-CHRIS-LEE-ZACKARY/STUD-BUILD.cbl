@@ -96,6 +96,7 @@
            03  FILLER              PIC X           VALUE "-".
            03  WS-WPHONE3          PIC 9(4).
            03  WS-GENDER           PIC X.
+           03  WS-ACTIVE           PIC X.
        
        01  WS-EOF                  PIC X           VALUE 'N'.
        01  WS-EOF2                 PIC X           VALUE 'N'.
@@ -171,10 +172,12 @@
                        
                        IF IN-GENDER EQUALS 0
                            MOVE "M" TO WS-GENDER
+                           MOVE "Y" TO WS-ACTIVE
                        END-IF
                        
                        IF IN-GENDER EQUALS 1
                            MOVE "F" TO WS-GENDER
+                           MOVE "N" TO WS-ACTIVE
                        END-IF
                            
                        ADD 1 TO WS-STUDID GIVING WS-STUDID

@@ -5,7 +5,7 @@
       *ABSTRACT: READ FILE AND PRODUCE A SCHEDULE MASTER               * 
       ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID INSTRUC-BUILD IS INITIAL PROGRAM
+       PROGRAM-ID SCHED-BUILD IS INITIAL PROGRAM
       *----------------------------------------------------------------- 
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
@@ -129,12 +129,12 @@
        SCREEN SECTION.
        01  SCR-TITLE.
            03  BLANK SCREEN.
-           03  LINE 1 COL 1  VALUE "REBUILD-INSTRUC".
+           03  LINE 1 COL 1  VALUE "REBUILD-SCHEDULE".
            03  LINE 1 COL 37 VALUE "UAFS".
            03  LINE 1 COL 71 FROM DISPLAY-DATE.
            
        01  SCR-INFO.
-           03  LINE 10 COL 28 VALUE "INSTRUCTOR-MASTER CREATED".
+           03  LINE 10 COL 28 VALUE "SCHEDULE-MASTER CREATED".
        
        01  EXIT-SCREEN.
            03  LINE 20 COL 33 "PRESS ENTER TO RETURN".

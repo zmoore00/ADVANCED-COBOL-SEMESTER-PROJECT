@@ -15,6 +15,8 @@
                                ACCESS        IS RANDOM    
                                RECORD KEY    IS ISAM-IO-KEY
                                FILE STATUS   IS WS-STAT.
+           SELECT IO-REC       ASSIGN TO "../INSTRUC-LAST-ID.TXT"
+                               ORGANIZATION IS LINE SEQUENTIAL.
       *----------------------------------------------------------------- 
        DATA DIVISION.
       *----------------------------------------------------------------- 
@@ -25,6 +27,9 @@
                05  ISAM-IO-ID   PIC 9999.
            03  FILLER       PIC X           VALUE SPACES.
            03  ISAM-IO-NAME PIC X(22).
+           
+       FD  IO-REC.
+       01  LAST-ID          PIC 9999.
       *----------------------------------------------------------------- 
        WORKING-STORAGE SECTION.
        01  WS-DATE.
@@ -42,6 +47,7 @@
            03  WS-RESP                 PIC X       VALUE SPACES.
            03  WS-STAT                 PIC XX      VALUE SPACES.
            03  WS-CONT                 PIC X       VALUE 'Y'.
+           03  WS-EOF                  PIC X       VALUE 'N'.
                
        01  WS-REC.
            03  WS-KEY.
@@ -78,8 +84,22 @@
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
+           OPEN I-O IO-REC.
            OPEN I-O ISAM-INSTRUC-IO.
            DISPLAY BLANK-SCREEN
+           
+           PERFORM UNTIL WS-EOF EQUALS 'Y'
+               READ IO-REC
+               AT END
+                   MOVE 'Y' TO WS-EOF
+               NOT AT END
+                   ADD 1 TO LAST-ID GIVING LAST-ID
+                   MOVE LAST-ID TO WS-INSTRUC-ID
+                   REWRITE LAST-ID
+           END-PERFORM.
+
+           
+           
            PERFORM UNTIL WS-CONT='n' OR 'N'
                DISPLAY SCR-TITLE
                DISPLAY SCR-INSTRUC-NAME

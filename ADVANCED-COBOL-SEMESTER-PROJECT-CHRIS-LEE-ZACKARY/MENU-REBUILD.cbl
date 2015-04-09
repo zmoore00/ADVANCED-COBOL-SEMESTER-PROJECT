@@ -35,6 +35,7 @@
            03  LINE 10 COL 32 VALUE " 2) REBUILD BUILDINGS".
            03  LINE 11 COL 32 VALUE " 3) REBUILD COURSES".
            03  LINE 12 COL 32 VALUE " 4) REBUILD STUDENTS".
+           03  LINE 13 COL 32 VALUE " 5) REBUILD SCHEDULE".
        01  SCR-SEL.
            03  LINE 17 COL 37 VALUE "Selection (X = EXIT)".
            03  LINE 17 COL 35 PIC X TO WS-SEL AUTO.
@@ -62,6 +63,7 @@
                    WHEN '2' CALL 'BLDG-BUILD'
                    WHEN '3' CALL 'COURSE-BUILD'
                    WHEN '4' CALL 'STUD-BUILD'
+                   WHEN '5' CALL 'SCHED-BUILD'
                END-EVALUATE
                IF WS-SEL EQUALS 'X' OR 'x' THEN
                    DISPLAY SCR-CON

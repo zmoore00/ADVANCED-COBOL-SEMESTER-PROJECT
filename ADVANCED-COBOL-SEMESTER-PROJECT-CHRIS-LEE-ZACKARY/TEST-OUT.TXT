@@ -1,0 +1,2005 @@
+201405369   APRO 1103  01:00-02:15 MWF     BALDOR 124   R.  Wells
+201405370   APRO 1113  02:30-03:30 MWF     BALDOR 124   R.  Wells
+201405371   APRO 1203  09:30-10:45 TR      BALDOR 123   J.  Arbaugh
+201405375   APRO 1653  11:00-11:50 R       BALDOR 124   J.  Arbaugh
+201405374   APRO 1703  12:00-12:50 M       BALDOR 124   B.  Cloninger
+201405373   APRO 2343  11:00-11:50 T       BALDOR 123   J.  Arbaugh
+201405                                                  J.  Welton
+201405378   APRO 2843  01:00-03:30 TR      BALDOR 213   J.  Welton
+201405377   APRO 2843  02:00-03:15 TR      BALDOR 213   J.  Welton
+201405380   APRO 286V  TBA                 BALDOR TBA   J.  Arbaugh
+201405382   APRO 290V  01:00-03:50 F       BALDOR 133   B.  Lewis
+201405383   APRO 290V  01:00-03:50 F       BALDOR 210   A.  Nichols
+201405386   APRO 290V  01:00-03:50 F       BALDOR 123   J.  Arbaugh
+2014051780  APRO 290V  08:00-10:30 MTWR    BALDOR TBA   C.  Rink
+201405387   APRO 2662  05:25-07:25 M       BALDOR 124   C.  Hawkins
+201405388   APRO 2843  05:25-08:15 T       BALDOR 124   J.  Welton
+201405447   ATDI 1234  07:50-10:40 MW      BALDOR 154   K.  Butler
+201405446   ATDI 1234  07:50-10:40 MW      BALDOR 154   K.  Butler
+201405442   ATDI 1234  01:00-03:50 MW      BALDOR 154   M.  Lennon
+201405441   ATDI 1234  01:00-03:50 MW      BALDOR 154   M.  Lennon
+201405440   ATDI 1234  01:00-03:50 TR      BALDOR 154   M.  Lennon
+201405439   ATDI 1234  01:00-03:50 TR      BALDOR 154   M.  Lennon
+20140545    ATDI 1334  01:00-03:50 MW      BALDOR 107   J.  Grizzle
+20140544    ATDI 1334  01:00-03:50 MW      BALDOR 107   J.  Grizzle
+20140550    ATDI 1334  07:50-10:40 TR      BALDOR 107   J.  Grizzle
+20140548    ATDI 1334  07:50-10:40 TR      BALDOR 107   J.  Grizzle
+20140541    ATDI 1334  01:00-03:50 TR      BALDOR 107   J.  Grizzle
+20140538    ATDI 1334  01:00-03:50 TR      BALDOR 107   J.  Grizzle
+201405445   ATDI 2434  07:50-10:40 TR      BALDOR 154   M.  Lennon
+201405453   ATDI 1354  05:25-08:15 TR      BALDOR 154   T.  Brown
+201405449   AUTO 1284  01:00-03:50 MW      BALDOR 150   K.  Butler
+201405448   AUTO 1284  01:00-03:50 MW      BALDOR 150   K.  Butler
+201405451   AUTO 1484  01:00-03:50 TR      BALDOR 150   K.  Butler
+201405450   AUTO 1484  01:00-03:50 TR      BALDOR 150   K.  Butler
+2014051741  AUTO 290V  TBA                 BALDOR TBA   J.  Grizzle
+2014051726  AUTO 295V  TBA                 BALDOR TBA   K.  Butler
+201405351   BSAT 3053  11:00-12:10 T       BALDOR 210   S.  Horne
+201405360   BSAT 3084  11:00-12:50 M       BALDOR 210   S.  Horne
+201405359   BSAT 3993  09:00-10:50 W       BALDOR 201   S.  Horne
+2014051734  BSAT 490V  TBA                 BALDOR TBA   D.  Goodson
+201405143   CGT  1001  09:00-09:50 M       BALDOR 201   D.  Goodson
+2014051644  CGT  1001  08:00-09:50 F       BALDOR 201   J.  Cloud
+201405145   CGT  1001  09:00-09:50 F       BALDOR 201   J.  Cloud
+201405151   CGT  1001  01:00-03:50 F       BALDOR 201   P.  Taylor
+201405155   CGT  1104  01:00-03:50 MW      BALDOR 213   P.  Taylor
+201405158   CGT  1104  01:00-03:50 MW      BALDOR 213   P.  Taylor
+201405199   CGT  1234  08:00-10:50 M       BALDOR 245   D.  Goodson
+201405                                                  A.  Bergquist
+201405                 08:00-10:50 W       BALDOR 210   D.  Goodson
+201405                                                  A.  Bergquist
+201405202   CGT  1234  08:00-10:50 M       BALDOR 245   A.  Bergquist
+201405                                                  J.  Cloud
+201405                 08:00-10:50 W       BALDOR 210   A.  Bergquist
+201405                                                  J.  Cloud
+201405160   CGT  1234  01:00-03:50 T       BALDOR 123   C.  Holt
+201405                                                  A.  Bergquist
+201405                 01:00-03:50 R       BALDOR 245   C.  Holt
+201405                                                  A.  Bergquist
+201405161   CGT  1234  01:00-03:50 T       BALDOR 245   C.  Holt
+201405                                                  A.  Bergquist
+201405                 01:00-03:50 R       BALDOR 123   C.  Holt
+201405                                                  A.  Bergquist
+201405205   CGT  1284  TBA                 BALDOR TBA   M.  Johnston
+201405551   CGT  1302  01:00-03:50 T       BALDOR 210   D.  Goodson
+201405217   CGT  1302  01:00-03:50 R       BALDOR 210   D.  Goodson
+201405221   CGT  1302  01:00-03:50 R       BALDOR 210   D.  Goodson
+201405225   CGT  1644  01:00-03:50 MW      BALDOR 210   H.  Cady
+201405230   CGT  1644  01:00-03:50 MW      BALDOR 201   D.  Goodson
+201405232   CGT  1644  08:00-10:50 TR      BALDOR 210   H.  Cady
+201405234   CGT  1644  08:00-10:50 TR      BALDOR 210   H.  Cady
+201405347   CGT  2634  11:00-12:50 W       BALDOR 213   J.  Arbaugh
+201405236   CGT  2664  01:00-03:50 TR      BALDOR 201   H.  Cady
+201405251   CGT  2664  01:00-03:50 TR      BALDOR 201   H.  Cady
+201405262   CGT  2744  TBA                 BALDOR TBA   W.  Cleland
+2014051716  CGT  290V  01:00-03:50 F       BALDOR 213   C.  Holt
+2014051624  CGT  295V  TBA                 BALDOR TBA   J.  Arbaugh
+2014051625  CGT  2994  08:00-08:50 M       BALDOR 201   C.  Holt
+201405                                                  A.  Nichols
+201405223   CGT  1302  04:00-05:15 TR      BALDOR 210   D.  Goodson
+201405235   CGT  1644  05:25-08:15 MW      BALDOR 201   M.  Johnston
+201405255   CGT  2674  05:25-08:15 TR      BALDOR 201   D.  Yates
+201405345   CGT  2894  04:00-05:15 MW      BALDOR 213   M.  Johnston
+2014051709  ELEC 1233  01:00-03:30 MW      BALDOR 214   S.  Gomez
+201405559   ELEC 1233  01:00-03:30 TR      BALDOR 214   S.  Gomez
+201405                                                  J.  Martini
+2014051730  ELEC 1242  01:00-03:50 M       BALDOR 248   J.  Merritt
+20140586    ELEC 1242  01:00-03:50 F       BALDOR 248   J.  Merritt
+20140553    ELEC 1263  08:00-09:50 MW      BALDOR 208   S.  Gomez
+201405666   ELEC 1403  10:00-11:15 MW      BALDOR 108   J.  Martini
+201405682   ELEC 1413  11:00-12:50 TR      BALDOR 108   J.  Martini
+20140557    ELEC 1863  02:00-03:50 MW      BALDOR 216   G.  Nishmuta
+20140578    ELEC 2513  02:00-03:50 MW      ECHOLS 203   M.  Khan
+2014051755  ELEC 2513  02:00-03:50 MW      ECHOLS 203   M.  Khan
+20140561    ELEC 2733  08:00-09:50 MW      BALDOR 214   J.  Merritt
+201405                                                  J.  Martini
+20140564    ELEC 2753  08:00-09:50 TR      BALDOR 215   M.  Khan
+20140594    ELEC 290V  01:00-03:50 F       BALDOR 141A  J.  Martini
+201405                 01:00-03:50 F       BALDOR 108   J.  Martini
+20140568    ELEC 1233  05:25-07:15 TR      BALDOR 214   M.  Khan
+20140570    ELEC 1242  05:25-06:40 MW      BALDOR 248   J.  Merritt
+20140582    ELEC 2253  04:00-05:50 TR      BALDOR 216   S.  Gomez
+20140573    ELEC 2513  04:00-05:50 MW      ECHOLS 203   M.  Khan
+201405394   ITA  1003  07:00-07:50 MWF     BALDOR 143   L.  Cady
+201405                 07:00-07:50 M       BALDOR 101   L.  Cady
+201405399   ITA  1003  08:00-08:50 MWF     BALDOR 143   L.  Cady
+201405                 08:00-08:50 M       BALDOR 101   L.  Cady
+201405411   ITA  1003  09:00-09:50 MWF     BALDOR 107   L.  Cady
+201405                 09:00-09:50 M       BALDOR 101   L.  Cady
+201405402   ITA  1003  08:00-09:15 TR      BALDOR 143   L.  Cady
+201405                 07:35-08:35 T       BALDOR 246   L.  Cady
+201405429   ITA  1003  01:00-03:30 TR      FL     112   J.  Arbaugh
+201405431   ITA  1003  09:00-12:15 MTWRF   BALDOR 201   L.  Cady
+201405                 09:00-12:15 MTWRF   BALDOR 201   L.  Cady
+201405                 09:00-12:15 MT      BALDOR 201   L.  Cady
+201405                 09:00-12:15 RF      BALDOR 201   L.  Cady
+201405                 09:00-09:50 R       BALDOR 101   L.  Cady
+201405426   ITA  1251  08:00-10:40 F       BALDOR 123   J.  Arbaugh
+2014051733  ITA  1251  08:00-10:40 F       BALDOR 124   B.  Cloninger
+201405427   ITA  1251  01:00-03:30 F       BALDOR 147   M.  Johnston
+201405433   ITA  1003  05:25-08:15 F       BALDOR 124   L.  Cady
+201405                 05:25-08:15 F       BALDOR 124   L.  Cady
+201405                 05:25-08:15 F       BALDOR 124   L.  Cady
+201405                 05:25-08:15 F       BALDOR 124   L.  Cady
+201405                 08:00-04:50 S       BALDOR 124   L.  Cady
+201405                 08:00-04:50 S       BALDOR 124   L.  Cady
+201405                 08:00-04:50 S       BALDOR 124   L.  Cady
+201405                 08:00-04:50 S       BALDOR 124   L.  Cady
+201405425   ITA  1011  05:25-08:15 F       BALDOR 123   T.  Opolka
+201405                 08:00-04:50 S       BALDOR 123   T.  Opolka
+201405                 08:00-04:50 U       BALDOR 123   T.  Opolka
+201405424   ITA  1011  05:25-08:15 F       BALDOR 124   T.  Opolka
+201405                 08:00-04:50 S       BALDOR 124   T.  Opolka
+201405                 01:00-04:50 U       BALDOR 124   T.  Opolka
+201405414   ITA  1051  05:25-08:15 F       BALDOR 123   B.  Cloninger
+201405                 08:00-04:50 S       BALDOR 123   B.  Cloninger
+201405                 01:00-04:50 U       BALDOR 123   B.  Cloninger
+201405417   ITA  1101  05:25-08:15 F       BALDOR 124   B.  Cloninger
+201405                 08:00-04:50 S       BALDOR 124   B.  Cloninger
+201405                 01:00-04:50 U       BALDOR 124   B.  Cloninger
+201405419   ITA  1201  05:25-08:15 F       BALDOR 124   B.  Cloninger
+201405                 08:00-04:50 S       BALDOR 124   B.  Cloninger
+201405                 01:00-04:50 U       BALDOR 124   B.  Cloninger
+201405423   ITA  1251  05:25-08:15 F       BALDOR 124   B.  Cloninger
+201405                 08:00-04:50 S       BALDOR 124   B.  Cloninger
+201405                 01:00-04:50 U       BALDOR 124   B.  Cloninger
+201405825   LEAD 3603  TBA                 TBA    TBA   E.  Washburn
+2014051760  LEAD 3603  TBA                 BALDOR TBA   J.  Spencer
+201405853   LEAD 3603  09:00-04:50 S       BALDOR 110   L.  VanOsdol
+201405                                                  E.  Washburn
+201405                 09:00-04:50 S       BALDOR 122   L.  VanOsdol
+201405                                                  E.  Washburn
+201405                 01:00-04:50 U       BALDOR 110   L.  VanOsdol
+201405                                                  E.  Washburn
+201405                 01:00-04:50 U       BALDOR 122   L.  VanOsdol
+201405                                                  E.  Washburn
+201405828   LEAD 3623  TBA                 TBA    TBA   E.  Washburn
+201405857   LEAD 3623  11:00-12:15 TR      BALDOR 110   L.  VanOsdol
+201405856   LEAD 3623  TBA                 TBA    TBA   S.  Knight
+201405829   LEAD 3643  09:30-10:45 TR      HLTHSC 222   K.  Taber
+201405830   LEAD 4603  TBA                 TBA    TBA   K.  Gordon
+201405863   LEAD 4603  TBA                 TBA    TBA   R.  Huggins
+2014051761  LEAD 4603  TBA                 BALDOR TBA   J.  Spencer
+201405860   LEAD 4603  09:00-04:50 S       BALDOR 110   L.  VanOsdol
+201405                                                  E.  Washburn
+201405                 09:00-04:50 S       BALDOR 110   L.  VanOsdol
+201405                                                  E.  Washburn
+201405                 01:00-04:50 U       BALDOR 110   L.  VanOsdol
+201405                                                  E.  Washburn
+201405                 01:00-04:50 U       BALDOR 110   L.  VanOsdol
+201405                                                  E.  Washburn
+201405832   LEAD 4623  05:25-08:15 T       BALDOR 123   L.  VanOsdol
+201405835   LEAD 4623  TBA                 TBA    TBA   R.  Huggins
+201405879   LEAD 4693  TBA                 TBA    TBA   L.  VanOsdol
+201405839   LEAD 495V  TBA                 BALDOR TBA   B.  Jones
+201405850   LEAD 3603  05:25-08:15 R       FL     219   K.  Gordon
+201405837   LEAD 4693  05:25-08:15 M       FL     220   E.  Washburn
+201405121   LEGL 1043  11:00-12:15 TR      BALDOR 107   L.  Lisk
+201405124   LEGL 1043  02:00-03:15 TR      MS-UC  303   L.  Lisk
+201405139   LEGL 190V  TBA                 BALDOR TBA   L.  Lisk
+201405126   LEGL 1043  05:25-06:40 TR      BALDOR 107   L.  Lisk
+201405658   LEGL 1103  05:25-09:15 M       BALDOR 107   C.  Scott
+201405659   LEGL 2322  05:25-07:15 R       BALDOR 123   M.  Daily
+201405133   LEGL 2382  05:25-07:15 W       BALDOR 122   A.  Grimes
+201405137   LEGL 2643  05:25-08:15 T       BALDOR 122   A.  Barr
+201405130   LEGL 2723  05:25-08:15 M       BALDOR 122   J.  Hunter
+201405556   PRFS 3133  TBA                 TBA    TBA   S.  Loseke
+201405558   PRFS 3133  TBA                 TBA    TBA   S.  Loseke
+2014051758  PRFS 3133  TBA                 TBA    TBA   L.  Oliver
+201405569   PRFS 3533  TBA                 TBA    TBA   R.  Huggins
+201405589   PRFS 3533  TBA                 TBA    TBA   K.  Taber
+2014051759  PRFS 3533  TBA                 TBA    TBA   L.  Oliver
+201405604   PRFS 4033  TBA                 TBA    TBA   A.  Thomas
+2014051757  PRFS 4033  TBA                 BALDOR TBA   L.  Oliver
+201405619   PRFS 4433  TBA                 TBA    TBA   S.  Loseke
+201405623   PRFS 4633  TBA                 TBA    TBA   A.  Thomas
+201405632   PRFS 4713  TBA                 TBA    TBA   S.  Loseke
+201405638   PRFS 490V  10:00-11:15 MW      BALDOR 108   J.  Martini
+201405639   PRFS 490V  11:00-12:15 TR      BALDOR 108   J.  Martini
+201405892   PRFS 495V  TBA                 BALDOR TBA   B.  Jones
+201405560   PRFS 3143  05:25-08:15 R       BALDOR 110   K.  Taber
+201405594   PRFS 3833  05:25-08:15 W       BALDOR 110   L.  Cox
+201405617   PRFS 4133  05:25-08:15 M       BALDOR 110   M.  Voelkel
+201405454   WELD 1234  07:50-10:40 MTWR    BALDOR 133   J.  Dugan
+201405455   WELD 1234  07:50-10:40 MTWR    BALDOR 133   J.  Dugan
+201405459   WELD 1234  01:00-03:50 MTWR    BALDOR 133   J.  Dugan
+201405461   WELD 1284  07:50-10:40 MTWR    BALDOR 140   J.  Keyes
+201405462   WELD 1284  07:50-10:40 MTWR    BALDOR 140   J.  Keyes
+201405464   WELD 1404  01:00-03:50 MTWR    BALDOR 140   M.  Crawford
+201405463   WELD 1454  01:00-03:50 MTWR    BALDOR 133   J.  Keyes
+201405456   WELD 1474  07:50-10:40 MTWR    BALDOR 133   J.  Dugan
+201405457   WELD 1474  07:50-10:40 MTWR    BALDOR 133   J.  Dugan
+201405458   WELD 2284  07:50-10:40 MTWR    BALDOR 140   J.  Keyes
+201405460   WELD 2284  07:50-10:40 MTWR    BALDOR 140   J.  Keyes
+201405466   WELD 2404  01:00-03:50 MTWR    BALDOR 140   M.  Crawford
+201405467   WELD 1234  04:00-05:15 MTWR    BALDOR 133   M.  Crawford
+201405476   WELD 1284  05:25-08:15 MTWR    BALDOR 140   K.  Mizell
+201405478   WELD 1384  05:25-08:15 MTWR    BALDOR 133   J.  Nichols
+201405479   WELD 1404  05:25-08:15 MTWR    BALDOR 133   J.  Nichols
+201405477   WELD 1454  05:25-08:15 MTWR    BALDOR 140   K.  Mizell
+201405481   WELD 1474  05:25-08:15 MTWR    BALDOR 140   K.  Mizell
+201405480   WELD 2284  05:25-08:15 MTWR    BALDOR 140   K.  Mizell
+201405482   WELD 2384  05:25-08:15 MTWR    BALDOR 133   J.  Nichols
+201405483   WELD 2404  05:25-08:15 MTWR    BALDOR 133   J.  Nichols
+201405469   WFL  1374  08:00-11:50 M       FL     110   K.  Gordon
+201405475   WFL  2903  TBA                 FL     TBA   M.  Voelkel
+201405470   WFL  1374  03:50-07:40 M       FL     110   K.  Gordon
+201405473   WFL  1601  03:50-05:40 R       BII    115   M.  Voelkel
+201405474   WFL  1621  03:50-05:40 R       BII    115   M.  Voelkel
+201405472   WFL  2853  03:50-06:40 T       FL     110   C.  McKinney
+201405471   WFL  290V  03:50-06:40 W       BII    115   M.  Voelkel
+2014051254  ACCT 2803  10:00-10:50 MWF     FL     200   T.  Hayes
+2014051256  ACCT 2803  09:30-10:45 TR      FL     201   T.  Hayes
+2014051257  ACCT 2803  12:30-01:45 T       FL     100   A.  Baldwin
+2014051259  ACCT 2813  10:00-10:50 MWF     FL     201   J.  Wright
+2014051260  ACCT 2813  11:00-11:50 MWF     FL     201   J.  Wright
+2014051261  ACCT 2813  02:00-03:15 T       FL     200   J.  Wright
+2014051262  ACCT 3003  02:00-03:15 TR      FL     220   T.  Hayes
+2014051264  ACCT 3013  02:00-03:15 MW      FL     220   G.  Schmidt
+2014051265  ACCT 3023  TBA                 TBA    TBA   A.  Baldwin
+2014051266  ACCT 3053  12:30-01:45 MW      FL     220   G.  Schmidt
+2014051268  ACCT 4013  02:00-03:15 TR      FL     217   G.  Schmidt
+2014051271  ACCT 467V  08:00-08:50 F       FL     218   M.  Zainuba
+2014051777  ACCT 467V  08:00-08:50 F       FL     218   M.  Zainuba
+2014051258  ACCT 2803  05:25-06:40 TR      FL     220   L.  Grimm
+2014051267  ACCT 3123  05:25-06:40 MW      FL     200   J.  Wright
+2014051269  ACCT 4013  05:25-06:40 TR      FL     217   G.  Schmidt
+2014051270  ACCT 4053  04:00-05:15 TR      FL     218   T.  Hayes
+2014051272  COBI 467V  08:00-08:50 F       FL     218   M.  Zainuba
+2014051273  ECON 2803  10:00-10:50 MW      FL     100   B.  Lee
+2014051274  ECON 2803  09:30-10:45 TR      FL     200   J.  Wollscheid
+2014051275  ECON 2803  11:00-12:15 TR      FL     200   J.  Wollscheid
+2014051276  ECON 2803  12:30-01:45 TR      FL     200   J.  Wollscheid
+2014051277  ECON 2803  TBA                 TBA    TBA   B.  Lee
+2014051279  ECON 2813  11:00-11:50 MW      FL     100   B.  Lee
+2014051280  ECON 2813  08:00-09:15 TR      FL     218   D.  Settlage
+2014051281  ECON 2813  09:30-10:45 TR      FL     218   D.  Settlage
+2014051282  ECON 2813  11:00-12:15 TR      FL     218   D.  Settlage
+2014051284  ECON 2813  05:25-06:40 MW      FL     217   B.  Lee
+2014051285  FIN  1523  11:00-11:50 MW      FL     200   L.  Settlage
+2014051287  FIN  3713  02:00-03:15 M       FL     200   S.  Wu
+2014051289  FIN  3713  12:30-01:45 TR      FL     108   J.  Peng
+2014051680  FIN  3713  02:00-03:15 TR      FL     108   J.  Peng
+2014051290  FIN  3723  11:00-12:15 T       FL     216   S.  Wu
+2014051291  FIN  3813  TBA                 TBA    TBA   L.  Settlage
+2014051292  FIN  4203  09:30-10:45 TR      FL     102   J.  Peng
+2014051678  FIN  447V  TBA                 FL     TBA   S.  Wu
+2014051286  FIN  1523  04:00-05:15 T       FL     216   L.  Settlage
+2014051288  FIN  3713  05:25-06:40 M       FL     216   S.  Wu
+2014051293  FIN  4743  04:00-05:15 TR      FL     102   J.  Peng
+2014051295  LAW  2003  09:00-09:50 MWF     FL     200   R.  Wade
+2014051296  LAW  2003  08:00-09:15 TR      FL     220   C.  Conley
+2014051297  LAW  2003  05:25-06:40 TR      FL     200   R.  Wade
+2014051298  LAW  4033  05:25-06:40 TR      FL     100   D.  Sprouse
+2014051299  MGMT 1201  09:00-09:50 MW      FL     108   B.  Jacobson
+2014051300  MGMT 1201  10:00-10:50 MW      FL     108   B.  Jacobson
+2014051304  MGMT 1201  02:00-02:50 MW      FL     102   B.  Jacobson
+2014051302  MGMT 1201  08:25-09:15 TR      FL     108   B.  Jacobson
+2014051303  MGMT 1201  11:00-11:50 TR      FL     108   B.  Jacobson
+2014051359  MGMT 1203  09:00-09:50 MWF     FL     218   J.  Beard
+2014051360  MGMT 1203  11:00-11:50 MWF     FL     218   J.  Beard
+2014051361  MGMT 1203  01:00-01:50 MWF     FL     219   J.  Beard
+2014051362  MGMT 1203  12:30-01:45 MW      FL     216   K.  Kuehn
+2014051363  MGMT 1203  02:00-03:15 TR      FL     100   K.  Kuehn
+2014051366  MGMT 2203  02:00-03:15 MW      FL     216   K.  Kuehn
+2014051367  MGMT 2203  09:30-10:45 TR      FL     217   B.  Bhasin
+2014051368  MGMT 2203  11:00-12:15 TR      FL     217   B.  Bhasin
+2014051376  MGMT 2863  09:00-09:50 MWF     FL     219   J.  Scott
+2014051377  MGMT 2863  11:00-11:50 MWF     FL     219   J.  Scott
+2014051378  MGMT 2863  02:00-03:15 TR      FL     219   P.  Stephens
+2014051379  MGMT 2963  11:00-12:15 TR      FL     100   L.  Seifert
+2014051380  MGMT 3133  08:00-09:15 TR      FL     113   B.  Medlin
+2014051381  MGMT 3133  12:30-01:45 TR      FL     219   M.  Zainuba
+2014051383  MGMT 3153  02:00-03:15 MW      FL     201   L.  Faulk
+2014051384  MGMT 3153  11:00-12:15 TR      FL     220   L.  Faulk
+2014051386  MGMT 3523  02:00-03:15 MW      FL     108   A.  Rahal
+201405                 05:25-06:40 M       FL     108   A.  Rahal
+2014051387  MGMT 3523  09:30-10:45 TR      LBRARY 224   A.  Rahal
+2014051388  MGMT 3613  12:30-01:45 MW      FL     201   L.  Faulk
+2014051390  MGMT 3913  11:00-12:15 TR      FL     201   A.  Rahal
+201405                 11:00-12:15 T       FL     108   A.  Rahal
+201405                 11:00-12:15 R       FL     108   A.  Rahal
+201405                 11:00-12:50 R       FL     108   A.  Rahal
+2014051391  MGMT 4203  02:00-03:15 TR      FL     216   B.  Bhasin
+2014051392  MGMT 4813  09:30-10:45 TR      FL     113   B.  Medlin
+201405                 09:30-11:20 T       FL     108   B.  Medlin
+2014051393  MGMT 4813  12:30-01:45 TR      FL     113   B.  Medlin
+201405                 12:30-02:20 T       FL     102   B.  Medlin
+2014051305  MGMT 1201  04:00-04:50 TR      FL     108   K.  Hickenbotham
+2014051364  MGMT 1203  05:25-06:40 TR      FL     201   P.  Stephens
+2014051382  MGMT 3133  04:00-05:15 TR      FL     219   M.  Zainuba
+2014051385  MGMT 3153  04:00-05:15 TR      FL     220   L.  Faulk
+2014051389  MGMT 3913  05:25-06:40 MW      FL     201   A.  Rahal
+201405                 05:25-06:40 M       FL     108   A.  Rahal
+201405                 05:25-06:40 W       FL     108   A.  Rahal
+201405                 05:25-07:15 W       FL     108   A.  Rahal
+2014051394  MGMT 4813  05:25-06:40 MW      FL     113   K.  Kuehn
+201405                 05:25-07:15 W       FL     102   K.  Kuehn
+2014051744  MKTG 3003  02:00-03:15 MW      FL     100   J.  Encinas
+2014051743  MKTG 3003  02:00-03:15 M       FL     100   J.  Peerbolte
+201405                 02:00-03:15 W       FL     219   J.  Peerbolte
+2014051395  MKTG 3013  09:30-10:45 TR      FL     220   J.  Encinas
+2014051396  MKTG 3013  02:00-03:15 TR      FL     218   J.  Encinas
+2014051398  MKTG 3033  TBA                 TBA    TBA   J.  Peerbolte
+2014051399  MKTG 3033  TBA                 TBA    TBA   J.  Peerbolte
+2014051400  MKTG 3043  12:00-12:50 W       FL     219   J.  Peerbolte
+2014051401  MKTG 3123  02:00-03:15 MW      FL     218   C.  Scott
+2014051402  MKTG 3133  11:00-12:15 TR      FL     219   C.  Scott
+2014051397  MKTG 3013  04:00-05:15 MW      FL     200   J.  Encinas
+201405747   CHED 2013  TBA                 MS-UC  TBA   M.  Waack
+201405748   CHED 2023  TBA                 MS-UC  TBA   J.  Newman
+201405728   ECD  1003  08:00-10:30 MW      ECHOLS 120   J.  Vineyard
+201405731   ECD  1003  01:00-02:15 MW      ECHOLS 119   M.  Bell
+201405730   ECD  1003  01:00-03:30 MW      ECHOLS 119   M.  Bell
+2014051567  ECD  1003  01:00-03:30 MW      ECHOLS 120   J.  Vineyard
+201405734   ECD  1103  08:00-09:15 TR      ECHOLS 119   C.  Foster
+201405733   ECD  1103  08:00-10:30 TR      ECHOLS 119   C.  Foster
+201405736   ECD  1103  01:00-02:15 TR      ECHOLS 120   S.  Henehan
+201405735   ECD  1103  01:00-03:30 TR      ECHOLS 120   S.  Henehan
+201405                                                  M.  Bell
+2014051568  ECD  1103  01:00-03:30 TR      ECHOLS 122   J.  Vineyard
+201405738   ECED 1401  08:00-10:50 F       ECHOLS TBA   J.  Vineyard
+201405739   ECED 1401  01:00-01:50 F       ECHOLS TBA   M.  Bell
+201405740   ECED 1401  01:00-03:30 F       ECHOLS TBA   M.  Bell
+2014051569  ECED 1401  01:00-03:30 F       ECHOLS TBA   J.  Vineyard
+201405741   ECED 1411  01:00-01:50 F       ECHOLS TBA   L.  Williams
+2014051752  ECED 1411  01:00-03:30 F       ECHOLS TBA   L.  Williams
+2014051668  ECED 3003  12:30-01:45 TR      MS-UC  308   B.  Hunt
+201405797   ECED 3023  09:30-10:45 TR      MS-UC  302   M.  Francis
+201405799   ECED 3033  11:00-12:15 TR      MS-UC  302   S.  Henehan
+201405801   ECED 3043  09:30-10:45 T       MS-UC  303   G.  Osburn
+201405802   ECED 3043  11:00-12:15 T       MS-UC  303   G.  Osburn
+201405803   ECED 3053  09:30-10:45 R       MS-UC  303   G.  Osburn
+201405804   ECED 3053  11:00-12:15 R       MS-UC  303   G.  Osburn
+201405806   ECED 3063  08:00-09:15 TR      MS-UC  302   S.  Davis
+201405807   ECED 3113  10:30-11:45 MW      MS-UC  301   S.  Davis
+2014051611  ECED 3122  01:30-02:20 M       MS-UC  302   C.  Lehman
+201405808   ECED 3122  01:30-02:20 M       MS-UC  301   C.  Lehman
+2014051667  ECED 3122  TBA                 MS-UC  TBA   C.  Lehman
+201405809   ECED 3173  09:00-10:15 MW      MS-UC  301   M.  Francis
+201405810   ECED 3183  12:00-01:15 MW      MS-UC  301   L.  Reid
+201405811   ECED 3193  09:00-11:45 F       MS-UC  301   L.  Reid
+201405812   ECED 3213  12:00-01:15 MW      MS-UC  303   D.  Milford
+201405813   ECED 3222  01:30-02:20 M       MS-UC  303   D.  Milford
+201405818   ECED 3263  09:00-11:45 F       MS-UC  303   C.  Ralston
+201405815   ECED 3283  10:30-11:45 MW      MS-UC  303   L.  Reid
+201405820   ECED 490C  TBA                 MS-UC  TBA   C.  Wood
+201405821   ECED 490C  TBA                 MS-UC  TBA   M.  Sherrod
+201405822   ECED 490C  TBA                 MS-UC  TBA   M.  Francis
+201405823   ECED 490C  TBA                 MS-UC  TBA   L.  Williams
+201405824   ECED 490C  TBA                 MS-UC  TBA   M.  Yates
+201405796   ECED 3003  04:00-05:15 TR      MS-UC  308   B.  Hunt
+2014051681  ECED 3063  04:00-05:15 TR      MS-UC  302   S.  Davis
+201405805   ECED 3153  04:00-05:15 MW      MS-UC  308   S.  Davis
+201405746   ECTC 2403  01:00-02:15 TR      ECHOLS 119   C.  Foster
+201405745   ECTC 2403  01:00-03:30 TR      ECHOLS 119   C.  Foster
+201405743   ECTC 2703  01:00-02:15 MW      ECHOLS 119   L.  Williams
+201405742   ECTC 2703  01:00-03:30 MW      ECHOLS 119   L.  Williams
+201405744   ECTC 2503  05:25-08:15 M       ECHOLS 122   S.  Heiss
+201405766   EDUC 2752  08:00-08:50 MW      MS-UC  301   M.  Francis
+201405768   EDUC 2752  09:30-10:20 TR      MS-UC  308   C.  Wood
+201405769   EDUC 2752  03:00-03:50 TR      MS-UC  301   M.  Francis
+201405767   EDUC 2752  02:00-03:50 T       MS-UC  311   J.  Jennings Davis
+201405771   EDUC 3001  09:00-09:50 F       MS-UC  212   L.  Lewis
+201405772   EDUC 3001  10:00-10:50 F       MS-UC  212   L.  Lewis
+201405773   EDUC 3001  11:00-11:50 F       MS-UC  212   L.  Lewis
+201405775   EDUC 3002  09:00-09:50 MW      MS-UC  212   D.  Cast
+201405777   EDUC 3002  12:30-01:20 T       MS-UC  212   D.  Cast
+201405776   EDUC 3002  10:00-10:50 W       MS-UC  212   D.  Cast
+2014051694  EDUC 3002  TBA                 MS-UC  TBA   S.  Stout
+201405779   EDUC 3013  08:00-09:15 TR      MS-UC  308   D.  Scoggins
+201405                 08:00-09:15 T       BALDOR 144   D.  Scoggins
+201405                 08:00-09:15 T       BALDOR 147   D.  Scoggins
+201405                 08:00-09:15 R       BALDOR 144   D.  Scoggins
+201405                 08:00-09:15 R       BALDOR 144   D.  Scoggins
+201405                 08:00-09:15 R       BALDOR 147   D.  Scoggins
+201405                 08:00-09:15 R       BALDOR 144   D.  Scoggins
+201405                 08:00-09:50 R       BALDOR 147   D.  Scoggins
+201405                 08:00-09:50 R       BALDOR 144   D.  Scoggins
+201405780   EDUC 3112  09:00-09:50 MW      MS-UC  209   L.  Yocum
+201405781   EDUC 3221  09:00-09:50 F       MS-UC  308   L.  Lewis
+201405                                                  G.  Ezell
+201405783   EDUC 3612  08:00-08:50 MW      MS-UC  209   D.  Scoggins
+201405                 08:00-08:50 M       MS-UC  212   D.  Scoggins
+201405                 08:00-08:50 M       MS-UC  212   D.  Scoggins
+201405                 08:00-08:50 M       MS-UC  212   D.  Scoggins
+201405                 08:00-08:50 F       MS-UC  212   D.  Scoggins
+201405                 11:00-11:50 MW      MS-UC  209   D.  Scoggins
+201405                 11:00-11:50 M       MS-UC  212   D.  Scoggins
+201405                 11:00-11:50 M       MS-UC  212   D.  Scoggins
+201405                 11:00-11:15 F       MS-UC  212   D.  Scoggins
+201405785   EDUC 4211  08:00-08:50 F       MS-UC  209   D.  Scoggins
+201405786   EDUC 4211  11:00-11:50 F       MS-UC  209   B.  Hunt
+201405                                                  G.  Ezell
+2014051655  EDUC 4222  01:00-01:50 MW      MS-UC  209   C.  Ralston
+201405788   EDUC 4222  02:00-02:50 MW      MS-UC  209   C.  Ralston
+201405789   EDUC 4802  TBA                 ECHOLS TBA   H.  Holland
+201405790   EDUC 480A  TBA                 MS-UC  TBA   A.  Zacharella
+201405791   EDUC 490A  TBA                 MS-UC  TBA   P.  Russell
+201405792   EDUC 490A  TBA                 MS-UC  TBA   J.  Oliver
+201405793   EDUC 490A  TBA                 MS-UC  TBA   R.  Parks
+201405795   EDUC 490A  TBA                 MS-UC  TBA   K.  Jones
+2014051697  EDUC 490A  TBA                 MS-UC  TBA   D.  Amos
+2014051698  EDUC 490A  TBA                 MS-UC  TBA   A.  Wendorf
+201405770   EDUC 2752  05:25-07:15 R       MS-UC  301   M.  Francis
+201405774   EDUC 3001  07:25-08:15 T       MS-UC  212   S.  Stout
+201405778   EDUC 3002  05:25-07:15 T       MS-UC  212   S.  Stout
+201405760   MLED 490A  TBA                 MS-UC  TBA   M.  Sherrod
+201405761   MLED 490A  TBA                 MS-UC  TBA   D.  Amos
+201405762   MLED 490A  TBA                 MS-UC  TBA   C.  Lehman
+201405763   MLED 3563  04:00-05:15 MW      MS-UC  209   L.  Yocum
+201405765   MLED 4123  04:00-05:15 TR      MS-UC  209   L.  Yocum
+201405754   SPED 3022  07:00-07:50 MW      MS-UC  205   L.  Yocum
+2014051651  SPED 3022  02:00-02:50 TR      MS-UC  209   L.  Yocum
+201405756   SPED 4213  TBA                 MS-UC  TBA   B.  Humphries
+201405757   SPED 4223  TBA                 MS-UC  TBA   B.  Humphries
+2014051704  SPED 4903  TBA                 MS-UC  TBA   G.  Ezell
+201405612   DHYG 2111  09:00-09:50 M       HLTHSC 147   P.  Davidson
+2014051061  DHYG 2122  09:00-10:50 R       HLTHSC 147   P.  Davidson
+2014051076  DHYG 2224  08:00-12:00 MW      HLTHSC TBA   P.  Davidson
+201405                                                  A.  Hampton
+201405                                                  V.  Hardgraves
+201405                                                  K.  Langwell
+201405                                                  L.  Bell
+201405                                                  C.  Stuteville
+201405                                                  S.  Hotz
+201405                                                  S.  Rappeport
+201405                 01:00-05:00 MW      HLTHSC TBA   P.  Davidson
+201405                                                  A.  Hampton
+201405                                                  V.  Hardgraves
+201405                                                  K.  Langwell
+201405                                                  L.  Bell
+201405                                                  C.  Stuteville
+201405                                                  S.  Hotz
+201405                                                  S.  Rappeport
+2014051064  DHYG 2311  11:00-11:50 R       HLTHSC 147   S.  Rappeport
+201405661   DHYG 2313  01:00-02:50 M       HLTHSC 147   V.  Hardgraves
+201405663   DHYG 2313  01:00-04:00 T       HLTHSC TBA   V.  Hardgraves
+201405674   DHYG 2313  01:00-04:00 R       HLTHSC TBA   V.  Hardgraves
+201405                                                  L.  Bell
+201405675   DHYG 2313  09:00-12:00 F       HLTHSC TBA   L.  Bell
+2014051066  DHYG 2372  03:00-04:50 T       HLTHSC 147   C.  Stuteville
+2014051059  DHYG 2432  02:00-03:50 W       HLTHSC 147   W.  Borengasser
+2014051069  DHYG 2463  01:00-02:50 T       HLTHSC 147   K.  Langwell
+2014051074  DHYG 2463  01:00-04:00 R       HLTHSC 147   K.  Langwell
+201405                                                  A.  Hampton
+2014051164  DHYG 2512  10:00-11:50 T       HLTHSC 147   P.  Davidson
+2014051166  DHYG 2512  08:00-12:00 F       HLTHSC 147   P.  Davidson
+201405                                                  C.  Stuteville
+201405                                                  S.  Hotz
+201405                                                  S.  Rappeport
+201405                 01:00-05:00 F       HLTHSC 147   P.  Davidson
+201405                                                  C.  Stuteville
+201405                                                  S.  Hotz
+201405                                                  S.  Rappeport
+201405678   DHYG 3102  08:00-12:00 TR      HLTHSC TBA   K.  Langwell
+201405                                                  C.  Stuteville
+201405                                                  L.  Bell
+201405                                                  A.  Hampton
+201405                                                  K.  Morgan
+201405605   DHYG 3103  10:00-11:15 MW      HLTHSC 147   K.  Langwell
+201405693   DHYG 3412  08:00-09:50 W       HLTHSC 147   V.  Hardgraves
+2014051541  EMT  1408  08:00-11:40 TR      HLTHSC 314   M.  Nelson
+2014051543  EMT  1408  TBA                 HOSP   SPARK M.  Nelson
+201405                                                  M.  Hagans
+201405170   HLTH 1004  08:00-10:40 MWF     HLTHSC 326   J.  Scoggins
+2014051762  HLTH 1004  08:00-10:40 MWF     BALDOR 147   L.  Crawford
+201405173   HLTH 1004  01:00-03:40 MWF     HLTHSC 325   F.  DeMarco
+201405189   HLTH 1004  01:00-03:40 MWF     HLTHSC 124   J.  Scoggins
+201405192   HLTH 1004  01:00-03:40 MWF     HLTHSC 318   L.  Crawford
+201405194   HLTH 1004  01:00-03:40 MWF     HLTHSC 222   F.  Allred
+201405                 08:00-10:30 W       HLTHSC 228   F.  Allred
+201405                 01:00-03:40 W       HLTHSC 228   F.  Allred
+201405                 01:00-03:40 W       HLTHSC 228   F.  Allred
+201405                 01:00-03:40 F       GARDNR LHALL F.  Allred
+201405                 01:00-03:40 F       GARDNR LHALL F.  Allred
+201405                 01:00-03:40 F       GARDNR LHALL F.  Allred
+201405                 01:00-03:40 F       GARDNR LHALL F.  Allred
+201405                 01:00-03:40 F       GARDNR LHALL F.  Allred
+201405                 01:00-03:40 F       GARDNR LHALL F.  Allred
+201405197   HLTH 1004  01:00-03:40 MWF     HLTHSC 223   A.  Goodson
+201405213   HLTH 1024  01:00-03:30 TR      MS-UC  302   J.  Black
+2014051522  HLTH 1473  08:00-08:50 MWF     HLTHSC 124   D.  Fulmer
+201405201   HLTH 1473  08:00-10:40 TR      HLTHSC 318   A.  Goodson
+2014051769  HLTH 1473  08:00-10:40 TR      BALDOR 108   J.  Neeley
+2014051520  HLTH 1473  12:30-01:45 TR      HLTHSC 124   W.  Jones
+201405204   HLTH 1473  01:00-03:30 TR      HLTHSC 227   F.  Allred
+201405207   HLTH 1473  01:00-03:30 TR      HLTHSC 318   L.  Crawford
+201405208   HLTH 1473  01:00-03:30 TR      HLTHSC 321   A.  Goodson
+201405209   HLTH 1473  01:00-03:30 TR      HLTHSC 325   M.  Boucaud
+201405211   HLTH 1473  01:00-03:30 TR      HLTHSC 326   J.  Scoggins
+2014051524  HLTH 1473  TBA                 HLTHSC TBA   W.  Jones
+2014051526  HLTH 1473  TBA                 HLTHSC TBA   P.  Rhodes
+2014051527  HLTH 1473  TBA                 HLTHSC TBA   P.  Rhodes
+2014051528  HLTH 1473  TBA                 HLTHSC TBA   K.  Kidder
+2014051544  HLTH 1473  TBA                 TBA    TBA   K.  Langwell
+2014051536  HLTH 2953  12:30-01:45 TR      HLTHSC 314   M.  Hagans
+2014051533  HLTH 2953  02:00-03:15 TR      HLTHSC 314   M.  Hagans
+2014051546  HLTH 2953  09:00-12:15 MTWRF   HLTHSC 314   G.  Bentley
+201405                 09:00-12:15 MTWRF   HLTHSC 314   G.  Bentley
+201405                 09:00-12:15 MT      HLTHSC 314   G.  Bentley
+201405                 09:00-12:15 RF      HLTHSC 227   G.  Bentley
+201405171   HLTH 3103  12:00-02:50 T       HLTHSC 133   D.  Reeves
+201405179   HLTH 3103  TBA                 TBA    TBA   P.  Henderson
+201405185   HLTH 4103  TBA                 TBA    TBA   P.  Henderson
+201405188   HLTH 4103  TBA                 TBA    TBA   P.  Henderson
+2014051531  HLTH 1473  05:25-06:40 TR      HLTHSC 124   K.  Kidder
+2014051537  HLTH 2953  05:25-08:15 M       HLTHSC 314   G.  Bentley
+2014051449  IS   3103  TBA                 TBA    TBA   J.  Callahan
+2014051450  IS   4103  TBA                 TBA    TBA   B.  Jones
+2014051451  ISM  4203  TBA                 TBA    TBA   S.  Gregory
+2014051452  ISM  4213  TBA                 TBA    TBA   S.  Gregory
+2014051455  ISM  4403  TBA                 TBA    TBA   C.  Harmon
+2014051453  ISM  4513  TBA                 TBA    TBA   S.  Gregory
+2014051456  ISS  3102  10:00-11:50 TR      HLTHSC 332   J.  Callahan
+201405                                                  A.  Cole
+201405                 09:00-11:50 WF      HLTHSC 332   J.  Callahan
+201405                                                  A.  Cole
+2014051457  ISS  3103  01:00-02:15 WF      HLTHSC 321   J.  Callahan
+2014051458  ISS  3113  08:30-09:45 TR      HLTHSC 321   B.  Jones
+2014051459  ISS  4402  08:00-09:50 M       HLTHSC 321   A.  Cole
+2014051460  ISS  4413  02:25-05:15 M       HLTHSC 321   A.  Cole
+2014051461  ISS  4433  10:00-11:50 M       HLTHSC 321   B.  Jones
+201405                 12:30-02:20 M       HLTHSC 321   B.  Jones
+2014051462  ISS  4434  08:00-04:30 TW      HOSP   MERCY B.  Jones
+201405                 08:00-12:00 R       HOSP   MERCY B.  Jones
+2014051463  ISS  4434  08:00-04:30 TW      HOSP   SPARK A.  Cole
+201405                 08:00-12:00 R       HOSP   SPARK A.  Cole
+201405203   LPN  1187  06:30-01:00 MT      HLTHSC 217   S.  Pejic
+201405                 06:30-01:00 MT      HOSP   METHO S.  Pejic
+201405214   LPN  1187  06:30-01:00 MT      HLTHSC 217   T.  Hall
+201405                 06:30-01:00 MT      HOSP   FIANA T.  Hall
+201405220   LPN  1187  09:00-11:50 RF      HLTHSC 227   S.  Pejic
+201405                                                  T.  Hall
+201405224   LPN  1187  01:30-05:15 RF      HLTHSC 217   S.  Pejic
+201405238   LPN  1187  01:30-05:15 RF      HLTHSC 217   T.  Hall
+201405376   LPN  1197  06:30-12:15 MT      HOSP   METHO S.  Pejic
+201405379   LPN  1197  06:30-12:15 MT      HOSP   FIANA T.  Hall
+201405381   LPN  1197  09:00-11:50 RF      HLTHSC 227   S.  Pejic
+201405                                                  T.  Hall
+201405384   LPN  1197  01:30-06:30 RF      HLTHSC 217   S.  Pejic
+201405385   LPN  1197  01:30-06:30 RF      HLTHSC 217   T.  Hall
+201405389   NURS 2103  08:00-10:50 T       HLTHSC 133   M.  Duran
+201405396   NURS 3113  08:00-11:15 M       HLTHSC 237   T.  Sparks
+201405                 08:00-11:15 M       HLTHSC 237   T.  Sparks
+201405489   NURS 3113  08:00-11:15 M       HLTHSC 228   T.  McCoy
+201405                 08:00-11:15 M       HLTHSC 228   T.  McCoy
+201405391   NURS 3113  01:00-04:15 M       HLTHSC 228   D.  Reeves
+201405                 01:00-04:15 M       HLTHSC 228   D.  Reeves
+201405403   NURS 3113  01:00-04:15 M       HLTHSC 237   T.  Sparks
+201405                 01:00-04:15 M       HLTHSC 237   T.  Sparks
+201405392   NURS 3113  08:00-11:15 T       HLTHSC 237   T.  Sparks
+201405                 08:00-11:15 T       HLTHSC 237   T.  Sparks
+201405390   NURS 3113  12:00-01:50 T       HLTHSC 222   T.  Sparks
+201405398   NURS 3113  01:30-04:45 F       HLTHSC 237   T.  Sparks
+201405491   NURS 3164  09:00-11:15 W       HLTHSC 223   D.  Fulmer
+201405500   NURS 3164  07:30-10:00 R       HLTHSC 228   K.  Hicks
+201405                 10:30-12:50 R       HLTHSC 228   K.  Hicks
+201405501   NURS 3164  07:30-10:00 R       HLTHSC 237   M.  Duran
+201405                 10:30-12:50 R       HLTHSC 237   M.  Duran
+201405502   NURS 3164  07:30-10:00 R       HLTHSC 217   S.  Mann
+201405                 10:30-12:50 R       HLTHSC 217   S.  Mann
+201405503   NURS 3164  01:30-04:00 R       HLTHSC 228   S.  Mann
+201405                 04:30-06:50 R       HLTHSC 228   S.  Mann
+201405504   NURS 3164  01:30-04:00 R       HLTHSC 237   N.  Owens
+201405                 04:30-06:50 R       HLTHSC 237   N.  Owens
+201405516   NURS 3164  07:30-10:00 F       HLTHSC 228   J.  Cavner
+201405                 10:30-12:50 F       HLTHSC 228   J.  Cavner
+201405518   NURS 3164  07:30-10:00 F       HLTHSC 237   A.  Nitsche
+201405                 10:30-12:50 F       HLTHSC 237   A.  Nitsche
+201405495   NURS 3164  TBA                 TBA    TBA   P.  Blesch
+201405562   NURS 3227  08:00-10:50 W       HLTHSC 222   T.  Sparks
+201405852   NURS 3227  06:30-07:00 R       HOSP   SPARK D.  Reeves
+201405                 06:30-07:00 S       HOSP   SPARK D.  Reeves
+201405865   NURS 3227  06:30-07:00 R       HOSP   METHO H.  Manchester
+201405                 06:30-07:00 S       HOSP   METHO H.  Manchester
+201405873   NURS 3227  06:30-07:00 F       HOSP   METHO H.  Manchester
+201405                 06:30-07:00 S       HOSP   METHO H.  Manchester
+201405935   NURS 3227  06:30-07:00 F       HOSP   SPARK B.  Merkley
+201405                 06:30-07:00 S       HOSP   SPARK B.  Merkley
+201405936   NURS 3227  06:30-07:00 F       HOSP   FIANA M.  Duran
+201405                 06:30-07:00 S       HOSP   FIANA M.  Duran
+201405861   NURS 3227  06:30-07:00 S       HOSP   SPARK R.  Salazar
+201405                 06:30-07:00 U       HOSP   SPARK R.  Salazar
+201405940   NURS 3236  12:00-02:50 M       HLTHSC 227   A.  Nitsche
+201405                                                  J.  Cavner
+201405                 12:00-02:50 M       HLTHSC 326   A.  Nitsche
+201405                                                  J.  Cavner
+201405946   NURS 3236  12:00-02:50 M       HLTHSC 326   J.  Cavner
+201405                                                  A.  Nitsche
+201405                 12:00-02:50 M       HLTHSC 227   J.  Cavner
+201405                                                  A.  Nitsche
+201405952   NURS 3236  06:30-12:00 T       HLTHSC 309   A.  Nitsche
+201405                                                  J.  Cavner
+201405                 06:30-04:45 T       HOSP   MERCY A.  Nitsche
+201405                                                  J.  Cavner
+201405                 06:30-04:45 T       HLTHSC 309   A.  Nitsche
+201405                                                  J.  Cavner
+201405                 06:30-12:00 T       HLTHSC TBA   A.  Nitsche
+201405                                                  J.  Cavner
+201405                 06:30-04:45 T       HLTHSC TBA   A.  Nitsche
+201405                                                  J.  Cavner
+201405                 06:30-04:45 T       HOSP   MERCY A.  Nitsche
+201405                                                  J.  Cavner
+201405                 12:30-04:45 T       HOSP   MERCY A.  Nitsche
+201405                                                  J.  Cavner
+201405                 12:30-04:45 T       HOSP   MERCY A.  Nitsche
+201405                                                  J.  Cavner
+2014051014  NURS 3236  06:30-12:00 T       HLTHSC TBA   J.  Cavner
+201405                                                  A.  Nitsche
+201405                 06:30-04:45 T       HOSP   MERCY J.  Cavner
+201405                                                  A.  Nitsche
+201405                 06:30-04:45 T       HLTHSC TBA   J.  Cavner
+201405                                                  A.  Nitsche
+201405                 06:30-12:00 T       HLTHSC 309   J.  Cavner
+201405                                                  A.  Nitsche
+201405                 06:30-04:45 T       HLTHSC 309   J.  Cavner
+201405                                                  A.  Nitsche
+201405                 06:30-04:45 T       HOSP   MERCY J.  Cavner
+201405                                                  A.  Nitsche
+201405                 12:30-04:45 T       HOSP   MERCY J.  Cavner
+201405                                                  A.  Nitsche
+201405                 12:30-04:45 T       HOSP   MERCY J.  Cavner
+201405                                                  A.  Nitsche
+2014051036  NURS 3236  06:30-12:00 T       HLTHSC 309   K.  Callahan
+201405                                                  A.  Mobley
+201405                 06:30-04:45 T       HOSP   SPARK K.  Callahan
+201405                                                  A.  Mobley
+201405                 06:30-04:45 T       HLTHSC 309   K.  Callahan
+201405                                                  A.  Mobley
+201405                 06:30-12:00 T       HLTHSC TBA   K.  Callahan
+201405                                                  A.  Mobley
+201405                 06:30-04:45 T       HLTHSC TBA   K.  Callahan
+201405                                                  A.  Mobley
+201405                 06:30-04:45 T       HOSP   SPARK K.  Callahan
+201405                                                  A.  Mobley
+201405                 12:30-04:45 T       HOSP   SPARK K.  Callahan
+201405                                                  A.  Mobley
+201405                 12:30-04:45 T       HOSP   SPARK K.  Callahan
+201405                                                  A.  Mobley
+2014051037  NURS 3236  07:00-12:00 TR      HOSP   SPARK K.  Callahan
+201405                                                  A.  Mobley
+201405                 06:30-04:45 T       HOSP   SPARK K.  Callahan
+201405                                                  A.  Mobley
+201405                 06:30-04:45 T       HLTHSC TBA   K.  Callahan
+201405                                                  A.  Mobley
+201405                 06:30-04:45 T       HLTHSC 309   K.  Callahan
+201405                                                  A.  Mobley
+201405                 06:30-12:00 T       HLTHSC TBA   K.  Callahan
+201405                                                  A.  Mobley
+201405                 06:30-12:00 T       HLTHSC 309   K.  Callahan
+201405                                                  A.  Mobley
+201405                 12:30-04:45 T       HOSP   SPARK K.  Callahan
+201405                                                  A.  Mobley
+201405                 12:30-04:45 T       HOSP   SPARK K.  Callahan
+201405                                                  A.  Mobley
+2014051052  NURS 3236  06:30-12:00 W       HLTHSC 309   S.  Mann
+201405                 06:30-04:45 W       HOSP   SPARK S.  Mann
+201405                 06:30-04:45 W       HLTHSC 309   S.  Mann
+201405                 06:30-12:00 W       HLTHSC TBA   S.  Mann
+201405                 06:30-04:45 W       HLTHSC TBA   S.  Mann
+201405                 06:30-04:45 W       HOSP   SPARK S.  Mann
+201405                 12:30-04:45 W       HOSP   SPARK S.  Mann
+201405                 12:30-04:45 W       HOSP   SPARK S.  Mann
+2014051077  NURS 3337  08:00-10:50 M       HLTHSC 223   K.  Hicks
+201405                                                  M.  Pham-Russell
+2014051078  NURS 3337  06:30-07:00 R       HLTHSC 133   M.  Pham-Russell
+201405                 06:30-07:00 R       HOSP   MERCY M.  Pham-Russell
+201405                 06:30-07:00 R       HLTHSC 309   M.  Pham-Russell
+201405                 06:30-07:00 R       HOSP   MERCY M.  Pham-Russell
+201405                 06:30-07:00 S       HOSP   MERCY M.  Pham-Russell
+2014051079  NURS 3337  06:30-07:00 R       HLTHSC 133   C.  Stewart
+201405                 06:30-07:00 R       HOSP   MERCY C.  Stewart
+201405                 06:30-07:00 R       HLTHSC 309   C.  Stewart
+201405                 06:30-07:00 R       HOSP   MERCY C.  Stewart
+201405                 06:30-07:00 S       HOSP   MERCY C.  Stewart
+2014051080  NURS 3337  06:30-07:00 R       HLTHSC 133   K.  Hicks
+201405                 06:30-07:00 F       HLTHSC 309   K.  Hicks
+201405                 06:30-07:00 F       HOSP   MERCY K.  Hicks
+201405                 06:30-07:00 F       HOSP   MERCY K.  Hicks
+201405                 06:30-07:00 F       HOSP   MERCY K.  Hicks
+201405                 06:30-07:00 S       HOSP   MERCY K.  Hicks
+201405                 06:30-07:00 S       HOSP   MERCY K.  Hicks
+2014051081  NURS 3337  06:30-07:00 R       HLTHSC 133   C.  Stewart
+201405                 06:30-07:00 F       HOSP   MERCY C.  Stewart
+201405                 06:30-07:00 F       HLTHSC 309   C.  Stewart
+201405                 06:30-07:00 F       HOSP   MERCY C.  Stewart
+201405                 06:30-07:00 S       HOSP   MERCY C.  Stewart
+2014051082  NURS 3337  06:30-07:00 R       HLTHSC 133   S.  Romero
+201405                 06:30-07:00 F       HLTHSC 309   S.  Romero
+201405                 06:30-07:00 S       HOSP   MERCY S.  Romero
+201405                 06:30-07:00 S       HOSP   MERCY S.  Romero
+201405                 06:30-07:00 U       HOSP   MERCY S.  Romero
+2014051113  NURS 4305  TBA                 TBA    TBA   J.  Calvery Carman
+2014051085  NURS 434C  08:00-09:50 M       HLTHSC 222   B.  Merkley
+201405                 10:30-12:20 M       HLTHSC 222   B.  Merkley
+2014051088  NURS 434C  06:30-07:00 TW      HOSP   MERCY B.  Moore
+201405                 06:30-12:00 T       HOSP   MERCY B.  Moore
+201405                 01:00-07:00 T       HLTHSC 237   B.  Moore
+2014051096  NURS 434C  06:30-07:00 TW      HOSP   SPARK T.  Rogers
+201405                 06:30-12:00 T       HOSP   SPARK T.  Rogers
+201405                 01:00-07:00 T       HLTHSC 228   T.  Rogers
+2014051086  NURS 434C  06:30-07:00 RF      HOSP   SPARK S.  Imanda
+201405                 06:30-12:00 S       HOSP   SPARK S.  Imanda
+201405                 06:30-07:00 S       HOSP   SPARK S.  Imanda
+201405                 01:00-07:00 S       HLTHSC 228   S.  Imanda
+2014051097  NURS 4355  08:00-09:50 M       HLTHSC 318   K.  Wright
+2014051194  NURS 4355  06:30-12:00 R       HLTHSC 223   K.  Wright
+201405                 06:30-05:30 R       HOSP   MERCY K.  Wright
+201405                 01:00-05:30 R       HOSP   MERCY K.  Wright
+2014051196  NURS 4355  06:30-12:00 R       HLTHSC 223   M.  Harp
+201405                 06:30-05:30 R       HOSP   SPARK M.  Harp
+201405                 01:00-05:30 R       HOSP   SPARK M.  Harp
+2014051213  NURS 4355  06:30-12:00 F       HLTHSC 133   K.  Wright
+201405                 06:30-05:30 F       HOSP   MERCY K.  Wright
+201405                 01:00-05:30 F       HOSP   MERCY K.  Wright
+2014051214  NURS 4355  06:30-12:00 F       HLTHSC 133   M.  Harp
+201405                 06:30-05:30 F       HOSP   SPARK M.  Harp
+201405                 01:00-05:30 F       HOSP   SPARK M.  Harp
+2014051115  NURS 4364  TBA                 TBA    TBA   T.  McCoy
+2014051217  NURS 4364  06:00-02:00 R       HOSP   MERCY P.  Cornelius
+2014051219  NURS 4364  06:00-02:00 R       HOSP   SPARK T.  McCoy
+2014051222  NURS 4364  06:00-02:00 F       HOSP   MERCY P.  Cornelius
+2014051226  NURS 4364  06:00-02:00 F       HOSP   SPARK T.  McCoy
+2014051123  NURS 4458  10:00-11:50 M       HLTHSC 314   J.  Blankenship
+201405                                                  D.  Koch
+201405                 10:00-11:50 M       HLTHSC 314   J.  Blankenship
+201405                                                  D.  Koch
+201405                 12:45-02:35 M       HLTHSC 314   J.  Blankenship
+201405                                                  D.  Koch
+201405                 12:45-02:35 M       HLTHSC 314   J.  Blankenship
+201405                                                  D.  Koch
+2014051140  NURS 4458  10:00-11:50 M       HLTHSC 314   J.  Blankenship
+201405                                                  D.  Koch
+201405                 10:00-11:50 M       HLTHSC 314   J.  Blankenship
+201405                                                  D.  Koch
+201405                 12:45-02:35 M       HLTHSC 314   J.  Blankenship
+201405                                                  D.  Koch
+201405                 12:45-02:35 M       HLTHSC 314   J.  Blankenship
+201405                                                  D.  Koch
+2014051230  NURS 4458  07:00-07:30 T       BALDOR TBA   L.  Renfro
+201405                                                  J.  Graham
+201405                 07:00-07:30 T       HOSP   HARBO L.  Renfro
+201405                                                  J.  Graham
+201405                 07:00-07:30 W       HOSP   HARBO L.  Renfro
+201405                                                  J.  Graham
+201405                 07:00-07:30 W       HOSP   HARBO L.  Renfro
+201405                                                  J.  Graham
+2014051234  NURS 4458  07:00-07:30 T       BALDOR TBA   J.  Blankenship
+201405                                                  L.  Renfro
+201405                 07:00-07:30 T       HOSP   HARBO J.  Blankenship
+201405                                                  L.  Renfro
+201405                 07:00-07:30 T       HOSP   HARBO J.  Blankenship
+201405                                                  L.  Renfro
+2014051237  NURS 4458  07:00-07:30 T       BALDOR TBA   J.  Blankenship
+201405                                                  L.  Renfro
+201405                 07:00-07:30 T       HOSP   HARBO J.  Blankenship
+201405                                                  L.  Renfro
+201405                 07:00-07:30 T       HOSP   HARBO J.  Blankenship
+201405                                                  L.  Renfro
+2014051238  NURS 4458  07:00-07:30 T       BALDOR TBA   L.  Renfro
+201405                                                  J.  Graham
+201405                 07:00-07:30 T       HOSP   HARBO L.  Renfro
+201405                                                  J.  Graham
+201405                 07:00-07:30 W       HOSP   HARBO L.  Renfro
+201405                                                  J.  Graham
+201405                 07:00-07:30 W       HOSP   HARBO L.  Renfro
+201405                                                  J.  Graham
+2014051117  NURS 4654  TBA                 TBA    TBA   J.  Calvery Carman
+2014051119  NURS 4805  TBA                 TBA    TBA   P.  Blesch
+2014051122  NURS 4903  TBA                 TBA    TBA   P.  Blesch
+2014051109  NUTR 2523  TBA                 TBA    TBA   J.  Irgens
+2014051105  PHAR 3203  02:00-04:50 T       HLTHSC 222   M.  Pham-Russell
+2014051464  RADT 1104  09:00-10:10 MWF     HLTHSC 325   C.  Harmon
+2014051465  RADT 1112  10:15-11:05 M       HLTHSC 325   A.  Elmore
+201405                 10:15-11:55 WF      HLTHSC 325   A.  Elmore
+2014051466  RADT 1124  08:00-03:30 TR      HOSP   MERCY C.  Harmon
+201405                                                  J.  Aleshire
+201405                                                  R.  Thompson
+201405                 12:30-03:30 WF      HOSP   MERCY C.  Harmon
+201405                                                  J.  Aleshire
+201405                                                  R.  Thompson
+2014051467  RADT 1124  08:00-04:00 TR      HOSP   SPARK A.  Elmore
+201405                                                  S.  Gregory
+201405                                                  J.  Aleshire
+201405                                                  A.  Crockett
+201405                 01:00-04:00 WF      HOSP   SPARK A.  Elmore
+201405                                                  S.  Gregory
+201405                                                  J.  Aleshire
+201405                                                  A.  Crockett
+2014051471  RADT 2412  10:00-10:50 T       HLTHSC 325   A.  Elmore
+201405                 10:00-12:00 R       HLTHSC 325   A.  Elmore
+2014051469  RADT 2424  01:00-03:30 TR      HOSP   MERCY C.  Harmon
+201405                                                  J.  Aleshire
+201405                                                  R.  Thompson
+201405                 07:30-04:00 WF      HOSP   MERCY C.  Harmon
+201405                                                  J.  Aleshire
+201405                                                  R.  Thompson
+2014051470  RADT 2424  01:00-03:30 TR      HOSP   SPARK A.  Elmore
+201405                                                  A.  Crockett
+201405                 07:30-04:00 WF      HOSP   SPARK A.  Elmore
+201405                                                  A.  Crockett
+2014051472  RADT 2432  09:00-09:50 TR      HLTHSC 325   C.  Harmon
+2014051417  SUR  1526  09:30-12:20 TR      HLTHSC 326   S.  Fulbright
+2014051436  SUR  153A  06:30-02:30 MW      HOSP   SPARK S.  Fulbright
+201405                                                  T.  Morgan
+201405                                                  T.  Schaefer
+201405                 06:30-12:00 F       HOSP   SPARK S.  Fulbright
+201405                                                  T.  Morgan
+201405                                                  T.  Schaefer
+2014051440  SUR  153A  06:30-02:30 MW      HOSP   MERCY A.  Dill
+201405                 06:30-12:00 F       HOSP   MERCY A.  Dill
+2014051415  ANTH 2203  11:00-12:15 TR      HLTHSC 321   T.  Mulvihill
+2014051418  ANTH 2803  09:00-09:50 MWF     FL     201   D.  Maher
+2014051419  ANTH 2803  11:00-11:50 MWF     GARDNR 137   D.  Maher
+2014051420  ANTH 2803  09:30-10:45 TR      FL     100   L.  Beard
+2014051421  ANTH 2803  TBA                 GARDNR TBA   T.  Watkins
+2014051422  ANTH 2803  TBA                 GARDNR TBA   T.  Watkins
+2014051429  ANTH 3213  TBA                 GARDNR TBA   D.  Maher
+2014051718  ANTH 3823  TBA                 VINES  TBA   D.  Maher
+2014051038  ART  1103  12:30-03:20 TR      BALLMN 101   C.  Steiner
+2014051041  ART  1113  09:00-11:50 MW      BALLMN 103   E.  Cialone
+2014051043  ART  1113  01:00-03:50 TR      BALLMN 103   E.  Cialone
+2014051045  ART  1123  08:00-10:50 MW      BALDOR 207   B.  Alexis
+2014051047  ART  1123  01:00-03:50 MW      BALDOR 207   K.  Wilson
+2014051747  ART  1123  01:00-03:50 TR      BALDOR 110   B.  Sharp
+2014051048  ART  1133  01:00-03:50 MW      BALDOR 206   K.  Harper
+2014051738  ART  1143  01:00-03:20 MWF     BALLMN 105A  N.  Howard
+2014051739  ART  1143  12:30-03:20 TRF     BALLMN 105A  N.  Howard
+2014051050  ART  1143  12:30-03:20 TR      BALLMN 105A  N.  Howard
+2014051054  ART  1551  02:00-02:50 F       BALLMN 101   C.  Steiner
+201405                                                  D.  Lee
+2014051056  ART  2213  12:00-02:50 MF      BALLMN 104   E.  Cialone
+2014051057  ART  2223  12:30-03:20 TR      BALLMN 102   D.  Lee
+2014051060  ART  2863  02:00-03:15 TR      BREDLV 207   M.  Shepard
+2014051062  ART  2863  TBA                 BREDLV TBA   J.  Knight
+2014051065  ART  2873  TBA                 BREDLV TBA   J.  Knight
+2014051067  ART  3313  01:00-03:50 MW      BALLMN 103   M.  Spears
+2014051622  ART  3523  01:00-01:50 MWF     BREDLV 207   M.  Shepard
+2014051071  ART  3773  12:30-03:20 TR      BALLMN 102   D.  Lee
+2014051073  ART  4213  08:00-08:50 MWF     BREDLV 207   M.  Shepard
+2014051075  ART  4954  TBA                 BALLMN TBA   C.  Steiner
+2014051040  ART  1103  05:25-08:15 TR      BALLMN 101   N.  Howard
+2014051053  ART  1143  05:25-08:15 TR      BALLMN 105A  G.  Farris
+2014051063  ART  2863  05:25-08:15 T       BREDLV 207   M.  Shepard
+2014051120  CJ   1013  01:00-01:50 MWF     GARDNR 137   D.  Balch
+2014051125  CJ   1013  01:00-01:50 MWF     GARDNR 137   D.  Balch
+2014051116  CJ   1013  09:30-10:45 TR      FL     216   T.  Pearn
+2014051192  CJ   1013  TBA                 GARDNR TBA   B.  Morrill
+2014051263  CJ   1253  02:00-03:15 MW      GARDNR 204   M.  Wuestewald
+2014051179  CJ   1253  12:30-01:45 TR      GARDNR 228   M.  Wuestewald
+2014051191  CJ   2313  TBA                 GARDNR TBA   M.  Hudson
+2014051126  CJ   2373  02:00-02:50 MWF     HOLT   115   D.  Balch
+2014051127  CJ   2373  02:00-02:50 MWF     HOLT   115   D.  Balch
+2014051188  CJ   2373  TBA                 GARDNR TBA   D.  Balch
+2014051132  CJ   2403  01:00-02:15 TR      MS-UC  301   D.  Balch
+2014051165  CJ   2403  01:00-02:15 TR      MS-UC  301   D.  Balch
+2014051190  CJ   2403  TBA                 GARDNR TBA   T.  Pearn
+2014051240  CJ   2603  04:00-05:15 T       GARDNR 139   L.  Pearn
+2014051193  CJ   2603  TBA                 GARDNR TBA   L.  Pearn
+2014051187  CJ   3063  TBA                 GARDNR TBA   J.  Hunter
+2014051202  CJ   3213  TBA                 GARDNR TBA   B.  Morrill
+2014051250  CJ   3413  11:00-12:15 TR      GARDNR 231   M.  Wuestewald
+2014051175  CJ   390V  02:00-03:15 MW      GARDNR 221   D.  Williams
+2014051251  CJ   3913  12:30-01:45 TR      FL     201   D.  Williams
+2014051255  CJ   3923  11:00-12:15 TR      GARDNR 228   D.  Williams
+2014051253  CJ   397V  TBA                 GARDNR TBA   P.  Kroutter
+2014051189  CJ   3983  TBA                 GARDNR TBA   P.  Kroutter
+2014051168  CJ   4113  09:00-09:50 MWF     GARDNR 228   P.  Kroutter
+2014051195  CJ   4113  TBA                 GARDNR TBA   R.  Turner
+2014051197  CJ   4833  TBA                 TBA    TBA   R.  Turner
+2014051233  CJ   1013  06:50-08:05 TR      GARDNR 201   W.  Milam
+201405                                                  C.  Nance
+2014051720  CJ   1253  04:00-05:15 TR      GARDNR 221   D.  Williams
+2014051245  CJ   2373  05:25-06:40 MW      GARDNR 228   F.  Dyke
+2014051656  CJ   2402  04:00-04:50 TR      GARDNR 228   D.  Balch
+2014051236  CJ   2403  04:00-05:15 MW      GARDNR 204   T.  Pearn
+2014051239  CJ   2603  05:25-06:40 TR      GARDNR 201   D.  Dunagin
+2014051248  CJ   3213  06:50-08:05 TR      GARDNR 204   T.  Pearn
+2014051235  CJ   390V  03:50-06:40 W       GARDNR 201   M.  Wuestewald
+2014051241  CJ   4833  06:50-08:05 MW      GARDNR 138   C.  Hansen
+2014051710  GEOG 2753  01:00-01:50 MWF     GARDNR 204   L.  Fair
+201405990   GEOG 2753  09:30-10:45 TR      GARDNR 204   C.  Flynn
+201405991   GEOG 2753  11:00-12:15 TR      GARDNR 204   C.  Flynn
+201405992   GEOG 2753  TBA                 GARDNR TBA   L.  Fair
+201405993   GEOG 2753  TBA                 GARDNR TBA   C.  Flynn
+201405994   GEOG 2753  TBA                 GARDNR TBA   C.  Flynn
+201405996   GEOG 2773  09:00-09:50 MWF     GARDNR 204   L.  Fair
+201405997   GEOG 3103  11:00-11:50 MWF     GARDNR 204   L.  Fair
+2014051565  GEOG 3103  11:00-11:50 MWF     GARDNR 204   L.  Fair
+2014051692  GEOG 2753  04:00-05:15 TR      GARDNR 231   C.  Flynn
+2014051594  GRDS 2243  11:00-01:50 TR      BALDOR 206   C.  McLain
+2014051595  GRDS 2303  08:00-10:50 MW      BALDOR 206   C.  McLain
+2014051596  GRDS 3273  08:00-10:50 TR      BALDOR 207   B.  Alexis
+2014051597  GRDS 3403  02:00-04:50 TR      BALDOR 206   C.  McLain
+2014051598  GRDS 3623  09:00-11:50 MW      GARDNR BASMT K.  Harper
+2014051628  GRDS 372V  TBA                 BALDOR TBA   C.  McLain
+2014051629  GRDS 372V  TBA                 BALDOR TBA   C.  McLain
+2014051599  GRDS 4313  01:00-03:50 TR      BALDOR 207   B.  Alexis
+2014051600  GRDS 4933  08:00-10:50 TR      BALDOR 206   K.  Harper
+201405686   HIST 1123  09:00-09:50 MWF     GARDNR 201   B.  Kidder
+201405696   HIST 1123  11:00-11:50 MWF     GARDNR 201   B.  Kidder
+201405700   HIST 1123  02:00-02:50 MWF     GARDNR 231   B.  Kidder
+201405702   HIST 1123  11:00-12:15 TR      GARDNR 201   T.  Waller
+201405705   HIST 1123  12:30-01:45 TR      GARDNR 201   T.  Waller
+201405707   HIST 1123  TBA                 TBA    TBA   M.  McCoy
+201405710   HIST 1133  12:00-12:50 MWF     GARDNR 201   M.  Franklin
+201405714   HIST 1133  01:00-01:50 MWF     GARDNR 201   M.  Franklin
+201405712   HIST 1133  02:00-03:15 TR      GARDNR 201   D.  Prentice
+201405719   HIST 1133  TBA                 GARDNR TBA   M.  McCoy
+201405722   HIST 2753  10:00-10:50 MWF     GARDNR 138   L.  Jones
+2014051708  HIST 2753  01:00-01:50 MWF     GARDNR 231   P.  Russell
+201405724   HIST 2753  09:30-10:45 TR      GARDNR 138   S.  Kite
+201405826   HIST 2753  11:00-12:15 TR      GARDNR 138   L.  Jones
+201405831   HIST 2753  12:30-01:45 TR      GARDNR 138   D.  Breitenberg
+201405833   HIST 2753  02:00-03:15 TR      GARDNR 138   D.  Breitenberg
+201405836   HIST 2753  TBA                 GARDNR TBA   M.  Siler
+201405845   HIST 2753  TBA                 GARDNR TBA   M.  Siler
+201405846   HIST 2753  TBA                 GARDNR TBA   J.  Hinkson
+2014051673  HIST 2753  TBA                 TBA    TBA   M.  Siler
+201405848   HIST 2763  09:00-09:50 MWF     GARDNR 138   L.  Jones
+201405854   HIST 2763  11:00-11:50 MWF     GARDNR 138   M.  Crane
+201405855   HIST 2763  12:00-12:50 MWF     GARDNR 138   M.  Crane
+201405859   HIST 2763  12:30-01:45 TR      GARDNR 139   D.  Prentice
+201405866   HIST 2763  TBA                 GARDNR TBA   J.  Hinkson
+201405872   HIST 2763  TBA                 GARDNR TBA   D.  Breitenberg
+201405909   HIST 3053  09:30-10:45 TR      GARDNR 231   T.  Timmons
+201405910   HIST 3053  02:00-03:15 W       GARDNR 139   T.  Timmons
+201405911   HIST 3063  TBA                 GARDNR TBA   T.  Timmons
+201405913   HIST 3113  10:00-10:50 MWF     GARDNR 228   M.  Franklin
+201405914   HIST 3133  10:00-10:50 MWF     GARDNR 139   P.  Catron-Ping
+201405917   HIST 3223  09:30-10:45 TR      GARDNR LHALL B.  Willoughby
+2014051712  HIST 3403  08:00-09:15 TR      GARDNR 137   B.  Willoughby
+201405919   HIST 3443  12:30-01:45 TR      GARDNR 221   M.  Crane
+201405921   HIST 3473  12:00-12:50 MWF     GARDNR 221   J.  Oliver
+201405923   HIST 3803  12:00-12:50 MWF     GARDNR 228   M.  McCoy
+2014051691  HIST 3803  12:00-12:50 MWF     GARDNR 139   B.  Higgins
+201405925   HIST 4113  11:00-11:50 MWF     GARDNR 228   M.  McCoy
+201405926   HIST 4133  02:00-03:15 TR      GARDNR 228   M.  Crane
+201405928   HIST 4143  02:00-03:15 TR      GARDNR 231   B.  Higgins
+201405931   HIST 4153  10:00-10:50 MWF     GARDNR 204   B.  Higgins
+201405933   HIST 4153  08:00-09:15 TR      GARDNR 139   P.  Russell
+201405934   HIST 4153  09:30-10:45 TR      GARDNR 139   P.  Russell
+201405937   HIST 4153  12:30-01:45 TR      MS-UC  209   J.  Harvey
+201405938   HIST 4153  02:00-03:15 TR      GARDNR 139   S.  Cashion
+201405943   HIST 4153  TBA                 GARDNR TBA   D.  Breitenberg
+201405944   HIST 4153  TBA                 GARDNR TBA   B.  Higgins
+201405947   HIST 4203  12:30-01:45 TR      MS-UC  201   T.  Timmons
+201405953   HIST 4303  09:30-10:45 TR      GARDNR 201   T.  Waller
+201405954   HIST 4503  02:00-03:15 MW      GARDNR 201   S.  Kite
+201405957   HIST 4803  12:00-12:50 MWF     GARDNR 137   S.  Kite
+201405958   HIST 4823  10:00-10:50 MWF     GARDNR 221   J.  Oliver
+201405959   HIST 4903  11:00-11:50 MWF     GARDNR 231   J.  Oliver
+2014051632  HIST 493V  TBA                 GARDNR TBA   J.  Oliver
+2014051661  HIST 493V  TBA                 GARDNR TBA   M.  Crane
+2014051719  HIST 493V  TBA                 GARDNR TBA   B.  Higgins
+201405967   HIST 4953  TBA                 GARDNR TBA   S.  Kite
+2014051648  HIST 2753  05:25-08:15 M       GARDNR 204   W.  Beall
+201405862   HIST 2763  04:00-05:15 TR      GARDNR 138   S.  Cashion
+2014051649  HIST 2763  05:25-08:15 T       GARDNR 221   W.  Beall
+201405941   HIST 4153  05:25-06:40 TR      GARDNR 139   S.  Cashion
+2014051112  HUMN 2563  09:00-09:50 MWF     BREDLV 207   N.  Mathis
+2014051128  HUMN 2563  11:00-11:50 MWF     BREDLV 207   S.  Husarik
+2014051129  HUMN 2563  12:00-12:50 MWF     BREDLV 207   N.  Mathis
+2014051130  HUMN 2563  02:00-03:15 MW      BREDLV 207   N.  Mathis
+2014051133  HUMN 2563  09:30-10:45 TR      BREDLV 207   A.  Embry
+2014051131  HUMN 2563  11:00-12:15 TR      BREDLV 207   S.  Husarik
+2014051134  HUMN 2563  TBA                 BREDLV TBA   S.  Husarik
+2014051674  HUMN 2563  TBA                 TBA    TBA   S.  Husarik
+2014051252  HUMN 2563  TBA                 TBA    TBA   S.  Husarik
+2014051154  HUMN 2663  12:30-01:45 TR      BREDLV 207   S.  Husarik
+2014051135  HUMN 2563  04:00-05:15 MW      BREDLV 207   A.  Embry
+2014051136  HUMN 2563  04:00-05:15 TR      BREDLV 207   A.  Embry
+2014051138  MUSB 1251  TBA                 BREDLV TBA   A.  Zacharella
+2014051141  MUSB 1252  04:00-04:50 T       BREDLV 106B  A.  Zacharella
+2014051142  MUSB 1252  04:00-04:50 T       BREDLV 106B  A.  Zacharella
+2014051144  MUSB 1252  04:00-04:50 T       BREDLV 106B  A.  Zacharella
+2014051143  MUSB 1252  04:00-04:50 R       BREDLV 201   L.  Araya
+2014051145  MUSB 1252  04:00-04:50 R       BREDLV 201   E.  Mino
+2014051149  MUSB 3252  04:00-04:50 T       BREDLV 106B  A.  Zacharella
+2014051151  MUSB 3252  04:00-04:50 T       BREDLV 106B  A.  Zacharella
+2014051152  MUSB 3252  04:00-04:50 T       BREDLV 106B  A.  Zacharella
+2014051146  MUSB 3252  04:00-04:50 R       BREDLV 201   L.  Araya
+2014051155  MUSC 1151  11:00-11:50 TR      BREDLV 206C  W.  Reyes
+2014051156  MUSC 1161  09:00-09:50 MW      BREDLV 203   E.  Mino
+2014051157  MUSC 1161  08:00-08:50 TR      BREDLV 203   K.  Story
+2014051159  MUSC 2161  09:00-09:50 TR      BREDLV 203   K.  Story
+2014051160  MUSD 1252  05:00-05:50 T       BREDLV 105   T.  Dobbs
+2014051161  MUSD 3252  05:00-05:50 T       BREDLV 105   T.  Dobbs
+2014051162  MUSI 1000  01:00-01:50 F       BREDLV AUD   G.  Hudson
+2014051163  MUSI 1000  01:00-01:50 F       BREDLV 105   G.  Hudson
+201405                 02:00-02:50 F       BREDLV 106B  G.  Hudson
+2014051170  MUSI 1201  09:00-09:50 TR      BREDLV 201   A.  DeBoer
+2014051171  MUSI 1223  08:00-08:50 MWF     BREDLV 201   M.  Waynick
+2014051172  MUSI 1322  08:00-08:50 TR      BREDLV 208   T.  Dobbs
+2014051174  MUSI 2181  10:00-10:50 MW      BREDLV 106B  E.  Momand
+2014051176  MUSI 2763  08:00-08:50 MWF     BREDLV 105   G.  Hudson
+2014051177  MUSI 2763  10:00-10:50 MWF     BREDLV 201   J.  Floyd
+2014051178  MUSI 2763  11:00-11:50 MWF     BREDLV 201   G.  Hudson
+2014051180  MUSI 2763  12:00-12:50 MWF     BREDLV 201   G.  Hudson
+2014051181  MUSI 2763  01:00-01:50 MWF     BREDLV 201   G.  Mann
+2014051182  MUSI 2763  02:00-03:15 MW      BREDLV 201   D.  Bailey
+2014051204  MUSI 2763  09:30-10:45 TR      BREDLV 105   J.  Floyd
+2014051184  MUSI 2763  11:00-12:15 TR      BREDLV 201   T.  Dobbs
+2014051185  MUSI 2763  12:30-01:45 TR      BREDLV 201   T.  Dobbs
+2014051186  MUSI 2763  02:00-03:15 TR      BREDLV 201   D.  Bailey
+2014051198  MUSI 2763  TBA                 BREDLV TBA   L.  Dooly
+2014051199  MUSI 2763  TBA                 BREDLV TBA   L.  Dooly
+2014051751  MUSI 2763  TBA                 VINES  TBA   L.  Araya
+2014051200  MUSI 2781  10:00-10:50 TR      BREDLV 201   A.  DeBoer
+2014051201  MUSI 2803  09:00-09:50 MWF     BREDLV 201   M.  Waynick
+2014051653  MUSI 2841  TBA                 BREDLV TBA   G.  Hudson
+2014051203  MUSI 3000  01:00-01:50 F       BREDLV AUD   G.  Hudson
+2014051205  MUSI 3102  09:00-09:50 MW      BREDLV 208   D.  Bailey
+201405                 09:00-09:50 MW      BREDLV 106B  D.  Bailey
+2014051652  MUSI 3372  08:00-08:50 MW      BREDLV 106B  E.  Momand
+2014051211  MUSI 3503  10:00-10:50 MWF     BREDLV 207   S.  Husarik
+2014051212  MUSI 3663  09:00-09:50 TR      BREDLV 106B  D.  Bailey
+2014051216  MUSI 3822  02:00-02:50 MW      BREDLV 106B  R.  Moore
+2014051218  MUSI 3851  02:00-02:50 TR      BREDLV 106B  A.  DeBoer
+2014051220  MUSI 4030  TBA                 BREDLV TBA   C.  Barrick
+2014051221  MUSI 4443  09:00-09:50 MWF     BREDLV 105   A.  DeBoer
+2014051223  MUSI 4843  11:00-12:15 TR      BREDLV 106B  E.  Momand
+2014051224  MUSI 4853  11:00-12:15 TR      BREDLV 105   A.  DeBoer
+2014051772  MUSP 1251  TBA                 BREDLV TBA   K.  Story
+2014051227  MUSP 1252  TBA                 BREDLV TBA   A.  Sanders
+2014051228  MUSP 3251  TBA                 BREDLV TBA   A.  Sanders
+2014051773  MUSP 3251  TBA                 BREDLV TBA   K.  Story
+2014051229  MUSP 3252  TBA                 BREDLV TBA   A.  Sanders
+2014051231  MUSR 1010  TBA                 BREDLV TBA   A.  Zacharella
+2014051232  MUSR 1201  TBA                 BREDLV TBA   D.  Bailey
+2014051309  MUSR 1351  TBA                 BREDLV TBA   G.  Hudson
+2014051311  MUSR 1351  TBA                 BREDLV TBA   W.  Reyes
+2014051315  MUSR 1361  02:00-02:50 MWF     BREDLV 105   G.  Mann
+2014051316  MUSR 1411  12:00-12:50 MWF     BREDLV 106B  C.  Barrick
+201405                 12:00-12:50 MWF     BREDLV 105   C.  Barrick
+2014051317  MUSR 1421  01:00-01:50 MTWR    BREDLV 105   R.  Moore
+2014051318  MUSR 1441  03:00-03:50 MTWR    BREDLV 105   A.  Zacharella
+2014051319  MUSR 1451  11:00-11:50 MWF     BREDLV 105   D.  Bailey
+2014051320  MUSR 1461  02:00-02:50 TR      BREDLV 105   R.  Moore
+2014051321  MUSR 3351  TBA                 BREDLV TBA   G.  Hudson
+2014051325  MUSR 3361  02:00-02:50 MWF     BREDLV 105   G.  Mann
+2014051326  MUSR 3411  12:00-12:50 MWF     BREDLV 105   C.  Barrick
+201405                 12:00-12:50 MWF     BREDLV 106B  C.  Barrick
+2014051327  MUSR 3421  01:00-01:50 MTWR    BREDLV 105   R.  Moore
+2014051328  MUSR 3441  03:00-03:50 MTWR    BREDLV 105   A.  Zacharella
+2014051329  MUSR 3451  11:00-11:50 MWF     BREDLV 105   D.  Bailey
+2014051330  MUSR 3461  02:00-02:50 TR      BREDLV 105   R.  Moore
+2014051312  MUSR 1351  04:00-04:50 MW      BREDLV 105   L.  Araya
+2014051313  MUSR 1351  04:00-04:50 TR      BREDLV 206C  A.  DeBoer
+2014051314  MUSR 1351  04:00-04:50 TR      BREDLV 105   T.  Dobbs
+2014051323  MUSR 3351  04:00-04:50 MW      BREDLV 105   L.  Araya
+2014051322  MUSR 3351  04:00-04:50 TR      BREDLV 206C  A.  DeBoer
+2014051324  MUSR 3351  04:00-04:50 TR      BREDLV 105   T.  Dobbs
+2014051332  MUSS 1252  TBA                 BREDLV TBA   W.  Reyes
+2014051333  MUSS 3252  TBA                 BREDLV TBA   W.  Reyes
+2014051334  MUSV 1251  TBA                 BREDLV TBA   N.  Hayes
+2014051335  MUSV 1251  TBA                 BREDLV TBA   G.  Mann
+2014051337  MUSV 1251  TBA                 BREDLV TBA   E.  Momand
+2014051338  MUSV 1251  TBA                 BREDLV TBA   R.  Moore
+2014051768  MUSV 1252  04:00-04:50 M       BREDLV 114   G.  Mann
+2014051339  MUSV 1252  04:00-04:50 M       BREDLV 114   E.  Momand
+2014051340  MUSV 1252  04:00-04:50 M       BREDLV 106B  R.  Moore
+2014051341  MUSV 1252  04:00-04:50 M       BREDLV TBA   N.  Hayes
+2014051345  MUSV 3252  04:00-04:50 M       BREDLV 114   E.  Momand
+2014051346  MUSV 3252  04:00-04:50 M       BREDLV TBA   R.  Moore
+2014051352  MUSW 1252  01:00-01:50 W       BREDLV 203   A.  DeBoer
+2014051353  MUSW 1252  01:00-01:50 W       BREDLV 203   C.  Barrick
+2014051354  MUSW 1252  TBA                 BREDLV TBA   G.  Hudson
+2014051355  MUSW 1252  TBA                 BREDLV TBA   D.  Hewett
+2014051356  MUSW 3252  01:00-01:50 W       BREDLV 203   A.  DeBoer
+2014051358  MUSW 3252  TBA                 BREDLV TBA   G.  Hudson
+201405998   PHIL 2753  09:00-09:50 MWF     GARDNR LHALL B.  Anderson
+201405999   PHIL 2753  10:00-10:50 MWF     GARDNR LHALL B.  Anderson
+2014051000  PHIL 2753  11:00-11:50 MWF     GARDNR LHALL B.  Anderson
+2014051001  PHIL 2753  11:00-12:15 TR      GARDNR LHALL C.  Rogers
+2014051002  PHIL 2753  12:30-01:45 TR      GARDNR 137   J.  Champlin
+2014051003  PHIL 2753  02:00-03:15 TR      GARDNR LHALL J.  Champlin
+2014051633  PHIL 2753  TBA                 GARDNR TBA   M.  Goodwin
+2014051634  PHIL 2753  TBA                 GARDNR TBA   M.  Goodwin
+2014051007  PHIL 3103  12:30-01:45 TR      MS-UC  208   C.  Rogers
+2014051004  PHIL 3103  TBA                 GARDNR TBA   J.  Packwood
+2014051006  PHIL 3103  TBA                 GARDNR TBA   R.  Fulmer
+2014051005  PHIL 3103  TBA                 GARDNR TBA   J.  Packwood
+2014051008  PHIL 3203  08:00-09:15 TR      GARDNR 221   C.  Rogers
+2014051009  PHIL 3203  09:30-10:45 TR      GARDNR 221   J.  Packwood
+2014051010  PHIL 3203  11:00-12:15 TR      GARDNR 221   J.  Packwood
+2014051011  PHIL 3203  TBA                 GARDNR TBA   R.  Fulmer
+2014051013  PHIL 3223  12:30-01:45 TR      GARDNR 204   D.  Hubbard
+2014051012  PHIL 3403  02:00-03:15 TR      GARDNR 221   J.  Packwood
+2014051643  PHIL 493V  TBA                 GARDNR TBA   J.  Packwood
+2014051647  PHIL 2753  05:25-08:15 M       GARDNR 139   J.  Champlin
+2014051623  PHIL 3213  04:00-05:15 TR      GARDNR 137   D.  Hubbard
+2014051480  PHYE 0990  TBA                 GYM    145   M.  Pendergrass
+2014051483  PHYE 1011  03:00-03:50 MW      GYM    139   J.  McMullin
+2014051481  PHYE 1011  12:30-01:20 TR      GYM    139   D.  deCorrevont
+2014051484  PHYE 1021  03:00-03:50 MW      GYM    139   J.  McMullin
+2014051482  PHYE 1021  12:30-01:20 TR      GYM    139   D.  deCorrevont
+2014051713  PHYE 1261  09:00-09:50 MW      STUBBL TBA   J.  Sargent
+2014051485  PHYE 1261  11:00-11:50 TR      GYM    139   C.  Williams
+2014051502  PHYE 1502  11:00-11:50 TR      HLTHSC 318   T.  Holland
+2014051504  PHYE 1621  09:00-09:50 MW      GYM    145   C.  Williams
+2014051505  PHYE 1621  10:00-10:50 MW      GYM    145   C.  Williams
+2014051506  PHYE 1621  01:00-01:50 MW      GYM    145   C.  Williams
+2014051507  PHYE 1621  02:00-02:50 MW      GYM    145   C.  Williams
+2014051508  PHYE 1621  10:00-10:50 TR      GYM    145   M.  Pendergrass
+2014051509  PHYE 1621  02:00-02:50 TR      GYM    145   M.  Pendergrass
+2014051510  PHYE 2353  10:00-10:50 MWF     HLTHSC 318   T.  Holland
+2014051714  PHYE 2853  10:00-10:50 MWF     MS-UC  209   L.  Whorton
+2014051512  PHYE 2853  TBA                 TBA    TBA   D.  Popp
+2014051511  PHYE 2853  TBA                 HLTHSC TBA   D.  Popp
+2014051513  PHYE 1011  05:25-06:15 MW      GYM    139   J.  McMullin
+2014051514  PHYE 1021  05:25-06:15 MW      GYM    139   J.  McMullin
+2014051515  PHYE 1561  06:50-07:40 MW      GYM    FLOOR J.  Sallee
+2014051516  PHYE 1571  06:50-07:40 MW      GYM    FLOOR J.  Sallee
+2014051517  PHYE 2571  06:50-07:40 MW      GYM    FLOOR J.  Sallee
+2014051015  POLS 2753  10:00-10:50 MWF     GARDNR 201   F.  Hansen
+2014051019  POLS 2753  12:00-12:50 MWF     GARDNR 231   F.  Hansen
+2014051021  POLS 2753  01:00-01:50 MWF     GARDNR 138   C.  Sullivan
+2014051022  POLS 2753  12:30-01:45 TR      GARDNR 231   J.  Beaty
+2014051023  POLS 2753  02:00-03:15 TR      GARDNR 137   J.  Beaty
+2014051024  POLS 2753  TBA                 GARDNR TBA   W.  Yamkam
+2014051025  POLS 2753  TBA                 TBA    TBA   E.  Baker
+2014051672  POLS 2753  TBA                 TBA    TBA   W.  Yamkam
+2014051618  POLS 2753H 11:00-11:50 MWF     HLTHSC 326   E.  Baker
+2014051026  POLS 2853  11:00-11:50 MWF     HLTHSC 318   C.  Sullivan
+2014051027  POLS 2853  12:00-12:50 MWF     GARDNR LHALL C.  Sullivan
+2014051028  POLS 2853  TBA                 TBA    TBA   E.  Baker
+2014051029  POLS 2853  TBA                 GARDNR TBA   W.  Yamkam
+2014051030  POLS 3123  11:00-12:15 TR      GARDNR 139   E.  Baker
+2014051031  POLS 3133  09:00-09:50 MWF     GARDNR 231   W.  Yamkam
+2014051032  POLS 3143  02:00-02:50 MWF     GARDNR 138   F.  Hansen
+2014051033  POLS 3603  09:30-10:45 TR      GARDNR 228   J.  Beaty
+2014051034  POLS 4103  09:30-10:45 TR      HLTHSC 124   W.  Yamkam
+2014051779  POLS 4953  TBA                 VINES  TBA   E.  Baker
+2014051306  PSYC 1001  08:00-08:50 MW      GARDNR 228   N.  Otero
+2014051307  PSYC 1001  03:00-03:50 MW      GARDNR 228   L.  Manriquez
+2014051308  PSYC 1001  02:00-02:50 TR      HOLT   111   J.  Benjamin
+201405827   PSYC 1163  08:00-08:50 MWF     GARDNR 201   J.  Scarborough
+201405834   PSYC 1163  09:00-09:50 MWF     FL     100   G.  Roberts
+201405840   PSYC 1163  10:00-10:50 MWF     GARDNR 231   N.  Otero
+201405841   PSYC 1163  08:00-09:15 TR      GARDNR LHALL S.  Kimbley
+201405843   PSYC 1163  08:00-09:15 TR      MS-UC  306   G.  Roberts
+201405847   PSYC 1163  TBA                 TBA    TBA   N.  Otero
+2014051676  PSYC 1163  TBA                 TBA    TBA   N.  Otero
+2014051703  PSYC 1163  TBA                 GARDNR TBA   L.  Gibbons
+201405877   PSYC 1163  TBA                 TBA    TBA   L.  Manriquez
+201405897   PSYC 2513  09:30-10:45 T       MS-UC  212   J.  Benjamin
+201405                 09:30-10:45 R       GARDNR 137   J.  Benjamin
+201405902   PSYC 2613  08:00-10:50 T       HLTHSC 227   R.  Barrett
+201405                 08:00-10:50 R       BALDOR 124   R.  Barrett
+2014051408  PSYC 2803  TBA                 GARDNR TBA   L.  Gibbons
+2014051410  PSYC 2963  10:00-10:50 MWF     GARDNR 137   L.  Gibbons
+201405905   PSYC 2963  08:00-09:15 TR      GARDNR 231   L.  Shaeffer
+201405906   PSYC 2963  TBA                 GARDNR TBA   J.  Sanders
+201405907   PSYC 2963  02:00-04:50 TR      HLTHSC 124   G.  Roberts
+201405908   PSYC 2963  09:00-12:15 MTWRF   GARDNR 137   G.  Roberts
+201405                 09:00-12:15 MTWRF   GARDNR 137   G.  Roberts
+201405                 09:00-12:15 MT      GARDNR 137   G.  Roberts
+201405                 09:00-12:15 RF      GARDNR 137   G.  Roberts
+201405915   PSYC 3133  03:00-03:50 MWF     GARDNR 137   J.  Benjamin
+201405916   PSYC 3133  TBA                 GARDNR TBA   J.  Sanders
+201405918   PSYC 3133  TBA                 GARDNR TBA   J.  Benjamin
+2014051414  PSYC 3173  TBA                 GARDNR TBA   J.  Sanders
+201405920   PSYC 3503  08:00-09:50 MWF     FL     112   L.  Manriquez
+201405922   PSYC 3503  11:00-12:50 MWF     FL     112   L.  Manriquez
+201405924   PSYC 3503  08:00-10:50 TR      FL     112   L.  Manriquez
+201405927   PSYC 3613  08:00-09:50 MWF     FL     112   J.  Benjamin
+201405929   PSYC 3613  11:00-12:50 MWF     FL     112   L.  Manriquez
+201405930   PSYC 3613  08:00-10:50 T       HLTHSC 227   R.  Barrett
+201405                 08:00-10:50 T       BALDOR 124   R.  Barrett
+201405                 08:00-10:50 R       BALDOR 124   R.  Barrett
+2014051612  PSYC 3703  10:00-10:50 MWF     HOLT   110   L.  Manriquez
+201405                                                  G.  Roberts
+201405932   PSYC 4153  09:30-10:45 T       GARDNR 137   N.  Otero
+201405                 09:30-10:45 R       MS-UC  212   N.  Otero
+201405942   PSYC 4223  TBA                 GARDNR TBA   L.  Gibbons
+201405945   PSYC 4233  08:00-08:50 MWF     FL     217   G.  Roberts
+201405948   PSYC 4303  02:00-02:50 MWF     GARDNR 137   N.  Otero
+201405956   PSYC 4803  TBA                 GARDNR TBA   N.  Otero
+201405963   PSYC 494V  TBA                 GARDNR TBA   J.  Benjamin
+201405883   PSYC 1163  05:25-06:40 MW      GARDNR 137   S.  Mixon
+201405885   PSYC 1163  06:50-08:05 MW      GARDNR 137   J.  Scarborough
+201405889   PSYC 1163  04:00-05:15 TR      GARDNR LHALL S.  Mixon
+201405891   PSYC 1163  06:50-08:05 TR      GARDNR 231   W.  Winkle
+201405912   PSYC 2963  05:25-06:40 TR      GARDNR 137   L.  Shaeffer
+201405968   PSYC 3183  06:50-08:05 TR      GARDNR 137   L.  Shaeffer
+201405976   PSYC 4223  05:25-06:40 TR      GARDNR 138   W.  Winkle
+201405893   PSYC 1163  08:00-10:50 S       GARDNR 137   J.  Scarborough
+2014051099  RELI 2273  12:00-12:50 MWF     GARDNR 204   P.  Catron-Ping
+2014051101  RELI 2303  TBA                 GARDNR TBA   R.  Fulmer
+201405972   RINT 3523  02:00-03:15 TR      GARDNR 204   S.  Kite
+2014051432  SOCI 2753  08:00-08:50 MWF     GARDNR 139   D.  Maher
+2014051434  SOCI 2753  12:30-01:45 TR      MS-UC  306   K.  Spencer
+2014051435  SOCI 2753  12:30-01:45 TR      GARDNR LHALL L.  Beard
+2014051433  SOCI 2753  02:30-03:45 TR      MS-UC  101   R.  Mortenson
+2014051439  SOCI 2753  02:30-03:45 TR      MS-UC  101   R.  Mortenson
+2014051437  SOCI 2753  TBA                 GARDNR TBA   S.  Brown
+2014051447  SOCI 2753  TBA                 GARDNR TBA   S.  Brown
+2014051666  SOCI 2753  TBA                 GARDNR TBA   L.  Beard
+2014051735  SOCI 2753  TBA                 GARDNR TBA   K.  Spencer
+2014051442  SOCI 2753H 11:00-12:15 TR      GARDNR 137   R.  Mortenson
+2014051443  SOCI 2853  02:00-03:15 TR      MS-UC  306   K.  Spencer
+2014051444  SOCI 2863  08:00-10:50 TR      FL     112   K.  Spencer
+2014051614  SOCI 4133  02:00-03:15 TR      GARDNR 228   M.  Crane
+2014051448  SOCI 4203  02:00-03:15 MW      GARDNR 221   D.  Williams
+2014051441  SOCI 2753  05:25-06:40 TR      GARDNR LHALL K.  Spencer
+201405949   THEA 1203  11:00-11:50 MWF     BREDLV 114   B.  Stevenson
+201405955   THEA 1431  TBA                 BREDLV TBA   B.  Stevenson
+201405960   THEA 1451  TBA                 BREDLV TBA   P.  Guerra-Monje
+201405962   THEA 1711  01:00-01:50 MW      OTHER  WABS  M.  Schoenfeld
+201405969   THEA 2313  10:00-11:50 TR      BREDLV AUD   B.  Stevenson
+201405971   THEA 2513  12:00-12:50 MWF     BREDLV 114   P.  Guerra-Monje
+201405974   THEA 3323  12:30-02:20 TR      BREDLV AUD   B.  Stevenson
+201405978   THEA 3533  01:00-01:50 MWF     BREDLV 114   P.  Guerra-Monje
+201405981   THEA 4213  11:00-12:15 TR      BREDLV 114   P.  Guerra-Monje
+2014051613  COMM 2203  11:00-12:15 TR      MS-UC  207   T.  Walton
+2014051670  COMM 2203  01:00-03:15 TR      HLTHSC 223   C.  Thompson
+201405                                                  L.  Beleele
+201405299   COMM 2203  02:00-03:15 TR      HLTHSC 223   C.  Thompson
+201405                                                  B.  Wiggins
+201405301   COMM 2213  11:00-12:15 TR      HOLT   111   B.  Wiggins
+201405303   COMM 3801  12:00-01:50 W       HOLT   111   B.  Wiggins
+201405305   COMM 4203  12:30-01:45 TR      VINES  201   B.  Wiggins
+201405306   COMM 4643  09:00-09:50 MWF     HOLT   111   B.  Bowers
+201405308   COMM 4801  12:00-12:50 F       HOLT   111   B.  Wiggins
+2014051771  COMM 493V  TBA                 VINES  TBA   B.  Wiggins
+2014051660  COMM 493V  TBA                 BALLMN TBA   S.  Simkowski
+2014051775  COMM 493V  TBA                 VINES  TBA   C.  Thompson
+2014051665  COMM 493V  TBA                 BALLMN TBA   B.  Wiggins
+2014051658  COMM 493V  TBA                 BALLMN TBA   T.  Walton
+2014051664  COMM 493V  TBA                 BALLMN TBA   T.  Walton
+2014051781  COMM 493V  TBA                 BALLMN TBA   T.  Walton
+2014051659  COMM 495V  TBA                 VINES  TBA   C.  Thompson
+2014051675  COMM 495V  TBA                 HOLT   TBA   C.  Thompson
+201405307   COMM 4743  03:50-06:40 T       FL     111   S.  Simkowski
+20140520    ENGL 1201  10:00-10:50 M       HOLT   111   M.  Jones
+20140522    ENGL 1201  10:00-10:50 W       HOLT   111   M.  Jones
+20140523    ENGL 1201  10:00-10:50 F       HOLT   111   M.  Jones
+20140524    ENGL 1203  08:00-08:50 MWF     FL     220   C.  Gerard
+20140527    ENGL 1203  09:00-09:50 MWF     HOLT   110   L.  Witherington
+20140532    ENGL 1203  09:00-09:50 MWF     HOLT   108   E.  Carlson
+20140528    ENGL 1203  09:00-09:50 MWF     HOLT   102   J.  Chitty
+20140534    ENGL 1203  10:00-10:50 MWF     HOLT   115   B.  Bowers
+201405                 10:00-10:50 W       FL     112   B.  Bowers
+201405                 10:00-10:50 W       FL     112   B.  Bowers
+20140535    ENGL 1203  10:00-10:50 MWF     FL     217   K.  Jones
+20140539    ENGL 1203  10:00-10:50 MWF     HOLT   108   E.  Carlson
+20140536    ENGL 1203  10:00-10:50 MWF     HOLT   102   J.  Chitty
+20140543    ENGL 1203  11:00-11:50 MWF     HOLT   110   L.  Witherington
+20140547    ENGL 1203  11:00-11:50 MWF     FL     217   K.  Jones
+20140549    ENGL 1203  11:00-11:50 MWF     MS-UC  306   S.  Wiggins
+20140546    ENGL 1203  11:00-11:50 MWF     FL     216   C.  Gerard
+20140542    ENGL 1203  11:00-11:50 MWF     HOLT   108   M.  Jones
+20140552    ENGL 1203  12:00-12:50 MWF     HOLT   109   B.  Bowers
+201405                 12:00-12:50 W       FL     108   B.  Bowers
+201405                 12:00-12:50 W       FL     108   B.  Bowers
+20140556    ENGL 1203  12:00-12:50 MWF     FL     113   L.  Witherington
+20140551    ENGL 1203  12:00-12:50 MWF     HOLT   110   L.  Lawrence
+201405                 12:00-12:50 MWF     MS-UC  212   L.  Lawrence
+201405                 12:00-12:50 M       MS-UC  212   L.  Lawrence
+201405                 12:00-12:50 M       MS-UC  212   L.  Lawrence
+201405                 12:00-12:50 M       FL     108   L.  Lawrence
+201405                 12:00-12:50 WF      MS-UC  212   L.  Lawrence
+201405                 12:00-12:50 W       FL     108   L.  Lawrence
+201405                 12:00-12:50 F       MS-UC  212   L.  Lawrence
+201405                 12:00-12:50 F       MS-UC  212   L.  Lawrence
+201405                 12:00-12:50 F       FL     108   L.  Lawrence
+20140525    ENGL 1203  12:00-12:50 MWF     HOLT   108   M.  Jones
+20140558    ENGL 1203  01:00-01:50 MWF     HOLT   102   K.  Jones
+20140559    ENGL 1203  01:00-01:50 MWF     HOLT   108   S.  Griffith
+201405                 01:00-01:50 M       HOLT   111   S.  Griffith
+20140565    ENGL 1203  08:00-09:15 TR      FL     102   A.  Winters
+20140563    ENGL 1203  08:00-09:15 TR      FL     217   M.  Westphal
+20140571    ENGL 1203  09:30-10:45 TR      HOLT   110   K.  Jennings
+20140566    ENGL 1203  09:30-10:45 TR      MS-UC  307   D.  Nickell
+20140569    ENGL 1203  09:30-10:45 TR      HOLT   109   M.  Westphal
+20140574    ENGL 1203  11:00-12:15 TR      HOLT   115   K.  Robinson
+20140579    ENGL 1203  11:00-12:15 TR      FL     102   A.  Winters
+20140572    ENGL 1203  11:00-12:15 TR      HOLT   110   M.  Westphal
+20140583    ENGL 1203  11:00-12:15 TR      HOLT   109   C.  West
+20140581    ENGL 1203  12:30-01:45 TR      HOLT   102   C.  West
+20140585    ENGL 1203  01:00-03:50 TR      MS-UC  307   L.  Witherington
+20140587    ENGL 1203  02:00-03:15 TR      HOLT   108   K.  Jennings
+20140589    ENGL 1203  02:00-03:15 TR      HOLT   110   C.  West
+20140595    ENGL 1203  TBA                 TBA    TBA   S.  Griffith
+20140596    ENGL 1203  TBA                 TBA    TBA   C.  Westcamp
+2014051693  ENGL 1203  TBA                 TBA    TBA   T.  Wells
+20140597    ENGL 1213  08:00-08:50 MWF     FL     219   D.  Nickell
+20140599    ENGL 1213  10:00-10:50 MWF     FL     216   A.  Schafer
+201405101   ENGL 1213  11:00-11:50 MWF     FL     113   A.  Schafer
+201405102   ENGL 1213  01:00-01:50 MWF     FL     113   D.  Nickell
+20140598    ENGL 1213  08:00-09:15 TR      HOLT   111   A.  Lee
+201405104   ENGL 1213  09:30-10:45 TR      FL     219   S.  Matthews
+201405108   ENGL 1213  11:00-12:15 TR      FL     113   R.  Wilhite
+201405109   ENGL 1213  12:30-01:45 TR      FL     218   S.  Matthews
+201405100   ENGL 1213  12:30-01:45 TR      HOLT   111   A.  Lee
+201405110   ENGL 1213  02:00-03:15 TR      HOLT   115   R.  Wilhite
+201405111   ENGL 1213  TBA                 TBA    TBA   J.  Magee
+201405112   ENGL 1213  TBA                 TBA    TBA   J.  Magee
+201405310   ENGL 2013  08:00-08:50 MWF     HOLT   102   S.  Whitlow
+201405311   ENGL 2013  11:00-11:50 MWF     HOLT   115   J.  Chitty
+201405313   ENGL 2013  TBA                 TBA    TBA   S.  Whitlow
+2014051016  ENGL 2023  09:00-09:50 MWF     HOLT   115   A.  Schafer
+2014051017  ENGL 2023  09:30-10:45 TR      HOLT   102   K.  Fudge
+2014051018  ENGL 2023  TBA                 TBA    TBA   C.  Westcamp
+201405116   ENGL 2033  11:00-11:50 MWF     HOLT   111   L.  Lawrence
+2014051640  ENGL 2503  01:00-01:50 MWF     VINES  227   T.  Wells
+201405119   ENGL 2853  02:00-03:15 TR      HOLT   102   C.  Gerard
+201405120   ENGL 3003  09:30-10:45 TR      HOLT   108   E.  Carlson
+201405122   ENGL 3023  01:00-01:50 MW      HOLT   110   L.  Lawrence
+201405125   ENGL 3043  09:00-09:50 MWF     FL     217   K.  Jones
+201405127   ENGL 3203  12:00-12:50 MWF     HOLT   115   J.  Chitty
+201405                 12:00-12:50 W       MS-UC  212   J.  Chitty
+2014051746  ENGL 3203  TBA                 VINES  TBA   J.  Chitty
+201405129   ENGL 3223  11:00-11:50 MWF     HOLT   109   C.  Westcamp
+201405134   ENGL 3403  12:30-01:45 TR      HOLT   108   J.  Chitty
+201405                 12:30-01:45 T       BALDOR 143   J.  Chitty
+201405136   ENGL 3443  11:00-12:15 TR      HOLT   102   A.  Lee
+201405153   ENGL 3453  10:00-10:50 MWF     FL     218   L.  Lawrence
+201405144   ENGL 4103  12:30-01:45 TR      HOLT   110   K.  Jennings
+201405148   ENGL 4213  11:00-11:50 MWF     HOLT   102   D.  Siler
+201405149   ENGL 4793  08:00-09:15 TR      HOLT   102   K.  Fudge
+201405146   ENGL 4903  11:00-12:15 TR      HOLT   108   E.  Carlson
+2014051732  ENGL 493V  TBA                 HOLT   TBA   L.  Lawrence
+2014051782  ENGL 493V  TBA                 HOLT   TBA   K.  Jennings
+2014051206  ENGL 4993  02:00-03:15 MW      HOLT   111   C.  Westcamp
+201405                 02:00-03:15 MW      HOLT   110   C.  Westcamp
+201405156   ENGL 4993  02:00-03:15 TR      MS-UC  204   K.  Jones
+201405                 02:00-03:15 T       MS-UC  212   K.  Jones
+20140590    ENGL 1203  04:00-05:15 MW      HOLT   108   S.  Bane
+20140592    ENGL 1203  05:25-06:40 MW      HOLT   108   S.  Bane
+201405113   ENGL 1213  04:00-05:15 MW      HOLT   110   A.  Newman
+201405114   ENGL 1213  05:25-06:40 MW      HOLT   110   A.  Newman
+2014051642  ENGL 2023  05:25-06:40 TR      HOLT   102   J.  Hardin
+201405131   ENGL 3343  04:00-05:15 TR      HOLT   110   R.  Wilhite
+2014051641  FORL 2503  01:00-01:50 MWF     VINES  227   T.  Wells
+201405602   FORL 2552  10:00-10:50 MW      FL     113   J.  Wineland
+2014051584  FORL 2552  10:00-10:50 MW      HLTHSC 124   M.  Martinez-Santiag
+201405614   FORL 4313  04:00-05:15 TR      FL     113   B.  Ross
+201405615   FORL 4343  05:25-06:40 MW      FL     218   B.  Ross
+201405597   FREN 1304  08:00-08:50 MW      VINES  227   J.  Wineland
+201405                 08:00-09:15 TR      VINES  236   J.  Wineland
+201405598   FREN 1304  12:00-12:50 MW      VINES  227   D.  Shaeffer
+201405                 12:30-01:45 TR      VINES  236   D.  Shaeffer
+201405599   FREN 1314  09:00-09:50 MW      VINES  227   D.  Shaeffer
+201405                 09:30-10:45 TR      VINES  236   D.  Shaeffer
+201405601   FREN 2303  11:00-12:15 TR      MS-UC  307   J.  Wineland
+201405606   GERM 1314  12:00-12:50 MWF     FL     218   S.  Wiggins
+201405607   GERM 2303  TBA                 VINES  TBA   S.  Wiggins
+2014051615  HONR 1101  02:00-02:50 M       HOLT   102   D.  Siler
+2014051616  HONR 1101  02:00-02:50 R       HOLT   109   D.  Siler
+201405961   RHET 2863  09:00-09:50 MWF     HOLT   109   M.  Jones
+201405965   RHET 3103  10:00-10:50 MWF     FL     220   S.  Griffith
+201405970   RHET 3203  08:00-08:50 MWF     HOLT   111   B.  Bowers
+201405966   RHET 3203  02:00-03:15 MW      FL     112   K.  Robinson
+201405                 02:00-03:15 MW      FL     102   K.  Robinson
+201405973   RHET 3203  11:00-12:15 TR      FL     112   M.  Luebke
+201405975   RHET 3303  12:30-01:45 TR      HOLT   115   K.  Robinson
+2014051208  RHET 3401  12:00-01:50 M       HOLT   111   C.  Westcamp
+201405977   RHET 3603  11:00-11:50 MWF     FL     220   S.  Griffith
+201405984   RHET 3603  09:30-10:45 TR      HOLT   111   M.  Luebke
+201405979   RHET 3603  TBA                 TBA    TBA   J.  Stewart
+201405980   RHET 3603  TBA                 TBA    TBA   J.  Stewart
+201405983   RHET 3603  TBA                 TBA    TBA   J.  Stewart
+201405986   RHET 3801  12:00-01:50 W       HOLT   111   B.  Wiggins
+2014051549  RHET 4173  TBA                 HOLT   TBA   K.  Jennings
+201405987   RHET 4503  09:30-10:45 TR      HOLT   115   A.  Lee
+201405988   RHET 4643  09:00-09:50 MWF     HOLT   111   B.  Bowers
+2014051770  RHET 493V  TBA                 HOLT   TBA   A.  Lee
+2014051153  RHET 4113  05:25-08:15 T       HOLT   110   K.  Jennings
+2014051581  RHET 4153  05:25-08:15 M       HOLT   115   C.  Gerard
+201405586   SPAN 1304  10:00-10:50 MWF     VINES  227   M.  Sobhani
+201405587   SPAN 1304  03:00-03:50 MWF     VINES  227   M.  Sobhani
+201405577   SPAN 1304  08:00-08:50 MW      VINES  236   G.  Langston
+201405                 08:00-09:15 TR      VINES  227   G.  Langston
+201405578   SPAN 1304  09:00-09:50 MW      VINES  236   G.  Langston
+201405                 09:30-10:45 TR      VINES  227   G.  Langston
+201405579   SPAN 1304  11:00-11:50 MW      VINES  236   M.  Bieber
+201405                 11:00-12:15 TR      VINES  227   M.  Bieber
+201405580   SPAN 1304  12:00-12:50 MW      VINES  236   M.  Bieber
+201405                 12:30-01:45 TR      VINES  227   M.  Bieber
+201405581   SPAN 1304  01:00-01:50 MW      VINES  236   A.  Wendorf
+201405                 12:30-01:45 TR      FL     217   A.  Wendorf
+201405582   SPAN 1304  02:00-02:50 MW      VINES  236   M.  Martinez-Santiag
+201405                 02:00-03:15 TR      FL     113   M.  Martinez-Santiag
+201405583   SPAN 1304  03:00-03:50 MW      VINES  236   A.  Wendorf
+201405                 02:00-03:15 TR      VINES  227   A.  Wendorf
+201405588   SPAN 1304  TBA                 TBA    TBA   R.  Nolasco-Schulthe
+201405590   SPAN 1314  10:00-10:50 MW      VINES  236   F.  Tarelli
+201405                 09:30-10:45 TR      MS-UC  301   F.  Tarelli
+201405591   SPAN 1314  11:00-11:50 MW      VINES  227   F.  Tarelli
+201405                 11:00-12:15 TR      VINES  236   F.  Tarelli
+2014051242  SPAN 2303  09:00-09:50 MWF     FL     216   L.  McClellan
+2014051246  SPAN 2313  11:00-11:50 MW      HLTHSC 124   M.  Martinez-Santiag
+201405                 11:00-11:50 F       VINES  236   M.  Martinez-Santiag
+2014051247  SPAN 2323  11:00-11:50 MW      HLTHSC 124   M.  Martinez-Santiag
+201405                 11:00-11:50 F       VINES  236   M.  Martinez-Santiag
+201405608   SPAN 3003  02:00-02:50 MWF     FL     217   A.  Wendorf
+201405610   SPAN 3023  08:00-08:50 MWF     FL     216   M.  Martinez-Santiag
+201405611   SPAN 3063  12:00-12:50 MWF     FL     217   M.  Sobhani
+201405613   SPAN 3623  12:30-01:45 TR      FL     216   R.  Nolasco-Schulthe
+201405584   SPAN 1304  04:00-04:50 MW      VINES  236   R.  Nolasco-Schulthe
+201405                 04:00-05:15 TR      VINES  227   R.  Nolasco-Schulthe
+201405585   SPAN 1304  05:25-07:40 M       VINES  227   E.  Berlanga-Thames
+201405                 05:25-07:40 W       VINES  236   E.  Berlanga-Thames
+201405595   SPAN 1314  05:25-07:40 T       VINES  227   F.  Tarelli
+201405                 05:25-07:40 R       VINES  236   F.  Tarelli
+2014051244  SPAN 2303  04:00-05:15 MW      FL     218   L.  McClellan
+2014051249  SPAN 2833  04:00-05:15 MW      FL     219   B.  Ross
+201405289   SPCH 1203  08:00-08:50 MWF     MS-UC  207   L.  Beleele
+201405266   SPCH 1203  08:00-08:50 MWF     FL     111   T.  Walton
+201405267   SPCH 1203  09:00-09:50 MWF     FL     111   T.  Walton
+201405292   SPCH 1203  09:00-09:50 MWF     MS-UC  207   M.  Farrell
+201405290   SPCH 1203  10:00-10:50 MWF     MS-UC  207   L.  Beleele
+201405270   SPCH 1203  11:00-11:50 MWF     FL     111   C.  Thompson
+201405                                                  B.  Wiggins
+2014051619  SPCH 1203  11:00-11:50 MWF     FL     111   C.  Thompson
+201405                                                  B.  Wiggins
+201405294   SPCH 1203  11:00-11:50 MWF     MS-UC  207   M.  Farrell
+201405291   SPCH 1203  12:00-12:50 MWF     MS-UC  207   L.  Beleele
+201405271   SPCH 1203  12:00-12:50 MWF     FL     111   C.  Thompson
+201405                                                  M.  Farrell
+201405296   SPCH 1203  02:00-02:50 MWF     FL     111   T.  Walton
+2014051669  SPCH 1203  01:00-03:00 MW      MS-UC  207   M.  Farrell
+201405282   SPCH 1203  08:00-09:15 TR      FL     111   N.  Perrin
+201405278   SPCH 1203  09:30-10:45 TR      MS-UC  207   V.  Mobley
+201405283   SPCH 1203  09:30-10:45 TR      FL     111   N.  Perrin
+201405280   SPCH 1203  12:30-01:45 TR      MS-UC  207   V.  Mobley
+201405281   SPCH 1203  02:00-03:15 TR      MS-UC  207   V.  Mobley
+201405257   SPCH 1203  TBA                 TBA    TBA   S.  Simkowski
+201405259   SPCH 1203  TBA                 BALLMN TBA   S.  Simkowski
+201405263   SPCH 1203  TBA                 TBA    TBA   S.  Simkowski
+2014051582  SPCH 1203  09:00-12:15 MTWRF   VINES  227   C.  Thompson
+201405                 09:00-12:15 MTWRF   VINES  227   C.  Thompson
+201405                 09:00-12:15 MT      VINES  227   C.  Thompson
+201405                 09:00-12:15 RF      VINES  227   C.  Thompson
+2014051620  SPCH 1203H 10:00-10:50 MWF     FL     111   T.  Walton
+2014051627  SPCH 2203  01:00-01:50 MWF     FL     111   C.  Thompson
+201405                                                  S.  Simkowski
+201405297   SPCH 3223  11:00-12:15 TR      FL     111   T.  Pennartz
+2014051630  SPCH 4203  12:30-01:45 TR      VINES  201   B.  Wiggins
+201405284   SPCH 1203  05:25-06:40 MW      MS-UC  207   J.  Carson
+201405274   SPCH 1203  04:00-05:15 TR      MS-UC  207   T.  Hackney
+201405275   SPCH 1203  05:25-06:40 TR      MS-UC  207   T.  Hackney
+201405276   SPCH 1203  06:50-08:05 TR      MS-UC  207   T.  Hackney
+201405285   SPCH 1203  08:00-05:30 S       MS-UC  207   J.  Carson
+201405                 08:00-05:30 S       HOLT   115   J.  Carson
+20140517    ENGL 0163  09:00-09:50 MWF     VINES  233   T.  Wells
+201405                 09:00-09:50 W       BALDOR 143   T.  Wells
+20140530    ENGL 0163  10:00-10:50 MWF     HOLT   109   L.  Conrad
+201405                 10:00-10:50 W       FL     112   L.  Conrad
+20140533    ENGL 0163  11:00-11:50 MWF     VINES  235   S.  DuVaul
+201405                 11:00-11:50 W       FL     108   S.  DuVaul
+20140537    ENGL 0163  12:00-12:50 MWF     VINES  234   T.  Wells
+201405                 12:00-12:50 W       FL     108   T.  Wells
+20140575    ENGL 0163  01:00-01:50 MWF     VINES  233   S.  DuVaul
+201405                 01:00-01:50 W       FL     108   S.  DuVaul
+20140580    ENGL 0163  02:00-03:15 MW      VINES  234   S.  DuVaul
+201405                 02:00-03:15 W       MS-UC  212   S.  DuVaul
+201405106   ENGL 0163  09:30-10:45 TR      VINES  233   T.  Wells
+201405                 09:30-10:45 R       FL     108   T.  Wells
+201405105   ENGL 0163  11:00-12:15 TR      VINES  201   S.  DuVaul
+201405103   ENGL 0163  12:30-01:45 TR      HOLT   109   S.  DuVaul
+201405                 12:30-01:45 R       MS-UC  212   S.  DuVaul
+201405107   ENGL 0163  05:25-06:40 TR      VINES  234   D.  Brewer
+201405                 05:25-06:40 R       VINES  201   D.  Brewer
+201405118   ENGL 0163  06:50-08:05 TR      VINES  234   D.  Brewer
+201405                 06:50-08:05 R       VINES  201   D.  Brewer
+201405528   IDS  1403  04:00-07:00 M       CMPCTR 126   P.  Beran
+201405                 04:00-07:00 M       CMPCTR 125   P.  Beran
+201405128   MATH 0233  09:00-09:50 MWF     VINES  235   C.  McEver
+201405132   MATH 0233  10:00-10:50 MWF     VINES  235   C.  McEver
+201405142   MATH 0233  11:00-11:50 MWF     VINES  234   S.  Henderson
+201405                 11:00-12:15 TR      VINES  234   S.  Henderson
+201405138   MATH 0233  12:00-12:50 MWF     VINES  233   M.  Utz
+201405140   MATH 0233  01:00-01:50 MWF     VINES  235   M.  Utz
+201405164   MATH 0233  02:00-02:50 MWF     VINES  201   S.  Ruple
+201405168   MATH 0233  08:00-09:15 TR      MS-UC  212   L.  Yu
+201405174   MATH 0233  09:30-10:45 TR      VINES  201   M.  Utz
+201405177   MATH 0233  11:00-12:15 TR      MS-UC  301   C.  McEver
+201405181   MATH 0233  02:00-03:15 TR      VINES  234   S.  Henderson
+201405186   MATH 0234  08:00-08:50 MTWRF   VINES  233   T.  Smith-Leins
+201405193   MATH 0234  02:00-02:50 MTWRF   VINES  235   T.  Smith-Leins
+201405195   MATH 0234  09:00-09:50 MWF     MS-UC  100   E.  Foss
+201405                 09:30-10:20 T       MS-UC  100   E.  Foss
+201405309   MATH 0234  10:00-10:50 MWF     MS-UC  236   T.  Smith-Leins
+201405                 09:30-10:20 R       MS-UC  236   T.  Smith-Leins
+201405314   MATH 0234  12:00-12:50 MWF     MS-UC  100   E.  Foss
+201405                 12:30-01:20 T       MS-UC  100   E.  Foss
+201405316   MATH 0234  12:00-12:50 MWF     VINES  235   T.  Smith-Leins
+201405                 12:30-01:20 T       VINES  235   T.  Smith-Leins
+201405318   MATH 0234  01:00-01:50 MWF     MS-UC  100   E.  Foss
+201405                 12:30-01:20 R       MS-UC  100   E.  Foss
+201405320   MATH 1203  09:00-09:50 MWF     VINES  201   M.  Utz
+201405321   MATH 1203  10:00-10:50 MWF     VINES  201   M.  Utz
+201405322   MATH 1203  12:00-12:50 MWF     VINES  201   C.  McEver
+201405324   MATH 1203  01:00-01:50 MWF     VINES  201   S.  Ruple
+201405325   MATH 1203  02:00-02:50 MWF     VINES  233   C.  McEver
+201405326   MATH 1203  09:30-10:45 TR      VINES  235   S.  Ruple
+201405327   MATH 1203  11:00-12:15 TR      VINES  233   S.  Ruple
+201405328   MATH 1203  12:30-01:45 TR      VINES  234   M.  Utz
+201405331   MATH 0233  05:25-06:40 MW      VINES  234   B.  Webster
+201405333   MATH 0233  05:25-06:40 TR      VINES  233   B.  Showalter
+201405334   MATH 0234  05:25-07:15 MW      VINES  235   S.  Henderson
+201405336   MATH 0234  06:50-08:40 TR      MS-UC  236   L.  Yu
+201405337   MATH 1203  06:50-08:05 MW      VINES  234   B.  Webster
+201405338   READ 0513  09:00-09:50 MWF     VINES  234   C.  Phillips
+201405                                                  B.  Lowrey
+201405339   READ 0513  10:00-10:50 MWF     VINES  234   T.  Wells
+201405                                                  B.  Lowrey
+201405341   READ 0513  11:00-11:50 MWF     VINES  233   C.  Phillips
+201405342   READ 0513  12:00-12:50 MWF     HLTHSC 124   E.  Carlson
+201405                                                  B.  Lowrey
+201405343   READ 0513  01:00-01:50 MWF     GARDNR 139   M.  Jones
+201405                                                  B.  Lowrey
+201405344   READ 0513  09:30-10:45 TR      VINES  234   C.  Phillips
+201405340   READ 0513  11:00-12:15 TR      VINES  235   T.  Wells
+201405                                                  B.  Lowrey
+201405348   READ 0513  05:25-06:40 TR      VINES  235   M.  Kalua
+201405350   READ 0513  06:50-08:05 TR      VINES  235   M.  Kalua
+201405407   SAS  0201  08:00-08:50 TR      MS-UC  100   B.  Yates
+201405410   SAS  0203  10:00-10:50 MWF     VINES  233   C.  Phillips
+201405412   SAS  0203  01:00-01:50 MWF     VINES  234   L.  Conrad
+201405416   SAS  0203  12:30-01:45 TR      VINES  233   L.  Conrad
+201405415   SAS  0203  02:00-03:15 TR      VINES  233   L.  Conrad
+201405420   SAS  0201  04:00-04:50 MW      VINES  235   B.  Yates
+201405421   SAS  0203  04:00-05:15 MW      VINES  234   L.  Conrad
+201405115   BIOL 1151  11:00-12:50 M       MS-UC  118   R.  Nelson
+201405141   BIOL 1151  01:00-02:50 M       MS-UC  118   R.  Kannan
+201405152   BIOL 1151  03:00-04:50 M       MS-UC  118   D.  Pritchett
+201405163   BIOL 1151  09:00-10:50 T       MS-UC  118   D.  Pritchett
+201405167   BIOL 1151  11:00-12:50 T       MS-UC  118   M.  Mann
+201405180   BIOL 1151  01:00-02:50 T       MS-UC  118   J.  Cornell
+201405190   BIOL 1151  03:00-04:50 T       MS-UC  118   J.  Cornell
+201405196   BIOL 1151  09:00-10:50 W       MS-UC  118   R.  Nelson
+201405210   BIOL 1151  11:00-12:50 W       MS-UC  118   R.  Nelson
+201405219   BIOL 1151  01:00-02:50 W       MS-UC  118   R.  Nelson
+201405227   BIOL 1151  03:00-04:50 W       MS-UC  118   M.  Mann
+201405233   BIOL 1151  09:00-10:50 R       MS-UC  118   R.  Kannan
+201405237   BIOL 1151  11:00-12:50 R       MS-UC  118   T.  Buchanan
+201405241   BIOL 1151  01:00-02:50 R       MS-UC  118   S.  Baviskar
+201405244   BIOL 1151  03:00-04:50 R       MS-UC  118   R.  Nelson
+201405247   BIOL 1151  09:00-10:50 F       MS-UC  118   R.  Nelson
+201405249   BIOL 1151  11:00-12:50 F       MS-UC  118   D.  Amos
+201405256   BIOL 1153  09:00-09:50 MWF     MS-UC  104   T.  Buchanan
+201405260   BIOL 1153  12:00-12:50 MWF     MS-UC  304   A.  Skypala
+201405269   BIOL 1153  02:00-02:50 MWF     MS-UC  104   S.  Baviskar
+201405277   BIOL 1153  09:30-10:45 TR      MS-UC  104   R.  Nelson
+201405293   BIOL 1153  12:30-01:45 TR      MS-UC  104   R.  Lightner
+201405317   BIOL 1153  TBA                 TBA    TBA   R.  Kannan
+201405406   BIOL 1461  09:00-10:50 T       MS-UC  234   D.  Amos
+201405418   BIOL 1461  09:00-10:50 W       MS-UC  234   R.  Lightner
+201405422   BIOL 1461  01:00-02:50 W       MS-UC  234   R.  Lightner
+201405428   BIOL 1461  09:00-10:50 R       MS-UC  234   D.  Amos
+201405437   BIOL 1463  08:00-08:50 MWF     MS-UC  104   D.  Amos
+201405438   BIOL 1463  12:30-01:45 TR      MS-UC  304   D.  Amos
+201405465   BIOL 2003  11:00-11:50 MWF     MS-UC  304   D.  Pritchett
+201405468   BIOL 2003  02:00-03:15 TR      MS-UC  304   D.  Pritchett
+201405484   BIOL 2201  09:00-10:50 W       MS-UC  240   S.  Baviskar
+201405486   BIOL 2201  11:00-12:50 W       MS-UC  240   S.  Baviskar
+201405487   BIOL 2201  02:00-03:50 W       MS-UC  240   J.  Cornell
+201405488   BIOL 2201  09:00-10:50 R       MS-UC  240   S.  Baviskar
+201405490   BIOL 2201  01:00-02:50 R       MS-UC  240   J.  Cornell
+201405506   BIOL 2203  01:00-01:50 MWF     MS-UC  104   S.  Baviskar
+201405507   BIOL 2203  11:00-12:15 TR      MS-UC  104   B.  Ree
+201405514   BIOL 2211  09:00-10:50 M       MS-UC  240   K.  Garner
+201405519   BIOL 2211  01:00-02:50 M       MS-UC  240   K.  Garner
+201405520   BIOL 2211  09:00-10:50 T       MS-UC  240   K.  Garner
+201405521   BIOL 2211  12:00-01:50 T       MS-UC  240   K.  Garner
+201405523   BIOL 2213  12:00-12:50 MWF     MS-UC  104   K.  Garner
+201405525   BIOL 2213  02:00-03:15 TR      MS-UC  104   K.  Garner
+201405529   BIOL 2701  01:00-03:50 M       MS-UC  120   A.  Skypala
+201405530   BIOL 2701  01:00-03:50 T       MS-UC  120   A.  Skypala
+201405531   BIOL 2701  01:00-03:50 R       MS-UC  120   A.  Skypala
+201405534   BIOL 2703  08:00-09:15 TR      MS-UC  104   A.  Skypala
+201405552   BIOL 3204  01:00-03:50 M       MS-UC  234   R.  Lightner
+201405                 09:30-10:45 TR      MS-UC  311   R.  Lightner
+201405553   BIOL 3401  01:00-03:50 W       MS-UC  120   T.  Buchanan
+201405554   BIOL 3401  01:00-03:50 F       MS-UC  120   T.  Buchanan
+201405555   BIOL 3403  11:00-11:50 MWF     MS-UC  104   T.  Buchanan
+201405561   BIOL 3801  02:00-04:50 M       MS-UC  121   B.  Ree
+201405563   BIOL 3801  02:00-04:50 W       MS-UC  121   B.  Ree
+201405566   BIOL 3803  09:00-09:50 MWF     MS-UC  304   D.  McClellan
+201405568   BIOL 3824  11:00-12:15 TR      MS-UC  304   B.  Williamson
+201405                 01:00-03:50 R       MS-UC  121   B.  Williamson
+2014051631  BIOL 400V  TBA                 MS-UC  TBA   D.  Amos
+2014051646  BIOL 400V  TBA                 MS-UC  TBA   D.  McClellan
+2014051650  BIOL 400V  TBA                 MS-UC  TBA   S.  Baviskar
+2014051663  BIOL 400V  TBA                 MS-UC  TBA   S.  Baviskar
+2014051699  BIOL 400V  TBA                 MS-UC  TBA   D.  McClellan
+2014051764  BIOL 400V  TBA                 MS-UC  TBA   D.  Amos
+2014051774  BIOL 400V  TBA                 MS-UC  TBA   T.  Buchanan
+2014051621  BIOL 420V  12:00-12:50 MWF     MS-UC  307   D.  McClellan
+2014051677  BIOL 4213  11:00-12:15 TR      MS-UC  306   D.  Pritchett
+2014051745  BIOL 467V  TBA                 MS-UC  TBA   D.  Pritchett
+201405573   BIOL 4801  01:00-03:50 T       MS-UC  121   B.  Williamson
+201405574   BIOL 4801  01:00-03:50 F       MS-UC  121   B.  Williamson
+201405575   BIOL 4803  08:00-09:15 TR      MS-UC  304   B.  Williamson
+201405576   BIOL 4854  11:00-11:50 MWF     MS-UC  311   R.  Kannan
+201405                 01:00-03:50 F       MS-UC  118   R.  Kannan
+201405253   BIOL 1151  06:50-08:40 M       MS-UC  118   J.  Cornell
+201405298   BIOL 1153  05:25-06:40 MW      MS-UC  104   J.  Cornell
+201405434   BIOL 1461  06:50-08:40 T       MS-UC  234   R.  Lightner
+201405443   BIOL 1463  05:25-06:40 TR      MS-UC  104   R.  Lightner
+201405505   BIOL 2201  06:50-08:40 R       MS-UC  240   J.  Cornell
+201405510   BIOL 2203  05:25-06:40 TR      MS-UC  304   J.  Cornell
+201405522   BIOL 2211  06:50-08:40 M       MS-UC  240   B.  Ree
+201405527   BIOL 2213  05:25-06:40 MW      MS-UC  304   B.  Ree
+201405570   BIOL 4001  04:00-04:50 M       MS-UC  311   R.  Kannan
+201405664   CHEM 1301  10:00-11:50 M       MS-UC  123   B.  Abbott
+201405670   CHEM 1301  01:00-02:50 M       MS-UC  123   B.  Abbott
+201405671   CHEM 1301  08:00-09:50 T       MS-UC  123   P.  Abbott
+201405680   CHEM 1301  10:00-11:50 W       MS-UC  123   P.  Abbott
+201405688   CHEM 1301  01:00-02:50 W       MS-UC  123   B.  Abbott
+201405673   CHEM 1301  08:00-09:50 R       MS-UC  123   P.  Abbott
+201405692   CHEM 1301  10:00-11:50 R       MS-UC  123   P.  Abbott
+201405697   CHEM 1301  10:00-11:50 F       MS-UC  123   J.  Jamison
+2014051767  CHEM 1301  01:00-02:50 F       MS-UC  212   P.  Abbott
+201405                 01:00-02:50 F       MS-UC  123   P.  Abbott
+201405709   CHEM 1301  01:00-02:50 F       MS-UC  123   P.  Abbott
+201405637   CHEM 1303  08:00-08:50 MWF     MS-UC  304   P.  Abbott
+201405644   CHEM 1303  09:00-09:50 MWF     MS-UC  101   J.  Jamison
+201405654   CHEM 1303  01:00-02:15 MW      MS-UC  304   D.  McGinnis
+201405655   CHEM 1303  01:00-02:15 MW      MS-UC  304   D.  McGinnis
+201405652   CHEM 1303  11:00-12:15 TR      MS-UC  101   D.  McGinnis
+201405656   CHEM 1303  12:30-01:45 TR      MS-UC  101   B.  Abbott
+201405727   CHEM 1401  02:00-04:50 M       MS-UC  340   D.  Burkey
+201405838   CHEM 1401  09:30-12:20 T       MS-UC  340   D.  Burkey
+2014051702  CHEM 1401  09:30-12:20 T       MS-UC  338   J.  Durchman
+201405849   CHEM 1401  09:30-12:20 R       MS-UC  340   J.  Durchman
+201405868   CHEM 1401  12:30-03:20 R       MS-UC  340   J.  Durchman
+2014051701  CHEM 1401  02:00-04:50 F       MS-UC  340   L.  Nelson
+201405715   CHEM 1403  10:00-10:50 MWF     MS-UC  307   D.  McGinnis
+201405725   CHEM 1403  01:00-01:50 MWF     MS-UC  101   J.  Durchman
+201405718   CHEM 1403  08:00-09:15 TR      MS-UC  101   D.  Burkey
+201405875   CHEM 1411  11:00-01:50 W       MS-UC  340   J.  Jamison
+201405874   CHEM 1411  02:00-04:50 W       MS-UC  340   L.  Nelson
+201405871   CHEM 1413  09:30-10:50 TR      MS-UC  304   L.  Nelson
+201405884   CHEM 2701  02:00-04:50 T       MS-UC  338   S.  Curtis
+201405881   CHEM 2701  01:00-03:50 W       MS-UC  338   S.  Curtis
+201405882   CHEM 2701  02:00-04:50 R       MS-UC  338   S.  Curtis
+201405876   CHEM 2703  08:00-08:50 MWF     MS-UC  101   S.  Curtis
+201405887   CHEM 2711  01:00-03:50 T       MS-UC  340   P.  Abbott
+201405886   CHEM 2713  10:00-10:50 MWF     MS-UC  306   S.  Curtis
+201405894   CHEM 3034  08:00-08:50 MWF     MS-UC  307   D.  McGinnis
+201405                 04:00-06:50 M       MS-UC  338   J.  Durchman
+201405890   CHEM 3401  01:00-03:50 M       MS-UC  338   L.  Nelson
+201405                 01:00-01:50 M       MS-UC  311   L.  Nelson
+201405888   CHEM 3403  12:00-12:50 MWF     MS-UC  311   L.  Nelson
+2014051679  CHEM 3403  12:00-12:50 MWF     MS-UC  209   J.  Durchman
+2014051626  CHEM 3604  09:30-10:45 TR      MS-UC  306   J.  Jamison
+201405                 02:00-04:50 T       MS-UC  123   J.  Jamison
+201405896   CHEM 3991  TBA                 MS-UC  TBA   S.  Curtis
+2014051662  CHEM 400V  TBA                 MS-UC  TBA   S.  Curtis
+2014051753  CHEM 400V  TBA                 MS-UC  TBA   D.  Bryhan
+201405895   CHEM 4504  12:30-01:45 TR      MS-UC  311   D.  Bryhan
+201405                 01:00-03:50 F       MS-UC  338   D.  Bryhan
+201405711   CHEM 1301  06:50-08:40 W       MS-UC  123   B.  Abbott
+201405660   CHEM 1303  05:25-06:40 MW      MS-UC  311   B.  Abbott
+201405                 05:25-06:40 M       MS-UC  306   B.  Abbott
+201405858   CHEM 1401  06:50-09:40 T       MS-UC  340   D.  Burkey
+201405721   CHEM 1403  05:25-06:40 TR      MS-UC  101   D.  Burkey
+2014051727  CS   1013  11:00-12:15 TR      BALDOR 147   J.  Hightower
+2014051412  CS   1013  02:00-03:15 TR      BALDOR 147   J.  Hightower
+2014051475  CS   1033  09:30-10:45 TR      BALDOR 147   B.  McLaughlan
+2014051486  CS   1033  11:00-12:15 TR      BALDOR 145B  R.  Massengale
+2014051750  CS   1033  01:00-02:55 T       BALDOR 124   J.  Jones
+201405                 01:00-03:30 R       BALDOR 124   J.  Jones
+2014051605  CS   1033  01:00-03:30 WF      BALDOR 144   B.  Cloninger
+2014051477  CS   1043  12:30-01:45 TR      BALDOR 145B  B.  McLaughlan
+2014051602  CS   2033  01:00-03:50 F       BALDOR 143   J.  Jones
+2014051729  CS   1013  05:25-06:40 TR      BALDOR 144   D.  Burdick
+2014051476  CS   1033  04:00-05:15 TR      BALDOR 147   B.  McLaughlan
+2014051489  CS   1033  05:25-08:15 R       BALDOR 145B  T.  Bobbitt
+2014051490  CS   1043  05:25-08:15 M       BALDOR 144   D.  Burdick
+2014051488  CS   1013  09:00-11:50 S       BALDOR 143   T.  Bobbitt
+2014053     ELEG 2103  11:00-12:15 TR      BALDOR 208   R.  Saunders
+2014054     ELEG 2903  11:00-11:50 MWF     BALDOR 215   K.  Woolverton
+2014055     ELEG 2903  02:00-03:15 TR      BALDOR 208   K.  Woolverton
+2014052     ELEG 2101  04:00-05:50 R       BALDOR 215   R.  Saunders
+20140514    ENGN 1022  09:00-09:50 MW      BALDOR 215   K.  Woolverton
+20140515    ENGN 1022  10:00-10:50 MW      BALDOR 123   K.  Lewelling
+2014051617  ENGN 1022  09:30-10:20 TR      BALDOR 216   K.  Woolverton
+20140516    ENGN 1022  11:00-11:50 TR      BALDOR 214   M.  Reynolds
+2014057     ENGN 1111  01:00-02:50 M       BALDOR 246   M.  Reynolds
+2014056     ENGN 1111  01:00-02:50 M       BALDOR 108   K.  Lewelling
+2014058     ENGN 1111  03:00-04:50 M       BALDOR 108   M.  Reynolds
+2014059     ENGN 1111  01:00-02:50 T       BALDOR 246   K.  Lewelling
+201405245   ENGN 1111  01:00-02:50 T       BALDOR 246   K.  Lewelling
+20140511    ENGN 1111  10:00-11:50 W       BALDOR 110   M.  Reynolds
+20140512    ENGN 1111  01:00-02:50 W       BALDOR 108   K.  Woolverton
+20140513    ENGN 1111  01:00-02:50 W       BALDOR 246   M.  Reynolds
+20140554    ENGN 1121  03:00-04:50 T       BALDOR 124   K.  Lewelling
+20140518    ENGN 2753  11:00-11:50 MWF     BALDOR 246   D.  Paulus
+20140519    ENGN 2753  04:00-05:15 MW      BALDOR 246   D.  Paulus
+2014051499  ITC  1374  03:00-04:50 MW      BALDOR 147   J.  Hightower
+2014051518  ITC  2324  11:00-12:50 MW      BALDOR 143   B.  McLaughlan
+2014051519  ITC  2324  01:00-02:50 MW      BALDOR 143   J.  Renwick
+2014051539  ITC  2334  11:00-12:50 MW      BALDOR 147   K.  Pappas
+2014051535  ITC  2513  11:00-12:15 TR      BALDOR 143   J.  Renwick
+2014051542  ITC  2624  02:00-03:50 MW      BALDOR 145B  B.  Thigpen
+2014051577  ITC  2624  01:00-03:30 TR      BALDOR 108   B.  Cloninger
+201405                 01:00-03:30 R       MS-UC  212   B.  Cloninger
+2014051493  ITC  2753  11:00-11:50 MW      BALDOR 144   G.  Fulenwider
+2014051521  ITC  2334  06:50-08:40 TR      BALDOR 147   K.  Pappas
+201405                 06:50-08:40 R       BALDOR 124   K.  Pappas
+2014051525  ITC  2513  05:25-06:40 TR      BALDOR 143   J.  Renwick
+2014051492  ITC  2753  04:00-05:15 TR      BALDOR 143   G.  Fulenwider
+2014051552  ITD  3113  11:00-12:15 TR      BALDOR 144   D.  Wright
+2014051550  ITD  3123  02:00-03:15 TR      BALDOR 143   J.  Renwick
+2014051554  ITD  4223  12:30-01:45 TR      BALDOR 144   D.  Wright
+2014051553  ITD  3113  04:00-05:15 MW      BALDOR 144   D.  Wright
+2014051551  ITD  3133  04:00-05:15 TR      BALDOR 144   D.  Wright
+2014051547  ITD  3113  09:00-11:50 S       BALDOR 144   A.  Mackey
+2014051557  ITF  2114  12:00-01:50 MW      BALDOR 145A  B.  Henehan
+2014051558  ITF  3634  01:00-02:50 MW      BALDOR 147   J.  Hightower
+2014051555  ITF  4104  09:00-10:50 MW      BALDOR 144   B.  Henehan
+2014051556  ITF  4114  12:00-01:50 MW      BALDOR 145A  B.  Henehan
+2014051671  ITF  414V  TBA                 BALDOR TBA   R.  Massengale
+2014051560  ITN  3113  02:00-03:15 TR      BALDOR 145A  B.  Henehan
+2014051588  ITN  3214  09:00-10:50 MW      BALDOR 145B  B.  Thigpen
+2014051589  ITN  3234  11:00-12:50 MW      BALDOR 145B  B.  Thigpen
+2014051742  ITN  4344  TBA                 BALDOR TBA   B.  Thigpen
+2014051559  ITN  4353  09:30-10:45 TR      BALDOR 145A  B.  Henehan
+2014051570  ITP  4113  12:30-01:45 TR      BALDOR 147   G.  Fulenwider
+2014051571  ITP  3243  05:25-08:15 M       BALDOR 147   K.  Pappas
+2014051572  ITP  3413  05:25-08:15 W       BALDOR 147   K.  Pappas
+2014051573  ITP  4113  09:00-11:50 S       BALDOR 147   D.  Burdick
+2014051496  ITW  3123  09:30-10:45 TR      BALDOR 144   G.  Fulenwider
+2014051495  ITW  4213  12:30-01:45 TR      BALDOR 147   G.  Fulenwider
+2014051497  ITW  4263  05:25-06:40 TR      BALDOR 147   A.  Potts
+2014051498  ITW  4213  09:00-11:50 S       BALDOR 147   D.  Burdick
+201405117   MATH 1303  10:00-10:50 MWF     MS-UC  208   R.  Watson
+201405123   MATH 1303  09:30-10:45 TR      MS-UC  208   R.  Watson
+2014051707  MATH 1303  11:00-12:15 TR      MS-UC  100   R.  Watson
+201405135   MATH 1303  TBA                 TBA    TBA   E.  Foss
+201405258   MATH 1333  08:00-08:50 MWF     MS-UC  203   C.  Alexander
+201405                 08:00-08:50 MWF     MS-UC  236   C.  Alexander
+201405                 08:00-09:15 TR      MS-UC  203   C.  Alexander
+201405                 08:00-09:15 TR      MS-UC  236   C.  Alexander
+201405304   MATH 1333  09:00-09:50 MWF     MS-UC  203   R.  Parks
+201405                 09:00-09:50 MWF     MS-UC  236   R.  Parks
+201405                 09:30-10:45 TR      MS-UC  203   R.  Parks
+201405                 09:30-10:45 T       MS-UC  236   R.  Parks
+201405319   MATH 1333  11:00-11:50 MWF     MS-UC  236   J.  Engelhoven
+201405                 11:00-11:50 MWF     MS-UC  203   J.  Engelhoven
+201405                 11:00-12:15 TR      MS-UC  236   J.  Engelhoven
+201405                 11:00-12:15 TR      MS-UC  203   J.  Engelhoven
+201405279   MATH 1343  08:00-08:50 MWF     MS-UC  203   C.  Alexander
+201405                 08:00-08:50 MWF     MS-UC  236   C.  Alexander
+201405                 08:00-09:15 TR      MS-UC  203   C.  Alexander
+201405                 08:00-09:15 TR      MS-UC  236   C.  Alexander
+201405315   MATH 1343  09:00-09:50 MWF     MS-UC  203   R.  Parks
+201405                 09:00-09:50 MWF     MS-UC  236   R.  Parks
+201405                 09:30-10:45 TR      MS-UC  203   R.  Parks
+201405                 09:30-10:45 T       MS-UC  236   R.  Parks
+201405330   MATH 1343  11:00-11:50 MWF     MS-UC  236   J.  Engelhoven
+201405                 11:00-11:50 MWF     MS-UC  203   J.  Engelhoven
+201405                 11:00-12:15 TR      MS-UC  203   J.  Engelhoven
+201405                 11:00-12:15 TR      MS-UC  236   J.  Engelhoven
+201405212   MATH 1403  08:00-08:50 MTWR    MS-UC  211   E.  Foss
+201405                 08:00-08:50 F       MS-UC  211   E.  Foss
+201405215   MATH 1403  10:00-10:50 MTWR    MS-UC  211   M.  Reading
+201405218   MATH 1403  11:00-11:50 MTWR    MS-UC  211   M.  Reading
+201405222   MATH 1403  02:00-02:50 MTWR    MS-UC  211   M.  Reading
+201405147   MATH 1403  08:00-08:50 MWF     MS-UC  206   J.  Myers
+201405154   MATH 1403  09:00-09:50 MWF     MS-UC  206   S.  Ruple
+201405157   MATH 1403  10:00-10:50 MWF     MS-UC  206   S.  Ruple
+201405198   MATH 1403  11:00-11:50 MWF     MS-UC  205   J.  West
+201405                 11:00-12:15 TR      MS-UC  205   J.  West
+201405159   MATH 1403  11:00-11:50 MWF     MS-UC  206   C.  Alexander
+2014051706  MATH 1403  11:00-11:50 MWF     MS-UC  100   R.  Watson
+201405165   MATH 1403  12:00-12:50 MWF     MS-UC  206   J.  West
+201405166   MATH 1403  01:00-01:50 MWF     MS-UC  202   J.  Myers
+201405187   MATH 1403  01:00-03:50 MW      MS-UC  204   S.  Henderson
+201405                 01:00-02:00 M       MS-UC  212   S.  Henderson
+201405172   MATH 1403  02:00-03:15 MW      MS-UC  202   R.  Watson
+201405176   MATH 1403  08:00-09:15 TR      MS-UC  206   C.  McEver
+201405178   MATH 1403  11:00-12:15 TR      MS-UC  206   J.  Lewallen
+201405182   MATH 1403  12:30-01:45 TR      MS-UC  206   J.  West
+201405206   MATH 1403  TBA                 TBA    TBA   J.  Jackson
+201405312   MATH 1403  TBA                 TBA    TBA   J.  West
+2014051776  MATH 1403  11:00-11:50 MWF     VINES  234   S.  Henderson
+201405                 11:00-12:15 TR      VINES  234   S.  Henderson
+2014051778  MATH 1403  TBA                 TBA    TBA   L.  Yu
+2014051404  MATH 1403  09:00-12:15 MTWRF   MS-UC  205   C.  Alexander
+201405                 09:00-12:15 MTWRF   MS-UC  205   C.  Alexander
+201405                 09:00-12:15 MT      MS-UC  205   C.  Alexander
+201405                 09:00-12:15 RF      MS-UC  205   C.  Alexander
+201405239   MATH 1453  10:00-10:50 MWF     MS-UC  202   J.  Myers
+2014051736  MATH 1453  10:00-10:50 MWF     MS-UC  100   J.  West
+201405243   MATH 1453  11:00-11:50 MWF     MS-UC  205   J.  West
+201405                 11:00-12:15 TR      MS-UC  205   J.  West
+201405248   MATH 1715  08:00-08:50 MW      MS-UC  205   N.  Sagullo
+201405                 08:00-09:15 TR      MS-UC  205   N.  Sagullo
+201405332   MATH 2233  02:00-02:50 MWF     MS-UC  236   J.  Engelhoven
+201405                 02:00-02:50 MWF     MS-UC  203   J.  Engelhoven
+201405                 02:00-03:15 TR      MS-UC  236   J.  Engelhoven
+201405                 02:00-03:15 TR      MS-UC  203   J.  Engelhoven
+201405335   MATH 2243  02:00-02:50 MWF     MS-UC  203   J.  Engelhoven
+201405                 02:00-02:50 MWF     MS-UC  236   J.  Engelhoven
+201405                 02:00-03:15 TR      MS-UC  203   J.  Engelhoven
+201405                 02:00-03:15 TR      MS-UC  236   J.  Engelhoven
+201405346   MATH 2333  01:00-01:50 MWF     MS-UC  203   C.  Alexander
+201405                 01:00-01:50 MWF     MS-UC  236   C.  Alexander
+201405                 12:30-01:45 TR      MS-UC  203   C.  Alexander
+201405                 12:30-01:45 TR      MS-UC  236   C.  Alexander
+201405352   MATH 2343  01:00-01:50 MWF     MS-UC  203   C.  Alexander
+201405                 01:00-01:50 MWF     MS-UC  236   C.  Alexander
+201405                 12:30-01:45 TR      MS-UC  203   C.  Alexander
+201405                 12:30-01:45 TR      MS-UC  236   C.  Alexander
+201405353   MATH 2403  09:00-09:50 MWF     MS-UC  205   J.  Jackson
+201405356   MATH 2403  01:00-01:50 MWF     MS-UC  205   S.  Henderson
+201405354   MATH 2403  11:00-12:15 MW      MS-UC  208   N.  Sagullo
+201405358   MATH 2403  09:30-10:45 TR      MS-UC  206   N.  Sagullo
+201405361   MATH 2403  11:00-12:15 TR      MS-UC  208   J.  Guerra
+2014051407  MATH 2403  TBA                 TBA    TBA   N.  Sagullo
+201405363   MATH 2804  08:00-08:50 MTWR    MS-UC  202   B.  Hutchison
+201405365   MATH 2804  10:00-10:50 MTWR    MS-UC  205   J.  Guerra
+201405701   MATH 2804  02:00-02:50 MTWR    MS-UC  206   J.  Guerra
+201405492   MATH 2804  12:00-12:50 MW      MS-UC  205   J.  Jackson
+201405                 12:30-01:20 TR      MS-UC  205   J.  Jackson
+201405497   MATH 2854  11:00-11:50 MTWR    MS-UC  202   M.  Rigsby
+201405498   MATH 2854  12:00-12:50 MW      MS-UC  211   J.  Lewallen
+201405                 12:30-01:20 TR      MS-UC  211   J.  Lewallen
+201405499   MATH 2904  09:00-09:50 MW      MS-UC  202   B.  Hutchison
+201405                 09:30-10:20 TR      MS-UC  202   B.  Hutchison
+201405622   MATH 2904  09:00-09:50 MW      MS-UC  201   M.  Rigsby
+201405                 09:30-10:20 TR      MS-UC  201   M.  Rigsby
+201405509   MATH 3103  12:00-12:50 MWF     MS-UC  201   J.  Guerra
+201405512   MATH 3203  11:00-12:15 TR      MS-UC  201   B.  Hutchison
+201405508   MATH 3214  12:00-12:50 MWF     MS-UC  202   B.  Hutchison
+201405                 12:30-01:20 R       MS-UC  202   B.  Hutchison
+201405513   MATH 3803  10:00-10:50 MWF     MS-UC  203   R.  Parks
+201405515   MATH 3823  12:00-12:50 MWF     MS-UC  236   R.  Parks
+201405                 12:00-12:50 MWF     MS-UC  203   R.  Parks
+201405517   MATH 4303  11:00-11:50 MWF     MS-UC  201   J.  Myers
+2014051700  MATH 4433  08:00-08:50 TR      MS-UC  201   M.  Rigsby
+2014051683  MATH 4992  TBA                 MS-UC  TBA   M.  Rigsby
+2014051684  MATH 4992  TBA                 MS-UC  TBA   J.  Guerra
+2014051685  MATH 4992  TBA                 MS-UC  TBA   J.  Lewallen
+2014051686  MATH 4992  TBA                 MS-UC  TBA   R.  Parks
+2014051687  MATH 4992  TBA                 MS-UC  TBA   N.  Sagullo
+2014051688  MATH 4992  TBA                 MS-UC  TBA   J.  West
+2014051689  MATH 4992  TBA                 MS-UC  TBA   J.  Jackson
+2014051690  MATH 4992  TBA                 MS-UC  TBA   J.  Jackson
+201405226   MATH 1403  04:00-05:15 MW      MS-UC  204   J.  Adams
+201405231   MATH 1403  06:50-08:05 TR      MS-UC  205   R.  Wylie
+201405252   MATH 1715  04:00-04:50 MW      MS-UC  202   J.  Lewallen
+201405                 04:00-05:15 TR      MS-UC  202   J.  Lewallen
+201405362   MATH 2403  05:25-06:40 TR      MS-UC  205   R.  Wylie
+201405494   MATH 2804  04:00-04:50 MTWR    MS-UC  205   M.  Rigsby
+20140521    MEEG 2303  09:00-09:50 MW      BALDOR 216   D.  Paulus
+20140526    MEEG 2303  03:00-03:50 MW      BALDOR 246   D.  Paulus
+201405685   PHSC 2651  08:00-09:50 M       MS-UC  344   C.  Knubley
+201405687   PHSC 2651  01:00-02:50 M       MS-UC  344   A.  Boyd
+201405689   PHSC 2651  03:00-04:50 M       MS-UC  344   A.  Boyd
+201405691   PHSC 2651  11:00-12:50 T       MS-UC  344   D.  Mayo
+201405708   PHSC 2651  01:00-02:50 T       MS-UC  344   D.  Mayo
+201405694   PHSC 2651  08:00-09:50 W       MS-UC  344   C.  Knubley
+201405698   PHSC 2651  01:00-02:50 W       MS-UC  344   A.  Boyd
+201405703   PHSC 2651  11:00-12:50 R       MS-UC  344   D.  Mayo
+201405898   PHSC 2651  01:00-02:50 R       MS-UC  344   D.  Mayo
+201405704   PHSC 2651  08:00-09:50 F       MS-UC  344   C.  Knubley
+201405706   PHSC 2651  01:00-02:50 F       MS-UC  344   C.  Knubley
+201405669   PHSC 2653  10:00-10:50 MWF     MS-UC  104   A.  Boyd
+201405677   PHSC 2653  11:00-11:50 MWF     MS-UC  101   C.  Knubley
+201405679   PHSC 2653  12:00-12:50 MWF     MS-UC  101   D.  Mayo
+201405684   PHSC 2653  02:00-02:50 MWF     MS-UC  101   D.  Mayo
+201405667   PHSC 2653  09:30-10:45 TR      MS-UC  101   C.  Knubley
+201405901   PHSC 2711  10:00-11:50 M       MS-UC  334   J.  Christiansen
+201405904   PHSC 2711  11:00-12:50 R       MS-UC  334   J.  Christiansen
+2014051566  PHSC 3103  12:00-12:50 MWF     MS-UC  306   A.  Boyd
+201405899   PHSC 2651  06:50-08:40 T       MS-UC  344   A.  Boyd
+201405681   PHSC 2653  05:25-06:40 TR      MS-UC  311   A.  Boyd
+201405903   PHSC 2711  06:50-08:40 M       MS-UC  334   J.  Christiansen
+201405900   PHSC 2713  05:25-06:40 MW      MS-UC  101   J.  Christiansen
+201405642   PHYS 2803  10:00-10:50 MWF     MS-UC  101   J.  Belcher
+201405645   PHYS 2811  02:00-03:50 R       MS-UC  334   D.  Bryhan
+201405643   PHYS 2811  01:00-02:50 F       MS-UC  334   B.  Abbott
+201405646   PHYS 2903  10:00-10:50 MWF     MS-UC  304   D.  Bryhan
+201405647   PHYS 2911  01:00-02:50 M       MS-UC  334   D.  Bryhan
+201405648   PHYS 2911  01:00-02:50 W       MS-UC  334   D.  Bryhan
+201405649   PHYS 2923  08:00-09:15 TR      MS-UC  311   J.  Christiansen
+201405651   PHYS 2931  01:00-02:50 T       MS-UC  334   J.  Christiansen
+201405524   STAT 2503  09:00-09:50 MWF     MS-UC  204   D.  Uhm
+201405532   STAT 2503  10:00-10:50 MWF     MS-UC  204   J.  Engelhoven
+201405535   STAT 2503  11:00-11:50 MWF     MS-UC  204   J.  Jackson
+201405537   STAT 2503  12:00-12:50 MWF     MS-UC  204   D.  Uhm
+201405539   STAT 2503  08:00-09:15 TR      MS-UC  204   S.  Huang
+201405541   STAT 2503  09:30-10:45 TR      MS-UC  204   D.  Uhm
+201405543   STAT 2503  11:00-12:15 TR      MS-UC  204   S.  Huang
+201405545   STAT 2503  12:30-01:45 TR      MS-UC  204   D.  Uhm
+201405548   STAT 2503  TBA                 TBA    TBA   S.  Huang
+2014051405  STAT 2503  09:00-12:15 MTWRF   MS-UC  206   D.  Uhm
+201405                 09:00-12:15 MTWRF   MS-UC  206   D.  Uhm
+201405                 09:00-12:15 MT      MS-UC  206   D.  Uhm
+201405                 09:00-12:15 RF      MS-UC  206   D.  Uhm
+201405550   STAT 3503  10:00-10:50 MWF     MS-UC  201   D.  Uhm
+201405547   STAT 2503  05:25-06:40 MW      MS-UC  204   R.  Watson
+201405549   STAT 2503  05:25-06:40 M       MS-UC  202   S.  Huang
+2014051635  MILS 1001  10:00-10:50 T       HLTHSC 223   J.  Blackston
+201405                                                  T.  Ashley
+201405                                                  A.  Spanel
+201405                 02:00-04:50 R       51ANX  FIELD J.  Blackston
+201405                                                  T.  Ashley
+201405                                                  A.  Spanel
+2014051636  MILS 2002  02:00-03:50 T       HOLT   109   J.  Blackston
+201405                                                  T.  Ashley
+201405                                                  A.  Spanel
+201405                 02:00-04:50 R       51ANX  FIELD J.  Blackston
+201405                                                  T.  Ashley
+201405                                                  A.  Spanel
+2014051637  MILS 3004  02:00-04:50 T       MS-UC  208   J.  Blackston
+201405                                                  T.  Ashley
+201405                                                  A.  Spanel
+201405                 02:00-04:50 R       51ANX  FIELD J.  Blackston
+201405                                                  T.  Ashley
+201405                                                  A.  Spanel
+2014051638  MILS 4004  02:00-04:50 W       MS-UC  208   J.  Blackston
+201405                                                  T.  Ashley
+201405                                                  A.  Spanel
+201405                 02:00-04:50 R       51ANX  FIELD J.  Blackston
+201405                                                  T.  Ashley
+201405                                                  A.  Spanel
+201405557   PRFS 3133  TBA                 TBA    TBA   S.  Loseke
+201405572   PRFS 3533  TBA                 TBA    TBA   R.  Huggins
+201405600   PRFS 3833  TBA                 TBA    TBA   L.  Cox
+201405616   PRFS 4033  TBA                 TBA    TBA   A.  Thomas
+201405618   PRFS 4133  TBA                 TBA    TBA   M.  Voelkel
+201405620   PRFS 4433  TBA                 TBA    TBA   S.  Loseke
+201405625   PRFS 4633  TBA                 TBA    TBA   A.  Thomas
+201405633   PRFS 4713  TBA                 TBA    TBA   S.  Loseke
+201405565   PRFS 3143  05:25-08:15 R       OTHER  MIDST K.  Taber
+201405816   ECED 3213  10:00-11:15 MW      OTHER  CNTRL D.  Milford
+201405817   ECED 3222  12:00-12:50 F       MS-UC  303   D.  Milford
+201405819   ECED 3283  08:30-09:45 MW      OTHER  CNTRL L.  Reid
+201405764   MLED 3563  09:45-11:00 TR      OTHER  BTTRF B.  Hunt
+201405216   HLTH 1004  12:30-01:30 MTWRF   OTHER  WALDR M.  Daggs
+201405240   HLTH 1473  09:00-09:50 MTWRF   OTHER  WALDR M.  Daggs
+201405242   HLTH 1473  01:30-02:20 MTWRF   OTHER  WALDR M.  Daggs
+2014051763  POLS 2753  10:00-10:50 MWF     OTHER  VBHS  E.  Baker
+201405                                                  T.  McMurray
+201405982   RINT 3903  03:30-04:45 W       OTHER  VBDRE T.  Wing
+2014051473  RINT 4953  TBA                 OTHER  VBDRE T.  Wing
+2014051587  CS   4903  05:25-08:15 T       OTHER  MIDST J.  McGinnis
+2014051494  ITC  2753  TBA                 TBA    TBA   J.  McGinnis
+2014051500  ITC  2324  05:25-09:15 M       OTHER  MIDST J.  Qualls
+2014051540  ITC  2524  05:25-09:15 T       OTHER  MIDST J.  Qualls
+2014051740  ITF  4114  05:25-09:15 T       OTHER  MIDST J.  McGinnis
+2014051562  ITN  3214  TBA                 TBA    TBA   J.  McClurg
+2014051563  ITN  3234  TBA                 TBA    TBA   J.  McClurg
+2014051561  ITN  4353  02:30-05:20 M       OTHER  MIDST J.  McGinnis
+2014051564  ITN  3113  05:25-08:15 W       OTHER  MIDST J.  McGinnis
+2014051756  OSS  460V  TBA                 OTHER  HONGK J.  Hardin
+2014051083  ELEG 3124  08:35-09:25 MWF     BALDOR 247   K.  Lewelling
+201405                 02:30-05:20 W       BALDOR 215   K.  Lewelling
+2014051089  ELEG 3903  08:00-09:15 TR      BALDOR 246   S.  Spiesshoefer
+2014051090  ELEG 3924  09:30-10:45 TR      BALDOR 214   R.  Saunders
+201405                 02:30-05:20 T       BALDOR 215   R.  Saunders
+2014051091  ELEG 4061  01:00-01:50 MWF     BALDOR 215   S.  Spiesshoefer
+2014051092  ELEG 4073  01:00-01:50 MWF     BALDOR 215   S.  Spiesshoefer
+2014051094  ELEG 4403  11:50-12:40 MWF     BALDOR 247   R.  McCann
+2014051095  ELEG 4503  11:00-12:15 TR      BALDOR 247   J.  Balda
+2014051103  MEEG 3010  08:30-09:20 W       BALDOR 141A  D.  Albers
+201405                 08:30-09:20 W       BALDOR 141B  D.  Albers
+2014051098  MEEG 3013  10:40-11:30 MWF     BALDOR 216   D.  Albers
+2014051107  MEEG 3200  01:00-03:50 M       BALDOR 141A  D.  Albers
+2014051108  MEEG 3200  01:00-03:50 W       BALDOR 141A  D.  Albers
+2014051111  MEEG 3202  08:30-09:20 M       BALDOR 108   D.  Albers
+2014051114  MEEG 3503  09:30-10:50 TR      BALDOR 246   J.  Hamilton
+201405                 09:30-10:50 TR      BALDOR 246   J.  Hamilton
+201405                 09:30-10:50 R       BALDOR 208   J.  Hamilton
+2014051118  MEEG 4131  TBA                 TBA    TBA   J.  Hamilton
+2014051121  MEEG 4131  TBA                 TBA    TBA   D.  Albers
+2014051124  MEEG 4132  12:30-01:45 TR      BALDOR 247   D.  Nutter
+2014051150  MEEG 4200  02:00-05:00 M       BALDOR 141A  J.  Hamilton
+2014051310  MEEG 4200  02:00-05:00 W       BALDOR 141A  J.  Hamilton
+2014051365  MEEG 4202  09:30-10:20 M       BALDOR 110   J.  Hamilton
+2014051373  MEEG 4480  TBA                 TBA    TBA   R.  Couvillion
+2014051372  MEEG 4483  12:55-01:45 MWF     BALDOR 247   R.  Couvillion
+201405                 02:00-05:00 W       BALDOR 247   R.  Couvillion
+2014051374  MEEG 491V  08:35-09:25 MWF     BALDOR 246   D.  Spearot
+2014051375  MEEG 491V  02:00-03:15 TR      BALDOR 247   W.  Myers
+2014051654  MEEG 4493  05:00-06:15 TR      BALDOR 247   L.  Roe
