@@ -73,9 +73,12 @@
 
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 11 COL 33                     VALUE 'ADD ANOTHER?:'.
-           03  LINE 12 COL 33                     VALUE '(Y/N)'.
-           03  LINE 11 COL 45 PIC X  TO WS-CONT   AUTO.
+           03  LINE 11 COL 33  PIC 9999 FROM LAST-ID.
+           03  LINE 11 COL 38  PIC X(22) FROM WS-INSTRUC-NAME.
+           03  LINE 11 COL 61                     VALUE 'ADDED'.
+           03  LINE 13 COL 33                     VALUE 'ADD ANOTHER?:'.
+           03  LINE 14 COL 33                     VALUE '(Y/N)'.
+           03  LINE 13 COL 45 PIC X  TO WS-CONT   AUTO.
       *----------------------------------------------------------------- 
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
@@ -97,7 +100,7 @@
                    MOVE LAST-ID TO WS-INSTRUC-ID
                    REWRITE LAST-ID
            END-PERFORM.
-
+           
            
            
            PERFORM UNTIL WS-CONT='n' OR 'N'
