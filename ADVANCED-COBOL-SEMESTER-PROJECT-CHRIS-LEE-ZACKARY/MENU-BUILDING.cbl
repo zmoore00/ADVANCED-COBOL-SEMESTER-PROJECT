@@ -34,6 +34,7 @@
            03  LINE 09 COL 32 VALUE " 1) INQ".
            03  LINE 10 COL 32 VALUE " 2) ADD".
            03  LINE 11 COL 32 VALUE " 3) CHANGE".
+           03  LINE 12 COL 32 VALUE " 4) LIST".
        01  SCR-SEL.
            03  LINE 17 COL 37 VALUE "Selection (X = EXIT)".
            03  LINE 17 COL 35 PIC X TO WS-SEL AUTO.
@@ -60,6 +61,7 @@
                    WHEN '1' CALL 'BLDG-INQ'
                    WHEN '2' CALL 'BLDG-ADD'
                    WHEN '3' CALL 'BLDG-CHANGE'
+                   WHEN '4' CALL 'BLDG-LIST'
                END-EVALUATE
                IF WS-SEL EQUALS 'X' or 'x' THEN 
                    DISPLAY SCR-CON

@@ -103,6 +103,7 @@
 		<file name="STUDENT-INQ.cbl"/>
 		<file name="test.cbl"/>
 		<file name="INSTRUC-LIST.cbl"/>
+		<file name="BLDG-LIST.cbl"/>
 	</mffilelist>
 	<!-- COBOL copybook locations -->
 	<mffilelist id="cobol.copybook.locations">
@@ -574,6 +575,17 @@
 			</mffilelist>
 		</cobol>
 	</target>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\zmoore00\Documents\Temp\temp\BLDG-LIST.cbl" refid="cobol_directive_set_1"/>
+	<mffilelist refid="cobol.copybook.locations"/>
+	<target name="FileCompile.New_Configuration.C:\Users\zmoore00\Documents\Temp\temp\BLDG-LIST.cbl" depends="init">
+		<cobol destdir="${basedir}/New_Configuration.bin" is64bit="false" threadedRts="true" forceCompile="${forceCompile}" failonerror="${cobolFailOnError}" debug="true" desttype="obj">
+			<mffilelist refid="cobol.copybook.locations"/>
+			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
+			<mffilelist type="srcfile" srcdir="${basedir}">
+				<file name="${filename}"/>
+			</mffilelist>
+		</cobol>
+	</target>
 	<!--  ****************  -->
 	<!--  * Object files *  -->
 	<!--  ****************  -->
@@ -621,6 +633,7 @@
 		<file name="STUDENT-INQ${objext}"/>
 		<file name="test${objext}"/>
 		<file name="INSTRUC-LIST${objext}"/>
+		<file name="BLDG-LIST${objext}"/>
 	</mffilelist>
 	<!--  *************************  -->
 	<!--  * Configuration targets *  -->

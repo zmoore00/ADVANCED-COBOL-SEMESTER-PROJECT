@@ -183,6 +183,7 @@
          <file compile="true" path="STUDENT-INQ.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="test.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="INSTRUC-LIST.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="BLDG-LIST.cbl" xsi:type="cobolFile"/>
       </filetype>
    </files>
 </project>
