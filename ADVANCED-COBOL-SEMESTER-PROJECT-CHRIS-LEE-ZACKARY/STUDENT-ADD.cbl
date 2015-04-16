@@ -15,8 +15,6 @@
                                ACCESS        IS RANDOM    
                                RECORD KEY    IS ISAM-STUD-KEY
                                FILE STATUS   IS WS-STAT.
-           SELECT STUD-LAST-ID ASSIGN TO "../STUD-LAST-ID.TXT"
-                               ORGANIZATION IS LINE SEQUENTIAL.           
       *----------------------------------------------------------------- 
        DATA DIVISION.
       *-----------------------------------------------------------------        
@@ -35,10 +33,6 @@
            03  ISAM-STUD-WPHONE    PIC X(10).
            03  ISAM-STUD-GENDER    PIC X.
            03  ISAM-STUD-ACTIVE    PIC X.
-       
-       FD  STUD-LAST-ID.
-           01 LAST-ID              PIC 9(4).
-       
 
       *-----------------------------------------------------------------        
        WORKING-STORAGE SECTION.
@@ -57,30 +51,29 @@
            03  WS-RESP                 PIC X       VALUE SPACES.
            03  WS-STAT                 PIC XX      VALUE SPACES.
            03  WS-CONT                 PIC X       VALUE 'Y'.
-           03  WS-EOF                  PIC X       VALUE 'N'.           
                
        01  WS-REC.
            03  WS-KEY.
                05  WS-STUD-ID       PIC 9999        VALUE 9999.
-               05  WS-FILLER            PIC X.
-               05  WS-STUD-LNAME        PIC X(15).
-               05  WS-SUTD-FNAME        PIC X(15).
-               05  WS-STUD-ADDRESS      PIC X(25).
-               05  WS-STUD-ZIP          PIC X(5).
-               05  WS-STUD-HPHONE.
-                   10  WS-STUD-HPHONE1  PIC X(3).
-                   10  WS-STUD-HPHONE2  PIC X(3).
-                   10  WS-STUD-HPHONE3  PIC X(4).               
-               05  WS-STUD-CPHONE.
-                   10  WS-STUD-CPHONE1  PIC X(3).
-                   10  WS-STUD-CPHONE2  PIC X(3).
-                   10  WS-STUD-CPHONE3  PIC X(4).
-               05  WS-STUD-WPHONE.
-                   10  WS-STUD-WPHONE1  PIC X(3).
-                   10  WS-STUD-WPHONE2  PIC X(3).
-                   10  WS-STUD-WPHONE3  PIC X(4).
-               05  WS-STUD-GENDER       PIC X.       
-               05  WS-STUD-ACTIVE       PIC X.       
+           03  FILLER               PIC X.
+           03  WS-STUD-LNAME        PIC X(15).
+           03  WS-SUTD-FNAME        PIC X(15).
+           03  WS-STUD-ADDRESS      PIC X(25).
+           03  WS-STUD-ZIP          PIC X(5).
+           03  WS-STUD-HPHONE.
+               05  WS-STUD-HPHONE1  PIC X(3).
+               05  WS-STUD-HPHONE2  PIC X(3).
+               05  WS-STUD-HPHONE3  PIC X(4).               
+           03  WS-STUD-CPHONE.
+               05  WS-STUD-CPHONE1  PIC X(3).
+               05  WS-STUD-CPHONE2  PIC X(3).
+               05  WS-STUD-CPHONE3  PIC X(4).
+           03  WS-STUD-WPHONE.
+               05  WS-STUD-WPHONE1  PIC X(3).
+               05  WS-STUD-WPHONE2  PIC X(3).
+               05  WS-STUD-WPHONE3  PIC X(4).
+           03  WS-STUD-GENDER       PIC X.       
+           03  WS-STUD-ACTIVE       PIC X.       
                
       *-----------------------------------------------------------------        
        SCREEN SECTION.
@@ -94,9 +87,9 @@
            03  LINE 1 COL 71 FROM DISPLAY-DATE.
 
        01  SCR-STUD-DATA.
-           03  LINE 07 COL 32 VALUE "ADD STUDENT".
-      *     03  LINE 08 COL 32 VALUE 'ID           :'.
-      *     03  LINE 08 COL 47 PIC X(4) TO WS-STUD-ID AUTO.
+           03  LINE 07 COL 32 VALUE "INQ STUDENT".
+           03  LINE 08 COL 32 VALUE 'ID           :'.
+           03  LINE 08 COL 47 PIC X(4) TO WS-STUD-ID AUTO.
            03  LINE 09 COL 32 VALUE 'FIRST NAME   :'.
            03  LINE 09 COL 47 PIC X(15) TO WS-SUTD-FNAME  AUTO.
            03  LINE 10 COL 32 VALUE 'LAST NAME    :'.
@@ -147,20 +140,9 @@
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
-           OPEN OUTPUT ISAM-STUD-IO.
-           OPEN I-O STUD-LAST-ID.
+           OPEN INPUT ISAM-STUD-IO.
            
            DISPLAY BLANK-SCREEN
-           
-           PERFORM UNTIL WS-EOF EQUALS 'Y'
-               READ STUD-LAST-ID
-               AT END
-                   MOVE 'Y' TO WS-EOF
-               NOT AT END
-                   ADD 1 TO LAST-ID GIVING LAST-ID
-                   MOVE LAST-ID TO WS-STUD-ID
-                   REWRITE LAST-ID
-           END-PERFORM.           
            
            PERFORM UNTIL WS-CONT='n' OR 'N'
                DISPLAY SCR-TITLE
@@ -170,6 +152,9 @@
                MOVE WS-KEY TO ISAM-REC-IO
                WRITE ISAM-REC-IO
 
+               
+      *         DISPLAY SCRN-ADD-ANOTHER
+      *         ACCEPT  SCRN-ADD-ANOTHER
                PERFORM UNTIL WS-CONT='y' OR 'Y' OR 'n' OR 'N'
                    MOVE 'PLEASE ENTER Y OR N' TO WS-MSG
                    DISPLAY SCRN-ADD-ANOTHER
@@ -180,7 +165,6 @@
            
            
            CLOSE ISAM-STUD-IO.
-           CLOSE STUD-LAST-ID.
            EXIT PROGRAM.
            STOP RUN.
        

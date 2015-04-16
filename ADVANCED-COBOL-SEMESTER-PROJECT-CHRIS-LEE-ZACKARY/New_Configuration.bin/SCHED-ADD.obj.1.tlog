@@ -1,2 +1,2 @@
-#""C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe C:\Users\Zackary\Documents\Temp\Temp\SCHED-ADD.cbl ""INTC:\Users\Zackary\Documents\Temp\Temp\New_Configuration.bin"" DELINT OBJC:\Users\Zackary\Documents\Temp\Temp\New_Configuration.bin"" USEC:\Users\Zackary\Documents\Temp\Temp\New_Configuration.bin\mfant2455961082489139467.dir ;
-^C:\Users\Zackary\Documents\Temp\Temp\SCHED-ADD.cbl
+#"C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe" C:\Users\zmoore00\Documents\Temp\temp\SCHED-ADD.cbl "INTC:\Users\zmoore00\Documents\Temp\temp\New_Configuration.bin"" DELINT OBJC:\Users\zmoore00\Documents\Temp\temp\New_Configuration.bin""" USEC:\Users\zmoore00\Documents\Temp\temp\New_Configuration.bin\mfant5002337132061977733.dir ;
+^C:\Users\zmoore00\Documents\Temp\temp\SCHED-ADD.cbl

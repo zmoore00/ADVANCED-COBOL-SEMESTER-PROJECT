@@ -1,2 +1,2 @@
-#""C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe C:\Users\Zackary\Documents\Temp\Temp\BLDG-CHANGE.cbl ""INTC:\Users\Zackary\Documents\Temp\Temp\New_Configuration.bin"" DELINT OBJC:\Users\Zackary\Documents\Temp\Temp\New_Configuration.bin"" USEC:\Users\Zackary\Documents\Temp\Temp\New_Configuration.bin\mfant7401451467784900336.dir ;
-^C:\Users\Zackary\Documents\Temp\Temp\BLDG-CHANGE.cbl
+#"C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe" C:\Users\zmoore00\Documents\Temp\temp\BLDG-CHANGE.cbl "INTC:\Users\zmoore00\Documents\Temp\temp\New_Configuration.bin"" DELINT OBJC:\Users\zmoore00\Documents\Temp\temp\New_Configuration.bin""" USEC:\Users\zmoore00\Documents\Temp\temp\New_Configuration.bin\mfant7871531563953013974.dir ;
+^C:\Users\zmoore00\Documents\Temp\temp\BLDG-CHANGE.cbl

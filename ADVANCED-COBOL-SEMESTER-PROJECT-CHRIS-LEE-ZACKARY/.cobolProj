@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cobolProject" name="Temp" version="2.5">
+<project xsi:schemaLocation="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cobolProject" name="temp" version="2.7">
    <settings xsi:type="projectSettingsContainer">
       <copybook-paths xsi:type="copybookPathsSettings">
-         <path enabled="true" name="/Temp" type="mfpath"/>
+         <path enabled="true" name="/temp" type="mfpath"/>
       </copybook-paths>
       <build-precedence-paths xsi:type="buildPrecedenceSettings">
-         <path enabled="true" name="/Temp" type="mfpath"/>
+         <path enabled="true" name="/temp" type="mfpath"/>
       </build-precedence-paths>
       <configurations default="New Configuration" xsi:type="buildConfigurationsContainer">
          <configuration description="New Configuration" type="single_exe" is64bit="false" createlbr="false" platform="Windows" xsi:type="cobolBuildConfiguration">
@@ -26,7 +26,7 @@
                <additional_files/>
                <rcfile path=""/>
                <rts_type value="shared"/>
-               <target name="Temp"/>
+               <target name="temp"/>
                <targettype type="exe"/>
                <threaded_rts value="true"/>
                <verbose value="false"/>
@@ -35,11 +35,11 @@
       </configurations>
       <cobol_settings xsi:type="cobolSettings">
          <options>
+            <option name="SOURCEFORMAT" value="fixed"/>
+            <option name="CHARSET" value="ASCII"/>
             <option name="WARNING" value="1"/>
             <option name="DIALECT" value="MF"/>
-            <option name="CHARSET" value="ASCII"/>
             <option name="MAX-ERROR" value="100"/>
-            <option name="SOURCEFORMAT" value="fixed"/>
          </options>
          <debug value="true"/>
          <generate value="false"/>
@@ -77,18 +77,18 @@
       </psb_settings>
       <bms_settings xsi:type="bmsSettings">
          <options>
-            <option id="level" name="" value=""/>
-            <option id="mapname" name="" value=""/>
-            <option id="map" name="/SYSPARM" value="MAP"/>
-            <option id="align" name=""/>
-            <option id="dsect" name="/SYSPARM" value="DSECT"/>
             <option id="sdf" name="/IGNORE"/>
-            <option id="sdfprefix" name="" value=""/>
-            <option id="additional" name="" value=""/>
-            <option id="currencychar" name="/CS" value="$"/>
-            <option id="dsectname" name="" value=""/>
-            <option id="longmacros" name=""/>
+            <option id="map" name="/SYSPARM" value="MAP"/>
             <option id="decimalchar" name="/DP" value="."/>
+            <option id="dsectname" name="" value=""/>
+            <option id="dsect" name="/SYSPARM" value="DSECT"/>
+            <option id="longmacros" name=""/>
+            <option id="additional" name="" value=""/>
+            <option id="mapname" name="" value=""/>
+            <option id="align" name=""/>
+            <option id="currencychar" name="/CS" value="$"/>
+            <option id="sdfprefix" name="" value=""/>
+            <option id="level" name="" value=""/>
          </options>
          <asmdir name=""/>
          <coboldir name=""/>
@@ -97,8 +97,49 @@
          <verbose value="false"/>
       </bms_settings>
       <dependent-projects xsi:type="dependentProjectsSettings"/>
+      <asm_settings xsi:type="assemblerCompileSettings">
+         <options>
+            <option id="compile_create_debug_info" name="mf370chk" value="ANIM"/>
+            <option id="compile_pre_assm_macros" name="mf370chk" value="NOMPC"/>
+            <option id="compile_create_optimized_code" name="mf370chk" value="NOOPT"/>
+            <option id="compile_cross_ref_listing" name="mf370chk" value="NOXREF"/>
+            <option id="compile_aat_info" name="mf370chk" value="NOAAT"/>
+            <option id="compile_generate_listing" name="mf370chk" value="NOLIST"/>
+            <option id="compile_mark_reentrant" name="mf370chk" value="RENT"/>
+         </options>
+      </asm_settings>
+      <asm_link_settings xsi:type="assemblerLinkSettings">
+         <options>
+            <option id="link_addressing_mode" name="mf370lnk" value="AMODE(31)"/>
+            <option id="link_mark_reusable" name="mf370lnk" value="REUS"/>
+            <option id="link_create_debug_info" name="mf370lnk" value="ANIM"/>
+            <option id="link_linker_output" name="mf370lnk" value="OMF(390)"/>
+            <option id="link_resolve_external" name="mf370lnk" value="CALL"/>
+            <option id="link_residency_mode" name="mf370lnk" value="RMODE(31)"/>
+            <option id="link_generate_listing" name="mf370lnk" value="NOLIST"/>
+            <option id="link_mark_reentrant" name="mf370lnk" value="RENT"/>
+         </options>
+      </asm_link_settings>
+      <asm_cics_settings enabled="false" xsi:type="assemblerCicsSettings">
+         <options>
+            <option id="cics_unsupported_option" name="mf370chkCics" value="UOPT(E)"/>
+            <option id="cics_unsupported_function" name="mf370chkCics" value="UFUNC(E)"/>
+            <option id="cics_insert_prolog_macros" name="mf370chkCics" value="PROLOG"/>
+            <option id="cics_insert_epilog_macros" name="mf370chkCics" value="EPILOG"/>
+         </options>
+      </asm_cics_settings>
+      <asm_autolink_settings enabled="true" xsi:type="assemblerAutoLinkSettings">
+         <options>
+            <option id="autolink_residency_mode" name="mf370chkAutoLink" value="RMODE(31)"/>
+            <option id="autolink_linker_output" name="mf370chkAutoLink" value="OMF(390)"/>
+            <option id="autolink_mark_reusable" name="mf370chkAutoLink" value="REUS"/>
+            <option id="autolink_addressing_mode" name="mf370chkAutoLink" value="AMODE(31)"/>
+            <option id="autolink_resolve_external" name="mf370chkAutoLink" value="CALL"/>
+         </options>
+      </asm_autolink_settings>
    </settings>
    <files xsi:type="projectFileStore">
+      <filetype type="cobol.copybook" xsi:type="cobolFileContainer"/>
       <filetype type="cobol" xsi:type="cobolFileContainer">
          <file compile="true" path="BLDG-ADD.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="BLDG-BUILD.cbl" xsi:type="cobolFile"/>
@@ -117,28 +158,31 @@
          <file compile="true" path="MENU-INSTRUCTOR.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="MENU-MAIN.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="MENU-REBUILD.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="MENU-STUDENT.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="SCHED-BUILD.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="STUD-BUILD.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="test.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="MENU-REPORTS.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="MENU-REGISTER.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="MENU-REPORTS.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="MENU-SCHEDULE.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="SCHED-INQ-BY-CRN.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="SCHED-INQ-BY-CRSE.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="SCHED-ADD.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="SCHED-CHANGE.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="REPORTS-STUD-SCHED.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="REPORTS-INSTRUC-SCHED.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="REPORTS-CLASS-ROLE.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="REPORTS-MASTER-LIST.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="REPORTS-STUDENT-LIST.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="REPORTS-INSTRUCTOR-LIST.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="REPORTS-BUILDING-LIST.cbl" xsi:type="cobolFile"/>
-         <file compile="true" path="REPORTS-COURSE-LIST.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="MENU-STUDENT.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="REG-ADD.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="REG-DELETE.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="REPORTS-BUILDING-LIST.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="REPORTS-CLASS-ROLE.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="REPORTS-COURSE-LIST.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="REPORTS-INSTRUC-SCHED.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="REPORTS-INSTRUCTOR-LIST.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="REPORTS-MASTER-LIST.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="REPORTS-STUD-SCHED.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="REPORTS-STUDENT-LIST.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="SCHED-ADD.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="SCHED-BUILD.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="SCHED-CHANGE.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="SCHED-INQ-BY-CRN.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="SCHED-INQ-BY-CRSE.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="STUD-BUILD.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="STUDENT-ADD.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="STUDENT-CHANGE.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="STUDENT-INQ.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="test.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="INSTRUC-LIST.cbl" xsi:type="cobolFile"/>
       </filetype>
-      <filetype type="cobol.copybook" xsi:type="cobolFileContainer"/>
    </files>
 </project>

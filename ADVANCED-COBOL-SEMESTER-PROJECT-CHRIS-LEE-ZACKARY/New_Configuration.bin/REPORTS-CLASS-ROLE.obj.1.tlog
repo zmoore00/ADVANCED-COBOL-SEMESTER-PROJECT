@@ -1,2 +1,2 @@
-#""C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe C:\Users\Zackary\Documents\Temp\Temp\REPORTS-CLASS-ROLE.cbl ""INTC:\Users\Zackary\Documents\Temp\Temp\New_Configuration.bin"" DELINT OBJC:\Users\Zackary\Documents\Temp\Temp\New_Configuration.bin"" USEC:\Users\Zackary\Documents\Temp\Temp\New_Configuration.bin\mfant6288945009188044668.dir ;
-^C:\Users\Zackary\Documents\Temp\Temp\REPORTS-CLASS-ROLE.cbl
+#"C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe" C:\Users\zmoore00\Documents\Temp\temp\REPORTS-CLASS-ROLE.cbl "INTC:\Users\zmoore00\Documents\Temp\temp\New_Configuration.bin"" DELINT OBJC:\Users\zmoore00\Documents\Temp\temp\New_Configuration.bin""" USEC:\Users\zmoore00\Documents\Temp\temp\New_Configuration.bin\mfant1055408239172413754.dir ;
+^C:\Users\zmoore00\Documents\Temp\temp\REPORTS-CLASS-ROLE.cbl
