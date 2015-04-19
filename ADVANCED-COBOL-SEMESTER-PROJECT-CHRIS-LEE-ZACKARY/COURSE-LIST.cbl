@@ -5,12 +5,12 @@
       *ABSTRACT: This program lists from the INSTRUCTOR-MASTER FILE    *
       ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. INSTRUC-LIST IS INITIAL PROGRAM.
+       PROGRAM-ID. COURSE-LIST IS INITIAL PROGRAM.
       *----------------------------------------------------------------- 
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.                                                    
-           SELECT ISAM-INSTRUC-IN ASSIGN TO "../INSTRUCTOR-MASTER.DAT"  
+           SELECT ISAM-BUILD-IN ASSIGN TO "../COURSE-MASTER.DAT"      
                                ORGANIZATION  IS INDEXED
                                ACCESS        IS SEQUENTIAL    
                                RECORD KEY    IS ISAM-IN-KEY
@@ -19,12 +19,15 @@
        DATA DIVISION.
       *----------------------------------------------------------------- 
        FILE SECTION.
-       FD  ISAM-INSTRUC-IN.
+       FD  ISAM-BUILD-IN.
        01  ISAM-REC-IO.
-           03  ISAM-IN-KEY.
-               05  ISAM-IO-ID   PIC 9999.
-           03  FILLER       PIC X           VALUE SPACES.
-           03  ISAM-IO-NAME PIC X(22).
+           05  ISAM-IN-KEY.
+               10  ISAM-IO-SUBJ    PIC X(4).
+               10  ISAM-IO-CRSE    PIC X(4).
+           05  FILLER              PIC X            VALUE SPACE.
+           05  ISAM-IO-TITLE       PIC X(30).
+           05  FILLER              PIC X            VALUE SPACE.
+           05  ISAM-IO-CREDITS     PIC X(3). 
       *----------------------------------------------------------------- 
        WORKING-STORAGE SECTION.
        01  WS-DATE.
@@ -46,13 +49,15 @@
            03  WS-ANOTHER              PIC X       VALUE "Y".
            03  WS-EOF                  PIC X       VALUE "N".
            03  WS-CTR                  PIC 99      VALUE ZEROS.
-           03  BLANK-LINE              PIC X(80)   VALUE SPACES.
                
        01  WS-REC.
-           03  WS-KEY.
-               05  WS-INSTRUC-ID       PIC 9999        VALUE ZEROS.
-               05  WS-FILLER           PIC X           VALUE SPACES.
-               05  WS-INSTRUC-NAME     PIC X(22)       VALUE SPACES.
+           05  WS-KEY.
+               10  WS-COURSE-SUBJ PIC X(4)              VALUE SPACES.
+               10  WS-COURSE-CRSE PIC X(4)              VALUE SPACES.
+           05  FILLER              PIC X            VALUE SPACE.
+           05  WS-COURSE-TITLE     PIC X(30).
+           05  FILLER              PIC X                VALUE SPACE.
+           05  WS-COURSE-CREDITS  PIC X(3).
       *----------------------------------------------------------------- 
        SCREEN SECTION.
        01  BLANK-SCREEN.
@@ -60,7 +65,7 @@
        
        01  SCR-TITLE.
            03  BLANK SCREEN.
-           03  LINE 1 COL 1  VALUE "INDTRUC-LIST".
+           03  LINE 1 COL 1  VALUE "BLDG-LIST".
            03  LINE 1 COL 37 VALUE "UAFS".
            03  LINE 1 COL 71 FROM DISPLAY-DATE.
       *----------------------------------------------------------------- 
@@ -71,19 +76,19 @@
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
-           OPEN INPUT ISAM-INSTRUC-IN.
+           OPEN INPUT ISAM-BUILD-IN.
            
            DISPLAY SCR-TITLE
            
            PERFORM UNTIL WS-EOF EQUALS 'Y'
-               READ ISAM-INSTRUC-IN
+               READ ISAM-BUILD-IN
                    AT END
                        MOVE 'Y' TO WS-EOF
                    NOT AT END
                        PERFORM 100-DISPLAY
            END-PERFORM
 
-           CLOSE ISAM-INSTRUC-IN.
+           CLOSE ISAM-BUILD-IN.
            EXIT PROGRAM.
            STOP RUN.
       *-----------------------------------------------------------------
@@ -102,7 +107,13 @@
                DISPLAY SPACES
                MOVE 1 TO WS-CTR.
 
-               MOVE ISAM-IO-ID     TO WS-INSTRUC-ID.
-               MOVE ISAM-IO-NAME   TO WS-INSTRUC-NAME.
+               MOVE ISAM-IN-KEY     TO WS-KEY.
+               MOVE ISAM-IO-TITLE   TO WS-COURSE-TITLE.
+               MOVE ISAM-IO-CREDITS TO WS-COURSE-CREDITS.
 
                DISPLAY WS-REC.
+
+
+                   
+               
+               

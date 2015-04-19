@@ -59,7 +59,7 @@
        
        01  SCR-TITLE.
            03  BLANK SCREEN.
-           03  LINE 1 COL 1  VALUE "INDTRUC-LIST".
+           03  LINE 1 COL 1  VALUE "BLDG-LIST".
            03  LINE 1 COL 37 VALUE "UAFS".
            03  LINE 1 COL 71 FROM DISPLAY-DATE.
       *----------------------------------------------------------------- 
