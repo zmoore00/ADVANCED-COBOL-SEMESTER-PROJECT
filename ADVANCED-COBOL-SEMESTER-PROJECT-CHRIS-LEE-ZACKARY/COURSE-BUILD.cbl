@@ -1,5 +1,5 @@
       ******************************************************************
-      *PROGRAM : Pull out specific course information from schedule                      *
+      *PROGRAM : Pull out specific course information from schedule    *                  
       *AUTHOR  : Chris Jeong                                          *
       *DATE    : 02-15-2015                                            *
       *ABSTRACT: Builds course master file                *

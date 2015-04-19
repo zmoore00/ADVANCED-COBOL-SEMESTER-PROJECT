@@ -10,7 +10,7 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.                                                    
-           SELECT ISAM-BLDG-IN ASSIGN TO "../BUILDING-ISAM.DAT"         
+           SELECT ISAM-STUD-IN ASSIGN TO "../SCHEDULE-MASTER.DAT"       
                                ORGANIZATION  IS INDEXED
                                ACCESS        IS RANDOM    
                                RECORD KEY    IS ISAM-IN-KEY
@@ -19,12 +19,19 @@
        DATA DIVISION.
       *----------------------------------------------------------------- 
        FILE SECTION.
-       FD  ISAM-BLDG-IN.
+       FD  ISAM-STUD-IN.
        01  ISAM-REC-IN.
            03  ISAM-IN-KEY.
-               05  ISAM-IN-BLDG PIC X(7).
-               05  ISAM-IN-ROOM PIC X(5).
-           03  ISAM-IN-SEATS    PIC X(4).
+               05  YEAR            PIC XXXX.
+               05  SEMESTER        PIC XX.
+               05  CRN             PIC X(6).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  SUBJ                PIC X(5).
+           03  CRSE                PIC X(6).
+           03  TIME-DAY            PIC X(20).
+           03  BLDG                PIC X(7).
+           03  ROOM                PIC X(6).
+           03  INSTRUCTOR          PIC X(22).
       *----------------------------------------------------------------- 
        WORKING-STORAGE SECTION.
        01  WS-DATE.
@@ -43,13 +50,20 @@
            03  WS-RESP                 PIC X       VALUE SPACES.
            03  WS-STAT                 PIC XX      VALUE SPACES.
            03  CONT-FLAG               PIC X       VALUE 'Y'.
+           03  WS-ANOTHER              PIC X.
                
        01  WS-REC.
            03  WS-KEY.
-               05  WS-BLDG     PIC X(7)        VALUE SPACES.
-               05  WS-ROOM     PIC X(5)        VALUE SPACES.
-           03  WS-SEATS        PIC X(4)        VALUE SPACES.
-           03  WS-ANOTHER      PIC X.
+               05  WS-YEAR            PIC XXXX.
+               05  WS-SEMESTER        PIC XX.
+               05  WS-CRN             PIC X(6).
+           03  FILLER                 PIC X           VALUE SPACES.
+           03  WS-SUBJ                PIC X(5).
+           03  WS-CRSE                PIC X(6).
+           03  WS-TIME-DAY            PIC X(20).
+           03  WS-BLDG                PIC X(7).
+           03  WS-ROOM                PIC X(6).
+           03  WS-INSTRUCTOR          PIC X(22).
       *----------------------------------------------------------------- 
        SCREEN SECTION.
        01  BLANK-SCREEN.
@@ -64,19 +78,21 @@
        01  SCRN-KEY-REQ.
            05  LINE 07 COL 32 VALUE "SCHEDULE SEARCH BY CRN".
            03  LINE 09 COL 35                       VALUE '     CRN:'.
-           03  LINE 09 COL 45 PIC X(7)  TO WS-BLDG  AUTO.
-           03  LINE 10 COL 35                       VALUE '  SEM/YR:'. 
-           03  LINE 10 COL 45 PIC X(5)  TO WS-ROOM  AUTO.
-           03  LINE 12 COL 35                       VALUE '  (X=EXIT)'.
-           03  LINE 13 COL 35 PIC X(40) FROM WS-MSG.
+           03  LINE 09 COL 45 PIC X(6)  TO WS-CRN   AUTO.
+           03  LINE 10 COL 35                       VALUE '     SEM:'. 
+           03  LINE 10 COL 45 PIC X(2)  TO WS-SEMESTER  AUTO.
+           03  LINE 11 COL 35                       VALUE '     YR:'. 
+           03  LINE 11 COL 45 PIC X(4)  TO WS-YEAR  AUTO.
+           03  LINE 13 COL 35                       VALUE '  (X=EXIT)'.
+           03  LINE 14 COL 35 PIC X(40) FROM WS-MSG.
            
-       01  SCRN-BLDG-DATA.
+       01  SCRN-SCHED-DATA.
            03  LINE 09 COL 35                        VALUE ' CRN:'.     
-           03  LINE 09 COL 45 PIC X(7) FROM WS-BLDG  VALUE SPACES.
-           03  LINE 10 COL 35                        VALUE '   SEM/YR:'.
-           03  LINE 10 COL 45 PIC X(5) FROM WS-ROOM  VALUE SPACES.
-           03  LINE 11 COL 35                        VALUE 'MAX SEATS:'.
-           03  LINE 11 COL 45 PIC XXXX FROM WS-SEATS VALUE SPACES.
+           03  LINE 09 COL 45 PIC X(6) FROM WS-CRN   VALUE SPACES.
+           03  LINE 10 COL 35                        VALUE '   SEM:'.
+           03  LINE 10 COL 45 PIC X(5) FROM WS-SEMESTER  VALUE SPACES.
+           03  LINE 11 COL 35                        VALUE '   YR:'.    
+           03  LINE 11 COL 45 PIC XXXX FROM WS-YEAR VALUE SPACES.
            03  LINE 13 COL 45                        VALUE'Y/N? '.
            03  LINE 14 COL 45 PIC X TO WS-ANOTHER.
       *----------------------------------------------------------------- 
@@ -88,21 +104,27 @@
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
-           OPEN INPUT ISAM-BLDG-IN.
+           OPEN INPUT ISAM-STUD-IN.
            
            PERFORM UNTIL (WS-BLDG='X' OR 'x') OR (WS-ROOM='X' OR 'x')
                DISPLAY SCR-TITLE
                DISPLAY SCRN-KEY-REQ
                ACCEPT  SCRN-KEY-REQ
                MOVE WS-KEY TO ISAM-IN-KEY
-               READ ISAM-BLDG-IN
+               READ ISAM-STUD-IN
                    INVALID KEY
-                       
+                       MOVE   WS-KEY TO WS-MSG
                    NOT INVALID KEY
-                       
+                       MOVE ISAM-REC-IN TO WS-REC
+                       DISPLAY SCR-TITLE
+                       DISPLAY SCRN-SCHED-DATA
+                       ACCEPT WS-ANOTHER
+                       IF WS-ANOTHER EQUALS 'N' OR 'n'
+                           EXIT PROGRAM
+                       END-IF
                END-READ
            END-PERFORM.
 
-           CLOSE ISAM-BLDG-IN.
+           CLOSE ISAM-STUD-IN.
            EXIT PROGRAM.
            STOP RUN.

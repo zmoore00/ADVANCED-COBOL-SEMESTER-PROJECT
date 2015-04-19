@@ -21,7 +21,7 @@
                                ORGANIZATION IS LINE SEQUENTIAL.
            SELECT OUT-FILE     ASSIGN TO "../SCHEDULE-MASTER.DAT"
                                ORGANIZATION  IS INDEXED
-                               ACCESS        IS SEQUENTIAL
+                               ACCESS        IS RANDOM
                                RECORD KEY    IS ISAM-OUT-KEY
                                FILE STATUS   IS WS-OUT-STATUS.
       *----------------------------------------------------------------- 
@@ -65,9 +65,9 @@
        FD  OUT-FILE.
        01  STU-OUT.
            03  ISAM-OUT-KEY.
-               05  YEAR            PIC 9999.
-               05  SEMESTER        PIC 99.
-               05  CRN             PIC 9(6).
+               05  YEAR            PIC XXXX.
+               05  SEMESTER        PIC XX.
+               05  CRN             PIC X(6).
            03  FILLER              PIC X           VALUE SPACES.
            03  SUBJ                PIC X(5).
            03  CRSE                PIC X(6).

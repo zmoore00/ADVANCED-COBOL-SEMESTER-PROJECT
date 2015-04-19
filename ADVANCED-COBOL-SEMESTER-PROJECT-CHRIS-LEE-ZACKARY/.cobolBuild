@@ -105,6 +105,7 @@
 		<file name="STUDENT-INQ.cbl"/>
 		<file name="test.cbl"/>
 		<file name="COURSE-LIST.cbl"/>
+		<file name="STUDENT-LIST.cbl"/>
 	</mffilelist>
 	<!-- COBOL copybook locations -->
 	<mffilelist id="cobol.copybook.locations">
@@ -598,6 +599,17 @@
 			</mffilelist>
 		</cobol>
 	</target>
+	<mfdirlist id="dirset.New_Configuration.C:\Users\12zcm_000\Documents\Temp\TEMP-SEMESTER-PROJ\STUDENT-LIST.cbl" refid="cobol_directive_set_1"/>
+	<mffilelist refid="cobol.copybook.locations"/>
+	<target name="FileCompile.New_Configuration.C:\Users\12zcm_000\Documents\Temp\TEMP-SEMESTER-PROJ\STUDENT-LIST.cbl" depends="init">
+		<cobol debug="true" destdir="${basedir}/New_Configuration.bin" is64bit="false" failonerror="${cobolFailOnError}" forceCompile="${forceCompile}" desttype="obj" threadedRts="true">
+			<mffilelist refid="cobol.copybook.locations"/>
+			<mfdirlist refid="dirset.New_Configuration.${filename}"/>
+			<mffilelist type="srcfile" srcdir="${basedir}">
+				<file name="${filename}"/>
+			</mffilelist>
+		</cobol>
+	</target>
 	<!--  ****************  -->
 	<!--  * Object files *  -->
 	<!--  ****************  -->
@@ -647,6 +659,7 @@
 		<file name="STUDENT-INQ${objext}"/>
 		<file name="test${objext}"/>
 		<file name="COURSE-LIST${objext}"/>
+		<file name="STUDENT-LIST${objext}"/>
 	</mffilelist>
 	<!--  *************************  -->
 	<!--  * Configuration targets *  -->

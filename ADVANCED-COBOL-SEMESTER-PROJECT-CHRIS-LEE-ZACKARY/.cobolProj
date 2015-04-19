@@ -144,6 +144,7 @@
          <file compile="true" path="STUDENT-INQ.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="test.cbl" xsi:type="cobolFile"/>
          <file compile="true" path="COURSE-LIST.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="STUDENT-LIST.cbl" xsi:type="cobolFile"/>
       </filetype>
       <filetype type="cobol.copybook" xsi:type="cobolFileContainer"/>
    </files>

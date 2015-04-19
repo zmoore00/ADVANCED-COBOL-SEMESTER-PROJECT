@@ -45,6 +45,7 @@
                05  LINE 09 COL 32 VALUE " 1) INQ".
                05  LINE 10 COL 32 VALUE " 2) ADD".
                05  LINE 11 COL 32 VALUE " 3) CHANGE".
+               05  LINE 12 COL 32 VALUE " 4) LIST".
                05  LINE 17 COL 37 VALUE "Selection (X = EXIT)".
                05  LINE 17 COL 35 PIC X TO WS-SELECTION AUTO.
        
@@ -69,6 +70,7 @@
                    WHEN '1' CALL 'STUDENT-INQ'
                    WHEN '2' CALL 'STUDENT-ADD'
                    WHEN '3' CALL 'STUDENT-CHANGE'
+                   WHEN '4' CALL 'STUDENT-LIST'
                END-EVALUATE
                IF WS-SELECTION = 'X' OR 'x'
                    DISPLAY EXIT-SCREEN
