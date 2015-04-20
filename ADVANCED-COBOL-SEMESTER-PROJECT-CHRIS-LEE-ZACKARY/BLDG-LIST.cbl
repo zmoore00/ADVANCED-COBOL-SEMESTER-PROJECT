@@ -81,7 +81,11 @@
                    NOT AT END
                        PERFORM 100-DISPLAY
            END-PERFORM
-
+           
+           DISPLAY SPACES
+           DISPLAY 'PRESS ENTER TO CONTINUE, TYPE X TO EXIT'
+           ACCEPT WS-RESP
+           
            CLOSE ISAM-BUILD-IN.
            EXIT PROGRAM.
            STOP RUN.

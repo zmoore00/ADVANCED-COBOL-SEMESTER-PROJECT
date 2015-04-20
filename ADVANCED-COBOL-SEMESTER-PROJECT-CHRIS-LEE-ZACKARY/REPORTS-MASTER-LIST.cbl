@@ -67,10 +67,10 @@
                DISPLAY INSTRUCTORMENU
                ACCEPT INSTRUCTORMENU
                EVALUATE WS-SELECTION
-                   WHEN '1' CALL 'REPORTS-STUDENT-LIST'
-                   WHEN '2' CALL 'REPORTS-INSTRUCTOR-LIST'
-                   WHEN '3' CALL 'REPORTS-BUILDING-LIST'
-                   WHEN '4' CALL 'REPORTS-COURSE-LIST'
+                   WHEN '1' CALL 'STUDENT-LIST'
+                   WHEN '2' CALL 'INSTRUC-LIST'
+                   WHEN '3' CALL 'BLDG-LIST'
+                   WHEN '4' CALL 'COURSE-LIST'
                END-EVALUATE
                IF WS-SELECTION = 'X' OR 'x'
                    DISPLAY EXIT-SCREEN

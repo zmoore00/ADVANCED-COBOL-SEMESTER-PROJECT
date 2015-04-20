@@ -10,7 +10,7 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.                                                    
-           SELECT ISAM-COURSE-IN ASSIGN TO "../COURSE-MASTER.DAT"      
+           SELECT ISAM-COURSE-IN ASSIGN TO "../COURSE-MASTER.TXT"      
                                ORGANIZATION  IS INDEXED
                                ACCESS        IS SEQUENTIAL    
                                RECORD KEY    IS ISAM-IN-KEY
@@ -87,6 +87,10 @@
                    NOT AT END
                        PERFORM 100-DISPLAY
            END-PERFORM
+           
+           DISPLAY SPACES
+           DISPLAY 'PRESS ENTER TO CONTINUE, TYPE X TO EXIT'
+           ACCEPT WS-RESP
 
            CLOSE ISAM-COURSE-IN.
            EXIT PROGRAM.

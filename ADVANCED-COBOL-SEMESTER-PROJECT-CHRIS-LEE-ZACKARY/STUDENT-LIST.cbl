@@ -57,27 +57,29 @@
            03  BLANK-LINE              PIC X(80)   VALUE SPACES.
                
        01  WS-REC.
-           03  WS-KEY.
-               05  WS-STUD-ID       PIC 9999        VALUE 9999.
-           03  FILLER               PIC X.
-           03  WS-STUD-LNAME        PIC X(15).
-           03  WS-SUTD-FNAME        PIC X(15).
-           03  WS-STUD-ADDRESS      PIC X(25).
-           03  WS-STUD-ZIP          PIC X(5).
-           03  WS-STUD-HPHONE.
-               05  WS-STUD-HPHONE1  PIC X(3).
-               05  WS-STUD-HPHONE2  PIC X(3).
-               05  WS-STUD-HPHONE3  PIC X(4).               
-           03  WS-STUD-CPHONE.
-               05  WS-STUD-CPHONE1  PIC X(3).
-               05  WS-STUD-CPHONE2  PIC X(3).
-               05  WS-STUD-CPHONE3  PIC X(4).
-           03  WS-STUD-WPHONE.
-               05  WS-STUD-WPHONE1  PIC X(3).
-               05  WS-STUD-WPHONE2  PIC X(3).
-               05  WS-STUD-WPHONE3  PIC X(4).
-           03  WS-STUD-GENDER       PIC X.       
-           03  WS-STUD-ACTIVE       PIC X.
+           03  WS-LINE-1.
+               05  WS-KEY.
+                   07  WS-STUD-ID       PIC 9999        VALUE 9999.
+               05  FILLER               PIC X.
+               05  WS-STUD-LNAME        PIC X(15).
+               05  WS-SUTD-FNAME        PIC X(15).
+               05  WS-STUD-ADDRESS      PIC X(25).
+               05  WS-STUD-ZIP          PIC X(5).
+           03  WS-LINE-2.
+               05  WS-STUD-HPHONE.
+                   07  WS-STUD-HPHONE1  PIC X(3).
+                   07  WS-STUD-HPHONE2  PIC X(3).
+                   07  WS-STUD-HPHONE3  PIC X(4).               
+               05  WS-STUD-CPHONE.
+                   07  WS-STUD-CPHONE1  PIC X(3).
+                   07  WS-STUD-CPHONE2  PIC X(3).
+                   07  WS-STUD-CPHONE3  PIC X(4).
+               05  WS-STUD-WPHONE.
+                   07  WS-STUD-WPHONE1  PIC X(3).
+                   07  WS-STUD-WPHONE2  PIC X(3).
+                   07  WS-STUD-WPHONE3  PIC X(4).
+               05  WS-STUD-GENDER       PIC X.       
+               05  WS-STUD-ACTIVE       PIC X.
       *----------------------------------------------------------------- 
        SCREEN SECTION.
        01  BLANK-SCREEN.
@@ -108,7 +110,11 @@
                    NOT AT END
                        PERFORM 100-DISPLAY
            END-PERFORM
-
+           
+           DISPLAY SPACES
+           DISPLAY 'PRESS ENTER TO CONTINUE, TYPE X TO EXIT'
+           ACCEPT WS-RESP
+           
            CLOSE ISAM-STUD-IN.
            EXIT PROGRAM.
            STOP RUN.
@@ -128,7 +134,17 @@
                DISPLAY SPACES
                MOVE 1 TO WS-CTR.
 
-               MOVE ISAM-IO-ID     TO WS-STUD-ID.
+               MOVE ISAM-REC-IO     TO WS-REC.
 
-               DISPLAY WS-STUD-ID.
+               DISPLAY WS-LINE-1
+               DISPLAY '('WS-STUD-HPHONE1')'WS-STUD-HPHONE2'-'
+                   WS-STUD-HPHONE3' '
+                   '('WS-STUD-CPHONE1')'WS-STUD-CPHONE2'-'
+                   WS-STUD-CPHONE3' '
+                   '('WS-STUD-WPHONE1')'WS-STUD-WPHONE2'-'
+                   WS-STUD-WPHONE3'  '
+                   WS-STUD-GENDER' '   
+                   WS-STUD-ACTIVE
+                   
+               DISPLAY BLANK-LINE.
 
