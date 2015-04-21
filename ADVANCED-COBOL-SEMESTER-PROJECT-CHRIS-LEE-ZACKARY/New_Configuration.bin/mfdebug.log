@@ -1,0 +1,39 @@
+
+Visual COBOL Exception Handler - 4/21/2015  5:34:01 PM
+C:\Users\12zcm_000\Documents\temp adv cobol\temp project\New_Configuration.bin\temp project.exe caused an exception at address : 0x000790B1
+Exception type - EXCEPTION_ACCESS_VIOLATION on Read. Address 0x00D58A3B
+
+Registers:
+
+	EAX 00000059	EBX 31393437
+	ECX FFFFFFFF	EDX 10074F60
+	DS  002B	ESI 00079848
+	ES  002B	EDI 00098B04
+	FS  0053	GS  002B
+	CS  0023	EIP 000790B1
+	SS  002B	ESP 0100FA0C	EBP 00098580
+	Flags 00010246
+
+Error occurred in : C:\Users\12zcm_000\Documents\temp adv cobol\temp project\New_Configuration.bin\temp project.exe, loaded at 0x00070000
+
+COBOL call stack:
+
+	INSTRUC-ADD	(obj program)
+	MENU-INSTRUCTOR	(obj program)
+	MENU-MAIN	(obj program)
+
+Run-time : C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cblrtsm.dll, loaded at 0x10000000
+
+	CompanyName Micro Focus
+	FileDescription Micro Focus Run Time System Core Support
+	FileVersion VisualCOBOL-R7/215
+	LegalCopyright Copyright (C) Micro Focus 1984-2013. All rights reserved.
+	OriginalFileName cblrtsm.dll
+	ProductName Micro Focus COBOL
+	ProductVersion 2.2.00244
+
+OS Information:
+
+Windows NT 6.2 (Build 9200: )
+CPU: Intel Pentium Model 42 step 7, 8 processors
+Available memory - 4194303 KB

@@ -48,6 +48,7 @@
            03  WS-STAT                 PIC XX      VALUE SPACES.
            03  WS-CONT                 PIC X       VALUE 'Y'.
            03  WS-EOF                  PIC X       VALUE 'N'.
+           03  WS-COUNT                PIC 9       VALUE 0.
                
        01  WS-REC.
            03  WS-KEY.
@@ -87,11 +88,21 @@
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
-           OPEN I-O IO-REC.
+           
            OPEN I-O ISAM-INSTRUC-IO.
            DISPLAY BLANK-SCREEN
            
-           PERFORM UNTIL WS-EOF EQUALS 'Y'
+           
+           
+           
+           
+           PERFORM UNTIL WS-CONT='n' OR 'N'
+               OPEN I-O IO-REC
+               DISPLAY SCR-TITLE
+               DISPLAY SCR-INSTRUC-NAME
+               ACCEPT  SCR-INSTRUC-NAME
+               
+               PERFORM UNTIL WS-EOF EQUALS 'Y'
                READ IO-REC
                AT END
                    MOVE 'Y' TO WS-EOF
@@ -99,14 +110,8 @@
                    ADD 1 TO LAST-ID GIVING LAST-ID
                    MOVE LAST-ID TO WS-INSTRUC-ID
                    REWRITE LAST-ID
-           END-PERFORM.
-           
-           
-           
-           PERFORM UNTIL WS-CONT='n' OR 'N'
-               DISPLAY SCR-TITLE
-               DISPLAY SCR-INSTRUC-NAME
-               ACCEPT  SCR-INSTRUC-NAME
+               END-PERFORM
+               MOVE 'N' TO WS-EOF
                
                MOVE WS-KEY TO ISAM-REC-IO
                WRITE ISAM-REC-IO
@@ -118,7 +123,9 @@
                    MOVE 'PLEASE ENTER Y OR N' TO WS-MSG
                    DISPLAY SCRN-ADD-ANOTHER
                    ACCEPT  SCRN-ADD-ANOTHER
+                   MOVE "IN" TO WS-MSG
                END-PERFORM
+             CLOSE IO-REC
            END-PERFORM.
            
            
