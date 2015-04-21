@@ -68,7 +68,7 @@
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
                05  CRN             PIC X(6).
-           03  FILLER              PIC X           VALUE SPACES.
+      *     03  FILLER              PIC X           VALUE SPACES.
            03  SUBJ                PIC X(5).
            03  CRSE                PIC X(6).
            03  TIME-DAY            PIC X(20).

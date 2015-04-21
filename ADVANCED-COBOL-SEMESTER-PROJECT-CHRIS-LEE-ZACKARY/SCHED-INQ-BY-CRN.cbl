@@ -1,8 +1,8 @@
       ******************************************************************
       *PROGRAM : BLDG-INQ.CBL                                          *
-      *AUTHOR  : Lee Hawthorne                                         *
-      *DATE    : 2/17/2015                                             *
-      *ABSTRACT: This program inquires into the BUILDING-ISAM.DAT FILE *
+      *AUTHOR  : ZACK MOORE                                            *
+      *DATE    : 4/20/2015                                             *
+      *ABSTRACT: FINDS A RECORD IN SCHEDULE MASTER BY CRN SEM AND YR   *
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. SCHED-INQ-BY-CRN IS INITIAL PROGRAM.
@@ -25,7 +25,6 @@
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
                05  CRN             PIC X(6).
-           03  FILLER              PIC X           VALUE SPACES.
            03  SUBJ                PIC X(5).
            03  CRSE                PIC X(6).
            03  TIME-DAY            PIC X(20).
@@ -57,7 +56,6 @@
                05  WS-YEAR            PIC XXXX.
                05  WS-SEMESTER        PIC XX.
                05  WS-CRN             PIC X(6).
-           03  FILLER                 PIC X           VALUE SPACES.
            03  WS-SUBJ                PIC X(5).
            03  WS-CRSE                PIC X(6).
            03  WS-TIME-DAY            PIC X(20).
@@ -86,15 +84,30 @@
            03  LINE 13 COL 35                       VALUE '  (X=EXIT)'.
            03  LINE 14 COL 35 PIC X(40) FROM WS-MSG.
            
+       01  SCRN-DATA-TITLE.
+           05  LINE 07 COL 35 VALUE "RECORD FOUND". 
+           
        01  SCRN-SCHED-DATA.
-           03  LINE 09 COL 35                        VALUE ' CRN:'.     
+           03  LINE 09 COL 30                        VALUE '    CRN:'.  
            03  LINE 09 COL 45 PIC X(6) FROM WS-CRN   VALUE SPACES.
-           03  LINE 10 COL 35                        VALUE '   SEM:'.
+           03  LINE 10 COL 30                        VALUE '    SEM:'.
            03  LINE 10 COL 45 PIC X(5) FROM WS-SEMESTER  VALUE SPACES.
-           03  LINE 11 COL 35                        VALUE '   YR:'.    
+           03  LINE 11 COL 30                        VALUE '    YR:'.   
            03  LINE 11 COL 45 PIC XXXX FROM WS-YEAR VALUE SPACES.
-           03  LINE 13 COL 45                        VALUE'Y/N? '.
-           03  LINE 14 COL 45 PIC X TO WS-ANOTHER.
+           03  LINE 12 COL 30                        VALUE '    SUBJ:'.
+           03  LINE 12 COL 45 PIC X(5) FROM WS-SUBJ VALUE SPACES.
+           03  LINE 13 COL 30                        VALUE '    CRSE:'.
+           03  LINE 13 COL 45 PIC X(6) FROM WS-CRSE VALUE SPACES.
+           03  LINE 14 COL 30                  VALUE '    TIME/DAY:'.
+           03  LINE 14 COL 45 PIC X(20) FROM WS-TIME-DAY VALUE SPACES.
+           03  LINE 15 COL 30                  VALUE '    BLDG:'.
+           03  LINE 15 COL 45 PIC X(7) FROM WS-BLDG VALUE SPACES.
+           03  LINE 16 COL 30                  VALUE '    ROOM:'.
+           03  LINE 16 COL 45 PIC X(20) FROM WS-ROOM VALUE SPACES.
+           03  LINE 17 COL 30                  VALUE '    INSTRUC:'.
+           03  LINE 17 COL 45 PIC X(20) FROM WS-INSTRUCTOR VALUE SPACES.
+           03  LINE 19 COL 35              VALUE'ENTER ANOTHER Y/N '.
+           03  LINE 20 COL 43 PIC X TO WS-ANOTHER.
       *----------------------------------------------------------------- 
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
@@ -106,17 +119,18 @@
            
            OPEN INPUT ISAM-STUD-IN.
            
-           PERFORM UNTIL (WS-BLDG='X' OR 'x') OR (WS-ROOM='X' OR 'x')
+           PERFORM UNTIL (WS-CRN='X' OR 'x') OR (WS-SEMESTER='X' OR 'x')
                DISPLAY SCR-TITLE
                DISPLAY SCRN-KEY-REQ
                ACCEPT  SCRN-KEY-REQ
                MOVE WS-KEY TO ISAM-IN-KEY
                READ ISAM-STUD-IN
                    INVALID KEY
-                       MOVE   WS-KEY TO WS-MSG
+                       MOVE "INVALID ID" TO WS-MSG
                    NOT INVALID KEY
                        MOVE ISAM-REC-IN TO WS-REC
                        DISPLAY SCR-TITLE
+                       DISPLAY SCRN-DATA-TITLE
                        DISPLAY SCRN-SCHED-DATA
                        ACCEPT WS-ANOTHER
                        IF WS-ANOTHER EQUALS 'N' OR 'n'
