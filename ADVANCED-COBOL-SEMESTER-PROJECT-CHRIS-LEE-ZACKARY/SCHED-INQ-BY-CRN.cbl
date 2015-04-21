@@ -14,6 +14,8 @@
                                ORGANIZATION  IS INDEXED
                                ACCESS        IS RANDOM    
                                RECORD KEY    IS ISAM-IN-KEY
+                               ALTERNATE KEY IS CRSE
+                                           WITH DUPLICATES
                                FILE STATUS   IS WS-STAT.
       *----------------------------------------------------------------- 
        DATA DIVISION.

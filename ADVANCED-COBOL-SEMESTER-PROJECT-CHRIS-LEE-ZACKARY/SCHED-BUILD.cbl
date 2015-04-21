@@ -24,7 +24,7 @@
                                ACCESS        IS RANDOM
                                RECORD KEY    IS ISAM-OUT-KEY
                                ALTERNATE KEY IS CRSE
-                               ALTERNATE KEY IS CRN
+                                       WITH DUPLICATES
                                FILE STATUS   IS WS-OUT-STATUS.
       *----------------------------------------------------------------- 
        DATA DIVISION.
@@ -69,8 +69,7 @@
            03  ISAM-OUT-KEY.
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
-           03  CRN                 PIC X(6).
-      *     03  FILLER              PIC X           VALUE SPACES.
+               05  CRN             PIC X(6).
            03  SUBJ                PIC X(5).
            03  CRSE                PIC X(6).
            03  TIME-DAY            PIC X(20).

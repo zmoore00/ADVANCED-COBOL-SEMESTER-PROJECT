@@ -15,6 +15,7 @@
                                ACCESS        IS RANDOM    
                                RECORD KEY    IS ISAM-IN-KEY
                                ALTERNATE KEY IS CRSE
+                                       WITH DUPLICATES
                                FILE STATUS   IS WS-STAT.
       *----------------------------------------------------------------- 
        DATA DIVISION.
@@ -56,7 +57,7 @@
            03  WS-KEY.
                05  WS-YEAR            PIC XXXX.
                05  WS-SEMESTER        PIC XX.
-           03  WS-CRN                 PIC X(6).
+               05  WS-CRN              PIC X(6).
            03  WS-SUBJ                PIC X(5).
            03  WS-CRSE                PIC X(6).
            03  WS-TIME-DAY            PIC X(20).
@@ -124,11 +125,11 @@
                DISPLAY SCR-TITLE
                DISPLAY SCRN-KEY-REQ
                ACCEPT  SCRN-KEY-REQ
-               MOVE WS-KEY TO ISAM-IN-KEY
-               MOVE WS-CRSE TO CRSE
+               
+               MOVE WS-CRSE TO CRSE 
                READ ISAM-STUD-IN
                    INVALID KEY
-                       MOVE WS-CRN TO WS-MSG
+                       MOVE "INVALID ID" TO WS-MSG
                    NOT INVALID KEY
                        MOVE ISAM-REC-IN TO WS-REC
                        DISPLAY SCR-TITLE
