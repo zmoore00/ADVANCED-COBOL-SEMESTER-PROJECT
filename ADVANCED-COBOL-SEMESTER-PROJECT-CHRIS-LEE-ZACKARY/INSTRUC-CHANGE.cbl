@@ -87,7 +87,7 @@
            
            OPEN I-O ISAM-INSTRUC-IN.
 
-           PERFORM UNTIL WS-ANOTHER = 'n' OR 'N'
+           PERFORM UNTIL (WS-ANOTHER = 'n' OR 'N')
                DISPLAY SCR-TITLE
                DISPLAY SCR-INSTRUC-ID
                ACCEPT  SCR-INSTRUC-ID

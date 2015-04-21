@@ -1,2 +1,2 @@
-#""C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe C:\Users\12zcm_000\Documents\Temp\TEMP-SEMESTER-PROJ\INSTRUC-ADD.cbl ""INTC:\Users\12zcm_000\Documents\Temp\TEMP-SEMESTER-PROJ\New_Configuration.bin"" DELINT OBJC:\Users\12zcm_000\Documents\Temp\TEMP-SEMESTER-PROJ\New_Configuration.bin"" USEC:\Users\12zcm_000\Documents\Temp\TEMP-SEMESTER-PROJ\New_Configuration.bin\mfant8578374377516844719.dir ;
-^C:\Users\12zcm_000\Documents\Temp\TEMP-SEMESTER-PROJ\INSTRUC-ADD.cbl
+#"C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe" "R:\SEMPROJ APR21 WRKSPC\SEMESTERPROJAPR21\INSTRUC-ADD.cbl" "INTR:\SEMPROJ APR21 WRKSPC\SEMESTERPROJAPR21\New_Configuration.bin"" DELINT OBJR:\SEMPROJ" APR21 "WRKSPC\SEMESTERPROJAPR21\New_Configuration.bin""" "USER:\SEMPROJ APR21 WRKSPC\SEMESTERPROJAPR21\New_Configuration.bin\mfant6103582571416284473.dir" ;
+^"R:\SEMPROJ APR21 WRKSPC\SEMESTERPROJAPR21\INSTRUC-ADD.cbl"

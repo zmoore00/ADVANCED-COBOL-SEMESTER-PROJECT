@@ -14,6 +14,7 @@
                                ORGANIZATION  IS INDEXED
                                ACCESS        IS RANDOM    
                                RECORD KEY    IS ISAM-IN-KEY
+                               ALTERNATE KEY IS CRSE
                                FILE STATUS   IS WS-STAT.
       *----------------------------------------------------------------- 
        DATA DIVISION.
@@ -24,7 +25,7 @@
            03  ISAM-IN-KEY.
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
-               05  CRN             PIC X(6).
+           03  CRN                 PIC X(6).
            03  SUBJ                PIC X(5).
            03  CRSE                PIC X(6).
            03  TIME-DAY            PIC X(20).
@@ -55,7 +56,7 @@
            03  WS-KEY.
                05  WS-YEAR            PIC XXXX.
                05  WS-SEMESTER        PIC XX.
-               05  WS-CRN             PIC X(6).
+           03  WS-CRN                 PIC X(6).
            03  WS-SUBJ                PIC X(5).
            03  WS-CRSE                PIC X(6).
            03  WS-TIME-DAY            PIC X(20).
@@ -76,7 +77,7 @@
        01  SCRN-KEY-REQ.
            05  LINE 07 COL 32 VALUE "SCHEDULE SEARCH BY CRSE".
            03  LINE 09 COL 35                       VALUE '     CRSE:'.
-           03  LINE 09 COL 45 PIC X(6)  TO WS-CRN   AUTO.
+           03  LINE 09 COL 45 PIC X(6)  TO WS-CRSE   AUTO.
            03  LINE 10 COL 35                       VALUE '     SEM:'. 
            03  LINE 10 COL 45 PIC X(2)  TO WS-SEMESTER  AUTO.
            03  LINE 11 COL 35                       VALUE '     YR:'. 
@@ -112,7 +113,7 @@
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
            
-           MOVE FUNCTION CURRENT-DATE TO WS-DATE
+           MOVE FUNCTION CURRENT-DATE TO WS-DATE   
            MOVE WS-CURRENT-MONTH TO MONTH-DISPLAY
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
@@ -124,9 +125,10 @@
                DISPLAY SCRN-KEY-REQ
                ACCEPT  SCRN-KEY-REQ
                MOVE WS-KEY TO ISAM-IN-KEY
+               MOVE WS-CRSE TO CRSE
                READ ISAM-STUD-IN
                    INVALID KEY
-                       MOVE "INVALID ID" TO WS-MSG
+                       MOVE WS-CRN TO WS-MSG
                    NOT INVALID KEY
                        MOVE ISAM-REC-IN TO WS-REC
                        DISPLAY SCR-TITLE
@@ -138,7 +140,6 @@
                        END-IF
                END-READ
            END-PERFORM.
-
            CLOSE ISAM-STUD-IN.
            EXIT PROGRAM.
            STOP RUN.
