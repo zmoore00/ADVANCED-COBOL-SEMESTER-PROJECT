@@ -1,8 +1,8 @@
       ******************************************************************
-      *PROGRAM : INSTRUC-ADD.CBL                                       *
-      *AUTHOR  : ZACKARY MOORE                                         *
-      *DATE    : 3/16/2015                                             *
-      *ABSTRACT: This program adds to the INSTRUCTOR-MASTER FILE       *
+      *PROGRAM : BLDG-INQ.CBL                                          *
+      *AUTHOR  : ZACK MOORE                                            *
+      *DATE    : 4/20/2015                                             *
+      *ABSTRACT: FINDS A RECORD IN SCHEDULE MASTER BY CRN SEM AND YR   *
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. SCHED-ADD IS INITIAL PROGRAM.
@@ -10,26 +10,29 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.                                                    
-           SELECT ISAM-INSTRUC-IO ASSIGN TO "../INSTRUCTOR-MASTER.DAT"  
+           SELECT ISAM-SCHED-IN ASSIGN TO "../SCHEDULE-MASTER.DAT"      
                                ORGANIZATION  IS INDEXED
                                ACCESS        IS RANDOM    
-                               RECORD KEY    IS ISAM-IO-KEY
+                               RECORD KEY    IS ISAM-IN-KEY
+                               ALTERNATE KEY IS CRSE
+                                           WITH DUPLICATES
                                FILE STATUS   IS WS-STAT.
-           SELECT IO-REC       ASSIGN TO "../INSTRUC-LAST-ID.TXT"
-                               ORGANIZATION IS LINE SEQUENTIAL.
       *----------------------------------------------------------------- 
        DATA DIVISION.
       *----------------------------------------------------------------- 
        FILE SECTION.
-       FD  ISAM-INSTRUC-IO.
-       01  ISAM-REC-IO.
-           03  ISAM-IO-KEY.
-               05  ISAM-IO-ID   PIC 9999.
-           03  FILLER       PIC X           VALUE SPACES.
-           03  ISAM-IO-NAME PIC X(22).
-           
-       FD  IO-REC.
-       01  LAST-ID          PIC 9999.
+       FD  ISAM-SCHED-IN.
+       01  ISAM-REC-IN.
+           03  ISAM-IN-KEY.
+               05  YEAR            PIC XXXX.
+               05  SEMESTER        PIC XX.
+               05  CRN             PIC X(6).
+           03  SUBJ                PIC X(5).
+           03  CRSE                PIC X(6).
+           03  TIME-DAY            PIC X(20).
+           03  BLDG                PIC X(7).
+           03  ROOM                PIC X(6).
+           03  INSTRUCTOR          PIC X(22).
       *----------------------------------------------------------------- 
        WORKING-STORAGE SECTION.
        01  WS-DATE.
@@ -42,18 +45,25 @@
            03  DAY-DISPLAY         PIC 99.
            03  FILLER              PIC X           VALUE "/".
            03  YEAR-DISPLAY        PIC 9999.
+       
        01  MISC-VARS.
            03  WS-MSG                  PIC X(40)   VALUE SPACES.
            03  WS-RESP                 PIC X       VALUE SPACES.
            03  WS-STAT                 PIC XX      VALUE SPACES.
-           03  WS-CONT                 PIC X       VALUE 'Y'.
-           03  WS-EOF                  PIC X       VALUE 'N'.
+           03  CONT-FLAG               PIC X       VALUE 'Y'.
+           03  WS-CONT                 PIC X.
                
        01  WS-REC.
            03  WS-KEY.
-               05  WS-INSTRUC-ID       PIC 9999        VALUE 9999.
-               05  WS-FILLER           PIC X           VALUE SPACES.
-               05  WS-INSTRUC-NAME     PIC X(22)       VALUE SPACES.
+               05  WS-YEAR            PIC XXXX.
+               05  WS-SEMESTER        PIC XX.
+               05  WS-CRN             PIC X(6)     VALUE "000000".
+           03  WS-SUBJ                PIC X(5).
+           03  WS-CRSE                PIC X(6).
+           03  WS-TIME-DAY            PIC X(20).
+           03  WS-BLDG                PIC X(7).
+           03  WS-ROOM                PIC X(6).
+           03  WS-INSTRUCTOR          PIC X(22).
       *----------------------------------------------------------------- 
        SCREEN SECTION.
        01  BLANK-SCREEN.
@@ -65,48 +75,55 @@
            03  LINE 1 COL 37 VALUE "UAFS".
            03  LINE 1 COL 71 FROM DISPLAY-DATE.
            
-       01  SCR-INSTRUC-NAME.
-           03  LINE 07 COL 32 VALUE "ADD TO SCHEDULE".
-           03  LINE 09 COL 32 VALUE 'YEAR:'.
-           03  LINE 09 COL 40 PIC X(22) TO WS-INSTRUC-NAME  AUTO.
-           03  LINE 11 COL 35 PIC X(40) FROM WS-MSG.
-
+       01  SCRN-KEY-REQ.
+           05  LINE 07 COL 32 VALUE "ADD TO SCHEDULE".
+           03  LINE 10 COL 30                        VALUE '    SEM:'.
+           03  LINE 10 COL 45 PIC XX TO WS-SEMESTER AUTO.
+           03  LINE 11 COL 30                        VALUE '    YR:'.   
+           03  LINE 11 COL 45 PIC XXXX TO WS-YEAR AUTO.
+           03  LINE 12 COL 30                        VALUE '    SUBJ:'.
+           03  LINE 12 COL 45 PIC X(5) TO WS-SUBJ.
+           03  LINE 13 COL 30                        VALUE '    CRSE:'.
+           03  LINE 13 COL 45 PIC X(6) TO WS-CRSE.
+           03  LINE 14 COL 30                  VALUE '    TIME/DAY:'.
+           03  LINE 14 COL 45 PIC X(20) TO WS-TIME-DAY.
+           03  LINE 15 COL 30                  VALUE '    BLDG:'.
+           03  LINE 15 COL 45 PIC X(7) TO WS-BLDG.
+           03  LINE 16 COL 30                  VALUE '    ROOM:'.
+           03  LINE 16 COL 45 PIC X(20) TO WS-ROOM.
+           03  LINE 17 COL 30                  VALUE '    INSTRUC:'.
+           03  LINE 17 COL 45 PIC X(20) TO WS-INSTRUCTOR.
+           03  LINE 19 COL 35 PIC X(40) FROM WS-MSG.
+           
+       01  SCRN-DATA-TITLE.
+           05  LINE 07 COL 35 VALUE "RECORD FOUND". 
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 11 COL 33                     VALUE 'ADD ANOTHER?:'.
-           03  LINE 12 COL 33                     VALUE '(Y/N)'.
-           03  LINE 11 COL 45 PIC X  TO WS-CONT   AUTO.
+           03  LINE 21 COL 33  PIC 9(6) FROM CRN.
+           03  LINE 21 COL 39  PIC XX FROM SEMESTER.
+           03  LINE 21 COL 42  PIC XXXX FROM YEAR.
+           03  LINE 21 COL 61                     VALUE 'ADDED'.
+           03  LINE 23 COL 33                     VALUE 'ADD ANOTHER?:'.
+           03  LINE 24 COL 33                     VALUE '(Y/N)'.
+           03  LINE 23 COL 45 PIC X  TO WS-CONT   AUTO.
       *----------------------------------------------------------------- 
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
+           
            MOVE FUNCTION CURRENT-DATE TO WS-DATE
            MOVE WS-CURRENT-MONTH TO MONTH-DISPLAY
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
-           OPEN I-O IO-REC.
-           OPEN I-O ISAM-INSTRUC-IO.
-           DISPLAY BLANK-SCREEN
+           OPEN I-O ISAM-SCHED-IN.
            
-           PERFORM UNTIL WS-EOF EQUALS 'Y'
-               READ IO-REC
-               AT END
-                   MOVE 'Y' TO WS-EOF
-               NOT AT END
-                   ADD 1 TO LAST-ID GIVING LAST-ID
-                   MOVE LAST-ID TO WS-INSTRUC-ID
-                   REWRITE LAST-ID
-           END-PERFORM.
-
-           
-           
-           PERFORM UNTIL WS-CONT='n' OR 'N'
+           PERFORM UNTIL WS-CONT EQUALS "N" OR "n"
                DISPLAY SCR-TITLE
-               DISPLAY SCR-INSTRUC-NAME
-               ACCEPT  SCR-INSTRUC-NAME
+               DISPLAY SCRN-KEY-REQ
+               ACCEPT  SCRN-KEY-REQ
                
-               MOVE WS-KEY TO ISAM-REC-IO
-               WRITE ISAM-REC-IO
+               MOVE WS-KEY TO ISAM-REC-IN
+               WRITE ISAM-REC-IN
 
                
                DISPLAY SCRN-ADD-ANOTHER
@@ -115,13 +132,11 @@
                    MOVE 'PLEASE ENTER Y OR N' TO WS-MSG
                    DISPLAY SCRN-ADD-ANOTHER
                    ACCEPT  SCRN-ADD-ANOTHER
+                   MOVE "IN" TO WS-MSG
                END-PERFORM
+               
            END-PERFORM.
-           
-           
-           
-           CLOSE ISAM-INSTRUC-IO.
+
+           CLOSE ISAM-SCHED-IN.
            EXIT PROGRAM.
            STOP RUN.
-
-

@@ -10,7 +10,7 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.                                                    
-           SELECT ISAM-STUD-IN ASSIGN TO "../SCHEDULE-MASTER.DAT"       
+           SELECT ISAM-SCHED-IN ASSIGN TO "../SCHEDULE-MASTER.DAT"      
                                ORGANIZATION  IS INDEXED
                                ACCESS        IS RANDOM    
                                RECORD KEY    IS ISAM-IN-KEY
@@ -21,7 +21,7 @@
        DATA DIVISION.
       *----------------------------------------------------------------- 
        FILE SECTION.
-       FD  ISAM-STUD-IN.
+       FD  ISAM-SCHED-IN.
        01  ISAM-REC-IN.
            03  ISAM-IN-KEY.
                05  YEAR            PIC XXXX.
@@ -119,14 +119,14 @@
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
-           OPEN INPUT ISAM-STUD-IN.
+           OPEN INPUT ISAM-SCHED-IN.
            
            PERFORM UNTIL (WS-CRN='X' OR 'x') OR (WS-SEMESTER='X' OR 'x')
                DISPLAY SCR-TITLE
                DISPLAY SCRN-KEY-REQ
                ACCEPT  SCRN-KEY-REQ
                MOVE WS-KEY TO ISAM-IN-KEY
-               READ ISAM-STUD-IN
+               READ ISAM-SCHED-IN
                    INVALID KEY
                        MOVE "INVALID ID" TO WS-MSG
                    NOT INVALID KEY
@@ -141,6 +141,6 @@
                END-READ
            END-PERFORM.
 
-           CLOSE ISAM-STUD-IN.
+           CLOSE ISAM-SCHED-IN.
            EXIT PROGRAM.
            STOP RUN.
