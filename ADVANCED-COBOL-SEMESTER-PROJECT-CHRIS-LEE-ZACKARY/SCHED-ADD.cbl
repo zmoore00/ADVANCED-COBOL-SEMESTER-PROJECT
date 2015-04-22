@@ -17,6 +17,8 @@
                                ALTERNATE KEY IS CRSE
                                            WITH DUPLICATES
                                FILE STATUS   IS WS-STAT.
+           SELECT IO-REC       ASSIGN TO "../SCHED-LAST-CRN.TXT"
+                               ORGANIZATION IS LINE SEQUENTIAL.
       *----------------------------------------------------------------- 
        DATA DIVISION.
       *----------------------------------------------------------------- 
@@ -33,6 +35,9 @@
            03  BLDG                PIC X(7).
            03  ROOM                PIC X(6).
            03  INSTRUCTOR          PIC X(22).
+           
+       FD  IO-REC.
+       01  LAST-CRN          PIC 9(6).
       *----------------------------------------------------------------- 
        WORKING-STORAGE SECTION.
        01  WS-DATE.
@@ -52,12 +57,13 @@
            03  WS-STAT                 PIC XX      VALUE SPACES.
            03  CONT-FLAG               PIC X       VALUE 'Y'.
            03  WS-CONT                 PIC X.
+           03  WS-EOF                  PIC X       VALUE 'N'.
                
        01  WS-REC.
            03  WS-KEY.
                05  WS-YEAR            PIC XXXX.
                05  WS-SEMESTER        PIC XX.
-               05  WS-CRN             PIC X(6)     VALUE "000000".
+               05  WS-CRN             PIC X(6).
            03  WS-SUBJ                PIC X(5).
            03  WS-CRSE                PIC X(6).
            03  WS-TIME-DAY            PIC X(20).
@@ -118,11 +124,23 @@
            OPEN I-O ISAM-SCHED-IN.
            
            PERFORM UNTIL WS-CONT EQUALS "N" OR "n"
+               OPEN I-O IO-REC
                DISPLAY SCR-TITLE
                DISPLAY SCRN-KEY-REQ
                ACCEPT  SCRN-KEY-REQ
                
-               MOVE WS-KEY TO ISAM-REC-IN
+               PERFORM UNTIL WS-EOF EQUALS 'Y'
+               READ IO-REC
+               AT END
+                   MOVE 'Y' TO WS-EOF
+               NOT AT END
+                   ADD 1 TO LAST-CRN GIVING LAST-CRN
+                   MOVE LAST-CRN TO WS-CRN
+                   REWRITE LAST-CRN
+               END-PERFORM
+               MOVE 'N' TO WS-EOF
+               
+               MOVE WS-REC TO ISAM-REC-IN
                WRITE ISAM-REC-IN
 
                
@@ -132,9 +150,9 @@
                    MOVE 'PLEASE ENTER Y OR N' TO WS-MSG
                    DISPLAY SCRN-ADD-ANOTHER
                    ACCEPT  SCRN-ADD-ANOTHER
-                   MOVE "IN" TO WS-MSG
+                   MOVE "ENTER Y OR N" TO WS-MSG
                END-PERFORM
-               
+               CLOSE IO-REC
            END-PERFORM.
 
            CLOSE ISAM-SCHED-IN.
