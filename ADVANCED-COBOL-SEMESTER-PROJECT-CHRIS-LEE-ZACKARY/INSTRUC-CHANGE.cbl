@@ -115,6 +115,12 @@
                        END-REWRITE
                        DISPLAY SCRN-INSTRUC-ANOTHER
                        ACCEPT  SCRN-INSTRUC-ANOTHER
+               PERFORM UNTIL WS-ANOTHER='y' OR 'Y' OR 'n' OR 'N'
+                   MOVE 'PLEASE ENTER Y OR N' TO WS-MSG
+                   DISPLAY SCRN-INSTRUC-ANOTHER
+                   ACCEPT  SCRN-INSTRUC-ANOTHER
+                   MOVE "ENTER Y OR N" TO WS-MSG
+               END-PERFORM
            END-PERFORM.
        
        CLOSE ISAM-INSTRUC-IN.
