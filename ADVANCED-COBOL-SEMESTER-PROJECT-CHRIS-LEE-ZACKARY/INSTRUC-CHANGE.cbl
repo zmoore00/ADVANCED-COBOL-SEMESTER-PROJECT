@@ -63,20 +63,22 @@
            
        01  SCR-INSTRUC-ID.
            03  LINE 07 COL 32 VALUE "INSTRUCTOR CHANGE".
-           03  LINE 09 COL 32 VALUE 'INSTRUCTOR ID:'.
+           03  LINE 09 COL 32 VALUE 'INSTRUC ID:'.
            03  LINE 09 COL 48 PIC X(4) TO WS-INSTRUC-ID  AUTO.
            
        01  SCR-INSTRUC-NAME.
-           03  LINE 10 COL 32 VALUE '  CHANGE NAME: '.
-           03  LINE 10 COL 48 PIC X(22) TO WS-INSTRUC-NAME AUTO.
+           03  LINE 10 COL 32    VALUE 'INSTRUC NAME:'.
+           03  LINE 10 COL 48 PIC X(22) FROM ISAM-IO-NAME. 
+           03  LINE 11 COL 32 VALUE 'CHANGE NAME: '.
+           03  LINE 11 COL 48 PIC X(22) TO WS-INSTRUC-NAME AUTO.
            
        01  SCRN-INSTRUC-ANOTHER.
-           03  LINE 12 COL 30                        
+           03  LINE 13 COL 30                        
                                              VALUE'ENTER ANOTHER Y/N? '.
-           03  LINE 13 COL 45 PIC X TO WS-ANOTHER    AUTO.
+           03  LINE 14 COL 45 PIC X TO WS-ANOTHER    AUTO.
        
        01  SCRN-MSG.  
-           03  LINE 15 COL 35 PIC X(40) FROM WS-MSG.
+           03  LINE 16 COL 35 PIC X(40) FROM WS-MSG.
       *----------------------------------------------------------------- 
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
