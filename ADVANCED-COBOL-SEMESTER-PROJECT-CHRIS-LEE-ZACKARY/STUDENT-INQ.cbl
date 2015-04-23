@@ -99,7 +99,7 @@
        01  SCR-STUDENT-ID.
            05  LINE 07 COL 32 VALUE "STUDENT SEARCH".
            03  LINE 09 COL 35                       VALUE 'STUDENT ID:'.
-           03  LINE 09 COL 47 PIC X(4)  TO WS-STUD-ID AUTO.
+           03  LINE 09 COL 47 PIC X(4)  TO WS-STUD-ID  AUTO.
            03  LINE 12 COL 35                       VALUE '  (X=EXIT)'.
            03  LINE 13 COL 35 PIC X(40) FROM WS-MSG.           
            

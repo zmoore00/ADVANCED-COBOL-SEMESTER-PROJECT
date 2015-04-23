@@ -25,12 +25,21 @@
                05  ISAM-IO-ID      PIC 9999.
            03  FILLER              PIC X       VALUE SPACE.    
            03  ISAM-STUD-LNAME     PIC X(15).
-           03  ISAM-SUTD-FNAME     PIC X(15).
+           03  ISAM-STUD-FNAME     PIC X(15).
            03  ISAM-STUD-ADDRESS   PIC X(25).
            03  ISAM-STUD-ZIP       PIC X(5).
-           03  ISAM-STUD-HPHONE    PIC X(10).
-           03  ISAM-STUD-CPHONE    PIC X(10).
-           03  ISAM-STUD-WPHONE    PIC X(10).
+           03  ISAM-STUD-HPHONE.
+               05  ISAM-STUD-HPHONE1  PIC X(3).
+               05  ISAM-STUD-HPHONE2  PIC X(3).
+               05  ISAM-STUD-HPHONE3  PIC X(4).            
+           03  ISAM-STUD-CPHONE.
+               05  ISAM-STUD-CPHONE1  PIC X(3).
+               05  ISAM-STUD-CPHONE2  PIC X(3).
+               05  ISAM-STUD-CPHONE3  PIC X(4).
+           03  ISAM-STUD-WPHONE.
+               05  ISAM-STUD-WPHONE1  PIC X(3).
+               05  ISAM-STUD-WPHONE2  PIC X(3).
+               05  ISAM-STUD-WPHONE3  PIC X(4).           
            03  ISAM-STUD-GENDER    PIC X.
            03  ISAM-STUD-ACTIVE    PIC X.
 
@@ -53,6 +62,11 @@
            03  WS-STAT                 PIC XX      VALUE SPACES.
            03  WS-CONT                 PIC X       VALUE 'Y'.
            03  WS-CON                  PIC X       VALUE 'Y'.
+           03  WS-FILLER15             PIC X(15)   VALUE SPACES.
+           03  WS-FILLER25             PIC X(25)   VALUE SPACES.
+           03  WS-FILLER10             PIC X(10)   VALUE SPACES.
+           03  WS-FILLER05             PIC X(5)    VALUE SPACES.        
+           03  WS-FILLER01             PIC X       VALUE SPACE.
                
        01  WS-REC.
            03  WS-KEY.
@@ -92,10 +106,8 @@
            03  LINE 06 COL 22 VALUE "CHANGE STUDENT".
            03  LINE 07 COL 22 VALUE "ENTER ID     :".
            03  LINE 07 COL 37 PIC X(4) TO WS-STUD-ID AUTO.
-      *     03  LINE 08 COL 32 VALUE 'ID           :'.
-      *     03  LINE 08 COL 47 PIC X(4) FROM ISAM-IO-ID.
            03  LINE 09 COL 22 VALUE 'FIRST NAME   :'.
-           03  LINE 09 COL 37 PIC X(15) FROM ISAM-SUTD-FNAME.
+           03  LINE 09 COL 37 PIC X(15) FROM ISAM-STUD-FNAME.
            03  LINE 10 COL 22 VALUE 'LAST NAME    :'.
            03  LINE 10 COL 37 PIC X(15) FROM ISAM-STUD-LNAME.
            03  LINE 11 COL 22 VALUE 'ADDRESS      :'.
@@ -103,41 +115,60 @@
            03  LINE 12 COL 22 VALUE 'ZIP          :'.
            03  LINE 12 COL 37 PIC X(5) FROM ISAM-STUD-ZIP.
            03  LINE 13 COL 22 VALUE 'PH(Primary)  :'.
-           03  LINE 13 COL 37 PIC X(13) FROM   ISAM-STUD-HPHONE.
+           03  LINE 13 COL 37 VALUE '('.   
+           03          COL 38 PIC X(3) FROM  ISAM-STUD-HPHONE1.
+           03          COL 41 VALUE ')'.
+           03          COL 42 PIC X(3) FROM  ISAM-STUD-HPHONE2.
+           03          COL 45 VALUE '-'.
+           03          COL 46 PIC X(4) FROM  ISAM-STUD-HPHONE3.
            03  LINE 14 COL 22 VALUE 'PH(Cell)     :'.
-           03  LINE 14 COL 37 PIC X(13) FROM ISAM-STUD-CPHONE.
+           03  LINE 14 COL 37 VALUE '('.           
+           03          COL 38 PIC X(3) FROM  ISAM-STUD-CPHONE1.
+           03          COL 41 VALUE ')'.
+           03          COL 42 PIC X(3) FROM  ISAM-STUD-CPHONE2.
+           03          COL 45 VALUE '-'.
+           03          COL 46 PIC X(4) FROM  ISAM-STUD-CPHONE3.
            03  LINE 15 COL 22 VALUE 'PH(Emergency):'.
-           03  LINE 15 COL 37 PIC X(13) FROM ISAM-STUD-WPHONE.
+           03          COL 37 VALUE '('.
+           03          COL 38 PIC X(3) FROM  ISAM-STUD-WPHONE1.
+           03          COL 41 VALUE ')'.
+           03          COL 42 PIC X(3) FROM  ISAM-STUD-WPHONE2.
+           03          COL 45 VALUE '-'.
+           03          COL 46 PIC X(4) FROM  ISAM-STUD-WPHONE3.
            03  LINE 16 COL 22 VALUE 'Gender       :'.
            03  LINE 16 COL 37 PIC X     FROM ISAM-STUD-GENDER.
            03  LINE 17 COL 22 VALUE 'Status       :'.
            03  LINE 17 COL 37 PIC X    FROM ISAM-STUD-ACTIVE.
            03  LINE 19 COL 25 PIC X(40) FROM WS-MSG.
            03  LINE 20 COL 32 VALUE "ENTER ID OR X TO EXIT".
-      *     03  LINE 20 COL 35 VALUE 'ENTER ANOTHER Y/N?'.
-      *     03  LINE 20 COL 55 PIC X TO WS-CONT  AUTO.
             
        01  SCR-STUD-CHANGE.
 
-      *     03  LINE 09 COL 32 VALUE 'FIRST NAME   :'.
            03  LINE 09 COL 55 PIC X(15) TO WS-STUD-FNAME.
-      *     03  LINE 10 COL 32 VALUE 'LAST NAME    :'.
            03  LINE 10 COL 55 PIC X(15) TO WS-STUD-LNAME.
-      *     03  LINE 11 COL 32 VALUE 'ADDRESS      :'.
            03  LINE 11 COL 55 PIC X(25) TO WS-STUD-ADDRESS.
-      *     03  LINE 12 COL 32 VALUE 'ZIP          :'.
            03  LINE 12 COL 55 PIC X(5) TO WS-STUD-ZIP.
-      *     03  LINE 13 COL 32 VALUE 'PH(Primary)  :'.
-           03  LINE 13 COL 55 PIC X(13) TO   WS-STUD-HPHONE.
-      *     03  LINE 14 COL 32 VALUE 'PH(Cell)     :'.
-           03  LINE 14 COL 55 PIC X(13) TO WS-STUD-CPHONE.
-      *     03  LINE 15 COL 32 VALUE 'PH(Emergency):'.
-           03  LINE 15 COL 55 PIC X(13) TO WS-STUD-WPHONE.
-      *     03  LINE 16 COL 32 VALUE 'Gender       :'.
+           03  LINE 13 COL 55 VALUE '('.   
+           03          COL 56 PIC X(3) TO  WS-STUD-HPHONE1.
+           03          COL 59 VALUE ')'.
+           03          COL 60 PIC X(3) TO  WS-STUD-HPHONE2.
+           03          COL 63 VALUE '-'.
+           03          COL 64 PIC X(4) TO  WS-STUD-HPHONE3.
+           03  LINE 14 COL 55 VALUE '('.   
+           03          COL 56 PIC X(3) TO  WS-STUD-CPHONE1.
+           03          COL 59 VALUE ')'.
+           03          COL 60 PIC X(3) TO  WS-STUD-CPHONE2.
+           03          COL 63 VALUE '-'.
+           03          COL 64 PIC X(4) TO  WS-STUD-CPHONE3.
+           03  LINE 15 COL 55 VALUE '('.   
+           03          COL 56 PIC X(3) TO  WS-STUD-WPHONE1.
+           03          COL 59 VALUE ')'.
+           03          COL 60 PIC X(3) TO  WS-STUD-WPHONE2.
+           03          COL 63 VALUE '-'.
+           03          COL 64 PIC X(4) TO  WS-STUD-WPHONE3.
            03  LINE 16 COL 55 PIC X     TO WS-STUD-GENDER.
-      *     03  LINE 17 COL 32 VALUE 'Status       :'.
            03  LINE 17 COL 55 PIC X    TO WS-STUD-ACTIVE.
-           03  LINE 19 COL 53 PIC X(40) FROM WS-MSGS. 
+           03  LINE 19 COL 35 PIC X(40) FROM WS-MSGS. 
            03  LINE 21 COL 35 VALUE "TYPE UPDATED DATA".
             
            
@@ -166,10 +197,6 @@
            ACCEPT  SCR-STUD-DATA
            
            PERFORM 100-READ-LOOP UNTIL WS-STUD-ID = "X" OR "x"
-      *     DISPLAY SCR-WANT-CHANGE
-      *     ACCEPT SCR-WANT-CHANGE                     
-      *     PERFORM UNTIL WS-CONT='n' OR 'N'
-      *     END-PERFORM.
            CLOSE ISAM-STUDENT-IO.
            EXIT PROGRAM.
            STOP RUN.
@@ -182,27 +209,59 @@
                    MOVE "NOT MATCHED" TO WS-MSG
                    DISPLAY SCR-STUD-DATA
                    ACCEPT SCR-STUD-DATA
-      *             DISPLAY WS-MSG
-      *             DISPLAY SCRN-ADD-ANOTHER
-      *             ACCEPT SCRN-ADD-ANOTHER
-      *             DISPLAY BLANK-SCREEN                   
                NOT INVALID KEY
-      *             DISPLAY SCR-WANT-CHANGE
                    READ ISAM-STUDENT-IO
                    DISPLAY SCR-STUD-DATA
-      *             DISPLAY SCR-WANT-CHANGE
-      *             ACCEPT SCR-WANT-CHANGE
-                   DISPLAY SCR-STUD-CHANGE     
+                   DISPLAY SCR-STUD-CHANGE       
                    ACCEPT SCR-STUD-CHANGE
-                   MOVE WS-STUD-LNAME       TO  ISAM-STUD-LNAME  
-                   MOVE WS-STUD-FNAME       TO  ISAM-SUTD-FNAME  
-                   MOVE WS-STUD-ADDRESS     TO  ISAM-STUD-ADDRESS
-                   MOVE WS-STUD-ZIP         TO  ISAM-STUD-ZIP    
-                   MOVE WS-STUD-HPHONE      TO  ISAM-STUD-HPHONE 
-                   MOVE WS-STUD-CPHONE      TO  ISAM-STUD-CPHONE 
-                   MOVE WS-STUD-WPHONE      TO  ISAM-STUD-WPHONE 
-                   MOVE WS-STUD-GENDER      TO  ISAM-STUD-GENDER
-                   MOVE WS-STUD-ACTIVE      TO  ISAM-STUD-ACTIVE
+
+                   IF WS-STUD-FNAME = WS-FILLER15
+                   ELSE
+                       MOVE WS-STUD-FNAME       TO  ISAM-STUD-FNAME
+                   END-IF
+                   
+                   IF WS-STUD-LNAME = WS-FILLER15
+                   ELSE
+                       MOVE WS-STUD-LNAME       TO  ISAM-STUD-LNAME
+                   END-IF                       
+
+                   IF WS-STUD-ADDRESS = WS-FILLER25
+                   ELSE
+                       MOVE WS-STUD-ADDRESS     TO  ISAM-STUD-ADDRESS
+                   END-IF   
+
+                   IF WS-STUD-ZIP = WS-FILLER05
+                   ELSE
+                       MOVE WS-STUD-ZIP         TO  ISAM-STUD-ZIP 
+                   END-IF 
+                   
+                   IF WS-STUD-HPHONE = WS-FILLER10
+                   ELSE
+                       MOVE WS-STUD-HPHONE      TO  ISAM-STUD-HPHONE 
+                   END-IF 
+
+                   IF WS-STUD-CPHONE = WS-FILLER10
+                   ELSE
+                       MOVE WS-STUD-CPHONE      TO  ISAM-STUD-CPHONE 
+                   END-IF          
+                   
+                   IF WS-STUD-WPHONE = WS-FILLER10
+                   ELSE
+                       MOVE WS-STUD-WPHONE      TO  ISAM-STUD-WPHONE 
+                   END-IF                    
+
+                   IF WS-STUD-GENDER = WS-FILLER01
+                   ELSE
+                       MOVE WS-STUD-GENDER      TO  ISAM-STUD-GENDER
+                   END-IF                    
+
+                   IF WS-STUD-ACTIVE = WS-FILLER01
+                   ELSE
+                       MOVE WS-STUD-ACTIVE      TO  ISAM-STUD-ACTIVE
+                   END-IF
+                    
+                   
+                   
                    REWRITE ISAM-REC-IO
                        INVALID KEY
                            MOVE   'INVALID ID' TO WS-MSGS
@@ -217,13 +276,9 @@
 
            END-START
 
-
-           
-           
       *-----------------------------------------------------------------          
-
            
        
        
-       
+      *----------------------------------------------------------------- 
                                                                                 

@@ -37,7 +37,7 @@
            03  ISAM-STUD-ACTIVE    PIC X.
        
        FD  STUD-LAST-ID.
-           01 LAST-ID              PIC 9(4).
+           01 LAST-ID              PIC 9999.
        
 
       *-----------------------------------------------------------------        
@@ -64,7 +64,7 @@
                05  WS-STUD-ID       PIC 9999        VALUE 9999.
                05  WS-FILLER            PIC X.
                05  WS-STUD-LNAME        PIC X(15).
-               05  WS-SUTD-FNAME        PIC X(15).
+               05  WS-STUD-FNAME        PIC X(15).
                05  WS-STUD-ADDRESS      PIC X(25).
                05  WS-STUD-ZIP          PIC X(5).
                05  WS-STUD-HPHONE.
@@ -95,10 +95,8 @@
 
        01  SCR-STUD-DATA.
            03  LINE 07 COL 32 VALUE "ADD STUDENT".
-      *     03  LINE 08 COL 32 VALUE 'ID           :'.
-      *     03  LINE 08 COL 47 PIC X(4) TO WS-STUD-ID AUTO.
            03  LINE 09 COL 32 VALUE 'FIRST NAME   :'.
-           03  LINE 09 COL 47 PIC X(15) TO WS-SUTD-FNAME  AUTO.
+           03  LINE 09 COL 47 PIC X(15) TO WS-STUD-FNAME  AUTO.
            03  LINE 10 COL 32 VALUE 'LAST NAME    :'.
            03  LINE 10 COL 47 PIC X(15) TO WS-STUD-LNAME  AUTO.         
            03  LINE 11 COL 32 VALUE 'ADDRESS      :'.
@@ -130,15 +128,15 @@
            03  LINE 16 COL 47 PIC X     TO WS-STUD-GENDER  AUTO.
            03  LINE 17 COL 32 VALUE 'Status       :'.
            03  LINE 17 COL 47 PIC X    TO WS-STUD-ACTIVE  AUTO.
-      *     03  LINE 19 COL 35 PIC X(40) FROM WS-MSG.
-           03  LINE 20 COL 35 VALUE 'ADD ANOTHER Y/N?'.
-           03  LINE 20 COL 55 PIC X TO WS-CONT  AUTO.
+           03  LINE 19 COL 35 PIC X(40) FROM WS-MSG.
+           03  LINE 21 COL 35 VALUE '<TYPE OR X = EXIT>'.
 
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 20 COL 33                     VALUE 'ADD ANOTHER?:'.
-           03  LINE 21 COL 33                     VALUE '(Y/N)'.
-           03  LINE 20 COL 45 PIC X  TO WS-CONT   AUTO.
+           03  LINE 20 COL 33  PIC 9999 FROM LAST-ID.
+           03  LINE 20 COL 61                     VALUE 'ADDED'.
+           03  LINE 21 COL 35       VALUE 'ADD ANOTHER?:    (Y/N)'.
+           03  LINE 21 COL 50 PIC X  TO WS-CONT   AUTO.
       *-----------------------------------------------------------------        
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
@@ -147,40 +145,51 @@
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
-           OPEN OUTPUT ISAM-STUD-IO.
-           OPEN I-O STUD-LAST-ID.
-           
+           OPEN I-O ISAM-STUD-IO.
            DISPLAY BLANK-SCREEN
+
            
-           PERFORM UNTIL WS-EOF EQUALS 'Y'
-               READ STUD-LAST-ID
-               AT END
-                   MOVE 'Y' TO WS-EOF
-               NOT AT END
-                   ADD 1 TO LAST-ID GIVING LAST-ID
-                   MOVE LAST-ID TO WS-STUD-ID
-                   REWRITE LAST-ID
-           END-PERFORM.           
-           
-           PERFORM UNTIL WS-CONT='n' OR 'N'
+           PERFORM UNTIL (WS-CONT='n' OR 'N')
+                       OR (WS-STUD-FNAME = 'X' OR 'x')
+               OPEN I-O STUD-LAST-ID              
+
                DISPLAY SCR-TITLE
-               DISPLAY SCR-STUD-DATA
+               DISPLAY SCR-STUD-DATA 
                ACCEPT  SCR-STUD-DATA
+
+
+               PERFORM UNTIL WS-EOF EQUALS 'Y'
+                   READ STUD-LAST-ID
+                   AT END
+                       MOVE 'Y' TO WS-EOF
+                   NOT AT END
+                       ADD 1 TO LAST-ID GIVING LAST-ID
+                       MOVE LAST-ID TO WS-STUD-ID
+                       REWRITE LAST-ID
+               END-PERFORM                        
+               MOVE 'N' TO WS-EOF
                
                MOVE WS-KEY TO ISAM-REC-IO
                WRITE ISAM-REC-IO
+               
+               DISPLAY SCRN-ADD-ANOTHER
+               ACCEPT  SCRN-ADD-ANOTHER
+                 
+
 
                PERFORM UNTIL WS-CONT='y' OR 'Y' OR 'n' OR 'N'
                    MOVE 'PLEASE ENTER Y OR N' TO WS-MSG
                    DISPLAY SCRN-ADD-ANOTHER
                    ACCEPT  SCRN-ADD-ANOTHER
+                   MOVE "IN" TO WS-MSG
                END-PERFORM
+             CLOSE STUD-LAST-ID 
            END-PERFORM.
            
            
            
            CLOSE ISAM-STUD-IO.
-           CLOSE STUD-LAST-ID.
+           
            EXIT PROGRAM.
            STOP RUN.
        

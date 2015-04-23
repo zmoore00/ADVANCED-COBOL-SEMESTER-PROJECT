@@ -16,7 +16,7 @@
                                ORGANIZATION IS LINE SEQUENTIAL.
            SELECT OUT-FILE     ASSIGN TO "../STUDENT-MASTER.DAT"
                                ORGANIZATION  IS INDEXED
-                               ACCESS        IS RANDOM
+                               ACCESS        IS SEQUENTIAL
                                RECORD KEY    IS ISAM-OUT-KEY
                                FILE STATUS   IS WS-OUT-STATUS.
       *----------------------------------------------------------------- 
@@ -91,7 +91,7 @@
            OPEN INPUT STU-FILE.
            OPEN OUTPUT STUD-LAST-ID.
            OPEN OUTPUT OUT-FILE.
-           
+            
            MOVE FUNCTION CURRENT-DATE TO WS-DATE
            MOVE WS-CURRENT-MONTH TO MONTH-DISPLAY
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
