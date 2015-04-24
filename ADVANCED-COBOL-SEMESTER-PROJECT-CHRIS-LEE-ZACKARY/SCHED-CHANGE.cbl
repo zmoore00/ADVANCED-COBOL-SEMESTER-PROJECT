@@ -58,15 +58,15 @@
                
        01  WS-REC.
            03  WS-KEY.
-               05  WS-YEAR            PIC XXXX.
-               05  WS-SEMESTER        PIC XX.
-               05  WS-CRN             PIC X(6).
-           03  WS-SUBJ                PIC X(5).
-           03  WS-CRSE                PIC X(6).
-           03  WS-TIME-DAY            PIC X(20).
-           03  WS-BLDG                PIC X(7).
-           03  WS-ROOM                PIC X(6).
-           03  WS-INSTRUCTOR          PIC X(22).
+               05  WS-YEAR            PIC XXXX     VALUE SPACES.
+               05  WS-SEMESTER        PIC XX       VALUE SPACES.
+               05  WS-CRN             PIC X(6)     VALUE SPACES.
+           03  WS-SUBJ                PIC X(5)     VALUE SPACES.
+           03  WS-CRSE                PIC X(6)     VALUE SPACES.
+           03  WS-TIME-DAY            PIC X(20)    VALUE SPACES.
+           03  WS-BLDG                PIC X(7)     VALUE SPACES.
+           03  WS-ROOM                PIC X(6)     VALUE SPACES.
+           03  WS-INSTRUCTOR          PIC X(22)    VALUE SPACES.
       *----------------------------------------------------------------- 
        SCREEN SECTION.
        01  BLANK-SCREEN.
@@ -77,9 +77,10 @@
            03  LINE 1 COL 1  VALUE "SCHED-ADD".
            03  LINE 1 COL 37 VALUE "UAFS".
            03  LINE 1 COL 71 FROM DISPLAY-DATE.
+           03  LINE 07 COL 32 VALUE "SCHEDULE CHANGE".
            
        01  SCR-SCHED-CRN.
-           03  LINE 07 COL 32 VALUE "SCHEDULE CHANGE".
+           
            03  LINE 09 COL 35                       VALUE '     CRN:'.
            03  LINE 09 COL 45 PIC X(6)  TO WS-CRN   AUTO.
            03  LINE 10 COL 35                       VALUE '     SEM:'. 
@@ -88,50 +89,41 @@
            03  LINE 11 COL 45 PIC X(4)  TO WS-YEAR  AUTO.
            
        01  SCRN-PREV-DATA.
-           03  LINE 09 COL 10                        VALUE '    CRN:'.  
-           03  LINE 09 COL 25 PIC X(6) FROM CRN   VALUE SPACES.
-           03  LINE 10 COL 10                        VALUE '    SEM:'.
-           03  LINE 10 COL 25 PIC X(5) FROM SEMESTER  VALUE SPACES.
-           03  LINE 11 COL 10                        VALUE '    YR:'.   
-           03  LINE 11 COL 25 PIC XXXX FROM YEAR VALUE SPACES.
-           03  LINE 12 COL 10                        VALUE '    SUBJ:'.
-           03  LINE 12 COL 25 PIC X(5) FROM SUBJ VALUE SPACES.
-           03  LINE 13 COL 10                        VALUE '    CRSE:'.
-           03  LINE 13 COL 25 PIC X(6) FROM CRSE VALUE SPACES.
-           03  LINE 14 COL 10                  VALUE '    TIME/DAY:'.
-           03  LINE 14 COL 25 PIC X(20) FROM TIME-DAY VALUE SPACES.
-           03  LINE 15 COL 10                  VALUE '    BLDG:'.
-           03  LINE 15 COL 25 PIC X(7) FROM BLDG VALUE SPACES.
-           03  LINE 16 COL 10                  VALUE '    ROOM:'.
-           03  LINE 16 COL 25 PIC X(20) FROM ROOM VALUE SPACES.
-           03  LINE 17 COL 10                  VALUE '    INSTRUC:'.
-           03  LINE 17 COL 25 PIC X(20) FROM INSTRUCTOR VALUE SPACES.
-           03  LINE 19 COL 35 PIC X(40) FROM WS-MSG.
+           03  LINE 09 COL 20                        VALUE '    CRN:'.  
+           03  LINE 09 COL 35 PIC X(6) FROM CRN   VALUE SPACES.
+           03  LINE 10 COL 20                        VALUE '    SEM:'.
+           03  LINE 10 COL 35 PIC X(5) FROM SEMESTER  VALUE SPACES.
+           03  LINE 11 COL 20                        VALUE '    YR:'.   
+           03  LINE 11 COL 35 PIC XXXX FROM YEAR VALUE SPACES.
+           03  LINE 12 COL 20                        VALUE '    SUBJ:'.
+           03  LINE 12 COL 35 PIC X(5) FROM SUBJ VALUE SPACES.
+           03  LINE 13 COL 20                        VALUE '    CRSE:'.
+           03  LINE 13 COL 35 PIC X(6) FROM CRSE VALUE SPACES.
+           03  LINE 14 COL 20                  VALUE '    TIME/DAY:'.
+           03  LINE 14 COL 35 PIC X(20) FROM TIME-DAY VALUE SPACES.
+           03  LINE 15 COL 20                  VALUE '    BLDG:'.
+           03  LINE 15 COL 35 PIC X(7) FROM BLDG VALUE SPACES.
+           03  LINE 16 COL 20                  VALUE '    ROOM:'.
+           03  LINE 16 COL 35 PIC X(6) FROM ROOM VALUE SPACES.
+           03  LINE 17 COL 20                  VALUE '    INSTRUC:'.
+           03  LINE 17 COL 35 PIC X(20) FROM INSTRUCTOR VALUE SPACES.
+           
        
        01  SCRN-NEW-DATA.
-           03  LINE 09 COL 30                        VALUE '    CRN:'.  
-           03  LINE 09 COL 45 PIC X(6) TO WS-CRN   VALUE SPACES.
-           03  LINE 10 COL 30                        VALUE '    SEM:'.
-           03  LINE 10 COL 45 PIC X(5) TO WS-SEMESTER  VALUE SPACES.
-           03  LINE 11 COL 30                        VALUE '    YR:'.   
-           03  LINE 11 COL 45 PIC XXXX TO WS-YEAR VALUE SPACES.
-           03  LINE 12 COL 30                        VALUE '    SUBJ:'.
-           03  LINE 12 COL 45 PIC X(5) TO WS-SUBJ VALUE SPACES.
-           03  LINE 13 COL 30                        VALUE '    CRSE:'.
-           03  LINE 13 COL 45 PIC X(6) TO WS-CRSE VALUE SPACES.
-           03  LINE 14 COL 30                  VALUE '    TIME/DAY:'.
-           03  LINE 14 COL 45 PIC X(20) TO WS-TIME-DAY VALUE SPACES.
-           03  LINE 15 COL 30                  VALUE '    BLDG:'.
-           03  LINE 15 COL 45 PIC X(7) TO WS-BLDG VALUE SPACES.
-           03  LINE 16 COL 30                  VALUE '    ROOM:'.
-           03  LINE 16 COL 45 PIC X(20) TO WS-ROOM VALUE SPACES.
-           03  LINE 17 COL 30                  VALUE '    INSTRUC:'.
-           03  LINE 17 COL 45 PIC X(20) TO WS-INSTRUCTOR VALUE SPACES.
+      *     03  LINE 10 COL 55 PIC X(5) TO WS-SEMESTER  VALUE SPACES.
+      *     03  LINE 11 COL 55 PIC XXXX TO WS-YEAR VALUE SPACES.
+           03  LINE 12 COL 55 PIC X(5) TO WS-SUBJ VALUE SPACES.
+           03  LINE 13 COL 55 PIC X(6) TO WS-CRSE VALUE SPACES.
+           03  LINE 14 COL 55 PIC X(20) TO WS-TIME-DAY VALUE SPACES.
+           03  LINE 15 COL 55 PIC X(7) TO WS-BLDG VALUE SPACES.
+           03  LINE 16 COL 55 PIC X(6) TO WS-ROOM VALUE SPACES.
+           03  LINE 17 COL 55 PIC X(20) TO WS-INSTRUCTOR VALUE SPACES.
 
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 13 COL 30 VALUE'ENTER ANOTHER Y/N? '.
-           03  LINE 14 COL 45 PIC X TO WS-ANOTHER    AUTO.
+           03  LINE 19 COL 30 PIC X(40) FROM WS-MSG.
+           03  LINE 20 COL 30 VALUE'ENTER ANOTHER Y/N? '.
+           03  LINE 21 COL 45 PIC X TO WS-ANOTHER    AUTO.
       *----------------------------------------------------------------- 
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
@@ -147,14 +139,67 @@
                DISPLAY SCR-TITLE
                DISPLAY SCR-SCHED-CRN
                ACCEPT  SCR-SCHED-CRN
+               MOVE WS-KEY TO ISAM-IN-KEY
                
                READ ISAM-SCHED-IN
                    INVALID KEY
-                       MOVE "INVALID ID" TO WS-MSG
+                       MOVE 'INVALID ID' TO WS-MSG
                    NOT INVALID KEY
+                       DISPLAY BLANK-SCREEN
+                       DISPLAY SCR-TITLE
                        DISPLAY SCRN-PREV-DATA
                        DISPLAY SCRN-NEW-DATA
                        ACCEPT SCRN-NEW-DATA
+                       
+
+                       
+                       MOVE WS-KEY TO ISAM-IN-KEY
+                       
+                       IF WS-SUBJ NOT EQUAL SPACES
+                           MOVE WS-SUBJ TO SUBJ
+                       ELSE
+                           MOVE SUBJ TO SUBJ
+                       END-IF
+                           
+                       IF WS-CRSE NOT EQUAL SPACES
+                           MOVE WS-CRSE TO CRSE
+                       ELSE
+                           MOVE CRSE TO CRSE
+                       END-IF
+
+                       IF WS-TIME-DAY NOT EQUAL SPACES
+                           MOVE WS-TIME-DAY TO TIME-DAY
+                       ELSE
+                           MOVE TIME-DAY TO TIME-DAY
+                       END-IF
+
+                       IF WS-BLDG NOT EQUAL SPACES
+                           MOVE WS-BLDG TO BLDG
+                       ELSE
+                           MOVE BLDG TO BLDG
+                       END-IF
+                           
+                       IF WS-ROOM NOT EQUAL SPACES
+                           MOVE WS-ROOM TO ROOM
+                       ELSE
+                           MOVE ROOM TO ROOM
+                       END-IF
+                           
+                       IF WS-INSTRUCTOR NOT EQUAL SPACES
+                           MOVE WS-INSTRUCTOR TO INSTRUCTOR
+                       ELSE
+                           MOVE INSTRUCTOR TO INSTRUCTOR
+                       END-IF
+
+                        
+                       REWRITE ISAM-REC-IN
+                           INVALID KEY
+                               MOVE   'INVALID ID' TO WS-MSG
+                           NOT INVALID KEY
+                               STRING ISAM-IN-KEY ' UPDATED' INTO 
+                               WS-MSG
+                               
+                       END-REWRITE
                        
                        IF WS-ANOTHER EQUALS 'N' OR 'n'
                            EXIT PROGRAM
