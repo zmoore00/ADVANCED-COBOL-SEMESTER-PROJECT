@@ -12,8 +12,12 @@
        FILE-CONTROL.                                                    
            SELECT ISAM-SCHED-IN ASSIGN TO "../SCHEDULE-MASTER.DAT"
                                 ORGANIZATION  IS INDEXED
-                                ACCESS        IS RANDOM
-                                RECORD KEY    IS ISAM-IN-KEY.
+                                ACCESS        IS DYNAMIC
+                               RECORD KEY    IS CRN-KEY=ISAM-IN-KEY CRN
+                               ALTERNATE KEY IS CRSE-KEY=ISAM-IN-KEY
+                                   CRSE
+                                   WITH DUPLICATES
+                               FILE STATUS   IS WS-STAT3.
                                
            SELECT ISAM-STUD-IN  ASSIGN TO "../STUDENT-MASTER.DAT"     
                                 ORGANIZATION  IS INDEXED
@@ -23,8 +27,14 @@
            
            SELECT OPTIONAL ISAM-REG-IO   ASSIGN TO "../REG-ISAM.DAT"            
                                 ORGANIZATION  IS INDEXED
-                                ACCESS        IS RANDOM    
+                                ACCESS        IS DYNAMIC  
                                 RECORD KEY    IS REG-IO-KEY
+                                ALTERNATE KEY IS REG-STUD-ID-KEY=
+                                   REG-IO-SEM, REG-IO-YR, REG-IO-STUD-ID
+                                   WITH DUPLICATES
+                                ALTERNATE KEY IS REG-CRN-KEY=
+                                   REG-IO-SEM, REG-IO-YR, REG-IO-CRN
+                                   WITH DUPLICATES
                                 FILE STATUS   IS WS-STAT.
                                
       *----------------------------------------------------------------- 
@@ -51,7 +61,7 @@
            03  ISAM-IN-KEY.
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
-               05  CRN             PIC X(6).
+           03  CRN                 PIC X(6).
            03  FILLER              PIC X           VALUE SPACES.
            03  SUBJ                PIC X(5).
            03  CRSE                PIC X(6).
@@ -73,7 +83,8 @@
            03  WS-MSG                  PIC X(40)   VALUE SPACES.
            03  WS-RESP                 PIC X       VALUE SPACES.
            03  WS-STAT                 PIC XX      VALUE SPACES.
-           03  WS-STAT2                 PIC XX      VALUE SPACES.
+           03  WS-STAT2                PIC XX      VALUE SPACES.
+           03  WS-STAT3                PIC XX      VALUE SPACES.
            03  WS-CONT                 PIC X       VALUE 'Y'.
            
        01  WS-DATE.

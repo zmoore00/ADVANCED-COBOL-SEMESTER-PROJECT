@@ -12,10 +12,14 @@
        FILE-CONTROL.                                                    
            SELECT ISAM-SCHED-IN ASSIGN TO "../SCHEDULE-MASTER.DAT"      
                                ORGANIZATION  IS INDEXED
-                               ACCESS        IS RANDOM    
-                               RECORD KEY    IS ISAM-IN-KEY
-                               ALTERNATE KEY IS CRSE
-                                       WITH DUPLICATES
+                               ACCESS        IS DYNAMIC  
+      *                                       | THIS IS A SPLIT KEY, 
+      *                                       V OTHER COMPILERS HAVE DIF
+      *                                         WAYS OF MAKING THEM
+                               RECORD KEY    IS CRN-KEY=ISAM-IN-KEY CRN
+                               ALTERNATE KEY IS CRSE-KEY=ISAM-IN-KEY
+                                   CRSE
+                                   WITH DUPLICATES
                                FILE STATUS   IS WS-STAT.
       *----------------------------------------------------------------- 
        DATA DIVISION.
@@ -47,6 +51,8 @@
            03  YEAR-DISPLAY        PIC 9999.
        
        01  MISC-VARS.
+           03  EOF-FLAG                PIC X.
+               88 EOF        VALUE '1'.
            03  WS-MSG                  PIC X(40)   VALUE SPACES.
            03  WS-RESP                 PIC X       VALUE SPACES.
            03  WS-STAT                 PIC XX      VALUE SPACES.
@@ -57,7 +63,7 @@
            03  WS-KEY.
                05  WS-YEAR            PIC XXXX.
                05  WS-SEMESTER        PIC XX.
-               05  WS-CRN              PIC X(6).
+           03  WS-CRN                 PIC X(6).
            03  WS-SUBJ                PIC X(5).
            03  WS-CRSE                PIC X(6).
            03  WS-TIME-DAY            PIC X(20).
@@ -108,6 +114,7 @@
            03  LINE 16 COL 45 PIC X(20) FROM WS-ROOM VALUE SPACES.
            03  LINE 17 COL 30                  VALUE '    INSTRUC:'.
            03  LINE 17 COL 45 PIC X(20) FROM WS-INSTRUCTOR VALUE SPACES.
+       01  SCRN-SCHED-ANOTHER.
            03  LINE 19 COL 35              VALUE'ENTER ANOTHER Y/N '.
            03  LINE 20 COL 43 PIC X TO WS-ANOTHER.
       *----------------------------------------------------------------- 
@@ -126,8 +133,9 @@
                DISPLAY SCRN-KEY-REQ
                ACCEPT  SCRN-KEY-REQ
                
+               MOVE WS-KEY TO ISAM-IN-KEY
                MOVE WS-CRSE TO CRSE 
-               READ ISAM-SCHED-IN
+               READ ISAM-SCHED-IN KEY IS CRSE-KEY
                    INVALID KEY
                        MOVE "INVALID ID" TO WS-MSG
                    NOT INVALID KEY
@@ -135,7 +143,33 @@
                        DISPLAY SCR-TITLE
                        DISPLAY SCRN-DATA-TITLE
                        DISPLAY SCRN-SCHED-DATA
-                       ACCEPT WS-ANOTHER
+                       DISPLAY 'PRESS ENTER TO CONTINUE'
+                           AT LINE 19 COL 34
+                           WITH NO ADVANCING
+                       ACCEPT  WS-RESP
+                       PERFORM UNTIL EOF
+                       READ ISAM-SCHED-IN NEXT RECORD
+                           AT END
+                               MOVE 1 TO EOF-FLAG
+                           NOT AT END
+                               IF CRSE = WS-CRSE
+                                   MOVE ISAM-REC-IN TO WS-REC
+                                   DISPLAY SCR-TITLE
+                                   DISPLAY SCRN-DATA-TITLE
+                                   DISPLAY SCRN-SCHED-DATA
+                                   DISPLAY 'PRESS ENTER TO CONTINUE'
+                                       AT LINE 19 COL 34
+                                   WITH NO ADVANCING
+                                   ACCEPT  WS-RESP
+                               ELSE
+                                   MOVE 1 TO EOF-FLAG
+                               END-IF
+                       END-READ
+                       END-PERFORM
+                       MOVE 0 TO EOF-FLAG
+                       DISPLAY SPACES AT LINE 19 COL 1 
+                       DISPLAY SCRN-SCHED-ANOTHER
+                       ACCEPT  SCRN-SCHED-ANOTHER
                        IF WS-ANOTHER EQUALS 'N' OR 'n'
                            EXIT PROGRAM
                        END-IF

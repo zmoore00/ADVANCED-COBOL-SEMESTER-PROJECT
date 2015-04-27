@@ -21,10 +21,11 @@
                                ORGANIZATION IS LINE SEQUENTIAL.
            SELECT OUT-FILE     ASSIGN TO "../SCHEDULE-MASTER.DAT"
                                ORGANIZATION  IS INDEXED
-                               ACCESS        IS RANDOM
-                               RECORD KEY    IS ISAM-OUT-KEY
-                               ALTERNATE KEY IS CRSE
-                                       WITH DUPLICATES
+                               ACCESS        IS DYNAMIC
+                               RECORD KEY    IS CRN-KEY=ISAM-OUT-KEY CRN
+                               ALTERNATE KEY IS CRSE-KEY=ISAM-OUT-KEY
+                                   CRSE
+                                   WITH DUPLICATES
                                FILE STATUS   IS WS-OUT-STATUS.
       *----------------------------------------------------------------- 
        DATA DIVISION.
@@ -65,11 +66,11 @@
            
        
        FD  OUT-FILE.
-       01  STU-OUT.
+       01  SCHED-OUT.
            03  ISAM-OUT-KEY.
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
-               05  CRN             PIC X(6).
+           03  CRN                 PIC X(6).
            03  SUBJ                PIC X(5).
            03  CRSE                PIC X(6).
            03  TIME-DAY            PIC X(20).
@@ -199,7 +200,8 @@
       *                         WRITE OUT-REC FROM WS-FORMATTED-OUT-2015
                                
       *                         MOVE WS-FORMATTED-OUT-2015 TO SORT-REC
-                                WRITE STU-OUT FROM WS-FORMATTED-OUT-2015
+                                WRITE SCHED-OUT FROM 
+                                WS-FORMATTED-OUT-2015
       *                         RELEASE SORT-REC
                        END-IF
                END-READ
@@ -225,7 +227,8 @@
                                
                                WRITE OUT-REC FROM WS-FORMATTED-OUT-2014
       *                         MOVE WS-FORMATTED-OUT-2015 TO SORT-REC
-                                WRITE STU-OUT FROM WS-FORMATTED-OUT-2014
+                               WRITE SCHED-OUT FROM 
+                                WS-FORMATTED-OUT-2014
       *                         RELEASE SORT-REC
                        END-IF
                END-READ

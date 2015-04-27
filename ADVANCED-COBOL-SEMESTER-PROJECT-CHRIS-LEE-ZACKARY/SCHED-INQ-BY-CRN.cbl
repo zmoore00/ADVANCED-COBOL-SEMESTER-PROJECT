@@ -10,12 +10,13 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.                                                    
-           SELECT ISAM-SCHED-IN ASSIGN TO "../SCHEDULE-MASTER.DAT"      
+           SELECT ISAM-SCHED-IN ASSIGN TO "../SCHEDULE-MASTER.DAT"
                                ORGANIZATION  IS INDEXED
-                               ACCESS        IS RANDOM    
-                               RECORD KEY    IS ISAM-IN-KEY
-                               ALTERNATE KEY IS CRSE
-                                           WITH DUPLICATES
+                               ACCESS        IS DYNAMIC
+                               RECORD KEY    IS CRN-KEY=ISAM-IN-KEY CRN
+                               ALTERNATE KEY IS CRSE-KEY=ISAM-IN-KEY
+                                   CRSE
+                                   WITH DUPLICATES
                                FILE STATUS   IS WS-STAT.
       *----------------------------------------------------------------- 
        DATA DIVISION.
@@ -26,7 +27,7 @@
            03  ISAM-IN-KEY.
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
-               05  CRN             PIC X(6).
+           03  CRN                 PIC X(6).
            03  SUBJ                PIC X(5).
            03  CRSE                PIC X(6).
            03  TIME-DAY            PIC X(20).
@@ -57,7 +58,7 @@
            03  WS-KEY.
                05  WS-YEAR            PIC XXXX.
                05  WS-SEMESTER        PIC XX.
-               05  WS-CRN             PIC X(6).
+           03  WS-CRN                 PIC X(6).
            03  WS-SUBJ                PIC X(5).
            03  WS-CRSE                PIC X(6).
            03  WS-TIME-DAY            PIC X(20).
@@ -126,6 +127,8 @@
                DISPLAY SCRN-KEY-REQ
                ACCEPT  SCRN-KEY-REQ
                MOVE WS-KEY TO ISAM-IN-KEY
+               MOVE WS-CRN TO CRN
+      *        CRN-KEY IS STANDARD KEY
                READ ISAM-SCHED-IN
                    INVALID KEY
                        MOVE "INVALID ID" TO WS-MSG

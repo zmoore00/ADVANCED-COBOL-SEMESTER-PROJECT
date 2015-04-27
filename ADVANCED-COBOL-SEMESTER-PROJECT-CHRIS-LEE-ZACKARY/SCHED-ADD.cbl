@@ -10,12 +10,13 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.                                                    
-           SELECT ISAM-SCHED-IN ASSIGN TO "../SCHEDULE-MASTER.DAT"      
+           SELECT ISAM-SCHED-IO ASSIGN TO "../SCHEDULE-MASTER.DAT"      
                                ORGANIZATION  IS INDEXED
-                               ACCESS        IS RANDOM    
-                               RECORD KEY    IS ISAM-IN-KEY
-                               ALTERNATE KEY IS CRSE
-                                           WITH DUPLICATES
+                               ACCESS        IS DYNAMIC
+                               RECORD KEY    IS CRN-KEY=ISAM-IO-KEY CRN 
+                               ALTERNATE KEY IS CRSE-KEY=ISAM-IO-KEY
+                                   CRSE
+                                   WITH DUPLICATES
                                FILE STATUS   IS WS-STAT.
            SELECT IO-REC       ASSIGN TO "../SCHED-LAST-CRN.TXT"
                                ORGANIZATION IS LINE SEQUENTIAL.
@@ -23,12 +24,12 @@
        DATA DIVISION.
       *----------------------------------------------------------------- 
        FILE SECTION.
-       FD  ISAM-SCHED-IN.
-       01  ISAM-REC-IN.
-           03  ISAM-IN-KEY.
+       FD  ISAM-SCHED-IO.
+       01  ISAM-REC-IO.
+           03  ISAM-IO-KEY.
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
-               05  CRN             PIC X(6).
+           03  CRN                 PIC X(6).
            03  SUBJ                PIC X(5).
            03  CRSE                PIC X(6).
            03  TIME-DAY            PIC X(20).
@@ -63,7 +64,7 @@
            03  WS-KEY.
                05  WS-YEAR            PIC XXXX.
                05  WS-SEMESTER        PIC XX.
-               05  WS-CRN             PIC X(6).
+           03  WS-CRN                 PIC X(6).
            03  WS-SUBJ                PIC X(5).
            03  WS-CRSE                PIC X(6).
            03  WS-TIME-DAY            PIC X(20).
@@ -121,7 +122,7 @@
            MOVE WS-CURRENT-DAY   TO DAY-DISPLAY
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
-           OPEN I-O ISAM-SCHED-IN.
+           OPEN I-O ISAM-SCHED-IO.
            
            PERFORM UNTIL WS-CONT EQUALS "N" OR "n"
                OPEN I-O IO-REC
@@ -140,8 +141,8 @@
                END-PERFORM
                MOVE 'N' TO WS-EOF
                
-               MOVE WS-REC TO ISAM-REC-IN
-               WRITE ISAM-REC-IN
+               MOVE WS-REC TO ISAM-REC-IO
+               WRITE ISAM-REC-IO
 
                
                DISPLAY SCRN-ADD-ANOTHER
@@ -155,6 +156,6 @@
                CLOSE IO-REC
            END-PERFORM.
 
-           CLOSE ISAM-SCHED-IN.
+           CLOSE ISAM-SCHED-IO.
            EXIT PROGRAM.
            STOP RUN.
