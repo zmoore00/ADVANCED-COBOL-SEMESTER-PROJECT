@@ -153,8 +153,10 @@
                
                READ ISAM-SCHED-IN
                    INVALID KEY
+                   MOVE 'IN' TO WS-MSG
                        MOVE 'INVALID ID' TO WS-MSG
                    NOT INVALID KEY
+                   MOVE 'IN2' TO WS-MSG
                        DISPLAY BLANK-SCREEN
                        DISPLAY SCR-TITLE
                        DISPLAY SCRN-PREV-DATA

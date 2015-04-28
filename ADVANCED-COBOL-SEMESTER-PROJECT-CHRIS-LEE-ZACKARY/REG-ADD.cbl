@@ -75,7 +75,7 @@
            03  REG-IO-KEY.
                05  REG-IO-SEM     PIC X(2).
                05  REG-IO-YR      PIC X(4).
-               05  REG-IO-CRN     PIC X(6).
+               05  REG-IO-CRN     PIC X(4).
                05  REG-IO-STUD-ID PIC 9(4).
       *----------------------------------------------------------------- 
        WORKING-STORAGE SECTION.
@@ -125,7 +125,7 @@
            
        01  SCRN-CRN-REQ.
            03  LINE 10 COL 35                       VALUE '       CRN:'.
-           03  LINE 10 COL 46 PIC X(6)  TO WS-CRN   AUTO.
+           03  LINE 10 COL 46 PIC X(4)  TO WS-CRN   AUTO.
            
        01  SCRN-STUD-ID-REQ.
            03  LINE 11 COL 35                       VALUE 'STUDENT ID:'.
