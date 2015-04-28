@@ -61,10 +61,10 @@
            03  ISAM-IN-KEY.
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
-           03  CRN                 PIC X(6).
+           03  CRN                 PIC X(4).
            03  FILLER              PIC X           VALUE SPACES.
            03  SUBJ                PIC X(5).
-           03  CRSE                PIC X(6).
+           03  CRSE                PIC X(5).
            03  TIME-DAY            PIC X(20).
            03  BLDG                PIC X(7).
            03  ROOM                PIC X(6).
@@ -102,7 +102,7 @@
            03  WS-KEY.
                05  WS-SEM      PIC X(2)        VALUE SPACES.
                05  WS-YR       PIC X(4)        VALUE SPACES.
-               05  WS-CRN      PIC X(6)        VALUE SPACES.
+               05  WS-CRN      PIC X(4)        VALUE SPACES.
                05  WS-STU-ID   PIC 9(4)        VALUE ZEROS.
       *----------------------------------------------------------------- 
        SCREEN SECTION.

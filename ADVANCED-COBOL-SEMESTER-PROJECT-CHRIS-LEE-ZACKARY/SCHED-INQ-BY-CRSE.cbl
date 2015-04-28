@@ -16,7 +16,7 @@
       *                                       | THIS IS A SPLIT KEY, 
       *                                       V OTHER COMPILERS HAVE DIF
       *                                         WAYS OF MAKING THEM
-                               RECORD KEY    IS CRN-KEY=ISAM-IN-KEY CRN
+                               RECORD KEY    IS CRN-KEY=ISAM-IN-KEY CRN 
                                ALTERNATE KEY IS CRSE-KEY=ISAM-IN-KEY
                                    CRSE
                                    WITH DUPLICATES
@@ -30,12 +30,17 @@
            03  ISAM-IN-KEY.
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
-           03  CRN                 PIC X(6).
-           03  SUBJ                PIC X(5).
-           03  CRSE                PIC X(6).
+           03  CRN                 PIC X(4).
+           03  FILLER              PIC XX.
+           03  SUBJ                PIC X(4).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  CRSE                PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  TIME-DAY            PIC X(20).
-           03  BLDG                PIC X(7).
-           03  ROOM                PIC X(6).
+           03  BLDG                PIC X(6).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  ROOM                PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  INSTRUCTOR          PIC X(22).
       *----------------------------------------------------------------- 
        WORKING-STORAGE SECTION.
@@ -63,12 +68,17 @@
            03  WS-KEY.
                05  WS-YEAR            PIC XXXX.
                05  WS-SEMESTER        PIC XX.
-           03  WS-CRN                 PIC X(6).
-           03  WS-SUBJ                PIC X(5).
-           03  WS-CRSE                PIC X(6).
+           03  WS-CRN                 PIC X(4).
+           03  FILLER                 PIC XX.
+           03  WS-SUBJ                PIC X(4).
+           03  FILLER                 PIC X           VALUE SPACES.
+           03  WS-CRSE                PIC X(5).
+           03  FILLER                 PIC X           VALUE SPACES.
            03  WS-TIME-DAY            PIC X(20).
-           03  WS-BLDG                PIC X(7).
-           03  WS-ROOM                PIC X(6).
+           03  WS-BLDG                PIC X(6).
+           03  FILLER                 PIC X           VALUE SPACES.
+           03  WS-ROOM                PIC X(5).
+           03  FILLER                 PIC X           VALUE SPACES.
            03  WS-INSTRUCTOR          PIC X(22).
       *----------------------------------------------------------------- 
        SCREEN SECTION.
@@ -84,7 +94,7 @@
        01  SCRN-KEY-REQ.
            05  LINE 07 COL 32 VALUE "SCHEDULE SEARCH BY CRSE".
            03  LINE 09 COL 35                       VALUE '     CRSE:'.
-           03  LINE 09 COL 45 PIC X(6)  TO WS-CRSE   AUTO.
+           03  LINE 09 COL 45 PIC X(4)  TO WS-CRSE   AUTO.
            03  LINE 10 COL 35                       VALUE '     SEM:'. 
            03  LINE 10 COL 45 PIC X(2)  TO WS-SEMESTER  AUTO.
            03  LINE 11 COL 35                       VALUE '     YR:'. 
@@ -97,21 +107,21 @@
            
        01  SCRN-SCHED-DATA.
            03  LINE 09 COL 30                        VALUE '    CRN:'.  
-           03  LINE 09 COL 45 PIC X(6) FROM WS-CRN   VALUE SPACES.
+           03  LINE 09 COL 45 PIC X(5) FROM WS-CRN   VALUE SPACES.
            03  LINE 10 COL 30                        VALUE '    SEM:'.
            03  LINE 10 COL 45 PIC X(5) FROM WS-SEMESTER  VALUE SPACES.
            03  LINE 11 COL 30                        VALUE '    YR:'.   
            03  LINE 11 COL 45 PIC XXXX FROM WS-YEAR VALUE SPACES.
            03  LINE 12 COL 30                        VALUE '    SUBJ:'.
-           03  LINE 12 COL 45 PIC X(5) FROM WS-SUBJ VALUE SPACES.
+           03  LINE 12 COL 45 PIC X(4) FROM WS-SUBJ VALUE SPACES.
            03  LINE 13 COL 30                        VALUE '    CRSE:'.
-           03  LINE 13 COL 45 PIC X(6) FROM WS-CRSE VALUE SPACES.
+           03  LINE 13 COL 45 PIC X(4) FROM WS-CRSE VALUE SPACES.
            03  LINE 14 COL 30                  VALUE '    TIME/DAY:'.
            03  LINE 14 COL 45 PIC X(20) FROM WS-TIME-DAY VALUE SPACES.
            03  LINE 15 COL 30                  VALUE '    BLDG:'.
-           03  LINE 15 COL 45 PIC X(7) FROM WS-BLDG VALUE SPACES.
+           03  LINE 15 COL 45 PIC X(6) FROM WS-BLDG VALUE SPACES.
            03  LINE 16 COL 30                  VALUE '    ROOM:'.
-           03  LINE 16 COL 45 PIC X(20) FROM WS-ROOM VALUE SPACES.
+           03  LINE 16 COL 45 PIC X(5) FROM WS-ROOM VALUE SPACES.
            03  LINE 17 COL 30                  VALUE '    INSTRUC:'.
            03  LINE 17 COL 45 PIC X(20) FROM WS-INSTRUCTOR VALUE SPACES.
        01  SCRN-SCHED-ANOTHER.

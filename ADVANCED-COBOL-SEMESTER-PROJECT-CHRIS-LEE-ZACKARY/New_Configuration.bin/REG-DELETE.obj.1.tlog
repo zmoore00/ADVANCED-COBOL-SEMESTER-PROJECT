@@ -1,2 +1,2 @@
-#""C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe ""C:\Users\12zcm_000\Documents\temp adv cobol\temp project\REG-DELETE.cbl ""INTC:\Users\12zcm_000\Documents\temp adv cobol\temp project\New_Configuration.bin"" DELINT OBJC:\Users\12zcm_000\Documents\temp adv cobol\temp ""project\New_Configuration.bin"" ""USEC:\Users\12zcm_000\Documents\temp adv cobol\temp project\New_Configuration.bin\mfant5785886262358277919.dir ;
-^"C:\Users\12zcm_000\Documents\temp adv cobol\temp project\REG-DELETE.cbl"
+#"C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe" C:\Users\zmoore00\Documents\TestCOBOL\FinalCOBOL\REG-DELETE.cbl "INTC:\Users\zmoore00\Documents\TestCOBOL\FinalCOBOL\New_Configuration.bin"" DELINT OBJC:\Users\zmoore00\Documents\TestCOBOL\FinalCOBOL\New_Configuration.bin""" USEC:\Users\zmoore00\Documents\TestCOBOL\FinalCOBOL\New_Configuration.bin\mfant1436033239877461286.dir ;
+^C:\Users\zmoore00\Documents\TestCOBOL\FinalCOBOL\REG-DELETE.cbl

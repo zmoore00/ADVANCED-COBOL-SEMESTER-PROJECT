@@ -27,12 +27,16 @@
            03  ISAM-IN-KEY.
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
-           03  CRN                 PIC X(6).
-           03  SUBJ                PIC X(5).
-           03  CRSE                PIC X(6).
+           03  CRN                 PIC X(4).
+           03  FILLER              PIC XX.
+           03  SUBJ                PIC X(4).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  CRSE                PIC X(5).
            03  TIME-DAY            PIC X(20).
-           03  BLDG                PIC X(7).
-           03  ROOM                PIC X(6).
+           03  BLDG                PIC X(6).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  ROOM                PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  INSTRUCTOR          PIC X(22).
 
       *----------------------------------------------------------------- 
@@ -61,12 +65,16 @@
            03  WS-KEY.
                05  WS-YEAR            PIC XXXX     VALUE SPACES.
                05  WS-SEMESTER        PIC XX       VALUE SPACES.
-           03  WS-CRN                 PIC X(6)     VALUE SPACES.
-           03  WS-SUBJ                PIC X(5)     VALUE SPACES.
-           03  WS-CRSE                PIC X(6)     VALUE SPACES.
+           03  WS-CRN                 PIC X(4)     VALUE SPACES.
+           03  FILLER                 PIC XX.
+           03  WS-SUBJ                PIC X(4)     VALUE SPACES.
+           03  FILLER                 PIC X           VALUE SPACES.
+           03  WS-CRSE                PIC X(5)     VALUE SPACES.
            03  WS-TIME-DAY            PIC X(20)    VALUE SPACES.
-           03  WS-BLDG                PIC X(7)     VALUE SPACES.
-           03  WS-ROOM                PIC X(6)     VALUE SPACES.
+           03  WS-BLDG                PIC X(6)     VALUE SPACES.
+           03  FILLER              PIC X           VALUE SPACES.
+           03  WS-ROOM                PIC X(5)     VALUE SPACES.
+           03  FILLER              PIC X           VALUE SPACES.
            03  WS-INSTRUCTOR          PIC X(22)    VALUE SPACES.
       *----------------------------------------------------------------- 
        SCREEN SECTION.
@@ -83,7 +91,7 @@
        01  SCR-SCHED-CRN.
            
            03  LINE 09 COL 35                       VALUE '     CRN:'.
-           03  LINE 09 COL 45 PIC X(6)  TO WS-CRN   AUTO.
+           03  LINE 09 COL 45 PIC X(4)  TO WS-CRN   AUTO.
            03  LINE 10 COL 35                       VALUE '     SEM:'. 
            03  LINE 10 COL 45 PIC X(2)  TO WS-SEMESTER  AUTO.
            03  LINE 11 COL 35                       VALUE '     YR:'. 
@@ -91,21 +99,21 @@
            
        01  SCRN-PREV-DATA.
            03  LINE 09 COL 20                        VALUE '    CRN:'.  
-           03  LINE 09 COL 35 PIC X(6) FROM CRN   VALUE SPACES.
+           03  LINE 09 COL 35 PIC X(4) FROM CRN   VALUE SPACES.
            03  LINE 10 COL 20                        VALUE '    SEM:'.
            03  LINE 10 COL 35 PIC X(5) FROM SEMESTER  VALUE SPACES.
            03  LINE 11 COL 20                        VALUE '    YR:'.   
            03  LINE 11 COL 35 PIC XXXX FROM YEAR VALUE SPACES.
            03  LINE 12 COL 20                        VALUE '    SUBJ:'.
-           03  LINE 12 COL 35 PIC X(5) FROM SUBJ VALUE SPACES.
+           03  LINE 12 COL 35 PIC X(4) FROM SUBJ VALUE SPACES.
            03  LINE 13 COL 20                        VALUE '    CRSE:'.
-           03  LINE 13 COL 35 PIC X(6) FROM CRSE VALUE SPACES.
+           03  LINE 13 COL 35 PIC X(5) FROM CRSE VALUE SPACES.
            03  LINE 14 COL 20                  VALUE '    TIME/DAY:'.
            03  LINE 14 COL 35 PIC X(20) FROM TIME-DAY VALUE SPACES.
            03  LINE 15 COL 20                  VALUE '    BLDG:'.
-           03  LINE 15 COL 35 PIC X(7) FROM BLDG VALUE SPACES.
+           03  LINE 15 COL 35 PIC X(6) FROM BLDG VALUE SPACES.
            03  LINE 16 COL 20                  VALUE '    ROOM:'.
-           03  LINE 16 COL 35 PIC X(6) FROM ROOM VALUE SPACES.
+           03  LINE 16 COL 35 PIC X(5) FROM ROOM VALUE SPACES.
            03  LINE 17 COL 20                  VALUE '    INSTRUC:'.
            03  LINE 17 COL 35 PIC X(20) FROM INSTRUCTOR VALUE SPACES.
            
@@ -113,11 +121,11 @@
        01  SCRN-NEW-DATA.
       *     03  LINE 10 COL 55 PIC X(5) TO WS-SEMESTER  VALUE SPACES.
       *     03  LINE 11 COL 55 PIC XXXX TO WS-YEAR VALUE SPACES.
-           03  LINE 12 COL 55 PIC X(5) TO WS-SUBJ VALUE SPACES.
-           03  LINE 13 COL 55 PIC X(6) TO WS-CRSE VALUE SPACES.
+           03  LINE 12 COL 55 PIC X(4) TO WS-SUBJ VALUE SPACES.
+           03  LINE 13 COL 55 PIC X(5) TO WS-CRSE VALUE SPACES.
            03  LINE 14 COL 55 PIC X(20) TO WS-TIME-DAY VALUE SPACES.
-           03  LINE 15 COL 55 PIC X(7) TO WS-BLDG VALUE SPACES.
-           03  LINE 16 COL 55 PIC X(6) TO WS-ROOM VALUE SPACES.
+           03  LINE 15 COL 55 PIC X(6) TO WS-BLDG VALUE SPACES.
+           03  LINE 16 COL 55 PIC X(5) TO WS-ROOM VALUE SPACES.
            03  LINE 17 COL 55 PIC X(20) TO WS-INSTRUCTOR VALUE SPACES.
 
            

@@ -49,7 +49,7 @@
        SD SORT-WORK.
        01 SORT-REC.
            05  SORT-SUBJ           PIC X(4).
-           05  SORT-CRSE           PIC X(4).
+           05  SORT-CRSE           PIC X(5).
            05  FILLER              PIC X            VALUE SPACE.
            05  SORT-TITLE          PIC X(30).
            05  FILLER              PIC X            VALUE SPACE.
@@ -60,7 +60,7 @@
        01  COURSE-REC.
            05  ISAM-OUT-KEY.
                10  COURSE-SUBJ-OUT PIC X(4).
-               10  COURSE-CRSE-OUT PIC X(4).
+               10  COURSE-CRSE-OUT PIC X(5).
            05  FILLER              PIC X            VALUE SPACE.    
            05  COURSE-TITLE-OUT    PIC X(30).
            05  FILLER              PIC X                VALUE SPACE.

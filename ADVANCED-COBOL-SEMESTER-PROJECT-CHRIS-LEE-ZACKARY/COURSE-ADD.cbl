@@ -24,7 +24,7 @@
        01  ISAM-REC-IO.
            05  ISAM-IN-KEY.
                10  ISAM-IO-SUBJ PIC X(4).
-               10  ISAM-IO-CRSE PIC X(4).
+               10  ISAM-IO-CRSE PIC X(5).
            05  FILLER              PIC X            VALUE SPACE.
            05  ISAM-IO-TITLE     PIC X(30).
            05  FILLER              PIC X                VALUE SPACE.
@@ -51,7 +51,7 @@
        01  WS-REC.
            05  WS-KEY.
                10  WS-COURSE-SUBJ     PIC X(4)         VALUE SPACES.
-               10  WS-COURSE-CRSE     PIC X(4)         VALUE SPACES.
+               10  WS-COURSE-CRSE     PIC X(5)         VALUE SPACES.
                10  WS-FILLER           PIC X           VALUE SPACE.
                10  WS-COURSE-TITLE     PIC X(30)       VALUE SPACES.
                10  WS-FILLER1           PIC X          VALUE SPACE.
@@ -75,7 +75,7 @@
            
        01  SCR-CRSE-NAME.
            05  LINE 10 COL 32 VALUE 'COURSE:'.
-           05  LINE 10 COL 40 PIC X(4) TO WS-COURSE-CRSE  AUTO.
+           05  LINE 10 COL 40 PIC X(5) TO WS-COURSE-CRSE  AUTO.
            
        01  SCR-TITLE-NAME.
            05  LINE 11 COL 32 VALUE 'TITLE:'.

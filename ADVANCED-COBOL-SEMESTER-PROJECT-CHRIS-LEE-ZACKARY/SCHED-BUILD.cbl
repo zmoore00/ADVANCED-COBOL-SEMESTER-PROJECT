@@ -32,13 +32,17 @@
        FILE SECTION.
        FD  STU-FILE.
        01  STU-REC.
-           03  IN-CRN              PIC X(6).
-           03  IN-SUBJ             PIC X(5).
-           03  IN-CRSE             PIC X(6).
-           03  FILLER              PIC X(44)       VALUE SPACES.
+           03  IN-CRN              PIC X(4).
+           03  FILLER              PIC XX.
+           03  IN-SUBJ             PIC X(4).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  IN-CRSE             PIC X(5).
+           03  FILLER              PIC X(45)       VALUE SPACES.
            03  IN-TIME-DAY         PIC X(20).
-           03  IN-BLDG             PIC X(7).
-           03  IN-ROOM             PIC X(6).
+           03  IN-BLDG             PIC X(6).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  IN-ROOM             PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  IN-FINITIAL         PIC X.
            03  DECIMAL-TEST        PIC X.
            03  IN-INSTRUC          PIC X(20).
@@ -46,13 +50,17 @@
            
        FD  STU-FILE2.
        01  STU-REC.
-           03  IN-CRN2              PIC X(6).
-           03  IN-SUBJ2             PIC X(5).
-           03  IN-CRSE2             PIC X(6).
-           03  FILLER              PIC X(44)       VALUE SPACES.
+           03  IN-CRN2              PIC X(4).
+           03  FILLER               PIC XX.
+           03  IN-SUBJ2             PIC X(4).
+           03  FILLER               PIC X           VALUE SPACES.
+           03  IN-CRSE2             PIC X(5).
+           03  FILLER               PIC X(45)       VALUE SPACES.
            03  IN-TIME-DAY2         PIC X(20).
-           03  IN-BLDG2             PIC X(7).
-           03  IN-ROOM2             PIC X(6).
+           03  IN-BLDG2             PIC X(6).
+           03  FILLER               PIC X           VALUE SPACES.
+           03  IN-ROOM2             PIC X(5).
+           03  FILLER               PIC X           VALUE SPACES.
            03  IN-FINITIAL2         PIC X.
            03  DECIMAL-TEST2        PIC X.
            03  IN-INSTRUC2          PIC X(20).
@@ -70,12 +78,17 @@
            03  ISAM-OUT-KEY.
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
-           03  CRN                 PIC X(6).
-           03  SUBJ                PIC X(5).
-           03  CRSE                PIC X(6).
+           03  CRN                 PIC X(4).
+           03  FILLER              PIC XX.
+           03  SUBJ                PIC X(4).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  CRSE                PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  TIME-DAY            PIC X(20).
-           03  BLDG                PIC X(7).
-           03  ROOM                PIC X(6).
+           03  BLDG                PIC X(6).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  ROOM                PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  INSTRUCTOR          PIC X(22).
            
        FD  TEST-OUT.
@@ -96,12 +109,17 @@
        01  WS-FORMATTED-OUT-2015.
            03  WS-YEAR             PIC X(4)            VALUE "2015".
            03  WS-SEMESTER         PIC X(2)            VALUE "01".
-           03  WS-CRN              PIC X(6).
-           03  WS-SUBJ             PIC X(5).
-           03  WS-CRSE             PIC X(6).
+           03  WS-CRN              PIC X(4).
+           03  FILLER              PIC XX.
+           03  WS-SUBJ             PIC X(4).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  WS-CRSE             PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  WS-TIME-DAY         PIC X(20).
-           03  WS-BLDG             PIC X(7).
-           03  WS-ROOM             PIC X(6).
+           03  WS-BLDG             PIC X(6).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  WS-ROOM             PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  WS-INSTRUCTOR.
                05  WS-FINITIAL         PIC X.
                05  WS-DECIMAL-TEST     PIC X.
@@ -110,12 +128,17 @@
        01  WS-FORMATTED-OUT-2014.
            03  WS-YEAR2             PIC X(4)           VALUE "2014".
            03  WS-SEMESTER2         PIC X(2)           VALUE "05".
-           03  WS-CRN2              PIC X(6).
-           03  WS-SUBJ2             PIC X(5).
-           03  WS-CRSE2             PIC X(6).
+           03  WS-CRN2              PIC X(4).
+           03  FILLER               PIC XX.
+           03  WS-SUBJ2             PIC X(4).
+           03  FILLER               PIC X           VALUE SPACES.
+           03  WS-CRSE2             PIC X(5).
+           03  FILLER               PIC X           VALUE SPACES.
            03  WS-TIME-DAY2         PIC X(20).
-           03  WS-BLDG2             PIC X(7).
-           03  WS-ROOM2             PIC X(6).
+           03  WS-BLDG2             PIC X(6).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  WS-ROOM2             PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  WS-INSTRUCTOR2.
                05  WS-FINITIAL2         PIC X.
                05  WS-DECIMAL-TEST2     PIC X.
