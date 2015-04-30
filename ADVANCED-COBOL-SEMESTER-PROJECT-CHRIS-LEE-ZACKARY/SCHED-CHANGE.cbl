@@ -116,7 +116,16 @@
            03  LINE 16 COL 35 PIC X(5) FROM ROOM VALUE SPACES.
            03  LINE 17 COL 20                  VALUE '    INSTRUC:'.
            03  LINE 17 COL 35 PIC X(20) FROM INSTRUCTOR VALUE SPACES.
-           
+          
+          
+          
+       01  SCRN-CONFIRM-ADD.
+           03  LINE 21 COL 35                    VALUE 
+               'ARE YOU SURE YOU WANT TO CHANGE'.
+           03  LINE 22 COL 35 PIC 9(4) FROM CRN.
+           03  LINE 22 COL 43 PIC XX FROM SEMESTER.
+           03  LINE 22 COL 46 PIC XXXX FROM YEAR.
+           03  LINE 23 COL 35 PIC X TO WS-RESP AUTO.
        
        01  SCRN-NEW-DATA.
       *     03  LINE 10 COL 55 PIC X(5) TO WS-SEMESTER  VALUE SPACES.
@@ -203,7 +212,9 @@
                            MOVE INSTRUCTOR TO INSTRUCTOR
                        END-IF
 
-                        
+                       DISPLAY SCRN-CONFIRM-ADD
+                       ACCEPT SCRN-CONFIRM-ADD
+                       IF WS-RESP EQUALS 'Y' OR 'y'
                        REWRITE ISAM-REC-IN
                            INVALID KEY
                                MOVE   'INVALID ID' TO WS-MSG
@@ -212,6 +223,11 @@
                                WS-MSG
                                
                        END-REWRITE
+                       END-IF
+                       
+                       DISPLAY SPACES AT LINE 21 COL 1
+                       DISPLAY SPACE AT LINE 22 COL 1
+                       DISPLAY SPACE AT LINE 23 COL 1
                        
                        IF WS-ANOTHER EQUALS 'N' OR 'n'
                            EXIT PROGRAM

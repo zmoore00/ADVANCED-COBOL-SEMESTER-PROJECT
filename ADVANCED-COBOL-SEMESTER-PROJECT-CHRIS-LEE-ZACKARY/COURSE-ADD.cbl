@@ -84,7 +84,14 @@
        01  SCR-CREDITS.
            05  LINE 12 COL 32 VALUE 'CREDIT:'.
            05  LINE 12 COL 40 PIC X(3) TO WS-COURSE-CREDITS  AUTO. 
-           05  LINE 13 COL 35 PIC X(40) FROM WS-MSG.                       
+           05  LINE 13 COL 35 PIC X(40) FROM WS-MSG.   
+           
+       01  SCRN-CONFIRM-ADD.
+           03  LINE 14 COL 35                    VALUE 
+               'ARE YOU SURE YOU WANT TO ADD'.
+           03  LINE 15 COL 35 PIC X(5) FROM WS-COURSE-CRSE.
+           03  LINE 15 COL 43 PIC X(30) FROM WS-COURSE-TITLE.
+           03  LINE 16 COL 35 PIC X TO WS-RESP AUTO.                                                               
 
            
        01  SCRN-ADD-ANOTHER.
@@ -116,7 +123,16 @@
                ACCEPT SCR-CREDITS               
                
                MOVE WS-KEY TO ISAM-REC-IO
+               
+               DISPLAY SCRN-CONFIRM-ADD
+               ACCEPT SCRN-CONFIRM-ADD
+               IF WS-RESP EQUALS 'Y' OR 'y'
                WRITE ISAM-REC-IO
+               END-IF
+               
+               DISPLAY SPACES AT LINE 14 COL 1
+               DISPLAY SPACE AT LINE 15 COL 1
+               DISPLAY SPACE AT LINE 16 COL 1
 
                
                DISPLAY SCRN-ADD-ANOTHER

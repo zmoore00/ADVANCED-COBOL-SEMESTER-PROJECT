@@ -72,11 +72,14 @@
            03  LINE 09 COL 40 PIC X(22) TO WS-INSTRUC-NAME  AUTO.
            03  LINE 11 COL 35 PIC X(40) FROM WS-MSG.
 
+       01  SCRN-CONFIRM-ADD.
+           03  LINE 12 COL 35                    VALUE 
+               'ARE YOU SURE YOU WANT TO ADD'.
+           03  LINE 13 COL 35 PIC 9999 FROM LAST-ID.
+           03  LINE 13 COL 43 PIC X(22) FROM WS-INSTRUC-NAME.
+           03  LINE 14 COL 35 PIC X TO WS-RESP AUTO.
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 11 COL 33  PIC 9999 FROM LAST-ID.
-           03  LINE 11 COL 38  PIC X(22) FROM WS-INSTRUC-NAME.
-           03  LINE 11 COL 61                     VALUE 'ADDED'.
            03  LINE 13 COL 33                     VALUE 'ADD ANOTHER?:'.
            03  LINE 14 COL 33                     VALUE '(Y/N)'.
            03  LINE 13 COL 45 PIC X  TO WS-CONT   AUTO.
@@ -114,8 +117,15 @@
                MOVE 'N' TO WS-EOF
                
                MOVE WS-KEY TO ISAM-REC-IO
+               DISPLAY SCRN-CONFIRM-ADD
+               ACCEPT SCRN-CONFIRM-ADD
+               IF WS-RESP EQUALS 'Y' OR 'y'
                WRITE ISAM-REC-IO
-
+               END-IF
+               
+               DISPLAY SPACES AT LINE 12 COL 1
+               DISPLAY SPACE AT LINE 13 COL 1
+               DISPLAY SPACE AT LINE 14 COL 1
                
                DISPLAY SCRN-ADD-ANOTHER
                ACCEPT  SCRN-ADD-ANOTHER

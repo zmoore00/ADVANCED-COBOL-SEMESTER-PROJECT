@@ -72,6 +72,13 @@
            03  LINE 11 COL 32 VALUE 'CHANGE NAME: '.
            03  LINE 11 COL 48 PIC X(22) TO WS-INSTRUC-NAME AUTO.
            
+       01  SCRN-CONFIRM-ADD.
+           03  LINE 12 COL 35                    VALUE 
+               'ARE YOU SURE YOU WANT TO CHANGE'.
+           03  LINE 13 COL 35 PIC 9999 FROM WS-INSTRUC-ID.
+           03  LINE 13 COL 43 PIC X(22) FROM WS-INSTRUC-NAME.
+           03  LINE 14 COL 35 PIC X TO WS-RESP AUTO.
+           
        01  SCRN-INSTRUC-ANOTHER.
            03  LINE 13 COL 30                        
                                              VALUE'ENTER ANOTHER Y/N? '.
@@ -103,6 +110,10 @@
                        DISPLAY SCR-INSTRUC-NAME
                        ACCEPT  SCR-INSTRUC-NAME
                        MOVE WS-INSTRUC-NAME TO ISAM-IO-NAME
+                       
+                       DISPLAY SCRN-CONFIRM-ADD
+                       ACCEPT SCRN-CONFIRM-ADD
+                       IF WS-RESP EQUALS 'Y' OR 'y'
                        REWRITE ISAM-REC-IO
                            INVALID KEY
                                MOVE   'INVALID ID' TO WS-MSG
@@ -113,6 +124,11 @@
                                DISPLAY SCRN-MSG
                                
                        END-REWRITE
+                       END-IF
+                       
+                       DISPLAY SPACES AT LINE 12 COL 1
+                       DISPLAY SPACE AT LINE 13 COL 1
+                       DISPLAY SPACE AT LINE 14 COL 1
                        DISPLAY SCRN-INSTRUC-ANOTHER
                        ACCEPT  SCRN-INSTRUC-ANOTHER
                PERFORM UNTIL WS-ANOTHER='y' OR 'Y' OR 'n' OR 'N'

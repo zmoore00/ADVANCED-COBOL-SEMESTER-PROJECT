@@ -75,6 +75,13 @@
            03  LINE 11 COL 45 PIC X(4)  TO WS-SEATS AUTO.
            
        01  SCRN-MSG  LINE 13 COL 30 PIC X(40) FROM WS-MSG.
+       
+       01  SCRN-CONFIRM-ADD.
+           03  LINE 12 COL 35                    VALUE 
+               'ARE YOU SURE YOU WANT TO CHANGE'.
+           03  LINE 13 COL 35 PIC X(7) FROM WS-BLDG.
+           03  LINE 13 COL 43 PIC X(5) FROM WS-ROOM.
+           03  LINE 14 COL 35 PIC X TO WS-RESP AUTO.
            
        01  SCRN-ADD-ANOTHER.
            03  LINE 15 COL 30                VALUE 'UPDATE ANOTHER?:'.
@@ -113,6 +120,9 @@
       *--------------move the input fields to the file fields.
                        MOVE WS-SEATS TO ISAM-IO-SEATS
       *----------------use REWRITE instead of write for update
+                       DISPLAY SCRN-CONFIRM-ADD
+                       ACCEPT SCRN-CONFIRM-ADD
+                       IF WS-RESP EQUALS 'Y' OR 'y'
                        REWRITE ISAM-REC-IO
                            INVALID KEY
                                MOVE   'INVALID ID' TO WS-MSG
@@ -122,6 +132,10 @@
                                WS-MSG
                                DISPLAY SCRN-MSG
                        END-REWRITE
+                       END-IF
+                       DISPLAY SPACES AT LINE 12 COL 1
+                       DISPLAY SPACE AT LINE 13 COL 1
+                       DISPLAY SPACE AT LINE 14 COL 1
                DISPLAY SCRN-ADD-ANOTHER
                ACCEPT  SCRN-ADD-ANOTHER
                PERFORM UNTIL WS-CONT='y' OR 'Y' OR 'n' OR 'N'

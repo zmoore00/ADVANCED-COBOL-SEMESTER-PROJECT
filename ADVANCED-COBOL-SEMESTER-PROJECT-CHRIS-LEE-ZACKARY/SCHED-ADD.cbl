@@ -113,13 +113,17 @@
            03  LINE 19 COL 35 PIC X(40) FROM WS-MSG.
            
        01  SCRN-DATA-TITLE.
-           05  LINE 07 COL 35 VALUE "RECORD FOUND". 
+           05  LINE 07 COL 35 VALUE "RECORD FOUND".
+           
+       01  SCRN-CONFIRM-ADD.
+           03  LINE 21 COL 35                    VALUE 
+               'ARE YOU SURE YOU WANT TO ADD'.
+           03  LINE 22 COL 35 PIC 9(4) FROM CRN.
+           03  LINE 22 COL 43 PIC XX FROM SEMESTER.
+           03  LINE 22 COL 46 PIC XXXX FROM YEAR.
+           03  LINE 23 COL 35 PIC X TO WS-RESP AUTO.
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 21 COL 33  PIC 9(4) FROM CRN.
-           03  LINE 21 COL 39  PIC XX FROM SEMESTER.
-           03  LINE 21 COL 42  PIC XXXX FROM YEAR.
-           03  LINE 21 COL 61                     VALUE 'ADDED'.
            03  LINE 23 COL 33                     VALUE 'ADD ANOTHER?:'.
            03  LINE 24 COL 33                     VALUE '(Y/N)'.
            03  LINE 23 COL 45 PIC X  TO WS-CONT   AUTO.
@@ -152,7 +156,15 @@
                MOVE 'N' TO WS-EOF
                
                MOVE WS-REC TO ISAM-REC-IO
+               DISPLAY SCRN-CONFIRM-ADD
+               ACCEPT SCRN-CONFIRM-ADD
+               IF WS-RESP EQUALS 'Y' OR 'y'
                WRITE ISAM-REC-IO
+               END-IF
+               
+                DISPLAY SPACES AT LINE 21 COL 1
+                DISPLAY SPACE AT LINE 22 COL 1
+                DISPLAY SPACE AT LINE 23 COL 1
 
                
                DISPLAY SCRN-ADD-ANOTHER

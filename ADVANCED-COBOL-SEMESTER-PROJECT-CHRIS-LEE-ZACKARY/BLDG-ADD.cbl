@@ -73,6 +73,13 @@
            03  LINE 11 COL 35                       VALUE '    SEATS:'.
            03  LINE 11 COL 45 PIC X(4)  TO WS-SEATS AUTO.
            
+       01  SCRN-CONFIRM-ADD.
+           03  LINE 12 COL 35                    VALUE 
+               'ARE YOU SURE YOU WANT TO ADD'.
+           03  LINE 13 COL 35 PIC X(7) FROM WS-BLDG.
+           03  LINE 13 COL 43 PIC X(5) FROM WS-ROOM.
+           03  LINE 14 COL 35 PIC X TO WS-RESP AUTO.
+           
        01  SCRN-ADD-ANOTHER.
            03  LINE 12 COL 33                     VALUE 'ADD ANOTHER?:'.
            03  LINE 13 COL 33                     VALUE '(Y/N)'.
@@ -101,12 +108,20 @@
                    INVALID KEY
                        ACCEPT  SCRN-BLDG-DATA
                        MOVE WS-SEATS TO ISAM-IO-SEATS
+                       DISPLAY SCRN-CONFIRM-ADD
+                       ACCEPT SCRN-CONFIRM-ADD
+                       IF WS-RESP EQUALS 'Y' OR 'y'
                        WRITE ISAM-REC-IO
                            INVALID KEY
                                MOVE   'INVALID ID' TO WS-MSG
                            NOT INVALID KEY
                                STRING ISAM-IO-KEY ' ADDED' INTO WS-MSG
                        END-WRITE
+                       END-IF
+                       DISPLAY SPACES AT LINE 12 COL 1
+                       DISPLAY SPACE AT LINE 13 COL 1
+                       DISPLAY SPACE AT LINE 14 COL 1
+                       
                        DISPLAY SCRN-ADD-ANOTHER
                ACCEPT  SCRN-ADD-ANOTHER
                    NOT INVALID KEY
