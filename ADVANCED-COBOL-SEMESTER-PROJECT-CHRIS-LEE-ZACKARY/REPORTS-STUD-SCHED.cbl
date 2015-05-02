@@ -40,12 +40,16 @@
                05  YEAR            PIC XXXX.
                05  SEMESTER        PIC XX.
            03  CRN                 PIC X(4).
+           03  FILLER              PIC XX.
+           03  SUBJ                PIC X(4).
            03  FILLER              PIC X           VALUE SPACES.
-           03  SUBJ                PIC X(5).
            03  CRSE                PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  TIME-DAY            PIC X(20).
-           03  BLDG                PIC X(7).
-           03  ROOM                PIC X(6).
+           03  BLDG                PIC X(6).
+           03  FILLER              PIC X           VALUE SPACES.
+           03  ROOM                PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  INSTRUCTOR          PIC X(22).
            
        FD  ISAM-REG-IO.
@@ -71,6 +75,7 @@
            03  YEAR-DISPLAY        PIC 9999.
        
        01  MISC-VARS.
+           03  Y                       PIC 99      VALUE 13.
            03  WS-MSG                  PIC X(40)   VALUE SPACES.
            03  WS-RESP                 PIC X       VALUE SPACES.
            03  WS-STAT                 PIC XX      VALUE SPACES.
@@ -103,16 +108,16 @@
            03  LINE 09 COL 46 PIC X(2)  TO WS-SEM   AUTO.
            03  LINE 09 COL 48 VALUE '/'.
            03  LINE 09 COL 49 PIC X(4)  TO WS-YR   AUTO.
-           03  LINE 16 COL 35 PIC X(40) FROM WS-MSG.
+           03  LINE Y COL 35 PIC X(40) FROM WS-MSG.
            
        01  SCRN-STUD-ID-REQ.
            03  LINE 11 COL 35                       VALUE 'STUDENT ID:'.
            03  LINE 11 COL 46 PIC X(4)  TO WS-STU-ID AUTO.
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 14 COL 33                     VALUE 'ADD ANOTHER?:'.
-           03  LINE 15 COL 33                     VALUE '(Y/N)'.
-           03  LINE 15 COL 45 PIC X  TO WS-CONT   AUTO.
+           03 SCRN-ADD-ANR-1 COL 33  VALUE 'ADD ANOTHER?:'.
+           03 SCRN-ADD-ANR-2 COL 33  VALUE '(Y/N)'.
+           03 SCRN-ADD-ANR-3 COL 45 PIC X  TO WS-CONT AUTO.
       *----------------------------------------------------------------- 
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
@@ -125,8 +130,8 @@
            OPEN I-O ISAM-REG-IO.
            OPEN I-O ISAM-SCHED-IN.
            DISPLAY BLANK-SCREEN
-           
            PERFORM UNTIL WS-CONT='n' OR 'N'
+               MOVE 13 TO Y
                MOVE SPACES TO WS-CONT
                DISPLAY SCR-TITLE
                DISPLAY SCRN-SEM-REQ
@@ -143,44 +148,53 @@
                    MOVE REG-IO-SEM TO SEMESTER
                    MOVE REG-IO-YR TO YEAR
                    MOVE REG-IO-CRN TO CRN
-                  READ ISAM-SCHED-IN
+                  READ ISAM-SCHED-IN KEY IS CRN-KEY
                       INVALID KEY
-                          MOVE 'BAD RECORD' TO WS-MSG
+                          MOVE 'BAD RECORD FOUND' TO WS-MSG
                       NOT INVALID KEY
-                          DISPLAY SCHED-REC-IN
+                          DISPLAY SCHED-REC-IN AT LINE Y COL 10
+                          ADD 1 TO Y
                   END-READ
                   PERFORM UNTIL WS-COUNT EQUALS 8
-                      
                        READ ISAM-REG-IO NEXT RECORD
                            AT END
                                MOVE 1 TO EOF-FLAG
-                               
                            NOT AT END
                                MOVE REG-IO-SEM TO SEMESTER
                                MOVE REG-IO-YR TO YEAR
                                MOVE REG-IO-CRN TO CRN
-                               
-                               READ ISAM-SCHED-IN
+                               READ ISAM-SCHED-IN KEY IS CRN-KEY
                                    INVALID KEY
-                                       MOVE 'BAD RECORD' TO WS-MSG
+                                       MOVE 'BAD RECORD FOUND' TO WS-MSG
                                    NOT INVALID KEY
-                                       DISPLAY SCHED-REC-IN
-                                       DISPLAY 'END'
-                                       ACCEPT WS-MSG
+                                       DISPLAY SCHED-REC-IN AT LINE Y
+                                           COL 10
+                                       ADD 1 TO Y
                                END-READ
                        END-READ
                        ADD 1 TO WS-COUNT GIVING WS-COUNT
                   END-PERFORM
                END-READ
-                   DISPLAY SPACES
-                      DISPLAY REG-IO-SEM, REG-IO-YR, REG-IO-STUD-ID
-                      DISPLAY WS-STAT
-           ACCEPT WS-MSG
+               DISPLAY SPACES
+               ADD 2 TO Y
+               DISPLAY 'ADD ANOTHER?:' AT LINE Y COL 35
+               ADD 1 TO Y
+               DISPLAY '(Y/N)'         AT LINE Y COL 35
+               SUBTRACT 1 FROM Y
+               ACCEPT  WS-CONT AT LINE Y COL 47 AUTO
+               SUBTRACT 1 FROM Y
                PERFORM UNTIL WS-CONT='y' OR 'Y' OR 'n' OR 'N'
-                   MOVE 'PLEASE ENTER Y OR N' TO WS-MSG
-                   DISPLAY SCRN-SEM-REQ
-                   DISPLAY SCRN-ADD-ANOTHER
-                   ACCEPT  SCRN-ADD-ANOTHER
+                   DISPLAY SPACES AT LINE Y COL 1
+                   DISPLAY 'PLEASE ENTER Y OR N' AT LINE Y COL 35
+                   ADD 1 TO Y
+                   DISPLAY SPACES AT LINE Y COL 1
+                   DISPLAY 'ADD ANOTHER?:' AT LINE Y COL 35
+                   ADD 1 TO Y
+                   DISPLAY SPACES AT LINE Y COL 1
+                   DISPLAY '(Y/N)'         AT LINE Y COL 35
+                   SUBTRACT 1 FROM Y
+                   ACCEPT  WS-CONT AT LINE Y COL 47 AUTO
+                   SUBTRACT 1 FROM Y
                END-PERFORM
                
            END-PERFORM.
