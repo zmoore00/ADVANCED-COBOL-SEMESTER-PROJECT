@@ -17,6 +17,9 @@
                                ALTERNATE KEY IS CRSE-KEY=ISAM-IN-KEY
                                    CRSE
                                    WITH DUPLICATES
+                               ALTERNATE KEY IS INSTRUC-KEY=ISAM-IN-KEY
+                                   INSTRUCTOR
+                                   WITH DUPLICATES
                                FILE STATUS   IS WS-STAT3.
        
        SELECT OPTIONAL ISAM-REG-IO   ASSIGN TO "../REG-ISAM.DAT"            

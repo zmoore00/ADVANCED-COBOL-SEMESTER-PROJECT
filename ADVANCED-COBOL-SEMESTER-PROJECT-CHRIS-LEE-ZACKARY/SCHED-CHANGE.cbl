@@ -17,6 +17,9 @@
                                ALTERNATE KEY IS CRSE-KEY=ISAM-IN-KEY
                                    CRSE
                                    WITH DUPLICATES
+                               ALTERNATE KEY IS INSTRUC-KEY=ISAM-IN-KEY
+                                   INSTRUCTOR
+                                   WITH DUPLICATES
                                FILE STATUS   IS WS-STAT.
       *----------------------------------------------------------------- 
        DATA DIVISION.
@@ -32,6 +35,7 @@
            03  SUBJ                PIC X(4).
            03  FILLER              PIC X           VALUE SPACES.
            03  CRSE                PIC X(5).
+           03  FILLER              PIC X           VALUE SPACES.
            03  TIME-DAY            PIC X(20).
            03  BLDG                PIC X(6).
            03  FILLER              PIC X           VALUE SPACES.
@@ -152,7 +156,7 @@
            MOVE WS-CURRENT-YEAR  TO YEAR-DISPLAY
            
            OPEN I-O ISAM-SCHED-IN.
-           
+
            PERFORM UNTIL WS-ANOTHER EQUALS "N" OR "n"
                DISPLAY SCR-TITLE
                DISPLAY SCR-SCHED-CRN
@@ -162,10 +166,8 @@
                
                READ ISAM-SCHED-IN
                    INVALID KEY
-                   MOVE 'IN' TO WS-MSG
                        MOVE 'INVALID ID' TO WS-MSG
                    NOT INVALID KEY
-                   MOVE 'IN2' TO WS-MSG
                        DISPLAY BLANK-SCREEN
                        DISPLAY SCR-TITLE
                        DISPLAY SCRN-PREV-DATA

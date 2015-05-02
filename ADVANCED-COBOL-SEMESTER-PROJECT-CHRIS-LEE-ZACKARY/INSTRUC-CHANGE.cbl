@@ -12,7 +12,7 @@
        FILE-CONTROL.                                                    
            SELECT ISAM-INSTRUC-IN ASSIGN TO "../INSTRUCTOR-MASTER.DAT"  
                                ORGANIZATION  IS INDEXED
-                               ACCESS        IS RANDOM    
+                               ACCESS        IS DYNAMIC    
                                RECORD KEY    IS ISAM-IN-KEY
                                FILE STATUS   IS WS-STAT.
       *----------------------------------------------------------------- 

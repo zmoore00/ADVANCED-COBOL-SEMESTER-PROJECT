@@ -17,6 +17,9 @@
                                ALTERNATE KEY IS CRSE-KEY=ISAM-IO-KEY
                                    CRSE
                                    WITH DUPLICATES
+                               ALTERNATE KEY IS INSTRUC-KEY=ISAM-IO-KEY
+                                   INSTRUCTOR
+                                   WITH DUPLICATES
                                FILE STATUS   IS WS-STAT.
            SELECT IO-REC       ASSIGN TO "../SCHED-LAST-CRN.TXT"
                                ORGANIZATION IS LINE SEQUENTIAL.

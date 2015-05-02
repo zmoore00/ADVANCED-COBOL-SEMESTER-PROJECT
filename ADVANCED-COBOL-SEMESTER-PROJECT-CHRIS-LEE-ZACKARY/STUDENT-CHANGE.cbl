@@ -67,7 +67,7 @@
            03  WS-FILLER10             PIC X(10)   VALUE SPACES.
            03  WS-FILLER05             PIC X(5)    VALUE SPACES.        
            03  WS-FILLER01             PIC X       VALUE SPACE.
-               
+           03  WS-ANOTHER              PIC X.               
        01  WS-REC.
            03  WS-KEY.
                05  WS-STUD-ID       PIC 9999        VALUE 9999.
@@ -140,7 +140,7 @@
            03  LINE 17 COL 22 VALUE 'Status       :'.
            03  LINE 17 COL 37 PIC X    FROM ISAM-STUD-ACTIVE.
            03  LINE 19 COL 25 PIC X(40) FROM WS-MSG.
-           03  LINE 20 COL 32 VALUE "ENTER ID OR X TO EXIT".
+      *     03  LINE 20 COL 32 VALUE "ENTER ID OR X TO EXIT".
             
        01  SCR-STUD-CHANGE.
 
@@ -169,18 +169,23 @@
            03  LINE 16 COL 55 PIC X     TO WS-STUD-GENDER.
            03  LINE 17 COL 55 PIC X    TO WS-STUD-ACTIVE.
            03  LINE 19 COL 35 PIC X(40) FROM WS-MSGS. 
-           03  LINE 21 COL 35 VALUE "TYPE UPDATED DATA".
+      *     03  LINE 21 COL 35 VALUE "TYPE UPDATED DATA".
             
            
-       01  SCR-WANT-CHANGE.
-           03  LINE 21 COL 35  VALUE "ENTER Y IF YOU WANT TO CHANGE".
-           03          COL 65  PIC X   TO WS-CONT AUTO.
+      * 01  SCR-WANT-CHANGE.
+      *     03  LINE 21 COL 35  VALUE "ENTER Y IF YOU WANT TO CHANGE".
+      *     03          COL 65  PIC X   TO WS-CONT AUTO.
            
+
+       01  SCRN-CONFIRM-ADD.
+           03  LINE 20 COL 35                    VALUE 
+               'ARE YOU SURE YOU WANT TO UPDATE   <Y/N>'.
+           03  LINE 20 COL 67 PIC X TO WS-RESP AUTO.
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 20 COL 35               VALUE 'ENTER ANOTHER?:'.
-           03  LINE 20 COL 54               VALUE '(Y/N)'.
-           03  LINE 20 COL 52 PIC X  TO WS-CONT   AUTO.
+           03  LINE 21 COL 35               VALUE 'ENTER ANOTHER?:'.
+           03  LINE 21 COL 54               VALUE '(Y/N)'.
+           03  LINE 21 COL 52 PIC X  TO WS-ANOTHER   AUTO.
       *-----------------------------------------------------------------        
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
@@ -196,7 +201,7 @@
            DISPLAY SCR-STUD-DATA
            ACCEPT  SCR-STUD-DATA
            
-           PERFORM 100-READ-LOOP UNTIL WS-STUD-ID = "X" OR "x"
+           PERFORM 100-READ-LOOP UNTIL WS-ANOTHER EQUALS "N" OR "n"
            CLOSE ISAM-STUDENT-IO.
            EXIT PROGRAM.
            STOP RUN.
@@ -259,9 +264,9 @@
                    ELSE
                        MOVE WS-STUD-ACTIVE      TO  ISAM-STUD-ACTIVE
                    END-IF
-                    
-                   
-                   
+                   DISPLAY SCRN-CONFIRM-ADD
+                   ACCEPT SCRN-CONFIRM-ADD
+                   IF WS-RESP EQUALS 'Y' OR 'y'
                    REWRITE ISAM-REC-IO
                        INVALID KEY
                            MOVE   'INVALID ID' TO WS-MSGS
@@ -272,9 +277,28 @@
                            DISPLAY SCR-STUD-CHANGE
                            
                    END-REWRITE
-                   ACCEPT SCR-STUD-DATA
+                   END-IF
+                   IF WS-ANOTHER EQUALS 'N' OR 'n'
+                       EXIT PROGRAM
+                   END-IF
+                   DISPLAY SCRN-ADD-ANOTHER
+                   ACCEPT  SCRN-ADD-ANOTHER
+
+                   DISPLAY SPACES AT LINE 19 COL 1
+                   DISPLAY SPACES AT LINE 20 COL 1
+                   DISPLAY SPACES AT LINE 21 COL 1
+
+                
+                   PERFORM UNTIL WS-ANOTHER='y' OR 'Y' OR 'n' OR 'N'
+                       MOVE 'PLEASE ENTER Y OR N' TO WS-MSG
+                       DISPLAY SCRN-ADD-ANOTHER
+                       ACCEPT  SCRN-ADD-ANOTHER
+                       MOVE "ENTER Y OR N" TO WS-MSG
+                   END-PERFORM
+                   ACCEPT SCR-STUD-DATA                    
 
            END-START
+           
 
       *-----------------------------------------------------------------          
            

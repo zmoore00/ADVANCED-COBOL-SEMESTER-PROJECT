@@ -17,6 +17,9 @@
                                ALTERNATE KEY IS CRSE-KEY=ISAM-IN-KEY
                                    CRSE
                                    WITH DUPLICATES
+                               ALTERNATE KEY IS INSTRUC-KEY=ISAM-IN-KEY
+                                   INSTRUCTOR
+                                   WITH DUPLICATES
                                FILE STATUS   IS WS-STAT3.
                                
            SELECT ISAM-STUD-IN  ASSIGN TO "../STUDENT-MASTER.DAT"     
@@ -128,7 +131,7 @@
            03  LINE 10 COL 46 PIC X(4)  TO WS-CRN   AUTO.
            
        01  SCRN-STUD-ID-REQ.
-           03  LINE 11 COL 35                       VALUE 'STUDENT ID:'.
+           03  LINE 11 COL 35                       VALUE '       ID:'.
            03  LINE 11 COL 46 PIC X(4)  TO WS-STU-ID AUTO.
            
        01  SCRN-SCHED-DATA.

@@ -129,14 +129,17 @@
            03  LINE 17 COL 32 VALUE 'Status       :'.
            03  LINE 17 COL 47 PIC X    TO WS-STUD-ACTIVE  AUTO.
            03  LINE 19 COL 35 PIC X(40) FROM WS-MSG.
-           03  LINE 21 COL 35 VALUE '<TYPE OR X = EXIT>'.
+      *     03  LINE 21 COL 35 VALUE '<TYPE OR X = EXIT>'.
 
+       01  SCRN-CONFIRM-ADD.
+           03  LINE 20 COL 35                    VALUE 
+               'ARE YOU SURE YOU WANT TO ADD   <Y/N>'.
+           03  LINE 20 COL 64 PIC X TO WS-RESP AUTO.
+           
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 20 COL 33  PIC 9999 FROM LAST-ID.
-           03  LINE 20 COL 61                     VALUE 'ADDED'.
-           03  LINE 21 COL 35       VALUE 'ADD ANOTHER?:    (Y/N)'.
-           03  LINE 21 COL 50 PIC X  TO WS-CONT   AUTO.
+           03  LINE 21 COL 35       VALUE 'ENTER ANOTHER?:    (Y/N)'.
+           03  LINE 21 COL 52 PIC X  TO WS-CONT   AUTO.
       *-----------------------------------------------------------------        
        PROCEDURE DIVISION.
        000-MAIN-MODULE.
@@ -150,7 +153,7 @@
 
            
            PERFORM UNTIL (WS-CONT='n' OR 'N')
-                       OR (WS-STUD-FNAME = 'X' OR 'x')
+      *                 OR (WS-STUD-FNAME = 'X' OR 'x')
                OPEN I-O STUD-LAST-ID              
 
                DISPLAY SCR-TITLE
@@ -170,8 +173,15 @@
                MOVE 'N' TO WS-EOF
                
                MOVE WS-KEY TO ISAM-REC-IO
+               DISPLAY SCRN-CONFIRM-ADD
+               ACCEPT SCRN-CONFIRM-ADD
+               IF WS-RESP EQUALS 'Y' OR 'y'  
                WRITE ISAM-REC-IO
-               
+               END-IF
+
+               DISPLAY SPACES AT LINE 20 COL 1
+               DISPLAY SPACE AT LINE 21 COL 1
+      
                DISPLAY SCRN-ADD-ANOTHER
                ACCEPT  SCRN-ADD-ANOTHER
                  
@@ -181,7 +191,7 @@
                    MOVE 'PLEASE ENTER Y OR N' TO WS-MSG
                    DISPLAY SCRN-ADD-ANOTHER
                    ACCEPT  SCRN-ADD-ANOTHER
-                   MOVE "IN" TO WS-MSG
+                   MOVE "ENTER Y OR N" TO WS-MSG
                END-PERFORM
              CLOSE STUD-LAST-ID 
            END-PERFORM.

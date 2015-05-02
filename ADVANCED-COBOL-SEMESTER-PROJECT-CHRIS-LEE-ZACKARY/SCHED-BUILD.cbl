@@ -26,6 +26,9 @@
                                ALTERNATE KEY IS CRSE-KEY=ISAM-OUT-KEY
                                    CRSE
                                    WITH DUPLICATES
+                               ALTERNATE KEY IS INSTRUC-KEY=ISAM-OUT-KEY
+                                   INSTRUCTOR
+                                   WITH DUPLICATES
                                FILE STATUS   IS WS-OUT-STATUS.
       *----------------------------------------------------------------- 
        DATA DIVISION.

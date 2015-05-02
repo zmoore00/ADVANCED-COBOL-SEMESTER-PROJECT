@@ -1,2 +1,2 @@
-#"C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe" C:\Users\zmoore00\Documents\NEWCOBOLFINAL\NEWCOBOL\test.cbl "INTC:\Users\zmoore00\Documents\NEWCOBOLFINAL\NEWCOBOL\New_Configuration.bin"" DELINT OBJC:\Users\zmoore00\Documents\NEWCOBOLFINAL\NEWCOBOL\New_Configuration.bin""" USEC:\Users\zmoore00\Documents\NEWCOBOLFINAL\NEWCOBOL\New_Configuration.bin\mfant6740220433958886360.dir ;
-^C:\Users\zmoore00\Documents\NEWCOBOLFINAL\NEWCOBOL\test.cbl
+#""C:\Program Files (x86)\Micro Focus\Visual COBOL\bin\cobol.exe C:\Users\Zackary\Documents\LASTFOLDER\COBOL-PROJ\test.cbl ""INTC:\Users\Zackary\Documents\LASTFOLDER\COBOL-PROJ\New_Configuration.bin"" DELINT OBJC:\Users\Zackary\Documents\LASTFOLDER\COBOL-PROJ\New_Configuration.bin"" USEC:\Users\Zackary\Documents\LASTFOLDER\COBOL-PROJ\New_Configuration.bin\mfant3300493669351192282.dir ;
+^C:\Users\Zackary\Documents\LASTFOLDER\COBOL-PROJ\test.cbl
