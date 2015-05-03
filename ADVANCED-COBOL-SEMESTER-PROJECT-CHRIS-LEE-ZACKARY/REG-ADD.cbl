@@ -138,7 +138,7 @@
            03  LINE 12 COL 10           FROM SCHED-REC-IN.
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 14 COL 33                     VALUE 'ADD ANOTHER?:'.
+           03  LINE 14 COL 33                 VALUE 'ENTER ANOTHER?:'.
            03  LINE 15 COL 33                     VALUE '(Y/N)'.
            03  LINE 15 COL 45 PIC X  TO WS-CONT   AUTO.
       *----------------------------------------------------------------- 

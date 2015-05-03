@@ -87,7 +87,7 @@
        
        01  SCR-TITLE.
            03  BLANK SCREEN.
-           03  LINE 1 COL 1  VALUE "SCHED-ADD".
+           03  LINE 1 COL 1  VALUE "SCHED-CHANGE".
            03  LINE 1 COL 37 VALUE "UAFS".
            03  LINE 1 COL 71 FROM DISPLAY-DATE.
            03  LINE 07 COL 32 VALUE "SCHEDULE CHANGE".

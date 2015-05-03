@@ -141,7 +141,8 @@
            
            OPEN INPUT ISAM-SCHED-IN.
            
-           PERFORM UNTIL (WS-CRN='X' OR 'x') OR (WS-SEMESTER='X' OR 'x')
+           PERFORM UNTIL (WS-CRSE='X' OR 'x') OR (WS-SEMESTER='X' OR 
+           'x')
                DISPLAY SCR-TITLE
                DISPLAY SCRN-KEY-REQ
                ACCEPT  SCRN-KEY-REQ

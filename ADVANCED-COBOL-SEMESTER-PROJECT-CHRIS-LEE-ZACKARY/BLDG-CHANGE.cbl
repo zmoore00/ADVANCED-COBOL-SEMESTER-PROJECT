@@ -84,7 +84,7 @@
            03  LINE 14 COL 35 PIC X TO WS-RESP AUTO.
            
        01  SCRN-ADD-ANOTHER.
-           03  LINE 15 COL 30                VALUE 'UPDATE ANOTHER?:'.
+           03  LINE 15 COL 30             VALUE 'ENTER ANOTHER?:'.
            03  LINE 16 COL 30                VALUE '(Y/N)'.
            03  LINE 16 COL 45 PIC X  TO WS-CONT   AUTO.
       *----------------------------------------------------------------- 
